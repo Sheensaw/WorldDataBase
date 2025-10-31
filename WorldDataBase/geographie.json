@@ -1,0 +1,184 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "details_topographiques": {
+        "montagnes": [
+          "Chaînes glaciaires centrales (pics à 4000m+, glaciers permanents couvrant 60% des sommets, avalanches fréquentes en hiver, forment la barrière naturelle vers le Central)",
+          "Sommets isolés de Slekdor (altitudes 3000-4500m, falaises abruptes, plateaux cristallins, observatoires géants servant de repères stellaires)"
+        ],
+        "fleuves": [
+          "Rivière Glaciverne (150 km, gelée 9 mois/an, source glaciaire ouest, affluent vers vallées fluviales de Tronchavale, utilisée pour transport gelé de minerais)",
+          "Fleuve Troncha (200 km, vents violents causant crues soudaines, traversant Tronchavale centre-ouest, alimenté par fonte des glaces et marais forestiers de Grunthalok)"
+        ],
+        "lacs": [
+          "Lac Frostmir (Valléfrost, 20 km², gelé en surface, source d'eau potable et pêche sous-glace)",
+          "Lacs forestiers de Grunthalok (5-10 km², entourés de brumes, régulateurs hydriques naturels reliant Grunthalok à Thulmar via nappes souterraines)"
+        ],
+        "mers": [
+          "Mer Gelée du Nord (bord nord, icebergs dérivants, navigation impossible 10 mois/an, limite septentrionale de l'écotone polaire)"
+        ],
+        "volcans": [
+          "Volcan dormant Varkhul (ruines sud-est, cratères soufrés actifs, sol corrompu 50 km rayon, interactions souterraines avec nappes sulfureuses du Central)"
+        ],
+        "steppes": [
+          "Steppe maudite de Varkhul (400 km², vents poussiéreux, sols infertiles, rares oasis toxiques reliant au désert minéral du sud)"
+        ],
+        "deserts": [
+          "Zones semi-désertiques gelées aux sommets isolés (sols rocailleux, dunes de neige, tempêtes saisonnières couvrant cols nordiques)"
+        ]
+      },
+      "biomes": [
+        "Biome glaciaire (Valléfrost-Tronchavale : toundra gelée, végétation rare, faune adaptée au froid comme loups et renards polaires)",
+        "Biome forestier humide (Grunthalok : forêts denses de conifères, sous-bois moussu, champignons phosphorescents, forte symbiose magique)",
+        "Biome alpin isolé (Slekdor : roches nues, lichens, microclimats stables sous corniches, refuge pour espèces célestes)",
+        "Biome steppique corrompu (Varkhul : herbes toxiques, vents acides, faune scavenger, zone de contamination magique résiduelle)"
+      ],
+      "ecotones": [
+        "Transition glaciaire-forestier (ouest-est, 20-50 km : marais temporaires printaniers, toundra mêlée à conifères nains)",
+        "Écotone forestier-steppique (est-sud : 30 km de brouillards persistants, arbres clairsemés, toxicité croissante du sol)",
+        "Écotone alpin-glaciaire (nord : cols abrupts, vents croisés, microclimats cristallins favorisant mousses magiques)"
+      ],
+      "ressources_naturelles": [
+        "Minerais rares (vallées : fer, ambre glaciaire, exploités via galeries runiques sous-glaciaires)",
+        "Bois médicinal/hallucinogène (forêts : résines chamaniques pour potions et rituels, export limité vers Oriental)",
+        "Cristaux cosmiques (sommets : quartz étoilé, extraits sous médiation géante, réservés aux observatoires Slekdor)",
+        "Soufre toxique (steppes : minéraux corrompus utilisés en alchimie, export contrôlé)",
+        "Fourrures et sel gemme (toundras : animaux arctiques, sel de lacs gelés pour conservation et troc)"
+      ]
+    },
+    {
+      "nom": "Central",
+      "details_topographiques": {
+        "montagnes": [
+          "Collines boisées Korvalth (500-1000m, pentes douces, grottes calcaires naturelles servant de refuges spirituels et mines de pigments)"
+        ],
+        "fleuves": [
+          "Fleuve Dralva (300 km, irrigue plaines, crues saisonnières fertilisantes, navigation commerciale entre Dralvaire et Feslorin)",
+          "Rivières marécageuses Feslorin (réseau sinueux, eaux stagnantes, utilisées pour transport aquatique de marchandises et herbes médicinales)"
+        ],
+        "lacs": [
+          "Lac Champs (Dralvaire : 30 km², eaux douces, pêcheries, base logistique de flotte intérieure)",
+          "Lagons marécageux (Feslorin : 10-20 km², interconnectés, habitat d’amphibiens et sources de perles naturelles)"
+        ],
+        "mers": [
+          "Mer Tempérée Sud (sud-ouest, ports naturels ouverts sur Archipel, zone commerciale sécurisée par accords maritimes)"
+        ],
+        "volcans": [
+          "Sources thermales Korvalth (activité géothermique douce, geysers mineurs pour bains rituels et alchimie)"
+        ],
+        "steppes": [
+          "Plaines herbeuses ouvertes Dralvaire (sols loess fertiles, vents modérés, traversées par routes commerciales principales)"
+        ],
+        "deserts": [
+          "Aucun désert permanent, mais zones de sécheresse temporaire estivale sur collines Korvalth"
+        ]
+      },
+      "biomes": [
+        "Biome plaine fertile (Dralvaire : prairies agricoles, cultures intensives, faune domestiquée)",
+        "Biome forestier tempéré (Korvalth : feuillus mixtes, sous-bois dense, biodiversité riche)",
+        "Biome marécageux (Feslorin : mangroves, roseaux, faune amphibie, climat humide permanent)"
+      ],
+      "ecotones": [
+        "Transition plaine-forêt (20-40 km collines progressives, rivières formant frontières naturelles)",
+        "Écotone forêt-marécage (15-30 km zones inondables, passage de feuillus à roseaux aquatiques)",
+        "Écotone plaine-mer (deltas fluviaux de 10 km, sols alluviaux fertiles, transition saline vers ports archipéliques)"
+      ],
+      "ressources_naturelles": [
+        "Céréales et épices (plaines : productions à haut rendement pour export nordique)",
+        "Bois dur et pigments (forêts : matériaux d’artisanat et teintures pour commerce oriental)",
+        "Perles et herbes médicinales (marécages : élevage d’huîtres et récoltes saisonnières)"
+      ]
+    },
+        {
+      "nom": "Oriental",
+      "details_topographiques": {
+        "montagnes": [
+          "Chaînes montagneuses Orraveth (2000-3000m, cols navigables, neige légère, forges troglodytes dans vallées)",
+          "Plateaux Vhorak (2500m+, falaises verticales, vents constants, abritent observatoires cosmiques et mines de cristaux célestes)"
+        ],
+        "fleuves": [
+          "Rivière Orrav (150 km, cascades montagneuses, alimente villages et moulins, conflue vers Feslorin par cols sud-ouest)",
+          "Ruisseaux taïga Kerynth (saisonniers, gelés hiver, corridors migratoires pour faune nordique)"
+        ],
+        "lacs": [
+          "Lacs de plateau Vhorak (5-15 km², eaux pures servant aux rituels de divination céleste)",
+          "Étangs forestiers Thulmar-Thyrvalen (3-8 km², riches en vie bioluminescente, filtrant nappes phréatiques)"
+        ],
+        "mers": [
+          "Mer Orientale (bord est, courants chauds, récifs riches, jonction maritime vers Archipel)"
+        ],
+        "volcans": [
+          "Volcans dormants Thyrvalen (fumerolles forestières, sols fertiles, éruptions mineures séculaires favorisant croissance résineuse)"
+        ],
+        "steppes": [
+          "Taïga méridionale Kerynth (lisières herbeuses, sols gelés, zones de chasse saisonnière pour clans trolls)"
+        ],
+        "deserts": [
+          "Zones arides rocheuses sur plateaux Vhorak (poussières minérales, microfaune résistante)"
+        ]
+      },
+      "biomes": [
+        "Biome montagneux tempéré (Orraveth : conifères, chèvres des roches, forges artisanales en grottes)",
+        "Biome forestier dense (Thyrvalen/Thulmar : canopée épaisse, symbiose végétale-mystique, faune insectoïde bioluminescente)",
+        "Biome plateau alpin (Vhorak : lichens, vents secs, observatoires cosmiques, oiseaux migrateurs)",
+        "Biome taïga boréale (Kerynth : conifères épars, loups, ours, arbres gelés abritant résines rituelles)"
+      ],
+      "ecotones": [
+        "Transition montagne-forêt (20-30 km de vallées mixtes, cascades et grottes humides formant microclimats)",
+        "Écotone forêt-taïga (40 km nord, alternance arbres mixtes et gel permanent au sol)",
+        "Écotone plateau-forêt (falaises 10 km, vents descendant créant zones semi-arides au pied des montagnes)"
+      ],
+      "ressources_naturelles": [
+        "Minerais et épices (montagnes : cuivre, fer doux, herbes aromatiques rares, extraites par communautés mixtes)",
+        "Bois précieux et résines (forêts : arbres à séve hallucinogène, récoltées rituellement par chamans)",
+        "Cristaux célestes (plateaux : gisements luminescents pour rituels magiques, strictement contrôlés par guildes Vhorak)",
+        "Fourrures et plantes rares (taïga : commerce saisonnier vers Nordique, matières premières pour potions)"
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "details_topographiques": {
+        "montagnes": [
+          "Îles volcaniques Islakarion (pics 500-1000m, pentes fertiles pour cultures d’épices, volcans éteints utilisés comme réservoirs d’eau douce)"
+        ],
+        "fleuves": [
+          "Ruisseaux lagunaires Lago’Vernis-Venarith (eaux saumâtres, navigables sur 30 km, circulation batracienne locale)"
+        ],
+        "lacs": [
+          "Lagons coralliens Lago’Vernis (20-50 km², récifs protecteurs, source majeure de corail et nacre)",
+          "Bassins lagunaires Venarith (10 km², intérieurs, exploités pour aquaculture et rituels diplomatiques)"
+        ],
+        "mers": [
+          "Mer Tropicale méridionale (courants chauds cycloniques, navigation contrôlée par phares rituels, zone de transition vers Central)"
+        ],
+        "volcans": [
+          "Volcans sous-marins périphériques (est et sud, activité sporadique créant nouveaux atolls, influence marées et flux thermiques)"
+        ],
+        "steppes": [
+          "Plages sableuses et dunes (côtes plates, écosystèmes de mangroves en expansion, stabilisant rivages contre tempêtes)"
+        ],
+        "deserts": [
+          "Atolls arides Lago’Vernis (sols coralliens secs, végétation halophile, exploitation limitée pour sel et nacre brute)"
+        ]
+      },
+      "biomes": [
+        "Biome insulaire tropical (Islakarion : jungles humides, biodiversité aviaire et reptilienne, sols volcaniques fertiles)",
+        "Biome corallien (Lago’Vernis : récifs vivants, poissons tropicaux, coraux luminescents protégés par guildes marines)",
+        "Biome lagunaire (Venarith : mangroves mixtes, faune amphibie, oiseaux migrateurs reliant Oriental et Central)"
+      ],
+      "ecotones": [
+        "Transition île-lagon (5-10 km récifs, marées hautes submergeant partiellement zones forestières littorales)",
+        "Écotone lagon-mer (2-5 km, barrières coralliennes, gradient salin fort, refuge pour faune marine rare)",
+        "Écotone lagune-atoll (progressif, salines naturelles, végétation tropicale clairsemée formant frontière écologique maritime)"
+      ],
+      "ressources_naturelles": [
+        "Épices et nacre (îles : cultures tropicales et extraction de coquillages décoratifs)",
+        "Corail et perles (lagons : perliculture contrôlée, commerce vers Central et Oriental)",
+        "Algues bioluminescentes et plantes aquatiques (lagunes : base de pigments rituels et potions marines)",
+        "Sel marin (zones arides : production durable en bassins, essentiel pour troc intercontinental)"
+      ]
+    }
+  ]
+}
+

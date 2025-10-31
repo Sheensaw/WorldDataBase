@@ -1,0 +1,252 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "description": "Continent froid et montagneux au nord, caractérisé par des glaciers, des vallées et des plateaux humides. Il abrite des peuples adaptés au froid et des ressources minières rares. Cartographie globale: Situé au nord du monde, avec une forme allongée est-ouest, couvrant environ 2000 km de large et 1500 km de haut, bordé par des mers gelées au nord et des chaînes montagneuses au sud servant de barrière naturelle vers le Central.",
+      "reliefs_majeurs": [
+        "Chaînes glaciaires dominantes avec pics culminant à plus de 4000m (centrale, formant une épine dorsale nord-sud)",
+        "Vallées fluviales encaissées (ouest, avec rivières gelées 8 mois/an)",
+        "Plateaux forestiers humides (est, à 1000-2000m d'altitude)",
+        "Sommets isolés et steppes maudites au sud-est (transition vers plaines sèches)"
+      ],
+      "climats": [
+        "Glaciaire et venteux dans les vallées (températures moyennes -10°C à 5°C, précipitations neigeuses abondantes)",
+        "Humide et pluvieux sur les plateaux forestiers (5°C à 15°C, brouillards fréquents)",
+        "Froid sec sur les sommets isolés (-15°C à 0°C, vents violents)",
+        "Steppe froide et venteuse dans les ruines (0°C à 10°C, poussière toxique sporadique)"
+      ],
+      "transitions_naturelles": [
+        "Écotone glaciaire-forestier entre vallées et plateaux, avec fonte saisonnière des neiges créant des rivières temporaires et inondations printanières",
+        "Passage progressif des forêts humides aux steppes maudites via des zones de brouillard persistant et sols infertiles sur 50-100 km",
+        "Transitions abruptes via cols montagneux (altitude 2500m+) reliant aux sommets isolés"
+      ],
+      "zones": [
+        {
+          "nom": "Valléfrost",
+          "type": "Vallées glaciaires",
+          "description_cartographique": "Zone ouest du continent, couvrant 50 000 km² de vallées encaissées, orientée nord-sud le long d'une rivière glaciaire principale. Glaciverne au centre, hameaux au sud, postes au nord vers cols.",
+          "villes_principales": ["Glaciverne (capitale fortifiée, centre commercial, position centrale à l'intersection de la vallée principale et d'un affluent, altitude 800m)"],
+          "villages_nommes": ["Frostheim (village agricole au sud de Glaciverne, 30 km le long de la rivière, focus sur fermes glaciaires)", "Icethorn (poste minier à l'est de Glaciverne, 25 km via sentier escarpé, altitude 1200m)"],
+          "hameaux": ["Hameaux agricoles dispersés le long des rivières gelées (10-20 km autour de Glaciverne, reliés par chemins pavés simples)"],
+          "postes_strategiques": ["Tour de guet centrale à Glaciverne (surplombant la vallée)", "Postes de col vers Tronchavale (nord-est, 80 km via Route Glaciverne-Ferthys, avec patrouilles tous les 10 km)"],
+          "connexions": ["Route Glaciverne-Ferthys (col glaciaire est, 80 km, sécurisée par postes et balises runiques; lien commercial principal avec Tronchavale)", "Chemins vers hameaux (sentiers ruraux sud, 10-20 km, balisés par totems en bois pour navigation en blizzard)"]
+        },
+        {
+          "nom": "Tronchavale",
+          "type": "Vallées fluviales venteuses",
+          "description_cartographique": "Zone centre-ouest, adjacente à Valléfrost, 40 000 km² de vallées fluviales orientées ouest-est, avec vents dominants d'ouest. Ferthys au centre, villages au nord et sud, forges le long des rivières.",
+          "villes_principales": ["Ferthys (forteresse militaire et centre de forge, positionnée au confluent de deux rivières, altitude 900m)"],
+          "villages_nommes": ["Steelbrook (village militaire au nord de Ferthys, 20 km via route pavée, près d'un col)", "Windforge (village artisanal au sud de Ferthys, 25 km le long de la vallée, focus sur forges)"],
+          "hameaux": ["Camps annexes pour garnisons (dispersés 10 km autour de Ferthys, reliés par sentiers militaires)"],
+          "postes_strategiques": ["Tours de garde le long des cols périlleux (est, vers Grunthalok)", "Postes de patrouille mixtes avec Valléfrost (ouest, 30 km via Route Ferthys-Glaciverne)"],
+          "connexions": ["Route Ferthys-Glaciverne (col périlleux ouest, 80 km, balises rituelles et patrouilles mixtes; lien militaire/alliance)", "Sentiers villages militaires (routes pavées locales nord-sud, 10-15 km, signaux de fumée pour alerte)"]
+        },
+        {
+          "nom": "Grunthalok",
+          "type": "Plateau humide forestier",
+          "description_cartographique": "Zone est, plateau élevé (1500m) couvrant 60 000 km² de forêts denses, clairières centrales. Mistwood au centre, sentiers rayonnant vers ouest et sud.",
+          "villes_principales": ["Aucune ville majeure, clairières sanctuarisées comme centres"],
+          "villages_nommes": ["Mistwood (village chamanique principal, clairière centrale, entouré de totems)", "Thornveil (relais forestier au sud-ouest, 30 km via sentier, près de la lisière)"],
+          "hameaux": ["Huttes dispersées dans les clairières (groupes de 5-10 km autour de Mistwood)"],
+          "postes_strategiques": ["Totems protecteurs aux entrées des sentiers chamaniques (périphérie ouest et sud)"],
+          "connexions": ["Sentiers chamaniques (chemins forestiers ouest vers Tronchavale (60 km, balisés par totems), sud vers Thulmar (Oriental, 120 km via écotone forestier); liens rituels/défensifs)"]
+        },
+        {
+          "nom": "Slekdor",
+          "type": "Sommets isolés",
+          "description_cartographique": "Zone nord-est, pics isolés à 3000m+, couvrant 50 000 km², observatoires en chaîne reliés par ponts. Starpeak au sommet central, accès limité depuis plateaux.",
+          "villes_principales": ["Aucun, observatoires comme centres"],
+          "villages_nommes": ["Starpeak (observatoire principal, pic central)", "Crystalhold (fort monastère au sud du pic, 10 km via sentier escarpé)"],
+          "hameaux": ["Cabanes isolées pour gardiens (dispersées sur terrasses, 5 km entre elles)"],
+          "postes_strategiques": ["Ponts suspendus entre tours (liens internes, 1-2 km)", "Piliers de cristal comme balises (périphérie, visibles de loin)"],
+          "connexions": ["Sentiers astronomiques (chemins rocheux sud vers Grunthalok (50 km, balises de cristal; liens rares/médiations))"]
+        },
+        {
+          "nom": "Ruines de Varkhul",
+          "type": "Steppe maudite",
+          "description_cartographique": "Zone sud-est, steppe plate de 40 000 km², camps mobiles centrés autour de ruines antiques. Sulfurbane au centre, sentiers vers sud.",
+          "villes_principales": ["Aucune, camps tribaux mobiles"],
+          "villages_nommes": ["Sulfurbane (camp principal gobelin, près d'un cratère soufré)", "Relicscour (village de pilleurs au nord, 20 km via steppe ouverte)"],
+          "hameaux": ["Tentes improvisées dispersées (groupes nomades, 10-20 km autour de Sulfurbane)"],
+          "postes_strategiques": ["Postes de guet mobiles aux sentiers vers Dralvaire (sud, balises de pierre)"],
+          "connexions": ["Sentiers Varkhul-Dralvaire (steppe ouverte sud, 90 km, patrouilles limitées; liens de pillage/commerce illicite)"]
+        }
+      ],
+      "placement_relatif": "Nordique au nord global; Valléfrost ouest (bord mer gelée), Tronchavale centre-ouest (adjacent est de Valléfrost via col), Grunthalok est (plateau reliant à Tronchavale via forêts), Slekdor nord-est (sommets au-dessus de Grunthalok), Ruines sud-est (steppe transition vers Central sud). Connexions globales: Cols sud vers Central (Dralvaire), forêts est vers Oriental (Thulmar)."
+    },
+    {
+      "nom": "Central",
+      "description": "Continent tempéré au centre, avec plaines fertiles, collines boisées et marécages, servant de hub commercial. Cartographie globale: Forme ovale nord-sud, 2500 km de large, bordé par montagnes nord (Nordique), forêts est (Oriental), et mers sud vers Archipel.",
+      "reliefs_majeurs": [
+        "Plaines fertiles et collines douces (centre, altitude 200-500m)",
+        "Forêts tempérées sur collines boisées (nord-est)",
+        "Marécages étendus (sud-ouest, avec lagunes interconnectées)"
+      ],
+      "climats": [
+        "Tempéré fertile dans les plaines (10°C à 25°C, pluies régulières)",
+        "Humide boisé dans les forêts (8°C à 20°C, brouillards matinaux)",
+        "Marécageux chaud (15°C à 30°C, humidité élevée)"
+      ],
+      "transitions_naturelles": [
+        "Écotone plaine-forêt via collines progressives (20-50 km, avec rivières comme frontières naturelles)",
+        "Passage marécage-plaine via zones inondables saisonnières (inondations printanières sur 10-30 km)"
+      ],
+      "zones": [
+        {
+          "nom": "Dralvaire",
+          "type": "Plaines fertiles, collines",
+          "description_cartographique": "Zone centre, plaines vastes de 60 000 km², Champsorne au centre, villages rayonnant sud et est. Rivières comme axes principaux.",
+          "villes_principales": ["Champsorne (centre agricole/commercial, au confluent de rivières, altitude 300m)"],
+          "villages_nommes": ["Greenfield (village marchand au sud, 25 km via route pavée)", "Hillcrop (village fermier à l'est, 20 km le long de collines)"],
+          "hameaux": ["Villages ruraux dispersés (10-20 km autour de Champsorne, reliés par chemins agricoles)"],
+          "postes_strategiques": ["Relais de messagers le long de routes principales"],
+          "connexions": ["Route Champsorne-Korvalth (pavée est, 60 km, patrouilles; lien commercial avec Korvalth)", "Chemins ruraux (sentiers sud, 10-20 km, clochettes d’avertissement)"]
+        },
+        {
+          "nom": "Korvalth",
+          "type": "Collines boisées, forêts tempérées",
+          "description_cartographique": "Zone nord-est, collines forestières de 40 000 km², fortins centrés, villages au sud. Sentiers forestiers comme réseau.",
+          "villes_principales": ["Aucun, fortins comme centres"],
+          "villages_nommes": ["Woodguard (fortin principal, colline centrale)", "Leafhold (village cueilleur au sud, 20 km via sentier)"],
+          "hameaux": ["Maisons dispersées dans forêts (groupes 5-10 km)"],
+          "postes_strategiques": ["Tours de garde aux lisières"],
+          "connexions": ["Route Korvalth-Dralvaire (principale ouest, 60 km, patrouilles; lien territorial)", "Sentiers forestiers (secondaires nord, 15-25 km, avertissements sonores)"]
+        },
+        {
+          "nom": "Feslorin",
+          "type": "Marécages",
+          "description_cartographique": "Zone sud-ouest, marais de 50 000 km², Nénuphyr au centre lagunaire, villages sur pilotis est et ouest. Canaux comme voies principales.",
+          "villes_principales": ["Nénuphyr (temple-palafitte central, sur grand lagon)"],
+          "villages_nommes": ["Swampveil (village aquatique à l'est, 20 km via canal)", "Reedfort (relais ouest, 15 km sur pilotis)"],
+          "hameaux": ["Huttes sur pilotis dispersées (10 km autour)"],
+          "postes_strategiques": ["Totems protecteurs aux entrées des canaux"],
+          "connexions": ["Voies aquatiques (canaux est vers Orraveth (Oriental, 50 km, patrouilles barques))", "Passerelles (chemins pilotis internes, 10-15 km, signaux cloche)"]
+        }
+      ],
+      "placement_relatif": "Central au milieu; Dralvaire centre (plaines hub), Korvalth nord-est (forêts transition vers Oriental), Feslorin sud-ouest (marais vers Archipel mers). Connexions: Routes nord vers Nordique cols, est vers Oriental forêts, sud mers vers Archipel."
+    },
+    {
+      "nom": "Oriental",
+      "description": "Continent montagneux et forestier à l'est, avec taïga et plateaux. Cartographie globale: Allongé nord-sud, 1800 km, bordé ouest par Central forêts, est par mers inexplorées, sud par lagons vers Archipel.",
+      "reliefs_majeurs": [
+        "Montagnes tempérées (centre, 2000-3000m)",
+        "Forêts humides denses (sud)",
+        "Plateaux inaccessibles (nord)",
+        "Taïga lisières (extrême nord)"
+      ],
+      "climats": [
+        "Tempéré montagneux (5°C à 20°C)",
+        "Humide forestier (10°C à 25°C, pluies abondantes)",
+        "Froid plateau (0°C à 15°C)",
+        "Taïga froide (-5°C à 15°C)"
+      ],
+      "transitions_naturelles": [
+        "Écotone montagne-forêt via vallées boisées (30 km)",
+        "Passage taïga-plateau via lisières gelées saisonnières"
+      ],
+      "zones": [
+        {
+          "nom": "Orraveth",
+          "type": "Montagneux tempéré",
+          "description_cartographique": "Zone ouest, montagnes de 50 000 km², Hautbourg au centre, villages sud. Cols comme portes.",
+          "villes_principales": ["Hautbourg d’Orraval (fortifié central, altitude 1500m)"],
+          "villages_nommes": ["Peaktrade (village artisan sud, 20 km via chemin)", "Colwatch (poste col ouest, 25 km)"],
+          "hameaux": ["Dispersés sur terrasses (5-10 km)"],
+          "postes_strategiques": ["Tours de guet aux cols"],
+          "connexions": ["Route Orraval-Feslorin (col ouest, 50 km, patrouilles mixtes; lien diplomatique)"]
+        },
+        {
+          "nom": "Thyrvalen",
+          "type": "Forêts humides",
+          "description_cartographique": "Zone sud-ouest, forêts de 60 000 km², villages sylvestres centrés, sentiers rayonnants.",
+          "villes_principales": ["Aucun, clairières comme centres"],
+          "villages_nommes": ["Canopyhold (village principal, clairière centrale)", "Vinepath (relais nord, 20 km)"],
+          "hameaux": ["Huttes dans arbres (dispersées 5-15 km)"],
+          "postes_strategiques": ["Totems aux lisières"],
+          "connexions": ["Sentiers forestiers (nord vers Thulmar, 40 km, balises naturelles; pactes lisière)"]
+        },
+        {
+          "nom": "Vhorak",
+          "type": "Plateaux inaccessibles",
+          "description_cartographique": "Zone nord, plateaux élevés 40 000 km², observatoires centrés, accès via sentiers rocheux.",
+          "villes_principales": ["Aucun, observatoires comme centres"],
+          "villages_nommes": ["Skyview (observatoire principal, plateau central)", "Crystalpass (atelier sud, 15 km)"],
+          "hameaux": ["Isolés sur terrasses (5 km)"],
+          "postes_strategiques": ["Balises cristal périphérie"],
+          "connexions": ["Sentiers astronomiques (sud vers Thulmar, 50 km, surveillance rituelle)"]
+        },
+        {
+          "nom": "Thulmar",
+          "type": "Forêts denses",
+          "description_cartographique": "Zone centre, forêts de 50 000 km², villages sylvestres, sentiers ouest-est.",
+          "villes_principales": ["Aucun, clairières comme centres"],
+          "villages_nommes": ["Deepwood (village principal, clairière centrale)", "Branchveil (relais ouest, 30 km)"],
+          "hameaux": ["Cabanes dans arbres (dispersées 5-15 km)"],
+          "postes_strategiques": ["Totems aux sentiers"],
+          "connexions": ["Sentiers Thulmar-Grunthalok (ouest vers Nordique, 100 km, patrouilles; pactes verts)"]
+        },
+        {
+          "nom": "Kerynth",
+          "type": "Taïga et lisières forestières",
+          "description_cartographique": "Zone nord-est, taïga 50 000 km², villages saisonniers mobiles, routes nord-sud.",
+          "villes_principales": ["Aucun, camps mobiles"],
+          "villages_nommes": ["Frostbranch (camp principal saisonnier, lisière centrale)", "Taigapath (relais sud, 25 km)"],
+          "hameaux": ["Plateformes mobiles (dispersées 10-20 km)"],
+          "postes_strategiques": ["Balises saisonnières"],
+          "connexions": ["Routes saisonnières Kerynth-Thulmar (sud, 40 km, patrouilles clan; arbitrage frontalier)"]
+        }
+      ],
+      "placement_relatif": "Oriental à l'est; Orraveth ouest (montagnes transition Central), Thyrvalen sud-ouest (forêts vers Archipel), Vhorak nord (plateaux isolés), Thulmar centre (forêts hub), Kerynth nord-est (taïga vers mers). Connexions: Forêts ouest vers Central, sud mers vers Archipel."
+    },
+    {
+      "nom": "Archipel méridional",
+      "description": "Archipel d'îles tropicales au sud, lagons et atolls. Cartographie globale: Groupe de 50+ îles sur 3000 km, centrées autour de chaînes volcaniques, mers interconnectées.",
+      "reliefs_majeurs": [
+        "Îles volcaniques tropicales (centres élevés 500-1000m)",
+        "Lagons et atolls coralliens (plats, submergés)",
+        "Lagunes insulaires (mixtes îles-marais)"
+      ],
+      "climats": [
+        "Tropical humide (20°C à 30°C, moussons)",
+        "Lagunaire chaud (25°C à 35°C, vents marins)"
+      ],
+      "transitions_naturelles": [
+        "Passage île-lagon via récifs coralliens (zones de navigation délicates, 5-10 km)",
+        "Écotone lagune-mer via atolls progressifs"
+      ],
+      "zones": [
+        {
+          "nom": "Islakarion",
+          "type": "Îles tropicales",
+          "description_cartographique": "Groupe central d'îles volcaniques, 30 000 km², Port-Solaire sur île principale, villages sur satellites. Routes maritimes radiales.",
+          "villes_principales": ["Port-Solaire (port principal, île centrale)"],
+          "villages_nommes": ["Waveharbor (village portuaire est, 20 km via mer)", "Sunquay (relais ouest, 15 km)"],
+          "hameaux": ["Maisons sur pilotis dispersées (10 km côtiers)"],
+          "postes_strategiques": ["Phares-rituels sur caps"],
+          "connexions": ["Routes maritimes Islakarion-Lago’Vernis (est, 40 km, patrouilles navales; rivalité)"]
+        },
+        {
+          "nom": "Lago’Vernis",
+          "type": "Lagons, atolls coralliens",
+          "description_cartographique": "Atolls est, 20 000 km², Lagonfort sur atoll central, tours sur périphérie. Voies lagunaires internes.",
+          "villes_principales": ["Lagonfort (centre sur atoll principal)"],
+          "villages_nommes": ["Coralbay (atoll ligé sud, 20 km via lagon)", "Reefwatch (tour ouest, 15 km)"],
+          "hameaux": ["Cabines légères sur atolls (dispersées 5-10 km)"],
+          "postes_strategiques": ["Tours d’observation périphériques"],
+          "connexions": ["Routes maritimes internes (lagons ouest vers Islakarion, 40 km, balises rituelles)"]
+        },
+        {
+          "nom": "Venarith",
+          "type": "Lagunes et îles",
+          "description_cartographique": "Lagunes sud, 20 000 km², Nérethys sur île lagunaire centrale, villages insulaires nord. Chemins nautiques.",
+          "villes_principales": ["Nérethys (temple central sur lagune)"],
+          "villages_nommes": ["Aqualink (village insulaire nord, 25 km via passerelle)", "Basinveil (relais est, 15 km)"],
+          "hameaux": ["Cabines sur pilotis (dispersées 5-10 km)"],
+          "postes_strategiques": ["Bassins judiciaires comme hubs"],
+          "connexions": ["Chemins de lagunes (nord vers Feslorin (Central, 60 km mers), balises lumineuses; arbitrage)"]
+        }
+      ],
+      "placement_relatif": "Archipel au sud; Islakarion centre (îles hub), Lago’Vernis est (atolls rivaux), Venarith sud (lagunes diplomatiques). Connexions: Mers nord vers Central sud-ouest, est inexploré."
+    }
+  ]
+}

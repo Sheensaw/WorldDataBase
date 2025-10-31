@@ -1,0 +1,132 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "routes": [
+        {
+          "nom": "Route Glaciverne-Ferthys",
+          "type": "Grand col glaciaire pavé par tronçons (longueur 260km, largeur 5-6m, matériaux : pierre/bois renforcé glace, inspiré voies alpines étendues adaptées au froid, accès caravanes et traîneaux humains pour commerce minerais et import céréales, fermeture partielle 3 mois en hiver).",
+          "infrastructure": "Ponts de glace renforcés runiques (sur grandes crevasses, capacité 25-30 tonnes en saison froide, 12-15 tonnes au dégel, maintenance par guildes Valléfrost via magies artisanales et équipes saisonnières). Relais de ravitaillement tous 25-30km (cabanes bois/pierre avec stocks fourrures/sel/bois et céréales, zones abritées contre blizzards). Accès secondaires : Réseau latéral minier (branches totalisant 60km vers postes Icethorn, usage local).",
+          "balises": "Totems runes protectrices (bois/pierre gravés, espacés 5km, lueurs magiques anti-blizzard, balises sonores lors tempêtes, entretien à chaque solstice).",
+          "tours_guet_relais": "Tours de guet majeures en têtes de col (Glaciverne/Ferthys, hauteur 25m pierre/bois, signaux fumée/lumière, relais messagers à skis).",
+          "securite_passages": "Patrouilles rituelles (gardes humains/trolls mixtes 8-12 personnes par segment, magies artisanales de protection des vents, renforts mobiles lors alertes). Risques avalanches atténués par digues de neige et déclenchements préventifs rituels; trafic lourd limité pendant pics de fonte."
+        },
+        {
+          "nom": "Sentiers chamaniques",
+          "type": "Chemins forestiers humides inter-clairières (longueur 200-260km selon branches, largeur 1.5-2.5m, matériaux : terre compactée/branchages, accès éclaireurs trolls pour échanges rituels et commerce résines).",
+          "infrastructure": "Passerelles bois sur ruisseaux (capacité 6-8 personnes, flexibles à l'humidité, maintenance chamans Grunthalok chaque saison). Accès secondaires : Branches vers clairières sanctuarisées (réseau total ~90km pour relais de méditation et dépôts de résines).",
+          "balises": "Marques rituelles totems (bois sculpté, espacés 4-5km, illusions de brume pour guidance, visibles uniquement aux initiés).",
+          "tours_guet_relais": "Relais chamaniques (huttes en clairières, dortoirs légers, signaux chants et tambours).",
+          "securite_passages": "Patrouilles chamaniques trolls (groupes 5-7, magies d'illusions défensives contre raids, masques résinés standards distribués; fermeture des tronçons lors brumes toxiques estivales prolongées)."
+        },
+        {
+          "nom": "Sentiers astronomiques",
+          "type": "Chemins rocheux en corniche (longueur 160-200km cumulés, largeur 1-1.5m, matériaux : pierre taillée/cristal, accès gardiens géants vers observatoires isolés, circulation limitée).",
+          "infrastructure": "Ponts suspendus (cordes/cristal, capacité 1 géant ou 3 humanoïdes simultanés, maintenance rituelle Slekdor à l’équinoxe). Accès secondaires : Passerelles vers terrasses d’ateliers cristaux (réseau 40km).",
+          "balises": "Piliers de cristal codés (espacés 2km, luminescents les nuits claires, repères astrométriques standardisés).",
+          "tours_guet_relais": "Observatoires-tours (hauteur 35m pierre, plateformes de guet, signaux lumineux codés).",
+          "securite_passages": "Surveillance rituelle géante (individus isolés et duos, magies cosmiques contre vents catabatiques, chaînes fixes et lignes de vie obligatoires; fermeture totale en conditions diurnes de tempêtes)."
+        },
+        {
+          "nom": "Sentiers Varkhul-Dralvaire",
+          "type": "Traversée de steppe ouverte (longueur 450km, largeur 4m, matériaux : terre battue/pierres fixes, accès nomades gobelins pour commerce gris et convois hivernaux).",
+          "infrastructure": "Postes de guet semi-fixes (tentes gobelines renforcées, ravitaillement soufre/reliques, rotation toutes 2-3 semaines). Accès secondaires : Détours de dunes et coulées de poussière (réseau ~150km pour éviter patrouilles et tempêtes).",
+          "balises": "Balises de pierre liées (espacées 8-10km, marques obscures pour orientation, lisibles aux initiés).",
+          "tours_guet_relais": "Guets améliorés (hauteur 8-10m, structures bois/toiles renforcées, signaux fumée et miroirs).",
+          "securite_passages": "Patrouilles mixtes gobelines/humaines (groupes 8-12, magies stabilisatrices contre vents, guides locaux; fermeture de segments lors brumes soufrées estivales, mise en quarantaine de caravanes après zones contaminées)."
+        }
+      ],
+      "ponts_tunnels_ports_observatoires": "Ponts : Glace renforcés Valléfrost (sur rivières majeures, matériaux bois/métal runique, capacité caravanes 25 tonnes en hiver, 15 tonnes au dégel; inspections mensuelles). Tunnels : Miniers Valléfrost (réseau sous-glaciaire 50km, rails bois/métal pour chariots minerais et céréales, éclairage runique, sas anti-froid). Ports : Débarcadères fluviaux saisonniers (Tronchavale, barges bois été pour transport vivres/sels). Observatoires : Tours massives Slekdor (pierre/cristal 40m, alignements stellaires, accès initiés, entretien par cycles lunaires)."
+    },
+    {
+      "nom": "Central",
+      "routes": [
+        {
+          "nom": "Route Champsorne-Korvalth",
+          "type": "Grande voie pavée principale (longueur 340km, largeur 6-7m, matériaux : pierre compactée/bois, inspiré voies romaines inter-régionales, trafic régulier de céréales, sel et artisanat).",
+          "infrastructure": "Ponts sur rivières (pierre/bois, capacité chariots 20 tonnes, maintenance par guildes Dralvaire). Relais messagers tous 25-35km (écuries, dépôts d’eau et sel). Accès secondaires : Chemins agricoles (réseau 100km vers hameaux et champs).",
+          "balises": "Bornes pierre et lanternes solaires (espacés 2km, illumination nocturne par magie agricole).",
+          "tours_guet_relais": "Relais de messagers (cabanes tous 30-40km, gardes humains, signaux clochettes et feux).",
+          "securite_passages": "Patrouilles régulières (groupes 8-12, illusions pour dissuasion, digues et écluses sur segments inondables; ralentissements obligatoires en saison de crues)."
+        },
+        {
+          "nom": "Chemins ruraux",
+          "type": "Réseau de sentiers agricoles (longueur cumulée 200km, largeur 2-3m, matériaux : terre stabilisée/clôtures bois, accès fermiers).",
+          "infrastructure": "Clôtures agricoles enchantées (protection du bétail). Accès secondaires : Sentiers vers marchés locaux (réseau 70km).",
+          "balises": "Clochettes d’avertissement (espacées 3km, signalent pillards et crues).",
+          "tours_guet_relais": "Tours bois 12-15m (surveillance des champs, refuges en hauteur).",
+          "securite_passages": "Gardiens villageois (magies agricoles en soutien, fermetures ponctuelles durant crues printanières, plans d’évacuation vers buttes)."
+        },
+        {
+          "nom": "Voies aquatiques",
+          "type": "Réseau de canaux et rivières (longueur ~450km reliés, largeur 6-10m, berges renforcées pilotis/roseaux, barques batraciennes et barges humaines).",
+          "infrastructure": "Passerelles suspendues (bois/roseaux, double voie pour piétons et manutention). Accès secondaires : Canaux latéraux vers lagons/pêcheries (réseau 150km).",
+          "balises": "Totems protecteurs flottants (espacés 4km, guidance aquatique et marégraphes rituels).",
+          "tours_guet_relais": "Tours observation pilotis 20m (cloches/brasiers pour brumes et crues).",
+          "securite_passages": "Patrouilles batraciennes (groupes 6-8, magie aquatique contrôlant courants, zones de ralentissement imposées lors brume denses; quarantaines sanitaires à l’entrée des marchés après crues)."
+        }
+      ],
+      "ponts_tunnels_ports_observatoires": "Ponts : Grandes arches de pierre (sur rivières principales, capacité 25 tonnes, entretien trimestriel). Tunnels : Forestiers Korvalth (creusés dans ravins, réseau 20km, rails bois/chariots, éclairage solaire). Ports : Côtiers sud (quais bois/pierre à grand tirant, pour navires de l’Archipel, contrôle douanier magique). Observatoires : Tours de guet Korvalth (bois 20m, coordination forestière et surveillance incendies)."
+    },
+    {
+      "nom": "Oriental",
+      "routes": [
+        {
+          "nom": "Route Orraval-Feslorin",
+          "type": "Grand col montagne pavé (longueur 300km, largeur 5m, pierre/escaliers taillés, inspiré routes andines terrassées, trafic mixte humains/batraciens, restrictions météo).",
+          "infrastructure": "Ponts bois à haubans (sur ravins, capacité 10 tonnes, maintenance conjointe). Relais tous 25-35km (cabanes pierre, foyers). Accès secondaires : Chemins d’artisans (réseau 80km vers villages Peaktrade).",
+          "balises": "Totems pierre gravées (espacés 4km, protections d’éboulements, bornes d’altitude).",
+          "tours_guet_relais": "Tours guet pierre 18m (signaux visuels et cornes).",
+          "securite_passages": "Patrouilles mixtes (groupes 8-10, magies artisanales anti-chutes, zones de déviation lors glissements, calendrier de fermeture pendant pluies extrêmes)."
+        },
+        {
+          "nom": "Sentiers forestiers",
+          "type": "Chemins boisés sous canopée (longueur 280-320km, largeur 1.5-2.5m, branchages/terre, accès gobelins/trolls pour résines, corridors écologiques).",
+          "infrastructure": "Passerelles suspendues (vignes/bois, capacité 6-8 personnes, entretien saisonnier). Accès secondaires : Clairières rituelles (réseau 120km pour dépôts).",
+          "balises": "Balises naturelles totems (espacées 4-5km, illusions de camouflage codées).",
+          "tours_guet_relais": "Relais Chamaniques (huttes dans arbres, signaux chantés, réserves masques).",
+          "securite_passages": "Patrouilles trolls/gobelins (groupes 5-7, magies végétales pour contrôler embuscades, fermeture stricte pendant brumes hallucinogènes fortes, itinéraires de contournement balisés)."
+        },
+        {
+          "nom": "Sentiers astronomiques",
+          "type": "Réseau rocheux de plateaux (longueur 200km, largeur 1-1.5m, pierre/cristal, accès gardiens géants, marquages astraux).",
+          "infrastructure": "Ponts suspendus (cordes/cristal, capacité 1 géant/3 humanoïdes, maintenance rituelle). Accès secondaires : Passerelles vers ateliers (réseau 40km).",
+          "balises": "Balises cristal (espacées 2km, luminescence nocturne, code cosmique).",
+          "tours_guet_relais": "Observatoires terrasses (pierre 35m, relais de signaux).",
+          "securite_passages": "Surveillance géante (magies cosmiques, lignes de vie, fermeture diurne en vents extrêmes; contrôle des accès par permis rituel)."
+        },
+        {
+          "nom": "Routes saisonnières",
+          "type": "Sentiers de taïga modulaires (longueur 200-250km, largeur 2-3m, plateformes bois mobiles, accès migrants trolls pour fourrures et échanges Nordique).",
+          "infrastructure": "Ponts bois sur ruisseaux gelés (capacité groupes légers, démontables). Accès secondaires : Tracés alternatifs lisières (réseau 100km pour éviter tempêtes).",
+          "balises": "Balises saisonnières (espacées 5km, magies givre pour orientation hivernale, bornes de sécurité).",
+          "tours_guet_relais": "Camps relais nomades (tentes renforcées, signaux feux et drapeaux).",
+          "securite_passages": "Patrouilles clans trolls (groupes 6-9, dissimulation givre, zones de refuge chaque 40-50km; fermeture lors gel sévère avec redirection vers routes de secours)."
+        }
+      ],
+      "ponts_tunnels_ports_observatoires": "Ponts : Bois suspendus Orraveth (haubans sur cols, capacité mules et chariots légers). Tunnels : Cosmiques Vhorak (réseau 18km, éclairage cristal, rites d’ouverture nocturne). Ports : Radeaux rituels sur ruisseaux (transport local d’épices et résines, saison sèche). Observatoires : Massifs pierre Vhorak (alignements stellaires, entretien pragmatique, zones d’exclusion de 500m)."
+    },
+    {
+      "nom": "Archipel méridional",
+      "routes": [
+        {
+          "nom": "Routes maritimes Islakarion-Lago’Vernis",
+          "type": "Voies de mer inter-atolls (longueur 240km selon parcours, largeur variable, balisées par bouées et phares rituels, trafic navires humains pour commerce d’épices, céréales et sel).",
+          "infrastructure": "Quais bois/pierre (capacité navires 40-60 tonnes, maintenance ligues, grues manuelles). Relais bouées rituelles (pour mouillage et repos, zones d’abri codifiées). Accès secondaires : Voies internes des atolls (réseau 60km pour petites embarcations).",
+          "balises": "Phares rituels et bouées luminescentes (espacés 8-10km, magies marines pour guidance nocturne et cartographie des courants).",
+          "tours_guet_relais": "Tours observation 25m (signaux fumée/miroirs, sirènes à air).",
+          "securite_passages": "Patrouilles navales humaines (groupes 10-14, magies marines contre tempêtes/pirates, protocoles de déroutement en moussons; contrôles anti-pollution)."
+        },
+        {
+          "nom": "Chemins de lagunes",
+          "type": "Passerelles nautiques et canaux (longueur 250km, largeur 3-4m, pilotis bois/roseaux, trafic barques batraciennes pour diplomatie/perles).",
+          "infrastructure": "Ponts flottants (roseaux consolidés, capacité 8-10 personnes, maintenance rituelle mensuelle). Accès secondaires : Canaux latéraux vers îlots (réseau 100km pour pêcheries).",
+          "balises": "Balises bioluminescentes (espacées 3-4km, orientation marées, balises de profondeur).",
+          "tours_guet_relais": "Bassins relais (pilotis, plateformes de messagers, cloches/tambours).",
+          "securite_passages": "Patrouilles médiateurs batraciens (groupes 6-8, magies aquatiques défensives, fermetures temporaires lors marées extrêmes; zones de purification obligatoires à l’entrée des temples)."
+        }
+      ],
+      "ponts_tunnels_ports_observatoires": "Ponts : Flottants Venarith (sur lagunes, matériaux roseaux/bois, capacité barques et équipes de 12 personnes). Tunnels : Coralliens submergés Lago’Vernis (3km pour nageurs batraciens, usage cérémoniel et d’urgence). Ports : Quais principaux Port-Solaire (bois/pierre, navires épices/céréales 60 tonnes, douanes maritimes enchantées). Observatoires : Tours d’observation Lago’Vernis (bois 28m, veille météorologique et anti-piraterie)."
+    }
+  ]
+}

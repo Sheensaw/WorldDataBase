@@ -1,0 +1,295 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "faune": [
+        {
+          "type": "Normaux",
+          "animaux": [
+            {
+              "nom": "Renard arctique",
+              "apparence": "Pelage blanc épais hivernal (camouflage neige, référence vulpes lagopus réel), taille 50-70cm, poids 3-9kg, yeux noirs perçants.",
+              "comportement": "Solitaire/chasseur nocturne, creuse terriers pour abri contre blizzards.",
+              "regime_alimentaire": "Omnivore opportuniste (rongeurs, baies gelées, charognes hivernales).",
+              "migration": "Saisonnière sud hiver (vers steppes Varkhul pour ressources, 50-100km).",
+              "reproduction": "Portées 4-8 renardeaux printemps (maturité 1 an, taux survie 50%).",
+              "habitats": "Vallées glaciaires/plateaux humides (Valléfrost/Grunthalok, terriers sous neige).",
+              "modes_chasse_interactions": "Chassé pour fourrures (commerce limité, interactions : proies du loup brumeux)."
+            },
+            {
+              "nom": "Yak glaciaire",
+              "apparence": "Fourrure longue noire/brune, cornes courbes, taille 2-3m, poids 500-1000kg.",
+              "comportement": "Grégaire pacifique, forme cercles défensifs contre vents et prédateurs.",
+              "regime_alimentaire": "Herbivore (lichens/mousses gelées, rumination adaptée).",
+              "migration": "Altitudinale saisonnière (hauts plateaux été, vallées hiver, 20-50km).",
+              "reproduction": "Veaux uniques printemps (gestation 9 mois).",
+              "habitats": "Sommets isolés/steppes (Slekdor/Varkhul, pâturages rocailleux).",
+              "modes_chasse_interactions": "Domestiqué pour transport et laine, proie du loup brumeux ou du troll affamé."
+            },
+            {
+              "nom": "Phoque des glaces",
+              "apparence": "Corps fuselé gris argenté, taille 1.5m, moustaches épaisses.",
+              "comportement": "Colonial sur floes, plongeur aguerri (plongées 15-20min).",
+              "regime_alimentaire": "Piscivore (poissons polaires, crustacés).",
+              "migration": "Côtière saisonnière (Mer Gelée du Nord, 30-60km).",
+              "reproduction": "Un petit par an (mise bas sur banquise printemps).",
+              "habitats": "Mers et lacs gelés (bord nord, proximité Valléfrost).",
+              "modes_chasse_interactions": "Chassé pour graisse et viande, indicateur de fonte glaciaire."
+            }
+          ]
+        },
+        {
+          "type": "Mythiques",
+          "animaux": [
+            {
+              "nom": "Loup brumeux",
+              "apparence": "Pelage spectral gris, taille 1.5-2m, yeux luminescents.",
+              "comportement": "Meutes illusionnistes, hurlements invoquent brouillards.",
+              "regime_alimentaire": "Carnivore mystique (absorbe essence vitale des proies affaiblies).",
+              "migration": "Forestière nocturne (Grunthalok pleine lune, 30km).",
+              "reproduction": "Portées 3-5 louveteaux rituels (maturité 2 ans).",
+              "habitats": "Plateaux humides/forêts (Grunthalok, zones brumeuses).",
+              "modes_chasse_interactions": "Alliés trolls chamaniques, ennemis gobelins mineurs."
+            },
+            {
+              "nom": "Oiseau cristal",
+              "apparence": "Plumage iridescent cristallin, envergure 1-2m, bec tranchant.",
+              "comportement": "Vole silencieux, navigation cosmique alignée aux étoiles.",
+              "regime_alimentaire": "Insectivore/minéral (absorbe énergie stellaire).",
+              "migration": "Altitudinale (sommets Slekdor équinoxes).",
+              "reproduction": "Œuf cristallin unique (incubation 6 mois).",
+              "habitats": "Sommets isolés (Slekdor).",
+              "modes_chasse_interactions": "Protégés géants, messagers célestes, trafiqués pour plumes."
+            },
+            {
+              "nom": "Troll de glace mineur",
+              "apparence": "Peau translucide bleutée, stature 2.5m, yeux blancs opaques.",
+              "comportement": "Solitaire, médite dans cavernes, évite conflit.",
+              "regime_alimentaire": "Omnivore magique (mousses runiques, animaux morts).",
+              "migration": "Limitée aux zones forestières (Grunthalok 5-10km).",
+              "reproduction": "Très lente (1 enfant/siècle).",
+              "habitats": "Sous-bois et grottes glaciaires.",
+              "modes_chasse_interactions": "Gardiens runiques, rarement hostiles, intermédiaires entre races."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Central",
+      "faune": [
+        {
+          "type": "Normaux",
+          "animaux": [
+            {
+              "nom": "Cerf forestier",
+              "apparence": "Pelage brun tacheté, bois ramifiés, taille 1.3m.",
+              "comportement": "Grégaire, vigilance accrue en zones agricoles.",
+              "regime_alimentaire": "Herbivore (herbes/feuilles).",
+              "migration": "Saisonnière (Korvalth printemps, Dralvaire automne).",
+              "reproduction": "Faons 1-2 par an.",
+              "habitats": "Collines et forêts (Korvalth/Dralvaire).",
+              "modes_chasse_interactions": "Chassé pour viande/cuir, prédateurs : loups orientaux."
+            },
+            {
+              "nom": "Grenouille marécageuse",
+              "apparence": "Peau verte luisante, taille 5-10cm.",
+              "comportement": "Nocturne, coassements collectifs.",
+              "regime_alimentaire": "Insectivore.",
+              "migration": "Aquatique (lagons Feslorin crues).",
+              "reproduction": "Ponte massive printemps.",
+              "habitats": "Marécages Feslorin.",
+              "modes_chasse_interactions": "Utilisée dans rituels batraciens, proie du serpent aquatique."
+            },
+            {
+              "nom": "Buffle des plaines",
+              "apparence": "Corps massif brun, 1.8m au garrot, cornes épaisses.",
+              "comportement": "Grégaire, parcours migratoires vers zones fertiles.",
+              "regime_alimentaire": "Herbivore strict.",
+              "migration": "Nord-sud (200km saison sèche).",
+              "reproduction": "1 veau/an, gestation 10 mois.",
+              "habitats": "Plaines Dralvaire.",
+              "modes_chasse_interactions": "Domestiqué pour labour, prédateur : serpent aquatique géant."
+            }
+          ]
+        },
+        {
+          "type": "Mythiques",
+          "animaux": [
+            {
+              "nom": "Serpent aquatique illusionniste",
+              "apparence": "Écailles bleues iridescentes, 2-4m.",
+              "comportement": "Prédateur embusqué, crée illusions aquatiques.",
+              "regime_alimentaire": "Carnivore (poissons/amphibiens).",
+              "migration": "Crues saisonnières (Feslorin 10-20km).",
+              "reproduction": "Œufs 10-20.",
+              "habitats": "Marais Feslorin.",
+              "modes_chasse_interactions": "Vénéré batraciens, symbole prospérité, dangereux pour marchands."
+            },
+            {
+              "nom": "Oiseau pigmenté",
+              "apparence": "Plumage multicolore, envergure 40cm.",
+              "comportement": "Pollinisateur migrateur.",
+              "regime_alimentaire": "Nectarivore.",
+              "migration": "Korvalth vers Archipel (60km).",
+              "reproduction": "Nids suspendus 2-3 œufs.",
+              "habitats": "Forêts tempérées (Korvalth).",
+              "modes_chasse_interactions": "Capturé pour teintures, symbole de fertilité."
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "nom": "Oriental",
+      "faune": [
+        {
+          "type": "Normaux",
+          "animaux": [
+            {
+              "nom": "Chèvre des roches",
+              "apparence": "Pelage gris, cornes spiralées, taille 80cm.",
+              "comportement": "Agile grimpeur, vie en hardes matriarcales.",
+              "regime_alimentaire": "Herbivore (herbes alpines).",
+              "migration": "Altitudinale (Orraveth été, vallées hiver).",
+              "reproduction": "Chevreaux 1-2 par an.",
+              "habitats": "Montagnes Orraveth.",
+              "modes_chasse_interactions": "Domestiquée partiellement, proie de l’aigle stellaire."
+            },
+            {
+              "nom": "Loup taïga",
+              "apparence": "Pelage épais gris/noir, 1-1.5m, 70kg.",
+              "comportement": "Meutes hiérarchiques, chasse collective.",
+              "regime_alimentaire": "Carnivore (cerfs, rongeurs).",
+              "migration": "Saisonnière nord-sud (Kerynth 40km).",
+              "reproduction": "Portées 4-6.",
+              "habitats": "Taïga Kerynth.",
+              "modes_chasse_interactions": "Respectés trolls, ennemis gobelins chasseurs."
+            },
+            {
+              "nom": "Ours mousseux",
+              "apparence": "Pelage vert-gris recouvert de mousse naturelle, taille 2.3m.",
+              "comportement": "Lent, territorial, se couvre de lichens pour camouflage.",
+              "regime_alimentaire": "Omnivore (miel, racines, petits mammifères).",
+              "migration": "Restreinte, suivant floraison des zones forestières.",
+              "reproduction": "1-2 oursons, maturité 4 ans.",
+              "habitats": "Forêts Thulmar/Thyrvalen.",
+              "modes_chasse_interactions": "Chassé pour graisse médicinale, associé aux esprits de fertilité."
+            }
+          ]
+        },
+        {
+          "type": "Mythiques",
+          "animaux": [
+            {
+              "nom": "Singes forestiers hallucinogènes",
+              "apparence": "Pelage plumeux multicolore, yeux brillants, taille 60cm.",
+              "comportement": "Sociaux, utilisent cris pour induire hallucinations collectives.",
+              "regime_alimentaire": "Frugivore (fruits résineux).",
+              "migration": "Canopée saisonnière (Thyrvalen).",
+              "reproduction": "1-2 petits, gestation 5 mois.",
+              "habitats": "Forêts humides Thyrvalen.",
+              "modes_chasse_interactions": "Capturés par gobelins pour drogues, guides chamans trolls."
+            },
+            {
+              "nom": "Aigle stellaire",
+              "apparence": "Plumage noir étoilé, envergure 3m, serres cristallines.",
+              "comportement": "Solitaire, chasse alignée constellations.",
+              "regime_alimentaire": "Carnivore (chevreaux, rongeurs).",
+              "migration": "Plateaux Vhorak équinoxes.",
+              "reproduction": "Œuf unique, couvaison 2 mois.",
+              "habitats": "Plateaux Vhorak.",
+              "modes_chasse_interactions": "Messager sacré géants, symbole d’équilibre cosmique."
+            },
+            {
+              "nom": "Lynx lunaire",
+              "apparence": "Pelage argenté, yeux pâles luminescents, taille 1.2m.",
+              "comportement": "Chasseur nocturne solitaire, silencieux.",
+              "regime_alimentaire": "Carnivore (lapins, serpents, oiseaux).",
+              "migration": "Lisières forêt/taïga (Kerynth-Thulmar).",
+              "reproduction": "Portées 2-3, gestation 2 mois.",
+              "habitats": "Forêts clairsemées nord-orientales.",
+              "modes_chasse_interactions": "Associé aux chamans lunaires, guide d’âmes animales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "faune": [
+        {
+          "type": "Normaux",
+          "animaux": [
+            {
+              "nom": "Poisson clown tropical",
+              "apparence": "Écailles orange/noir, taille 10cm.",
+              "comportement": "Symbiotique avec anémones.",
+              "regime_alimentaire": "Omnivore (plankton/algues).",
+              "migration": "Courants lagunaires (5-10km).",
+              "reproduction": "Œufs gardés (maturité 1 an).",
+              "habitats": "Récifs Lago’Vernis.",
+              "modes_chasse_interactions": "Indicateur santé corail, export rituel batracien."
+            },
+            {
+              "nom": "Tortue marine",
+              "apparence": "Carapace verte, taille 1.2m.",
+              "comportement": "Migratrice, ponte sur plages.",
+              "regime_alimentaire": "Herbivore (algues marines).",
+              "migration": "Annuelle inter-îles (Venarith 50km).",
+              "reproduction": "100 œufs, incubation 2 mois.",
+              "habitats": "Lagunes et côtes Islakarion/Venarith.",
+              "modes_chasse_interactions": "Protégée batraciens, utilisée symboliquement dans rituels marins."
+            },
+            {
+              "nom": "Ibis des marées",
+              "apparence": "Plumage blanc nacré, bec long incurvé, taille 80cm.",
+              "comportement": "Colonial, chasse dans eaux peu profondes.",
+              "regime_alimentaire": "Carnivore (poissons, crustacés).",
+              "migration": "Atolls vers lagunes (30km).",
+              "reproduction": "Nids collectifs (3 œufs).",
+              "habitats": "Lagunes Venarith.",
+              "modes_chasse_interactions": "Symbole diplomatique, utilisé dans rites pacifiques."
+            }
+          ]
+        },
+        {
+          "type": "Mythiques",
+          "animaux": [
+            {
+              "nom": "Poisson bioluminescent",
+              "apparence": "Écailles bleues lumineuses, taille 40cm.",
+              "comportement": "Écoles synchronisées, éclairs lumineux pour communication.",
+              "regime_alimentaire": "Planctonivore.",
+              "migration": "Lagunaires nocturnes (Venarith marées).",
+              "reproduction": "Fraie collective annuelle.",
+              "habitats": "Lagunes et fonds coralliens.",
+              "modes_chasse_interactions": "Capturés pour encres rituelles, rôle diplomatique sous-marin."
+            },
+            {
+              "nom": "Oiseau marin bénit",
+              "apparence": "Plumage doré solaire, envergure 3m.",
+              "comportement": "Plane sur vents cycloniques, suit navires.",
+              "regime_alimentaire": "Piscivore.",
+              "migration": "Moussons inter-archipel.",
+              "reproduction": "Œuf unique, couvaison 3 mois.",
+              "habitats": "Falaises Islakarion.",
+              "modes_chasse_interactions": "Vénéré marins, perçu comme protecteur des flottes."
+            },
+            {
+              "nom": "Serpent corallien géant",
+              "apparence": "Écailles rouges et bleues, 8m, crocs perlés.",
+              "comportement": "Protecteur des récifs, attaque pirates et intrus.",
+              "regime_alimentaire": "Carnivore (requins juvéniles, gros poissons).",
+              "migration": "Stationnaire dans récifs coralliens profonds.",
+              "reproduction": "Œufs pondus dans cavernes sous-marines.",
+              "habitats": "Profondeurs Lago’Vernis.",
+              "modes_chasse_interactions": "Vénéré par batraciens, considéré comme gardien des trésors marins."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

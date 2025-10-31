@@ -1,0 +1,152 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "architecture": [
+        {
+          "zone": "Valléfrost",
+          "batiments_civils": "Maisons pierre/bois épaisses (inspiré longhouses vikings, murs isolés fourrures contre froid, toits inclinés neige, taille 10-20m longueur pour familles élargies ; matériaux : pierre locale/minerais, bois médicinal Grunthalok importé, techniques : assemblage runique magies artisanales pour durabilité). Hameaux agricoles dispersés (granges/silos pierre/bois, puits gelés enchantés magies rituelles pour eau liquide).",
+          "batiments_religieux": "Temples solsticiaux (structures circulaire pierre/bois, autels totems runiques, inspiré cercles mégalithiques celtiques adaptés froid ; pour fêtes communautaires, magies rituelles bénédictions agricoles).",
+          "batiments_militaires": "Fortifications pierre/bois (murs 5m haut, tours guet centrales 20m, inspiré forts vikings hillforts ; gardes patrouillent, enchantés magies défensives artisanales contre raids). Postes col (tours guet cabanes, pour patrouilles).",
+          "styles_architecturaux_peuples": "Humains claniques (styles robustes hiérarchiques, matériaux minerais/bois, techniques forge runique magies artisanales pour renforcement, cohérence populations classes dirigeantes/artisans ; inspiré scandinave médiéval avec magies fantasy).",
+          "materiaux_techniques_construction": "Matériaux : Pierre glaciaire (durable froid), bois médicinal (résistant humidité), fourrures isolation (cohérence faune arctique). Techniques : Assemblage jointures runiques (magies artisanales soudent sans clous, inspiré construction sans métal vikings), toits inclinés évacuation neige (cohérence géographie vallées)."
+        },
+        {
+          "zone": "Tronchavale",
+          "batiments_civils": "Casernes/atelier forge pierre/métal (inspiré forges médiévales européennes, taille 15-25m, pour habitation artisans/soldats ; matériaux : pierre locale, charbon fours). Villages militaires (maisons pierre, places rassemblement).",
+          "batiments_religieux": "Temples forge (autels fours rituels, pour bénédictions armes, inspiré cultes forgerons mythiques comme Héphaïstos).",
+          "batiments_militaires": "Fortifications massives (murs 8m haut, tours garde 25m, inspiré châteaux médiévaux ; enchantés magies offensive artisanales pour défense). Camps annexes (tentes/bois pour garnisons).",
+          "styles_architecturaux_peuples": "Humains militaires (styles fonctionnels hiérarchiques, matériaux métal/pierre, techniques forge magies artisanales pour robustesse, cohérence populations classes militaires ; inspiré architecture romaine légionnaire avec magies).",
+          "materiaux_techniques_construction": "Matériaux : Minerais/fer (abondants Tronchavale), pierre vallée (cohérence géographie). Techniques : Trempe magiques (magies artisanales refroidissent métal pour dureté, inspiré techniques damas médiévales), murs inclinés contre vents (cohérence climats venteux)."
+        },
+        {
+          "zone": "Grunthalok",
+          "batiments_civils": "Huttes bois/branchages (inspiré habitations indigènes sibériennes, taille 5-10m diamètre pour tribus, matériaux : bois hallucinogène local). Villages chamaniques dispersés (clairières sanctuarisées).",
+          "batiments_religieux": "Autels naturels cercle pierres (pour rituels brumes, inspiré stonehenge celtiques adaptés forêt ; magies rituelles illusions).",
+          "batiments_militaires": "Postes discrets (huttes camouflées, pour éclaireurs trolls).",
+          "styles_architecturaux_peuples": "Trolls chamaniques (styles organiques communautaires, matériaux bois/plantes, techniques tissage magies rituelles pour camouflage, cohérence races trolls ; inspiré architecture indigène amazonienne avec magies).",
+          "materiaux_techniques_construction": "Matériaux : Bois hallucinogène (cohérence flore forests), pierres naturelles (géographie plateaux). Techniques : Tissage illusions (magies rituelles intègrent brumes pour invisibilité, inspiré constructions camouflées tribales), structures flexibles humidité (cohérence climats humides)."
+        },
+        {
+          "zone": "Slekdor",
+          "batiments_civils": "Cabanes isolées pierre (pour gardiens géants, taille 8-12m, matériaux : pierre étoilée locale).",
+          "batiments_religieux": "Sanctuaires astronomiques (terrasses ouvertes, pour méditations cosmiques).",
+          "batiments_militaires": "Forts monastères massifs (pierre, pour protections rituelles).",
+          "styles_architecturaux_peuples": "Géants monastiques (styles minimalistes hiérarchiques, matériaux pierre/crystal, techniques gravure magies cosmiques pour alignements, cohérence races géants ; inspiré monastères tibétains avec magies).",
+          "materiaux_techniques_construction": "Matériaux : Pierre étoilée/cristaux (cohérence ressources sommets). Techniques : Gravure cosmique (magies pragmatiques alignent structures étoiles, inspiré constructions mégalithiques astronomiques), terrasses ventées (cohérence climats froids secs)."
+        },
+        {
+          "zone": "Ruines de Varkhul",
+          "batiments_civils": "Tentes/huttes improvisées (pour tribus gobelins, taille 4-6m, matériaux : toiles/peaux). Villages tribaux mobiles.",
+          "batiments_religieux": "Autels soufre corrompus (pour rituels obscurs).",
+          "batiments_militaires": "Postes guet mobiles (tentes armées).",
+          "styles_architecturaux_peuples": "Gobelins instables (styles nomades chaotiques, matériaux improvisés, techniques assemblage rapide magies obscure pour instabilité, cohérence races gobelins ; inspiré yourtes mongoles avec magies corrompues).",
+          "materiaux_techniques_construction": "Matériaux : Peaux/métaux corrompus (cohérence ressources steppes). Techniques : Assemblage instable (magies obscure lient temporairement, inspiré constructions nomades rapides), structures démontables (cohérence géographie maudite)."
+        }
+      ]
+    },
+    {
+      "nom": "Central",
+      "architecture": [
+        {
+          "zone": "Dralvaire",
+          "batiments_civils": "Maisons pierre/bois (inspiré fermes médiévales européennes, toits inclinés pluies, taille 8-15m pour familles nucléaires ; matériaux : pierre plaine, bois Korvalth importé). Villages (granges/silos pour récoltes).",
+          "batiments_religieux": "Temples agricoles (structures ouvertes pierre, autels fertilité, inspiré temples romains Cérès ; magies agricole bénédictions).",
+          "batiments_militaires": "Fortins légers (murs pierre, tours guet 15m).",
+          "styles_architecturaux_peuples": "Humains villageois (styles fonctionnels communautaires, matériaux pierre/bois, techniques assemblage magies agricole pour durabilité, cohérence populations fermiers ; inspiré architecture rurale médiévale).",
+          "materiaux_techniques_construction": "Matériaux : Pierre fertile (cohérence géographie plaines), bois dur (économie import). Techniques : Jointures enchantées (magies collective renforcent pour inondations, inspiré constructions alluvionnaires)."
+        },
+        {
+          "zone": "Korvalth",
+          "batiments_civils": "Maisons bois/pierre (inspiré cabanes forestières celtiques, taille 6-10m, pour cueilleurs). Confréries (salles réunion bois).",
+          "batiments_religieux": "Autels forestiers (clairières naturelles pour rituels défensifs).",
+          "batiments_militaires": "Fortins légers (tours garde bois 12m).",
+          "styles_architecturaux_peuples": "Humains forestiers (styles organiques, matériaux bois/pierre, techniques tissage magies défensive pour camouflage, cohérence races humaines ; inspiré druidique celtique).",
+          "materiaux_techniques_construction": "Matériaux : Bois dur/pigments (cohérence flore). Techniques : Gravure illusions (magies défensive intègrent pour invisibilité, inspiré constructions camouflées)."
+        },
+        {
+          "zone": "Feslorin",
+          "batiments_civils": "Huttes pilotis bois/roseaux (inspiré villages lacustres mayas, taille 5-8m pour clans batraciens).",
+          "batiments_religieux": "Temples-palafittes (structures élevées pour rituels aquatiques).",
+          "batiments_militaires": "Tours observation pilotis (pour guet marécages).",
+          "styles_architecturaux_peuples": "Batraciens aquatiques (styles flottants, matériaux bois/roseaux, techniques tressage magies aquatique pour stabilité, cohérence races batraciens ; inspiré chinampas aztèques).",
+          "materiaux_techniques_construction": "Matériaux : Bois aquatique/perles (cohérence ressources marais). Techniques : Flottabilité enchantée (magies aquatique ajustent niveau eau, inspiré constructions wetland)."
+        }
+      ]
+    },
+    {
+      "nom": "Oriental",
+      "architecture": [
+        {
+          "zone": "Orraveth",
+          "batiments_civils": "Maisons pierre (inspiré terrasses incas, toits inclinés pluies, taille 8-12m). Villages artisans (ateliers bois/pierre).",
+          "batiments_religieux": "Temples solsticiaux (structures ouvertes pour rituels).",
+          "batiments_militaires": "Fortifications légères (murs pierre, tours guet 15m).",
+          "styles_architecturaux_peuples": "Humains/batraciens mixtes (styles terrassés diplomatiques, matériaux pierre/bois, techniques polissage magies artisanales pour durabilité, cohérence populations mixtes ; inspiré architecture andine).",
+          "materiaux_techniques_construction": "Matériaux : Pierre montagne/épices (cohérence ressources). Techniques : Gravure bénie (magies artisanales alignent pour protections cols)."
+        },
+        {
+          "zone": "Thyrvalen",
+          "batiments_civils": "Huttes arbres (inspiré villages amazoniens élevés, taille 4-6m pour tribus gobelins).",
+          "batiments_religieux": "Autels naturels clairières (pour rituels animistes).",
+          "batiments_militaires": "Postes discrets camouflés.",
+          "styles_architecturaux_peuples": "Gobelins sylvestres (styles arboricoles, matériaux bois/résines, techniques tissage magies animiste pour camouflage, cohérence races gobelins ; inspiré habitations indigènes tropicales).",
+          "materiaux_techniques_construction": "Matériaux : Bois précieux/résines (cohérence flore humides). Techniques : Illusion intégrée (magies animiste pour invisibilité, inspiré constructions camouflées)."
+        },
+        {
+          "zone": "Vhorak",
+          "batiments_civils": "Bâtiments pierre terrasses (pour scribes géants).",
+          "batiments_religieux": "Sanctuaires astronomiques (ouvertes pour méditations).",
+          "batiments_militaires": "Aucun, protections rituelles.",
+          "styles_architecturaux_peuples": "Géants pragmatiques (styles minimalistes, matériaux pierre/crystal, techniques gravure magies cosmique pour alignements, cohérence races géants ; inspiré monastères himalayens).",
+          "materiaux_techniques_construction": "Matériaux : Pierre verre céleste (cohérence ressources). Techniques : Alignement stellaire (magies pragmatique pour stabilité vents)."
+        },
+        {
+          "zone": "Thulmar",
+          "batiments_civils": "Huttes arbres (pour tribus trolls).",
+          "batiments_religieux": "Autels naturels (pour rituels végétaux).",
+          "batiments_militaires": "Postes veilleurs clairières.",
+          "styles_architecturaux_peuples": "Trolls forestiers (styles organiques, matériaux bois/plantes, techniques tissage magies végétale pour croissance, cohérence races trolls ; inspiré celtique druidique).",
+          "materiaux_techniques_construction": "Matériaux : Bois rituel (cohérence flore). Techniques : Croissance enchantée (magies végétale forment structures)."
+        },
+        {
+          "zone": "Kerynth",
+          "batiments_civils": "Cabines pilotis mobiles (pour migrations trolls).",
+          "batiments_religieux": "Totems saisonniers (pour rituels givre).",
+          "batiments_militaires": "Postes veilleurs routes.",
+          "styles_architecturaux_peuples": "Trolls saisonniers (styles nomades, matériaux bois souple, techniques assemblage magies saisons pour mobilité, cohérence races trolls ; inspiré yourtes sibériennes adaptées).",
+          "materiaux_techniques_construction": "Matériaux : Bois souple/résines (cohérence ressources taïga). Techniques : Dissimulation enchantée (magies givre pour camouflage hiver)."
+        }
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "architecture": [
+        {
+          "zone": "Islakarion",
+          "batiments_civils": "Maisons pilotis bois/pierre (inspiré villages polynésiens, taille 6-10m pour familles navigatrices). Villages portuaires (ateliers pêche).",
+          "batiments_religieux": "Phares-rituels (structures élevées pour prières solsticiaux).",
+          "batiments_militaires": "Arsenaux hangars (pour navires).",
+          "styles_architecturaux_peuples": "Humains maritimes (styles flottants, matériaux bois naval, techniques tressage magies marine pour stabilité vagues, cohérence populations capitaines ; inspiré architecture océanienne).",
+          "materiaux_techniques_construction": "Matériaux : Bois naval/épices (cohérence ressources îles). Techniques : Bénédiction vents (magies marine ajustent pour tempêtes)."
+        },
+        {
+          "zone": "Lago’Vernis",
+          "batiments_civils": "Cabines légères pilotis (pour ligues).",
+          "batiments_religieux": "Entrepôts corail (pour rituels courants).",
+          "batiments_militaires": "Tours observation (pour surveillance).",
+          "styles_architecturaux_peuples": "Humains lagunaires (styles improvisés, matériaux bois/corail, techniques assemblage magies courants pour flottabilité, cohérence races humains ; inspiré atolls polynésiens).",
+          "materiaux_techniques_construction": "Matériaux : Corail/perles (cohérence ressources). Techniques : Redirection enchantée (magies courants stabilisent structures)."
+        },
+        {
+          "zone": "Venarith",
+          "batiments_civils": "Cabines légères pilotis (pour clans batraciens).",
+          "batiments_religieux": "Temples bassins judiciaires (pour arbitrages).",
+          "batiments_militaires": "Veilleurs tours (pour guet lagunes).",
+          "styles_architecturaux_peuples": "Batraciens diplomatiques (styles aquatiques, matériaux bois/plantes, techniques tressage magies aquatique pour équilibre marées, cohérence races batraciens ; inspiré chinampas aztèques).",
+          "materiaux_techniques_construction": "Matériaux : Plantes aquatiques/teintes (cohérence flore). Techniques : Chœurs enchantés (magies défensive protègent contre inondations)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "relations_entre_peuples_nations": "Relations claniques humaines (Valléfrost/Tronchavale : alliances militaires et commerciales contre trolls/gobelins, inspirées coalitions vikings contre invasions). Trolls Grunthalok isolationnistes mais pactes verts avec Oriental et commerce de résines. Géants Slekdor neutres, médiateurs rares mais protecteurs des traités cosmiques. Gobelins Varkhul chaotiques, rivalités internes/tous, impliqués dans troc noir avec Central.",
+      "alliances": [
+        "Alliance permanente Valléfrost-Tronchavale (défense et commerce : protection cols, troc armes/minerais contre céréales Central, inspirée ligues du nord médiévales, renforcée par runes défensives communes).",
+        "Pactes rituels Grunthalok-Thulmar (Oriental, échanges résines/totems pour défenses forestières, arbitrés chamans, inspirés traités indigènes amazoniens pour ressources partagées).",
+        "Accords commerciaux Nordique-Central (axes Glaciverne-Dralvaire : flux céréales/fer/sels, patrouilles mixtes et taxes partagées, inspirés routes alpines hanséatiques)."
+      ],
+      "rivalites_guerres": [
+        "Rivalités frontalières Valléfrost-Tronchavale vs Grunthalok/Varkhul (raids pour minerais/fourrures, guerres saisonnières hiver, inspirées guerres tribales sibériennes ; escalade via magies brume/obscure, trêves printanières pour commerce).",
+        "Guerres internes gobelins Varkhul (tribus vs tribus pour reliques, chaos constant, inspirées hordes mongoles rivalités khans ; interventions rares géants pour médiations symboliques).",
+        "Conflits ponctuels Nordique-Oriental (pillages trolls contre routes de commerce, affrontements brefs et symboliques, apaisés par arbitrages Slekdor)."
+      ],
+      "traites_arbitrages_mediations": [
+        "Trêves fonte neiges (Valléfrost-Tronchavale-Grunthalok, traité annuel chamans/arbitrage géants, fonctionnement : échanges otages rituels, pénalités raids interdits ; inspirés paix saisonnières médiévales européennes).",
+        "Médiations cosmiques Slekdor (géants arbitrent conflits majeurs via visions stellaires, acceptés tous, inspirés oracles delphiques).",
+        "Accords de transit hivernal (Nordique-Central : tolérance passages commerciaux protégés par patrouilles mixtes, scellés par runes de non-agression)."
+      ],
+      "zones_neutres_territoires_contestes": "Zones neutres : Sommets Slekdor (sanctuaires géants, accès rituel seulement, inspirée Suisse neutralité montagneuse). Territoires contestés : Cols Tronchavale-Grunthalok (raids défensifs, patrouilles mixtes pour statu quo ; steppes Varkhul contestées gobelins/humains pour soufre)."
+    },
+    {
+      "nom": "Central",
+      "relations_entre_peuples_nations": "Relations cités-états humaines (Dralvaire/Korvalth : rivalités commerciales mais alliances contre pillards ; inspirées républiques italiennes renaissance). Batraciens Feslorin médiateurs neutres avec tous. Relations renforcées avec Nordique via accords céréales-sels et routes pavées communes.",
+      "alliances": [
+        "Alliance commerciale Dralvaire-Korvalth (contre menaces Varkhul, fonctionnement : guildes partagées pour routes pavées, échanges céréales/bois ; inspirées ligues hanséatiques pour commerce mutuel).",
+        "Pactes religieux Feslorin-Dralvaire (arbitrage batraciens pour rivalités internes, échanges perles/sel).",
+        "Accords logistiques Central-Nordique (routes Dralvaire-Glaciverne, échanges céréales/minerais, escortes communes, taxes partagées).",
+        "Concordat maritime Central-Archipel (ports méridionaux ouverts au commerce d’épices, taxation conjointe 10%, inspiré ligues marchandes portuaires)."
+      ],
+      "rivalites_guerres": [
+        "Rivalités territoriales Dralvaire-Korvalth (pour collines boisées, escarmouches frontalières, inspirées guerres cités grecques ; usage magies agricole/défensive pour sabotages récoltes).",
+        "Menaces pillards Varkhul (raids gobelins sur plaines Dralvaire, guerres défensives sporadiques).",
+        "Tensions douanières avec Archipel (désaccords fiscaux sur commerce épices/sel)."
+      ],
+      "traites_arbitrages_mediations": [
+        "Traités villageois (Dralvaire-Korvalth, arbitrage anciens pour frontières, fonctionnement : conseils mixtes annuels, pénalités amendes magiques ; inspirés traités paix médiévale).",
+        "Arbitrages aquatiques Feslorin (batraciens médiatent conflits via temples, acceptés tous, inspirés tribunaux neutres suisses).",
+        "Traité de navigation sud (Central-Archipel : protection mutuelle contre piraterie, droit de port garanti, accords inspection navires)."
+      ],
+      "zones_neutres_territoires_contestes": "Zones neutres : Marécages centraux Feslorin (sanctuaires batraciens, accès rituel, inspirée Venise neutralité lagunaire). Territoires contestés : Collines frontalières Dralvaire-Korvalth (disputés pour bois/pigments, patrouilles locales)."
+    },
+    {
+      "nom": "Oriental",
+      "relations_entre_peuples_nations": "Relations mixtes Orraveth (humains/batraciens diplomatiques avec tous). Gobelins Thyrvalen opportunistes. Géants Vhorak isolés. Trolls Thulmar/Kerynth tribaux avec pactes verts. Relations renforcées avec Nordique via Grunthalok et échanges de résines sacrées.",
+      "alliances": [
+        "Pactes lisière Thyrvalen-Thulmar (gobelins/trolls pour défenses forestières, échanges résines/totems, inspirés alliances indigènes pour territoires partagés).",
+        "Alliances rares Vhorak (géants médiatent via intermédiaires, pour cristaux contre protections).",
+        "Pacte vert élargi (Thulmar-Grunthalok-Slekdor : protection conjointe forêts nord-est, échanges savoirs chamaniques, inspiré conseils druidiques anciens)."
+      ],
+      "rivalites_guerres": [
+        "Rivalités commerciales Orraveth-Dralvaire (pour routes épices, escarmouches cols, inspirées rivalités silk road ; magies artisanale/animiste utilisées).",
+        "Tensions frontalières Thulmar-Kerynth vs Grunthalok (raids trolls pour résines, inspirées guerres tribales amazoniennes).",
+        "Escarmouches maritimes Thyrvalen-Islakarion (disputes routes épices, arbitrées Venarith)."
+      ],
+      "traites_arbitrages_mediations": [
+        "Traités pactes verts (Thulmar-Grunthalok, arbitrage chamans pour frontières forêts, rituels annuels, pénalités malédictions ; inspirés traités indigènes écologiques).",
+        "Médiations symboliques Vhorak (géants arbitrent via visions cosmiques, acceptées Orraveth).",
+        "Accord de libre passage (Oriental-Archipel : commerce épices, reconnaissance mutuelle rites portuaires)."
+      ],
+      "zones_neutres_territoires_contestes": "Zones neutres : Plateaux Vhorak (sanctuaires géants, accès codifié, inspirée Tibet neutralité spirituelle). Territoires contestés : Lisières taïga Kerynth-Thulmar (disputés trolls pour résines, patrouilles chamaniques)."
+    },
+    {
+      "nom": "Archipel méridional",
+      "relations_entre_peuples_nations": "Relations maritimes Islakarion-Lago’Vernis (humains rivaux pour routes). Batraciens Venarith médiateurs neutres. Intégration partielle au réseau commercial Central et Oriental par pactes d’accès portuaire communs.",
+      "alliances": [
+        "Alliances ligues Lago’Vernis (contre piraterie Islakarion, patrouilles mixtes mers, inspirées ligues hanséatiques maritimes).",
+        "Pactes diplomatiques Venarith (batraciens arbitrent rivalités, échanges perles/épices).",
+        "Concordat maritime Archipel-Central (ports libres, taxation partagée, escortes commerciales, inspiré traités hanseatiques maritimes).",
+        "Pacte des eaux calmes (Archipel-Oriental : non-agression, partage d’informations météo et courants marins, échanges mages marins)."
+      ],
+      "rivalites_guerres": [
+        "Rivalités maritimes Islakarion-Lago’Vernis (pour contrôle lagons/épices, guerres navales sporadiques, inspirées rivalités caraïbes coloniales ; magies marine/courants utilisées).",
+        "Menaces pression continentale (résistance Venarith à invasions Central).",
+        "Piraterie indépendante (routes intercontinentales, tolérée partiellement par certaines guildes)."
+      ],
+      "traites_arbitrages_mediations": [
+        "Traités maritimes (Islakarion-Lago’Vernis, arbitrage batraciens pour routes secrètes, conseils annuels, pénalités blocus ports ; inspirés traités paix westphalien adaptés mer).",
+        "Arbitrages lagunaires Venarith (batraciens médiatent via bassins judiciaires, acceptés tous).",
+        "Pacte de navigation libre (Archipel-Central-Oriental : reconnaissance mutuelle routes ouvertes, coordination anti-piraterie)."
+      ],
+      "zones_neutres_territoires_contestes": "Zones neutres : Lagunes centrales Venarith (sanctuaires diplomatiques, accès rituel, inspirée Genève neutralité). Territoires contestés : Atolls frontaliers Islakarion-Lago’Vernis (disputés pour corail et routes, patrouilles navales coordonnées)."
+    }
+  ]
+}

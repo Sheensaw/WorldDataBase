@@ -1,0 +1,216 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "types_magie": [
+        {
+          "type": "Artisanale",
+          "description": "Magie pratique infusée dans objets via gravure et forgeage manuel (inspiré des runes vikings réelles, où les artisans humains canalisent l'énergie environnementale comme le froid ou le métal pour créer des enchantements durables). Composition : énergie élémentaire (froid/glace pour protections, métal pour offensif), utilisée pour tâches quotidiennes comme combats ou artisanat.",
+          "sortileges_effets": [
+            "Enchantement défensif : 'Bouclier de Givre' - infuse un bouclier en cuir avec énergie froide pour créer une barrière de glace repoussant les flèches (usage concret : gardes de Tronchavale l'activent en patrouille pour bloquer 5-10 attaques, durée 1 heure, composition : énergie glaciaire + runes protectrices).",
+            "Enchantement offensif : 'Lame Ventée' - enchante une hache avec vents violents pour lancer une rafale tranchante sur 5m (pratique pour raids sur Grunthalok, tranche armures légères, composition : énergie éolienne + métal forgé, activé par swing).",
+            "Sort de soutien : 'Outil Résistant' - renforce un pic minier avec énergie métallique pour briser roches dures plus vite (usage concret : mineurs Valléfrost extraient +15% minerais, durée 2 heures, composition : énergie terre/métal + gravure).",
+            "Sort offensif : 'Flèche Gelée' - enchante une flèche pour geler cible sur impact (pratique pour chasse ou escarmouches, immobilise membre 5 min, composition : énergie froide + bois/métal)."
+          ],
+          "limitations_tabous": "Faible hors vallée (effet réduit de 50% en extérieur, fatigue physique après 3 usages/jour ; tabou contre enchantment d'armes pour usages non-défensifs, risque de gel des mains si abus, inspiré des malédictions folkloriques).",
+          "objets_artefacts": "Tabliers de forgeron renforcés (Valléfrost, pouvoirs : protection contre chaleur de forge via énergie froide, historiques : transmis dans guildes familiales, restrictions : lié à minerais locaux, composition : énergie métallique + cuir enchanté)."
+        },
+        {
+          "type": "Rituelle",
+          "description": "Magie collective via cérémonies avec chants et offrandes (inspiré des rituels chamaniques sami, où trolls invoquent esprits forestiers pour effets communautaires). Composition : énergie spirituelle (brumes/illusions via offrandes naturelles comme herbes), pratiquée en groupes pour amplifications.",
+          "sortileges_effets": [
+            "Sort défensif : 'Voile de Brume' - cercle de trolls chante pour générer une brume dense cachant un village sur 100m (usage concret : Grunthalok utilise pour éviter raids de Tronchavale, trompe vue et odeur, durée une nuit, composition : énergie brumeuse + chants rituels).",
+            "Sort de soutien : 'Bénédiction de Croissance' - offrande de résines infuse le sol pour accélérer pousse de mousses médicinales sur 1 hectare (pratique pour cueilleurs trolls, augmente rendement 20%, composition : énergie végétale + offrandes).",
+            "Sort offensif : 'Tempête Ponctuelle' - rituel invoque rafale neige sur 50m pour désorienter ennemis (usage concret : défense cols Tronchavale, aveugle 10 min, composition : énergie éolienne/froide + offrandes).",
+            "Sort défensif : 'Rune Protectrice Clanique' - groupe grave totem pour barrière contre malédictions (pratique pour camps Valléfrost, repousse magie obscure gobeline, durée saison, composition : énergie spirituelle + bois)."
+          ],
+          "limitations_tabous": "Préparation lente (1-2 jours, inefficace hors biotope forestier avec perte de 70% ; tabou de silence post-rituel pour 1 heure, risque d'invocation esprits hostiles si interrompu, référence aux tabous chamaniques réels).",
+          "objets_artefacts": "Totems de bois chamaniques (Grunthalok, pouvoirs : activation pour brumes défensives par toucher, historiques : sculptés par anciens chamans, restrictions : biotope humide requis, composition : énergie spirituelle + bois gravé)."
+        },
+        {
+          "type": "Cosmique",
+          "description": "Magie alignée aux étoiles via méditation en observatoires (inspiré de l'astrologie babylonienne pratique pour prédictions et protections). Composition : énergie stellaire (lumière cosmique pour visions ou barrières), utilisée par géants pour guidances concrètes.",
+          "sortileges_effets": [
+            "Sort de guidance : 'Étoile Veilleuse' - fixation sur constellation révèle dangers sur un sentier de 5km (usage concret : Slekdor géants l'utilisent pour patrouilles cols, détecte avalanches ou intrus, durée 5 minutes, composition : énergie lumineuse + alignement stellaire).",
+            "Sort défensif : 'Barrière Céleste' - cercle de cristaux crée un dôme repoussant ennemis sur 50m (pratique pour protéger observatoires, bloque physiques/magiques, durée phase lunaire, composition : énergie cosmique + cristaux).",
+            "Sort de soutien : 'Vision Prophétique' - méditation stellaire prédit raids ennemis (usage concret : alerte alliances Tronchavale 12h avance, composition : énergie stellaire + cristaux).",
+            "Sort offensif : 'Frappe Étoilée' - canalise lumière pour brûler cible à distance (pratique pour médiations rares, inflige brûlures énergie sur 3m, composition : énergie lumineuse/feu cosmique)."
+          ],
+          "limitations_tabous": "Usage rare (seulement nuits claires et alignements spécifiques, 1 par mois ; tabous stricts contre utilisation diurne, risque de folie stellaire comme hallucinations si abus, inspiré des interdits oracles grecs).",
+          "objets_artefacts": "Piliers de cristal cosmiques (Slekdor, pouvoirs : activation pour visions en tenant, historiques : extraits par anciens gardiens, restrictions : initiés géants seulement, composition : énergie stellaire + quartz naturel)."
+        },
+        {
+          "type": "Obscure instable",
+          "description": "Magie chaotique tirée de reliques corrompues via mélanges alchimiques (inspiré de l'alchimie noire médiévale avec potions volatiles). Composition : énergie toxique (soufre/corruption pour effets destructeurs), utilisée par gobelins pour raids concrets.",
+          "sortileges_effets": [
+            "Sort offensif : 'Nuage Soufré' - mélange de soufre crée un gaz toxique sur 20m étouffant ennemis (usage concret : Varkhul gobelins l'emploient en pillage pour neutraliser gardes, cause toux/hallucinations 5 minutes, composition : énergie corrompue + soufre).",
+            "Sort de transformation : 'Mutation Chaotique' - touche relique altère temporairement forme pour camouflage (pratique pour infiltration, change taille ou couleur 10 minutes, composition : énergie instable + relique).",
+            "Sort défensif : 'Armure Corrompue' - infuse peau pour résistance poisons (usage concret : protection contre brumes Grunthalok, dure 15 min, composition : énergie toxique + soufre).",
+            "Sort offensif : 'Explosion Instable' - relique libère énergie corrompue en burst 5m (pratique pour briser fortifications, inflige dommages aléatoires, composition : énergie obscure + métal)."
+          ],
+          "limitations_tabous": "Auto-destructrice (30% chance de blesser l'utilisateur avec brûlures ou mutations, effets varient aléatoirement ; tabou contre usage intra-tribal, risque de mort permanente si répétées, inspiré des malédictions alchimiques).",
+          "objets_artefacts": "Reliques corrompues antiques (Varkhul, pouvoirs : invocation toxique par frottement, historiques : trouvées dans ruines, restrictions : instabilité augmente avec usages, composition : énergie obscure + métal corrompu)."
+        }
+      ]
+    },
+    {
+      "nom": "Central",
+      "types_magie": [
+        {
+          "type": "Agricole",
+          "description": "Magie infusée dans sols et semences via gestes manuels (inspiré des rituels fertilité romains avec offrandes à Cérès). Composition : énergie terre (fertilité via éléments naturels comme eau/sol), utilisée par humains pour cultures pratiques.",
+          "sortileges_effets": [
+            "Sort de croissance : 'Pousse Fertile' - geste sur graines accélère maturation céréales sur 1 hectare (usage concret : Dralvaire fermiers l'appliquent pour récolte précoce, +20% rendement, durée une saison, composition : énergie terre + semences).",
+            "Sort défensif : 'Barrière Végétale' - enchante clôtures pour repousser pests (pratique pour champs, bloque insectes/rongeurs 1 mois, composition : énergie végétale + herbes).",
+            "Sort de soutien : 'Irrigation Bénie' - infuse eau pour fertiliser sol sec (pratique pour sécheresses Korvalth, humidifie 500m², composition : énergie eau/terre).",
+            "Sort offensif : 'Épines Protectrices' - fait pousser épines sur cultures contre voleurs (pratique pour marchés, inflige piqûres mineures, composition : énergie végétale + sol)."
+          ],
+          "limitations_tabous": "Rituels lents (30 minutes à 1 heure, faible hors zones agricoles avec perte d'effet ; tabou contre gaspillage ressources, risque d'infertilité sol si abus, inspiré des malédictions agricoles folkloriques).",
+          "objets_artefacts": "Greniers enchantés (Dralvaire, pouvoirs : préservation grains contre moisissure, historiques : construits par guildes anciennes, restrictions : sols fertiles requis, composition : énergie terre + bois)."
+        },
+        {
+          "type": "Rituelle collective",
+          "description": "Magie amplifiée par groupes via danses et chants (inspiré des festivals celtiques de moisson). Composition : énergie communautaire (eau/terre pour contrôles collectifs), utilisée pour événements villageois.",
+          "sortileges_effets": [
+            "Sort de contrôle : 'Flux d'Irrigation' - chœur dirige ruisseau pour irriguer champs (usage concret : Feslorin batraciens l'utilisent pour canaux, redirige 50m d'eau, prévient sécheresses, composition : énergie aquatique + chants).",
+            "Sort de soutien : 'Partage Abondant' - cercle infuse marché pour attirer acheteurs (pratique pour Dralvaire, augmente ventes 10% lors festivals, composition : énergie sociale + offrandes).",
+            "Sort défensif : 'Cercle de Protection' - groupe crée barrière énergie contre pillards (pratique pour villages Korvalth, repousse intrus 100m, durée festival, composition : énergie terre + danses).",
+            "Sort offensif : 'Tempête Locale' - invocation collective appelle pluie acide sur ennemis (pratique pour défense Dralvaire, endommage armures, composition : énergie eau/terre)."
+          ],
+          "limitations_tabous": "Requière minimum 5 participants (effet réduit seul ; tabou contre rituels égoïstes, risque de discorde communautaire, référence à rites groupés réels).",
+          "objets_artefacts": "Temples solsticiaux (Dralvaire, pouvoirs : amplification bénédictions collectives, historiques : bâtis par anciens maires, restrictions : saisonniers, composition : énergie terre + pierre)."
+        },
+        {
+          "type": "Artisanale défensive",
+          "description": "Magie objets bois via gravures et infusions (inspiré des talismans druidiques celtiques). Composition : énergie illusion (forêt pour mirages), utilisée par gardiens pour patrouilles.",
+          "sortileges_effets": [
+            "Sort illusion : 'Mirage Boisé' - bâton gravé crée faux arbres sur 20m (usage concret : Korvalth gardiens cachent sentiers de pillards, trompe vue 30 minutes, composition : énergie végétale + bois).",
+            "Sort défensif : 'Liane Protectrice' - armure enchantée fait pousser lianes pour absorber impacts (pratique pour combats, bloque 3 attaques, composition : énergie défensive + cuir).",
+            "Sort de soutien : 'Sentier Illusoire' - grave sol pour faux chemin piégé (pratique pour embuscades, dirige ennemis ravin, durée 1 heure, composition : énergie illusion + terre).",
+            "Sort offensif : 'Éclat Végétal' - bâton libère épines projetées (pratique pour gardes, inflige blessures 5m, composition : énergie végétale + bois)."
+          ],
+          "limitations_tabous": "Dépendante du biotope forestier (inefficace hors bois ; tabou contre coupe arbres sacrés, risque de flétrissement plantes abus, inspiré équilibre écologique).",
+          "objets_artefacts": "Bâtons de garde forestiers (Korvalth, pouvoirs : illusions activées par rotation, historiques : forgés par confréries, restrictions : bois dur local, composition : énergie illusion + gravures)."
+        },
+        {
+          "type": "Aquatique",
+          "description": "Magie manipulation eaux via gestes et nage (inspiré des rituels mayas aquatiques avec offrandes à dieux pluie). Composition : énergie eau (courants pour contrôles), utilisée par batraciens pour défense/navigation.",
+          "sortileges_effets": [
+            "Sort offensif : 'Vague Paralysante' - geste crée vague saumâtre paralysant ennemis sur 10m (usage concret : Feslorin gardiens protègent temples, immobilise 2 minutes, composition : énergie aquatique + sel).",
+            "Sort de soutien : 'Courant Guidé' - nage dirige barque à travers canaux (pratique pour messagers, accélère 50% vitesse, composition : énergie fluide + gestes).",
+            "Sort défensif : 'Bouclier d'Eau' - forme mur liquide absorbant projectiles (pratique pour passerelles, bloque flèches 5 min, composition : énergie aquatique + gestes).",
+            "Sort offensif : 'Tourbillon Engloutissant' - crée vortex aspirant ennemis sous eau (pratique pour combats lagons, noie légers 3 min, composition : énergie fluide + sel)."
+          ],
+          "limitations_tabous": "Inefficace hors zones humides (perte 60% en sec ; tabou contre souillage eaux, risque de marées inversées, référence tabous eau sacrée).",
+          "objets_artefacts": "Voiles aquatiques rituels (Feslorin, pouvoirs : contrôle courants par toucher, historiques : tissés par chefs clans, restrictions : eaux consacrées, composition : énergie eau + tissus imperméables)."
+        }
+      ]
+    },
+    {
+      "nom": "Oriental",
+      "types_magie": [
+        {
+          "type": "Artisanale",
+          "description": "Magie infusée artefacts montagneux via polissage et gravures (inspiré shinto japonais avec amulettes pour protection voyages). Composition : énergie terre (minerais pour renforcements), utilisée par humains/batraciens pour routes.",
+          "sortileges_effets": [
+            "Sort défensif : 'Bouclier de Pierre' - amulette polie crée barrière rocheuse repoussant chutes pierres sur 10m (usage concret : Orraveth gardes cols, bloque débris, durée passage, composition : énergie terre + pierre).",
+            "Sort de soutien : 'Outil Béni' - enchante pioche pour extraire minerais plus vite (pratique pour artisans, +15% rendement mine, composition : énergie artisanale + métal).",
+            "Sort offensif : 'Éboulement Contrôlé' - grave pierre pour déclencher petite avalanche sur 20m (pratique pour embuscades cols, enterre ennemis légers, composition : énergie terre + gravure).",
+            "Sort défensif : 'Armure Minérale' - infuse armure avec minéraux pour résistance impacts (pratique pour gardiens, absorbe 5 coups, composition : énergie terre + métal)."
+          ],
+          "limitations_tabous": "Faible hors ateliers/sacrés (réduit 40% extérieur ; tabou contre partage secrets guildes, risque bris outil abus).",
+          "objets_artefacts": "Amuletes de col (Orraveth, pouvoirs : protection avalanches activée par frottement, historiques : créés médiateurs batraciens, restrictions : lieux sacrés, composition : énergie terre + ornements)."
+        },
+        {
+          "type": "Animiste",
+          "description": "Magie invocation esprits végétaux via touches et invocations (inspiré chamanisme amazonien avec plantes alliées). Composition : énergie végétale (illusions via résines), utilisée par gobelins/trolls pour forêt.",
+          "sortileges_effets": [
+            "Sort illusion : 'Canopée Fantôme' - invocation crée mirage arbres cachant groupe sur 100m (usage concret : Thyrvalen gobelins infiltrent, trompe sens, durée 1 heure, composition : énergie animiste + résines).",
+            "Sort offensif : 'Racines Entravantes' - touche sol fait pousser racines immobilisant ennemis 5m rayon (pratique pour guerriers trolls, maintient 10 minutes, composition : énergie végétale + terre).",
+            "Sort de soutien : 'Croissance Rapide' - invoque vignes pour escalade canopée (pratique pour cueilleurs gobelins, crée échelle 10m, composition : énergie végétale + invocations).",
+            "Sort défensif : 'Mur de Feuilles' - esprits forment barrière feuilles absorbant flèches (pratique pour villages Thulmar, bloque 5 attaques, composition : énergie animiste + feuilles)."
+          ],
+          "limitations_tabous": "Dépendante forêt/canopée (inefficace hors ; tabou déforestation, risque rebellion esprits comme vines hostiles).",
+          "objets_artefacts": "Amulettes de plumes (Thyrvalen, pouvoirs : illusions activées par souffle, historiques : chamans gobelins, restrictions : biotope forestier, composition : énergie animiste + plumes)."
+        },
+        {
+          "type": "Cosmique pragmatique",
+          "description": "Magie stellaire appliquée via terrasses et méditations (inspiré incas astronomie pour prédictions pratiques). Composition : énergie stellaire (lumière pour amplifications), utilisée par géants pour tâches concrètes.",
+          "sortileges_effets": [
+            "Sort de prédiction : 'Voie Stellaire' - lecture étoiles prévient tempêtes sur plateau (usage concret : Vhorak, alerte 24h avance pour évacuations, rayon 1km, composition : énergie lumineuse + alignement).",
+            "Sort de soutien : 'Force Céleste' - amplifie endurance tâcherons pour transport cristaux (pratique : +20% force 30 min, composition : énergie cosmique + cristaux).",
+            "Sort défensif : 'Dôme Lumineux' - crée barrière lumière repoussant intrus nocturnes (pratique pour ateliers Vhorak, aveugle ennemis 5 min, composition : énergie stellaire + lumière).",
+            "Sort offensif : 'Rayon Étoilé' - canalise lumière pour brûler cible (pratique pour rares interventions, inflige brûlures 3m, composition : énergie lumineuse/feu cosmique)."
+          ],
+          "limitations_tabous": "Codifié à nuits spécifiques (tabous stricts contre jour, risque déséquilibre cosmique comme migraines stellaires ; référence calendriers mayas).",
+          "objets_artefacts": "Terrasses gravées (Vhorak, pouvoirs : prédictions activées par position, historiques : bâties observateurs anciens, restrictions : tabous profanation, composition : énergie stellaire + pierre)."
+        },
+        {
+          "type": "Végétale",
+          "description": "Magie manipulation plantes via toucher et infusions (inspiré druides celtiques avec herbes alliées). Composition : énergie végétale (justice via racines/résines), utilisée par trolls pour arbitrages concrets.",
+          "sortileges_effets": [
+            "Sort offensif : 'Vigne de Justice' - vigne lie coupables pour interrogation (usage concret : Thulmar, immobilise bras/jambes 10 min, composition : énergie végétale + résines).",
+            "Sort de soutien : 'Résine Guérisseuse' - application résine ferme blessures mineures (pratique pour cueilleurs, soigne coupures rapides, composition : énergie guérisseuse + plantes).",
+            "Sort défensif : 'Bouclier Feuillu' - feuilles forment armure absorbant coups (pratique pour guerriers Kerynth, bloque 4 attaques, composition : énergie végétale + feuilles).",
+            "Sort offensif : 'Épines Venimeuses' - plantes lancent épines empoisonnées 5m (pratique pour escarmouches, cause paralysie légère, composition : énergie végétale + résines)."
+          ],
+          "limitations_tabous": "Forte en forêt (faible hors biotope ; tabou cueillette excessive, risque flétrissement local abus, inspiré équilibre druidique).",
+          "objets_artefacts": "Résines rituelles en flacons (Thulmar, pouvoirs : guérison par application, historiques : préparées chamans, restrictions : biotope forestier, composition : énergie végétale + résines hallucinogènes)."
+        },
+        {
+          "type": "Saisons givre",
+          "description": "Magie cyclique liée saisons via invocations (inspiré rituels sibériens hivernaux). Composition : énergie saisonnière (givre pour dissimulation), utilisée par trolls pour migrations pratiques.",
+          "sortileges_effets": [
+            "Sort défensif : 'Manteau de Givre' - couche givre dissimule traces sur 50m (usage concret : Kerynth, efface empreintes neige pour éviter traque, durée 1 heure, composition : énergie froide + invocations).",
+            "Sort de soutien : 'Vigueur Saisonnière' - bénit groupe pour endurance migration (pratique : +10% vitesse marche 2 heures, composition : énergie cyclique + herbes).",
+            "Sort offensif : 'Rafale de Glace' - invoque vent gelé blessant ennemis 10m (pratique pour escarmouches taïga, inflige gelures, composition : énergie froide + givre).",
+            "Sort défensif : 'Barrière Hivernale' - crée mur neige bloquant passages (pratique pour camps Kerynth, dure 30 min, composition : énergie saisonnière + invocations)."
+          ],
+          "limitations_tabous": "Dépend cycles saisonniers (faible hors taïga ; tabou forcage saisons, risque déséquilibre climatique comme tempêtes imprévues).",
+          "objets_artefacts": "Amulettes saisonnières (Kerynth, pouvoirs : dissimulation givre par toucher, historiques : crafted guides trolls, restrictions : cycles lunaires, composition : énergie givre + symboles)."
+        }
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "types_magie": [
+        {
+          "type": "Marine",
+          "description": "Magie vents/marins via prières et gestes (inspiré rituels polynésiens pour navigation sûre). Composition : énergie éolienne (vents pour propulsion), utilisée par humains pour voyages concrets.",
+          "sortileges_effets": [
+            "Sort de soutien : 'Vent Propice' - prière appelle vents accélérant voilier 20% (usage concret : Islakarion capitaines réduisent traversée Lago’Vernis de 1 heure, composition : énergie éolienne + prières).",
+            "Sort défensif : 'Calme des Vagues' - geste apaise tempête sur 50m rayon (pratique pour ports, réduit vagues 30 min, composition : énergie marine + gestes).",
+            "Sort offensif : 'Rafale Maritime' - invoque vent poussant ennemis en mer (pratique pour combats navals, déséquilibre bateaux 5m, composition : énergie éolienne + gestes).",
+            "Sort de soutien : 'Appel des Poissons' - attire bancs pour pêche abondante (pratique pour villages Islakarion, +30% capture, composition : énergie marine + prières)."
+          ],
+          "limitations_tabous": "Dépend rituels solsticiaux (faible hors îles ; tabou au coucher soleil, risque vents contraires abus, référence tabous marins).",
+          "objets_artefacts": "Phares rituels (Islakarion, pouvoirs : guidance vents par allumage, historiques : bâtis amiraux, restrictions : îles sacrées, composition : énergie lumineuse + statues)."
+        },
+        {
+          "type": "Courants",
+          "description": "Magie manipulation courants via mouvements corporels (inspiré chamanisme caraïbe pour contrôle mers). Composition : énergie fluide (eau pour redirection), utilisée par humains pour lagons concrets.",
+          "sortileges_effets": [
+            "Sort de soutien : 'Courant Dirigé' - geste guide radeau évitant récifs (usage concret : Lago’Vernis navigateurs traversent atolls sans dommage, durée 20 min, composition : énergie fluide + mouvements).",
+            "Sort défensif : 'Marée Protectrice' - élève eau pour barrière contre intrus (pratique pour docks, hausse 1m bloque accès, composition : énergie marine + gestes).",
+            "Sort offensif : 'Vortex Engloutissant' - crée tourbillon aspirant bateaux ennemis (pratique pour rivalités maritimes, noie petits vaisseaux, composition : énergie fluide + eau).",
+            "Sort de soutien : 'Flux Purificateur' - nettoie eaux polluées sur 20m (pratique pour lagons, élimine toxines, composition : énergie marine + mouvements)."
+          ],
+          "limitations_tabous": "Faible par temps couvert prolongé (réduit 50% ; tabou pollution lagons, risque tourbillons inversés, inspiré tabous océaniques).",
+          "objets_artefacts": "Bouées sacrées (Lago’Vernis, pouvoirs : contrôle courants par immersion, historiques : ligues capitaines, restrictions : lagons, composition : énergie fluide + bois flottant)."
+        },
+        {
+          "type": "Aquatique défensive",
+          "description": "Magie lagunes via chœurs et invocations (inspiré rituels aztèques pour protections aquatiques). Composition : énergie aquatique (eau pour barrières), utilisée par batraciens pour arbitrages concrets.",
+          "sortileges_effets": [
+            "Sort défensif : 'Mur Lagunaire' - chœur crée mur eau bloquant ennemis 10m (usage concret : Venarith médiateurs protègent bassins lors litiges, dure médiation, composition : énergie aquatique + chœurs).",
+            "Sort de soutien : 'Purification Fluide' - invocation nettoie toxines bassin 5m (pratique pour rituels, élimine pollutions, composition : énergie purificatrice + chants).",
+            "Sort offensif : 'Jet d'Eau Pressurisé' - chœur lance eau coupante sur 8m (pratique pour défense ponts, tranche cordes/armures légères, composition : énergie aquatique + invocations).",
+            "Sort défensif : 'Bouclier Biolum' - infuse eau luminescence aveuglante (pratique pour nuits, aveugle intrus 3 min, composition : énergie aquatique/lumineuse + chœurs)."
+          ],
+          "limitations_tabous": "Dépend bassins consacrés/chœurs (faible hors lagunes ; tabou solo, risque dilution énergie, référence à rites collectifs aztèques).",
+          "objets_artefacts": "Voiles rituels lagunaires (Venarith, pouvoirs : protection activée par immersion, historiques : tissés médiateurs, restrictions : bassins, composition : énergie aquatique + voiles)."
+        }
+      ]
+    }
+  ]
+}

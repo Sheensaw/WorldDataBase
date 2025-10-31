@@ -1,0 +1,120 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "securite": [
+        {
+          "zone": "Valléfrost",
+          "forces_ordre_milices_armees": "Gardes claniques (forces ordre humaines, 200 individus armés lances/haches enchantées magies artisanales, inspirée huscarls vikings pour loyauté clans ; rotations patrouilles 24h, recrutement classes gardes via entraînements rituels). Milices villageoises (artisans/fermiers mobilisables 500, pour défenses locales). Armées alliées Tronchavale (renforts 100 soldats pour guerres frontalières, cohérence géopolitique alliances).",
+          "tribunaux_methodes_sanction": "Tribunaux claniques (jugés anciens/gouverneurs places marché, méthodes : témoignages rituels magies vérité (illusions forcées confessions, cohérence magies rituelles), sanctions : amendes pièces fer (10-50 pour vols), exil hiver (pour trahisons, risque mort froid), exécutions rares (hache rituelle pour meurtres ; inspirée thing vikings assemblées judiciaires avec magies).",
+          "couverture_protection_populations": "Protection complète villages (patrouilles quotidiennes gardes/milices couvrent 80% territoire, magies protections runiques totems contre raids gobelins/trolls ; cohérence populations civiles/fermiers). Couverture partielle cols (postes guet pour commerce minerais, 60% sécurisé, cohérence économie troc ; risques avalanches atténués balises, inspirée vigiles alpins médiévaux)."
+        },
+        {
+          "zone": "Tronchavale",
+          "forces_ordre_milices_armees": "Garnisons militaires (forces ordre humaines, 300 soldats armés épées/arcs magies offensives artisanales, inspirée légions romaines pour discipline ; inspections quotidiennes, recrutement classes militaires via tests forge). Milices annexes (100 artisans mobilisables pour défenses). Armées centrales (200 pour raids Grunthalok, cohérence géopolitique rivalités).",
+          "tribunaux_methodes_sanction": "Tribunaux militaires (jugés administrateurs casernes, méthodes : interrogatoires sous bénédictions magies vérité (forcent confessions, cohérence magies artisanales), sanctions : fouet (10-20 coups pour insubordination), prison forge (1-6 mois vols), exécution épée (trahisons ; inspirée tribunaux romains militaires avec magies).",
+          "couverture_protection_populations": "Protection haute villages (patrouilles constantes garnisons couvrent 90% territoire, magies défensives tours contre vents/raids ; cohérence populations administrateurs). Couverture cols périlleux (postes mixtes 70% sécurisé, cohérence économie armes ; risques vents atténués magies, inspirée forteresses médiévales)."
+        },
+        {
+          "zone": "Grunthalok",
+          "forces_ordre_milices_armees": "Éclaireurs chamaniques (forces ordre trolls, 150 individus armés bâtons illusions magies rituelles, inspirée sentinelles indigènes sibériennes pour camouflage ; patrouilles forestières, recrutement cueilleurs via visions chamans). Milices tribales (200 guerriers mobilisables pour défenses). Armées rituelles (100 pour raids défensifs Tronchavale, cohérence géopolitique tensions).",
+          "tribunaux_methodes_sanction": "Conseils chamaniques (jugés anciens clairières, méthodes : rituels vérité illusions forcées confessions (cohérence magies brume), sanctions : ostracisme tribal (exil forêt pour vols), malédictions brume (hallucinations 1 mois trahisons), exécution rare vigne (pour meurtres ; inspirée tribunaux indigènes amazoniens avec magies).",
+          "couverture_protection_populations": "Protection forestière (patrouilles éclaireurs couvrent 75% territoire, magies illusions contre intrus ; cohérence populations civils/chamans). Couverture clairières (totems 85% sécurisé, cohérence économie résines ; risques raids atténués brumes, inspirée protections tribales naturelles)."
+        },
+        {
+          "zone": "Slekdor",
+          "forces_ordre_milices_armees": "Gardiens rituels (forces ordre géants, 50 individus armés bâtons cristal magies cosmiques, inspirée moines guerriers tibétains pour isolation ; surveillance plateaux, recrutement scribes via initiations). Milices monastiques (30 mobilisables pour défenses rares). Armées neutres (aucune, médiations symboliques cohérence géopolitique).",
+          "tribunaux_methodes_sanction": "Conseils cosmiques (jugés astronomes observatoires, méthodes : visions stellaires vérité (cohérence magies cosmiques), sanctions : isolation sommets (1-3 mois vols), malédictions folie (hallucinations trahisons), exécution rare (pour profanation ; inspirée tribunaux monastiques bouddhistes avec magies).",
+          "couverture_protection_populations": "Protection isolée (gardiens couvrent 90% territoire sommets, magies barrières cosmiques contre trafics ; cohérence populations scribes). Couverture observatoires (piliers 95% sécurisé, cohérence économie cristaux ; risques vents atténués alignements, inspirée sanctuaires himalayens)."
+        },
+        {
+          "zone": "Ruines de Varkhul",
+          "forces_ordre_milices_armees": "Patrouilles tribales (forces ordre gobelins, 100 guerriers armés dagues magies obscure, inspirée hordes nomades mongoles pour mobilité ; raids internes, recrutement pilleurs via défis). Milices instables (150 mobilisables pour guerres tribales). Armées chaotiques (200 pour pillages sud, cohérence géopolitique menaces).",
+          "tribunaux_methodes_sanction": "Arbitrages chefs (jugés anciens camps, méthodes : rituels mutation forcée confessions (cohérence magies instables), sanctions : esclavage (vols, cohérence marchés parallèles), exécution soufre (trahisons ; inspirée justices nomades chaotiques avec magies).",
+          "couverture_protection_populations": "Protection variable camps (patrouilles couvrent 50% territoire steppes, magies toxique contre intrus ; cohérence populations civils). Couverture ruines (guets 60% sécurisé, cohérence économie reliques ; risques tempêtes atténués guides, inspirée camps nomades)."
+        }
+      ]
+    },
+    {
+      "nom": "Central",
+      "securite": [
+        {
+          "zone": "Dralvaire",
+          "forces_ordre_milices_armees": "Gardiens routes (forces ordre humaines, 150 individus armés épées magies défensives, inspirée vigiles romaines pour villes ; patrouilles marchés, recrutement classes gardes via guildes). Milices villageoises (300 mobilisables pour défenses pillards). Armées cités-états (200 pour rivalités Korvalth, cohérence géopolitique).",
+          "tribunaux_methodes_sanction": "Tribunaux maires (jugés scribes places centrales, méthodes : témoignages sous bénédictions vérité magies collective, sanctions : amendes pièces cuivre (20-100 vols), prison grenier (1-3 mois, cohérence économie), exécution rare faux (pour trahisons ; inspirée tribunaux médiévaux italiens avec magies).",
+          "couverture_protection_populations": "Protection urbaine (gardiens couvrent 85% territoire plaines, magies agricole barrières contre pests/pillards ; cohérence populations civils). Couverture rurale (milices 70% sécurisé, cohérence économie récoltes ; risques inondations atténués digues, inspirée protections agraires romaines)."
+        },
+        {
+          "zone": "Korvalth",
+          "forces_ordre_milices_armees": "Gardiens forestiers (forces ordre humaines, 100 individus armés arcs magies illusion, inspirée rangers celtiques pour forêts ; patrouilles lisières, recrutement cueilleurs via tests). Milices confréries (200 mobilisables pour rivalités). Armées locales (150 pour défenses territoriales).",
+          "tribunaux_methodes_sanction": "Conseils anciens (jugés clairières, méthodes : illusions vérité magies défensive, sanctions : ostracisme forêt (exil vols), malédictions flétrissement (trahisons ; inspirée justices druidiques celtiques avec magies).",
+          "couverture_protection_populations": "Protection boisée (gardiens couvrent 80% territoire collines, magies illusion contre embuscades ; cohérence populations civils). Couverture villages (milices 75% sécurisé, cohérence économie pigments ; risques tempêtes atténués tours, inspirée sentinelles forestières médiévales)."
+        },
+        {
+          "zone": "Feslorin",
+          "forces_ordre_milices_armees": "Gardiens aquatiques (forces ordre batraciens, 120 individus armés harpons magies aquatique, inspirée gardiens mayas lagunaires ; patrouilles barques, recrutement cultistes via rites). Milices claniques (150 mobilisables pour arbitrages). Armées confédérales (100 pour résistances).",
+          "tribunaux_methodes_sanction": "Tribunaux lagunaires (jugés chefs bassins, méthodes : chœurs vérité magies rituelles, sanctions : immersion punitive (1-7 jours vols), malédictions paralysie (trahisons ; inspirée justices aztèques aquatiques avec magies).",
+          "couverture_protection_populations": "Protection marécageuse (gardiens couvrent 85% territoire lagons, magies aquatique barrières contre intrus ; cohérence populations civils). Couverture temples (milices 90% sécurisé, cohérence économie perles ; risques mouvants atténués totems, inspirée protections wetland indigènes)."
+        }
+      ]
+    },
+    {
+      "nom": "Oriental",
+      "securite": [
+        {
+          "zone": "Orraveth",
+          "forces_ordre_milices_armees": "Gardes cols (forces ordre mixtes humains/batraciens, 180 individus armés épées magies artisanales, inspirée samouraïs japonais pour montagnes ; patrouilles diplomatiques, recrutement médiateurs via tests). Milices artisans (200 mobilisables pour tensions). Armées claniques (150 pour rivalités Dralvaire).",
+          "tribunaux_methodes_sanction": "Tribunaux maires (jugés anciens places, méthodes : bénédictions vérité magies artisanales, sanctions : amendes pièces ambre (30-150 vols), exil cols (trahisons ; inspirée justices shoguns avec magies).",
+          "couverture_protection_populations": "Protection montagneuse (gardes couvrent 80% territoire cols, magies artisanale barrières contre avalanches ; cohérence populations mixtes). Couverture villages (milices 75% sécurisé, cohérence économie épices ; risques glissements atténués amulettes, inspirée sentinelles andines)."
+        },
+        {
+          "zone": "Thyrvalen",
+          "forces_ordre_milices_armees": "Éclaireurs sylvestres (forces ordre gobelins, 120 individus armés bâtons magies animiste, inspirée guerriers amazoniens pour forêts ; patrouilles cueilleurs, recrutement chamans via visions). Milices tribales (150 mobilisables pour pactes). Armées nomades (100 pour tensions).",
+          "tribunaux_methodes_sanction": "Conseils chamans (jugés clairières, méthodes : illusions vérité magies animiste, sanctions : ostracisme forêt (exil vols), vines punitive (trahisons ; inspirée justices indigènes amazoniennes avec magies).",
+          "couverture_protection_populations": "Protection forestière (éclaireurs couvrent 70% territoire canopée, magies animiste illusions contre intrus ; cohérence populations civils). Couverture clairières (milices 80% sécurisé, cohérence économie résines ; risques brumes atténuées masques, inspirée protections tribales naturelles)."
+        },
+        {
+          "zone": "Vhorak",
+          "forces_ordre_milices_armees": "Gardiens pragmatiques (forces ordre géants, 40 individus armés bâtons magies cosmique, inspirée moines shaolin pour isolation ; surveillance plateaux, recrutement scribes via initiations). Milices monastiques (30 mobilisables rares). Armées neutres (médiations).",
+          "tribunaux_methodes_sanction": "Conseils astronomes (jugés terrasses, méthodes : visions vérité magies cosmiques, sanctions : isolation plateaux (1-6 mois vols), folie stellaire (trahisons ; inspirée tribunaux bouddhistes tibétains avec magies).",
+          "couverture_protection_populations": "Protection isolée (gardiens couvrent 95% territoire plateaux, magies cosmique barrières contre trafics ; cohérence populations scribes). Couverture observatoires (milices 90% sécurisé, cohérence économie cristaux ; risques vents atténués alignements, inspirée sanctuaires himalayens)."
+        },
+        {
+          "zone": "Thulmar",
+          "forces_ordre_milices_armees": "Veilleurs forestiers (forces ordre trolls, 140 individus armés vignes magies végétale, inspirée druides celtiques pour forêts ; patrouilles clairières, recrutement chamans via rites). Milices tribales (160 mobilisables pour pactes). Armées verts (120 pour tensions Grunthalok).",
+          "tribunaux_methodes_sanction": "Conseils anciens (jugés autels, méthodes : justice rituelle magies végétale (vignes vérité), sanctions : ostracisme tribal (exil vols), flétrissement malédiction (trahisons ; inspirée justices druidiques celtiques avec magies).",
+          "couverture_protection_populations": "Protection dense (veilleurs couvrent 80% territoire forêts, magies végétale barrières contre raids ; cohérence populations civils). Couverture clairières (milices 85% sécurisé, cohérence économie bois ; risques tempêtes atténuées magies, inspirée protections celtiques naturelles)."
+        },
+        {
+          "zone": "Kerynth",
+          "forces_ordre_milices_armees": "Veilleurs saisonniers (forces ordre trolls, 130 individus armés bâtons magies givre, inspirée nomades sibériens pour taïga ; patrouilles migrations, recrutement guides via tests). Milices claniques (140 mobilisables pour arbitrages). Armées taïga (110 pour escarmouches).",
+          "tribunaux_methodes_sanction": "Arbitrages chamans (jugés totems, méthodes : dissimulation vérité magies saisons, sanctions : exil hiver (vols), gel malédiction (trahisons ; inspirée justices sibériennes nomades avec magies).",
+          "couverture_protection_populations": "Protection migratoire (veilleurs couvrent 75% territoire taïga, magies givre dissimulation contre traque ; cohérence populations civils). Couverture camps (milices 80% sécurisé, cohérence économie fourrures ; risques gel atténués feux, inspirée protections nomades sibériennes)."
+        }
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "securite": [
+        {
+          "zone": "Islakarion",
+          "forces_ordre_milices_armees": "Patrouilles navales (forces ordre humains, 200 individus armés harpons magies marine, inspirée flottes vénitiennes pour mers ; surveillance ports, recrutement capitaines via tests). Milices portuaires (250 mobilisables pour piraterie). Armées amiraux (180 pour rivalités Lago’Vernis).",
+          "tribunaux_methodes_sanction": "Tribunaux amiraux (jugés places port, méthodes : bénédictions vérité magies marine, sanctions : amendes pièces nacre (50-200 vols), prison quai (1-4 mois), exécution noyade (trahisons ; inspirée justices vénitiennes maritimes avec magies).",
+          "couverture_protection_populations": "Protection maritime (patrouilles couvrent 85% mers, magies marine calme tempêtes ; cohérence populations civils). Couverture ports (milices 90% sécurisé, cohérence économie épices ; risques moussons atténués phares, inspirée gardes vénitiennes)."
+        },
+        {
+          "zone": "Lago’Vernis",
+          "forces_ordre_milices_armees": "Patrouilles ligues (forces ordre humains, 150 individus armés lances magies courants, inspirée gardes caraïbes pour atolls ; surveillance récifs, recrutement capitaines via rites). Milices atolls (180 mobilisables pour contrebande). Armées ligues (140 pour rivalités Islakarion).",
+          "tribunaux_methodes_sanction": "Tribunaux capitaines (jugés tours, méthodes : courants vérité magies, sanctions : ostracisme lagons (exil vols), tourbillons punitive (trahisons ; inspirée justices insulaires polynésiennes avec magies).",
+          "couverture_protection_populations": "Protection lagunaire (patrouilles couvrent 80% atolls, magies courants redirection intrus ; cohérence populations civils). Couverture docks (milices 85% sécurisé, cohérence économie perles ; risques marées atténuées bouées, inspirée protections atolls)."
+        },
+        {
+          "zone": "Venarith",
+          "forces_ordre_milices_armees": "Gardiens médiateurs (forces ordre batraciens, 100 individus armés bâtons magies aquatique, inspirée prêtres aztèques pour lagunes ; arbitrage patrouilles, recrutement chefs via rites). Milices confédérales (120 mobilisables pour résistances). Armées neutres (80 pour arbitrages).",
+          "tribunaux_methodes_sanction": "Tribunaux bassins (jugés chefs, méthodes : chœurs vérité magies rituelles, sanctions : immersion punitive (vols), paralysie malédiction (trahisons ; inspirée justices aztèques aquatiques avec magies).",
+          "couverture_protection_populations": "Protection diplomatique (gardiens couvrent 90% lagunes, magies aquatique barrières contre intrus ; cohérence populations civils). Couverture temples (milices 95% sécurisé, cohérence économie teintes ; risques inondations atténuées chœurs, inspirée sanctuaires lagunaires)."
+        }
+      ]
+    }
+  ]
+}

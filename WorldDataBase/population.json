@@ -1,0 +1,184 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "description": "Peuples civilisés organisés en clans (inspiré des structures vikings scandinaves, avec jarls et thing pour assemblées), adaptés au froid, focus sur survie collective et commerce minier. Population totale estimée : 50 000 individus, densité faible (10/km²) due à climats hostiles.",
+          "zones": ["Valléfrost", "Tronchavale"]
+        },
+        {
+          "race": "Trolls",
+          "description": "Peuples tribaux chamaniques (référence aux sociétés inuits ou sami avec shamanisme et respect des esprits naturels), nomades en petits groupes, emphasis sur rituels forestiers. Population totale : 20 000, densité 5/km² dans forêts humides.",
+          "zones": ["Grunthalok"]
+        },
+        {
+          "race": "Géants",
+          "description": "Peuples isolés monastiques (inspiré des moines tibétains ou ermites himalayens, avec hiérarchies spirituelles et isolation pour méditation), gardiens cosmiques en communautés restreintes. Population totale : 5 000, densité très faible (1/km²) sur sommets.",
+          "zones": ["Slekdor"]
+        },
+        {
+          "race": "Gobelins",
+          "description": "Peuples tribaux instables et nomades (référence aux hordes mongoles ou tribus steppiques avec chefs changeants et raids), pilleurs opportunistes en bandes mobiles. Population totale : 15 000, densité variable (3-10/km²) en steppes maudites.",
+          "zones": ["Ruines de Varkhul"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Dirigeants (chefs claniques, 5% pop, pouvoir héréditaire avec consultation assemblée)", "Artisans (forgerons/marchands, 20%, guildes organisées)", "Militaires/gardes (15%, entraînés en milices)", "Fermiers/civils (60%, base productive)"],
+        "trolls": ["Chamans (leaders spirituels, 10%, élus par visions)", "Guerriers/cueilleurs (30%, protecteurs nomades)", "Artisans/civils (60%, soutien communautaire)"],
+        "geants": ["Observateurs/astronomes (élite, 20%, initiés rituels)", "Scribes/gardiens (30%, gardiens du savoir)", "Civils/tâcherons (50%, soutien logistique)"],
+        "gobelins": ["Chefs tribaux (instables, 5%, par force)", "Pilleurs/guerriers (40%, raids mobiles)", "Civils/esclavagistes (55%, base exploitée)"]
+      },
+      "metiers": {
+        "humains": ["Gouverneurs (administration clanique, inspiré des jarls vikings)", "Forgerons (métal froid, techniques de trempe glaciaire)", "Herboristes (plantes résistantes au gel)", "Gardes (patrouilles armés de haches)", "Pêcheurs/mineurs (exploitation ressources hivernales)"],
+        "trolls": ["Guides forestiers (navigation brumeuse)", "Herboristes rituels (plantes hallucinogènes, référence chamanisme sibérien)", "Sculpteurs de totems (art spirituel)", "Éclaireurs (repérage raids)"],
+        "geants": ["Initiés aux constellations (astronomie rituelle, inspiré observatoires mayas)", "Tâcherons de cristaux (extraction manuelle)", "Gardes rituels (protection sanctuaires)"],
+        "gobelins": ["Chasseurs de reliques (fouilles risquées)", "Collecteurs de soufre (alchimie toxique)", "Esclavagistes (capture pour travail forcé, référence historiques nomades)"]
+      },
+      "structures_familiales": {
+        "humains": "Familles élargies claniques (polygamie rare, héritage patrilinéaire, 4-6 enfants/famille, inspiré sociétés nordiques médiévales avec longhouses partagées)",
+        "trolls": "Tribus matriarcales (mères chamanes centrales, 3-5 enfants, nomadisme saisonnier, référence inuits avec igloos communautaires)",
+        "geants": "Communautés monastiques (célibat fréquent chez élite, adoption rituelle, 1-2 enfants, isolation familiale pour méditation)",
+        "gobelins": "Bandes polygames instables (chefs multiples épouses, 5-8 enfants haut mortalité, référence hordes steppiques avec yourtes mobiles)"
+      },
+      "demographie": {
+        "natalite": "Élevée chez humains/gobelins (taux 30-40/1000, pour compenser mortalité froide/raids), modérée trolls (20/1000, rituels fertilité), faible géants (10/1000, tabous cosmiques)",
+        "reproduction": "Saisonnière printemps (fonte neiges favorise unions), mortalité infantile 20-30% (froid/maladies), espérance vie 45-55 ans humains/trolls, 60+ géants, 35 gobelins",
+        "migrations": "Saisonnières trolls (hiver vers clairières protégées), gobelins raids sud vers Central, humains commerce stable"
+      },
+      "tendances_criminelles": {
+        "marginalite": "Trafic fourrures rares (Valléfrost, guildes clandestines), contrebande armes (Tronchavale, inspirée prohibition historique), enlèvements rituels (Grunthalok, pour sacrifices), trafic cristaux (Slekdor, intermédiaires punis sévèrement), esclavage guerre (Varkhul, marchés noirs steppiques)"
+      }
+    },
+    {
+      "nom": "Central",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "description": "Peuples civilisés en cités-états (référence républiques médiévales italiennes avec guildes et maires élus), agricoles et commerçants. Population totale : 150 000, densité 20/km² dans plaines fertiles.",
+          "zones": ["Dralvaire", "Korvalth"]
+        },
+        {
+          "race": "Batraciens",
+          "description": "Peuples tribaux aquatiques (inspiré cultures mayas avec temples et clans, mais adaptés marécages), religieux et médiateurs. Population totale : 30 000, densité 10/km² en marais.",
+          "zones": ["Feslorin"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Dirigeants (maires/guildes, 5%, pouvoir électif)", "Artisans/marchands (25%, organisés en confréries)", "Fermiers/gardiens (20%, milices locales)", "Civils (50%, base laborieuse)"],
+        "batraciens": ["Chefs de clan/cultistes (10%, hiérarchie religieuse)", "Artisans aquatiques/gardiens (30%, protecteurs)", "Civils (60%, communauté égalitaire)"]
+      },
+      "metiers": {
+        "humains": ["Maires (administration villageoise)", "Tisserands/herboristes (artisanat local)", "Gardiens de routes (patrouilles)", "Agriculteurs/éleveurs (cultures rotatives, référence romaine aqueducs)"],
+        "batraciens": ["Constructeurs palafittes (ingénierie aquatique)", "Messagers (nageurs rapides)", "Collecteurs perles (pêche rituelle)", "Herboristes (poisons/plantes marécageuses)"]
+      },
+      "structures_familiales": {
+        "humains": "Familles nucléaires étendues (mariage monogame, 3-5 enfants, héritage bilatéral, inspiré médiéval européen avec fermes familiales)",
+        "batraciens": "Clans matrilinéaires (femelles centrales pour reproduction, 4-6 œufs/clutch, communauté lagunaire, référence amphibies réels avec métamorphose)"
+      },
+      "demographie": {
+        "natalite": "Modérée (20-25/1000, fertilité sols favorise), reproduction annuelle printemps",
+        "reproduction": "Espérance vie 50-60 ans, mortalité infantile 15% (maladies humides), migrations internes pour commerce",
+        "migrations": "Saisonnières fermiers (récoltes), batraciens vers lagons profonds hiver"
+      },
+      "tendances_criminelles": {
+        "marginalite": "Maisons closes urbaines (Dralvaire, réglementées), contrebande pigments (Korvalth, guildes criminelles), trafic poisons (Feslorin, marchés gris rituels)"
+      }
+    },
+    {
+      "nom": "Oriental",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "description": "Peuples civilisés mixtes (inspiré shogunats japonais avec samouraïs et artisans), commerçants montagneux. Population : 80 000, densité 15/km².",
+          "zones": ["Orraveth"]
+        },
+        {
+          "race": "Gobelins",
+          "description": "Tribaux sylvestres (référence amazoniennes avec chamanisme forestier), cueilleurs nomades. Population : 25 000, densité 8/km².",
+          "zones": ["Thyrvalen"]
+        },
+        {
+          "race": "Géants",
+          "description": "Isolés pragmatiques (inspiré moines shaolin avec discipline), observateurs plateaux. Population : 4 000, densité 1/km².",
+          "zones": ["Vhorak"]
+        },
+        {
+          "race": "Trolls",
+          "description": "Tribaux forestiers (référence celtes avec druides), rituels saisonniers. Population : 40 000, densité 10/km².",
+          "zones": ["Thulmar", "Kerynth"]
+        },
+        {
+          "race": "Batraciens",
+          "description": "Médiateurs mixtes (inspiré polynésiens avec navigation et clans), diplomatiques. Population : 10 000 (minorité).",
+          "zones": ["Orraveth"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Dirigeants (5%, héréditaire/électif)", "Artisans/marchands (25%)", "Gardiens (15%)", "Civils (55%)"],
+        "gobelins": ["Chamans (10%)", "Guerriers/cueilleurs (35%)", "Civils (55%)"],
+        "geants": ["Astronomes (20%)", "Scribes/gardiens (30%)", "Civils (50%)"],
+        "trolls": ["Chamans (10%)", "Guerriers/cueilleurs (30%)", "Civils (60%)"],
+        "batraciens": ["Médiateurs (15%)", "Artisans (25%)", "Civils (60%)"]
+      },
+      "metiers": {
+        "humains": ["Maires/forgerons (artisanat montagneux)", "Gardes de col (patrouilles)", "Messagers (liaisons diplomatiques)"],
+        "gobelins": ["Guides forestiers (navigation canopée)", "Collecteurs bois rares (cueillette durable)"],
+        "geants": ["Initiés constellations (observations nocturnes)", "Tâcherons cristaux (extraction prudente)"],
+        "trolls": ["Guides saisonniers (migrations taïga)", "Collecteurs résines (hallucinogènes)"],
+        "batraciens": ["Interprètes (diplomatie mixte)", "Constructeurs ponts flottants"]
+      },
+      "structures_familiales": {
+        "humains": "Clans patrilinéaires (3-4 enfants, mariages arrangés pour alliances)",
+        "gobelins": "Tribus polygames (4-7 enfants, haut mortalité forêt)",
+        "geants": "Communautés célibataires élite (adoptions rituelles, 1-2 enfants)",
+        "trolls": "Clans communautaires (3-5 enfants, rituels union saisonniers)",
+        "batraciens": "Groupes aquatiques (œufs collectifs, métamorphose guidée)"
+      },
+      "demographie": {
+        "natalite": "Modérée (15-25/1000), reproduction printanière",
+        "reproduction": "Espérance 50-65 ans, mortalité 10-20%, migrations forestières saisonnières",
+        "migrations": "Trolls nord-sud hiver, gobelins lisières pour cueillette"
+      },
+      "tendances_criminelles": {
+        "marginalite": ["Guildes criminelles (Orraveth, trafics clandestins)", "Drogues forestières (Thyrvalen, hallucinogènes)", "Trafic cristaux (Vhorak, sanctions sévères)", "Enlèvements rituels (Thulmar/Kerynth, prostitution tribale)"]
+      }
+    },
+    {
+      "nom": "Archipel méridional",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "description": "Peuples civilisés maritimes (inspiré polynésiens ou caraïbes avec navigateurs et ligues), commerçants insulaires. Population : 100 000, densité 25/km² sur îles.",
+          "zones": ["Islakarion", "Lago’Vernis"]
+        },
+        {
+          "race": "Batraciens",
+          "description": "Tribaux lagunaires (référence aztèques aquatiques avec chinampas), médiateurs judiciaires. Population : 40 000, densité 15/km².",
+          "zones": ["Venarith"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Dirigeants/capitaines (5%, électifs)", "Artisans/marchands (25%)", "Marins/pêcheurs (20%)", "Civils (50%)"],
+        "batraciens": ["Médiateurs/chefs (10%)", "Artisans aquatiques (30%)", "Civils (60%)"]
+      },
+      "metiers": {
+        "humains": ["Amiraux/capitaines (navigation rituelle)", "Forgerons navals (construction voiliers)", "Pêcheurs (réseaux coralliens)", "Marchands portuaires (échanges épices)"],
+        "batraciens": ["Conseillers diplomatiques (arbitrage)", "Constructeurs ponts flottants (ingénierie lagunaire)", "Veilleurs bassins (surveillance rituelle)"]
+      },
+      "structures_familiales": {
+        "humains": "Familles navigatrices (monogames, 3-5 enfants, héritage maritime, inspiré polynésiens avec canoës familiaux)",
+        "batraciens": "Clans aquatiques (polyandrie rare, œufs 5-10/clutch, élevage collectif)"
+      },
+      "demographie": {
+        "natalite": "Élevée (25-30/1000, climats chauds favorisent), reproduction continue",
+        "reproduction": "Espérance 55-65 ans, mortalité 10% (tempêtes), migrations inter-îles pour commerce",
+        "migrations": "Saisonnières moussons (vers atolls protégés)"
+      },
+      "tendances_criminelles": {
+        "marginalite": ["Piraterie/esclavage maritime (Islakarion, marchés noirs)", "Contrebande armes (Lago’Vernis, ligues grises)", "Trafic sexuel organisé (Venarith, médiations forcées)"]
+      }
+    }
+  ]
+}

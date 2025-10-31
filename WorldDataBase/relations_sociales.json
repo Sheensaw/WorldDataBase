@@ -1,0 +1,136 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "relations_sociales": [
+        {
+          "zone": "Valléfrost",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Dirigeants consultent artisans/fermiers assemblées claniques pour décisions (inspiré thing vikings démocratiques, cohérence populations classes ; magies rituelles vérité pour équité). Inter-peuples : Alliances ponctuelles trolls Grunthalok via échanges rituels résines/minerais (cohérence géopolitique, médiations chamans pour conflits). Interactions gobelins Varkhul limitées contrebande (cohérence marchés parallèles).",
+          "mariage": "Mariages arrangés claniques (monogames majoritairement, pour alliances internes, inspiré unions vikings pour héritage ; 3-5 enfants, cérémonies temples solsticiaux avec offrandes magies artisanales bénédictions fertilité, cohérence démographie natalité élevée). Mariages inter-peuples rares (humains-trolls pactes, tabous gobelins chaos).",
+          "hierarchies_sociales": "Hiérarchies claniques (dirigeants au sommet, anciens conseillent, artisans/gardes intermédiaires, civils/fermiers base ; mobilité via mérites rituels comme tests magies, inspirée hiérarchies scandinaves méritocratiques ; cohérence coutumes respect anciens).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage conflits via rituels vérité magies rituelles, influence : décisions collectives respectées, punitions ostracisme/exil ; inspiré conseils vikings elders, cohérence religion vents/spirits)."
+        },
+        {
+          "zone": "Tronchavale",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Militaires/administrateurs dirigent artisans/civils via inspections quotidiennes (inspiré hiérarchie romaine légions, cohérence populations classes ; magies artisanales pour loyauté armes). Inter-peuples : Alliances mixtes Valléfrost humains pour patrouilles, tensions trolls raids (cohérence géopolitique).",
+          "mariage": "Mariages militaires (arrangés grades pour loyauté, monogames, 2-4 enfants, cérémonies temples forge avec bénédictions magies offensives ; cohérence démographie modérée, tabous inter-peuples sauf alliances).",
+          "hierarchies_sociales": "Hiérarchies grade stricte (administrateurs sommet, militaires intermédiaires, artisans/civils base ; mobilité promotions inspections, inspirée légions romaines ; cohérence discipline société).",
+          "mediation_influence_anciens": "Médiation par administrateurs (arbitrage conflits via interrogatoires magies vérité artisanales, influence : anciens conseillent grades, punitions fouet/exil ; inspiré tribunaux romains militaires)."
+        },
+        {
+          "zone": "Grunthalok",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chamans guident guerriers/cueilleurs conseils communautaires (inspiré tribus sibériennes égalitaires, cohérence populations classes ; magies rituelles pour équité visions). Inter-peuples : Pactes verts trolls Thulmar Oriental échanges résines, tensions humains raids (cohérence géopolitique).",
+          "mariage": "Mariages tribaux matriarcales (polygames rares, pour liens communautaires, 3-5 enfants, cérémonies clairières avec offrandes magies illusions bénédictions ; cohérence démographie modérée, inter-peuples pactes rituels).",
+          "hierarchies_sociales": "Hiérarchies spirituelle (chamans sommet, anciens conseillent, guerriers/civils base ; mobilité via visions rituelles, inspirée chamanisme indigène ; cohérence société tribale).",
+          "mediation_influence_anciens": "Médiation par chamans (arbitrage via rituels brume magies illusions, influence : anciens décident équilibre, punitions ostracisme/malédictions ; inspiré conseils indigènes amazoniens)."
+        },
+        {
+          "zone": "Slekdor",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Astronomes dirigent scribes/gardiens méditations hiérarchiques (inspiré monastères tibétains isolés, cohérence populations classes ; magies cosmiques pour équité visions). Inter-peuples : Médiations symboliques rares humains/trolls (cohérence géopolitique).",
+          "mariage": "Mariages monastiques rares (célibat élite, adoptions rituelles, 1-2 enfants, cérémonies alignements magies cosmiques bénédictions ; cohérence démographie faible).",
+          "hierarchies_sociales": "Hiérarchies initiée (astronomes sommet, scribes intermédiaires, tâcherons base ; mobilité initiations rituelles, inspirée lamas tibétains ; cohérence société isolée).",
+          "mediation_influence_anciens": "Médiation par astronomes (arbitrage via visions cosmiques magies, influence : anciens guident alignements, punitions isolation ; inspiré conseils monastiques bouddhistes)."
+        },
+        {
+          "zone": "Ruines de Varkhul",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chefs dirigent pilleurs/civils arbitrage force (inspiré hordes mongoles chaotiques, cohérence populations classes ; magies obscure pour intimidations). Inter-peuples : Contrebande humains sud, tensions tous raids (cohérence géopolitique).",
+          "mariage": "Mariages polygames instables (arrangés chefs pour alliances, 5-8 enfants haut mortalité, cérémonies autels soufre magies instables ; cohérence démographie élevée).",
+          "hierarchies_sociales": "Hiérarchies force (chefs sommet, pilleurs intermédiaires, civils base ; mobilité défis combats, inspirée khans mongols ; cohérence société chaotique).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage conflits via rituels mutation magies obscure, influence : anciens conseillent survie, punitions esclavage ; inspiré justices nomades steppiques)."
+        }
+      ]
+    },
+    {
+      "nom": "Central",
+      "relations_sociales": [
+        {
+          "zone": "Dralvaire",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Dirigeants consultent artisans/fermiers guildes (inspiré républiques italiennes renaissance, cohérence populations classes ; magies collective pour équité). Inter-peuples : Arbitrages batraciens Feslorin pour rivalités Korvalth (cohérence géopolitique).",
+          "mariage": "Mariages monogames arrangés (pour alliances guildes, 3-5 enfants, cérémonies temples agricoles magies bénédictions fertilité ; cohérence démographie modérée).",
+          "hierarchies_sociales": "Hiérarchies villageoise (maires sommet, anciens conseillent, artisans/fermiers base ; mobilité guildes, inspirée cités-états grecques ; cohérence société consultative).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage via rituels vérité magies collective, influence : décisions partagées, punitions amendes/ostracisme ; inspiré conseils grecques elders)."
+        },
+        {
+          "zone": "Korvalth",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Anciens guident gardiens/civils consensus (inspiré druidiques celtiques, cohérence populations classes ; magies défensive pour équité). Inter-peuples : Tensions Dralvaire arbitrées Feslorin (cohérence géopolitique).",
+          "mariage": "Mariages communautaires (monogames, 2-4 enfants, cérémonies clairières magies illusion bénédictions ; cohérence démographie).",
+          "hierarchies_sociales": "Hiérarchies consensus (anciens sommet, gardiens intermédiaires, civils base ; mobilité rites, inspirée celtiques tribaux).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage illusions vérité magies défensive, influence : traditions respectées, punitions ostracisme ; inspiré conseils druidiques)."
+        },
+        {
+          "zone": "Feslorin",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chefs médiatent artisans/civils chœurs (inspiré mayas claniques, cohérence populations classes ; magies rituelles pour équité). Inter-peuples : Arbitrages avec Dralvaire (cohérence géopolitique).",
+          "mariage": "Mariages matrilinéaires (polyandrie rare, 4-6 œufs, cérémonies bassins magies aquatique bénédictions ; cohérence démographie).",
+          "hierarchies_sociales": "Hiérarchies confédérale (chefs sommet, cultistes intermédiaires, civils base ; mobilité rites, inspirée aztèques claniques).",
+          "mediation_influence_anciens": "Médiation par chefs (arbitrage chœurs vérité magies rituelles, influence : anciens guident équilibre, punitions immersion ; inspiré tribunaux mayas)."
+        }
+      ]
+    },
+    {
+      "nom": "Oriental",
+      "relations_sociales": [
+        {
+          "zone": "Orraveth",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Dirigeants consultent artisans/gardiens guildes (inspiré shoguns japonais, cohérence populations mixtes ; magies artisanales pour équité). Inter-peuples : Médiations batraciens avec trolls (cohérence géopolitique).",
+          "mariage": "Mariages arrangés mixtes (monogames, 3-4 enfants, cérémonies temples vents magies bénédictions ; cohérence démographie).",
+          "hierarchies_sociales": "Hiérarchies artisanale (maires sommet, médiateurs intermédiaires, civils base ; mobilité guildes, inspirée japonaises féodales).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage bénédictions vérité magies artisanales, influence : décisions consultatives, punitions amendes/exil ; inspiré conseils shinto)."
+        },
+        {
+          "zone": "Thyrvalen",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chamans guident guerriers/civils conseils (inspiré amazoniens tribaux, cohérence populations gobelins ; magies animiste pour équité). Inter-peuples : Pactes Thulmar trolls (cohérence géopolitique).",
+          "mariage": "Mariages polygames tribaux (4-7 enfants, cérémonies clairières magies illusions ; cohérence démographie haute mortalité).",
+          "hierarchies_sociales": "Hiérarchies tribale (chamans sommet, guerriers intermédiaires, civils base ; mobilité rites, inspirée amazoniennes).",
+          "mediation_influence_anciens": "Médiation par chamans (arbitrage illusions vérité magies animiste, influence : anciens décident, punitions exil ; inspiré conseils amazoniens)."
+        },
+        {
+          "zone": "Vhorak",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Astronomes dirigent scribes/tâcherons méditations (inspiré tibétains monastiques, cohérence populations géants ; magies cosmiques pour équité). Inter-peuples : Médiations rares intermédiaires (cohérence géopolitique).",
+          "mariage": "Mariages rares célibat élite (adoptions rituelles, 1-2 enfants, cérémonies alignements magies cosmiques).",
+          "hierarchies_sociales": "Hiérarchies initiée (astronomes sommet, scribes intermédiaires, tâcherons base ; mobilité initiations, inspirée lamas tibétains).",
+          "mediation_influence_anciens": "Médiation par astronomes (arbitrage visions vérité magies cosmiques, influence : anciens guident, punitions isolation ; inspiré conseils tibétains)."
+        },
+        {
+          "zone": "Thulmar",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chamans guident guerriers/civils conseils (inspiré celtiques tribaux, cohérence populations trolls ; magies végétale pour équité). Inter-peuples : Pactes Grunthalok (cohérence géopolitique).",
+          "mariage": "Mariages communautaires (3-5 enfants, cérémonies autels magies végétale).",
+          "hierarchies_sociales": "Hiérarchies tribale (chamans sommet, anciens conseillent, civils base ; mobilité rites).",
+          "mediation_influence_anciens": "Médiation par chamans (arbitrage vignes vérité magies végétale, influence : anciens décident, punitions ostracisme ; inspiré conseils celtiques)."
+        },
+        {
+          "zone": "Kerynth",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chamans guident cueilleurs/civils arbitrage (inspiré sibériens nomades, cohérence populations trolls ; magies saisons pour équité). Inter-peuples : Arbitrages Thulmar (cohérence géopolitique).",
+          "mariage": "Mariages claniques (3-5 enfants, cérémonies totems magies givre).",
+          "hierarchies_sociales": "Hiérarchies clanique (chamans sommet, guides intermédiaires, civils base ; mobilité tests).",
+          "mediation_influence_anciens": "Médiation par chamans (arbitrage dissimulation vérité magies saisons, influence : anciens guident, punitions exil ; inspiré conseils sibériens)."
+        }
+      ]
+    },
+    {
+      "nom": "Archipel méridional",
+      "relations_sociales": [
+        {
+          "zone": "Islakarion",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Dirigeants consultent marins/civils capitaines (inspiré polynésiens navigatrices, cohérence populations classes ; magies marine pour équité). Inter-peuples : Rivalités Lago’Vernis arbitrées Venarith (cohérence géopolitique).",
+          "mariage": "Mariages navigatrices monogames (3-5 enfants, cérémonies phares magies marine).",
+          "hierarchies_sociales": "Hiérarchies maritime (amiraux sommet, capitaines intermédiaires, civils base ; mobilité tests).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage prières vérité magies marine, influence : décisions consultatives, punitions amendes/exil ; inspiré conseils polynésiens)."
+        },
+        {
+          "zone": "Lago’Vernis",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Capitaines médiatent artisans/civils ligues (inspiré caraïbes insulaires, cohérence populations classes ; magies courants pour équité). Inter-peuples : Rivalités Islakarion arbitrées (cohérence géopolitique).",
+          "mariage": "Mariages ligues monogames (2-4 enfants, cérémonies entrepôts magies courants).",
+          "hierarchies_sociales": "Hiérarchies ligue (capitaines sommet, anciens conseillent, civils base ; mobilité rites).",
+          "mediation_influence_anciens": "Médiation par anciens (arbitrage courants vérité magies, influence : équilibre, punitions ostracisme ; inspiré conseils caraïbes)."
+        },
+        {
+          "zone": "Venarith",
+          "interactions_interclasses_interpeuples": "Interactions interclasses : Chefs médiatent artisans/civils chœurs (inspiré aztèques claniques, cohérence populations classes ; magies rituelles pour équité). Inter-peuples : Arbitrages Islakarion-Lago’Vernis (cohérence géopolitique).",
+          "mariage": "Mariages matrilinéaires (4-6 œufs, cérémonies bassins magies aquatique).",
+          "hierarchies_sociales": "Hiérarchies confédérale (chefs sommet, cultistes intermédiaires, civils base ; mobilité rites).",
+          "mediation_influence_anciens": "Médiation par chefs (arbitrage chœurs vérité magies rituelles, influence : anciens guident, punitions immersion ; inspiré tribunaux aztèques)."
+        }
+      ]
+    }
+  ]
+}

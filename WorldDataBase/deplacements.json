@@ -1,0 +1,189 @@
+{
+  "continents": [
+    {
+      "nom": "Nordique",
+      "modes_de_deplacement": {
+        "terrestre": [
+          "Marche à pied ou skis glaciaires (adaptés aux neiges permanentes, utilisés par patrouilles et marchands pour distances courtes <10 km, vitesse moyenne 3-5 km/h en terrain enneigé)",
+          "Caravanes tractées par bêtes robustes (rennes ou yaks arctiques, pour transport de minerais et fourrures, capacité 500-1000 kg, vitesse 4 km/h sur routes gelées, formations en convoi pour sécurité contre vents)",
+          "Traîneaux à chiens ou loups domestiqués (rapides pour messagers, jusqu'à 10 km/h sur glace lisse, limités à 200 kg, utilisés en hiver pour liaisons urgentes entre postes)"
+        ],
+        "maritime": [
+          "Aucun majeur, mais radeaux fluviaux gelés (sur rivières partiellement dégelées en été, pour transport local de bois, radeaux en bois renforcé, vitesse 2-3 km/h avec courants, risques de crues soudaines)"
+        ],
+        "aerien": [
+          "Rare : invocations magiques rituelles (tempêtes ponctuelles pour transport aérien limité, réservé aux chamans trolls ou géants, distance max 5 km, tabous stricts pour éviter backlash magique, utilisé en urgence pour médiations)"
+        ]
+      },
+      "reseaux_de_transport": {
+        "routes_commerciales": [
+          "Route Glaciverne-Ferthys (col glaciaire ouest-est, 30 km pavé partiel, caravanes bi-hebdomadaires pour minerais et sel, traversée en 8-10 heures, ponts de glace renforcés sur crevasses)",
+          "Sentiers Varkhul-Dralvaire (steppe sud, 35 km tracé nomade, caravanes gobelines pour reliques toxiques, 6-8 heures à pied, tunnels naturels sous dunes de neige pour abri)"
+        ],
+        "cols": [
+          "Col Périlleux Tronchavale-Grunthalok (est, altitude 2500m, 20 km escarpé, tunnels creusés pour éviter avalanches, utilisés par patrouilles mixtes, traversée 5-7 heures avec pauses pour vents)"
+        ],
+        "tunnels": [
+          "Tunnels miniers Valléfrost (sous-glaciaires, 5-10 km réseaux interconnectés, pour transport interne de minerais, chariots sur rails de bois, éclairage par torches runiques, risques d'effondrement gelé)"
+        ],
+        "voies_navigables": [
+          "Rivière Glaciverne en été (150 km partiellement navigable, radeaux pour bois médicinal, 2-4 km/h, barrages naturels de glace limitant sections)"
+        ]
+      },
+      "securite_des_trajets": {
+        "patrouilles": [
+          "Postes de patrouille tous les 10 km sur routes principales (Valléfrost-Tronchavale : gardes humains armés de lances, rotations nocturnes rituelles pour protections magiques contre bêtes sauvages)",
+          "Patrouilles chamaniques forestières (Grunthalok : trolls éclaireurs tous les 5 km, illusions brumeuses pour dissuasion, focus sur raids gobelins)"
+        ],
+        "balises": [
+          "Totems et runes protectrices (cols et sentiers : bois gravé ou pierre, émettent lueurs magiques en cas de danger, espacées 2-3 km, maintenues par rituels saisonniers)",
+          "Balises de cristal (Slekdor : piliers cosmiques, visibles à 5 km, codées pour guider astronomes, protections contre tempêtes invoquées)"
+        ],
+        "dangers_naturels": [
+          "Avalanches et blizzards (vallées : visibilité nulle, risques élevés hiver, atténués par balises sonores activées par vent)",
+          "Brumes toxiques et sols instables (steppes Varkhul : émanations soufrées causant hallucinations, dangers évités par masques rituels et guides locaux)",
+          "Vents violents et chutes de pierres (sommets : rafales >100 km/h, sécurisé par chaînes fixes sur cols et abris creusés)"
+        ]
+      }
+    },
+    {
+      "nom": "Central",
+      "modes_de_deplacement": {
+        "terrestre": [
+          "Marche ou chariots tirés par chevaux (plaines fertiles, vitesse 5-7 km/h sur routes pavées, pour fermiers et marchands, capacité 300-600 kg pour céréales)",
+          "Caravanes organisées par guildes (Dralvaire-Korvalth, bœufs robustes, 4 km/h, formations en cercle pour camps nocturnes contre pillards)",
+          "Patrouilles à cheval (forêts, éclaireurs armés, 8-10 km/h sur sentiers, pour sécurité routière)"
+        ],
+        "maritime": [
+          "Barques et radeaux sur canaux (Feslorin marécages, propulsion à perche, 3-5 km/h, pour perles et plantes, radeaux flottants en roseaux, capacité 200 kg)",
+          "Navires côtiers légers (mer sud, voiliers pour liaisons vers Archipel, 10-15 km/h avec vents, utilisés par marchands humains)"
+        ],
+        "aerien": [
+          "Rare : illusions forestières pour dissimulation (Korvalth, magie défensive pour éclaireurs volants limités, distance 2-3 km, dépendante de biotope, tabous contre abus)"
+        ]
+      },
+      "reseaux_de_transport": {
+        "routes_commerciales": [
+          "Route Champsorne-Korvalth (pavée est-ouest, 40 km, caravanes quotidiennes pour bois et épices, ponts sur rivières, traversée 6-8 heures)",
+          "Chemins ruraux Dralvaire (sentiers agricoles rayonnants, 5-15 km, chariots pour récoltes locales, interconnectés via places centrales)"
+        ],
+        "cols": [
+          "Aucun majeur, mais passages collinaires (Korvalth : basses altitudes 500m, 10 km sentiers boisés, tunnels naturels pour abri pluvieux)"
+        ],
+        "tunnels": [
+          "Tunnels forestiers artisanaux (Korvalth : creusés pour contournement ravins, 2-5 km, rails en bois pour chariots, éclairage par lanternes solaires)"
+        ],
+        "voies_navigables": [
+          "Canaux Feslorin (réseau marécageux 100 km interconnectés, barques pour commerce aquatique, passerelles suspendues pour liaisons terrestres mixtes)"
+        ]
+      },
+      "securite_des_trajets": {
+        "patrouilles": [
+          "Patrouilles régulières guildes (routes principales : gardes humains tous les 5 km, relais de messagers à cheval pour alertes rapides)",
+          "Patrouilles barques batraciennes (voies aquatiques : tous les 3 km, signaux de cloche pour brumes marécageuses)"
+        ],
+        "balises": [
+          "Bornes de pierre et lanternes solaires (routes pavées : espacées 1-2 km, illuminées nuit pour visibilité, gravées de runes agricoles protectrices)",
+          "Totems protecteurs aquatiques (canaux : flottants, émettent sons en cas d'intrusion, maintenus par rituels collectifs)"
+        ],
+        "dangers_naturels": [
+          "Inondations saisonnières (plaines : crues fluviales printanières, atténuées par digues et clochettes d’avertissement)",
+          "Brouillards denses et marais mouvants (Feslorin : sables mouvants, sécurisé par guides locaux et passerelles stables)",
+          "Tempêtes forestières (Korvalth : chutes d'arbres, dangers évités par tours de guet et avertissements sonores)"
+        ]
+      }
+    },
+    {
+      "nom": "Oriental",
+      "modes_de_deplacement": {
+        "terrestre": [
+          "Marche ou mules montagnardes (Orraveth, vitesse 4-6 km/h sur sentiers escarpés, pour artisans et messagers, capacité 100-200 kg)",
+          "Caravanes tribales gobelines (forêts, bêtes forestières comme cerfs géants, 3 km/h, pour résines rares, formations dispersées pour camouflage)",
+          "Migrations saisonnières à pied (Kerynth taïga, groupes trolls, 5 km/h, avec plateformes mobiles pour camps)"
+        ],
+        "maritime": [
+          "Radeaux forestiers (ruisseaux, propulsion manuelle, 2-4 km/h, pour bois précieux, limités à eaux calmes)"
+        ],
+        "aerien": [
+          "Invocations animistes (forêts Thulmar/Thyrvalen : illusions pour lévitation limitée, chamans seulement, distance 3-5 km, dépendante de canopée, tabous contre perturbation esprits)"
+        ]
+      },
+      "reseaux_de_transport": {
+        "routes_commerciales": [
+          "Route Orraval-Feslorin (col ouest-est, 30 km pavé montagneux, caravanes hebdomadaires pour minerais, ponts en bois sur ravins, traversée 7-9 heures)",
+          "Sentiers forestiers Thulmar-Grunthalok (ouest, 40 km boisés, tribaux pour échanges rituels, passerelles suspendues sur ruisseaux)"
+        ],
+        "cols": [
+          "Cols montagneux Orraveth (altitude 2000m, 15 km escarpés, tunnels rituels pour vents, utilisés par patrouilles mixtes humains-batraciens)"
+        ],
+        "tunnels": [
+          "Tunnels cosmiques Vhorak (plateaux, creusés rituellement 3-5 km, pour liaisons observatoires, éclairage cristallin naturel)"
+        ],
+        "voies_navigables": [
+          "Ruisseaux taïga Kerynth (saisonniers 50 km, radeaux pour fourrures, barrages naturels hivernaux limitant usage)"
+        ]
+      },
+      "securite_des_trajets": {
+        "patrouilles": [
+          "Patrouilles mixtes cols (Orraveth : humains-batraciens tous les 8 km, relais pour repos, focus sur tensions commerciales)",
+          "Patrouilles chamaniques forêts (Thulmar : trolls tous les 4 km, balises naturelles pour illusions défensives)"
+        ],
+        "balises": [
+          "Pierres gravées et totems (cols et sentiers : espacées 2 km, codées pour guidance, protections magiques contre illusions adverses)",
+          "Balises de cristal plateaux (Vhorak : luminescentes, visibles 3 km, surveillées rituellement contre trafics)"
+        ],
+        "dangers_naturels": [
+          "Glissements de terrain montagneux (Orraveth : pluies causant éboulements, atténués par chaînes fixes et signaux visuels)",
+          "Brumes hallucinogènes forêts (Thyrvalen : vents transportant résines, dangers évités par masques et guides chamans)",
+          "Gel hivernal taïga (Kerynth : sentiers glissants, sécurisé par balises saisonnières et feux de camp mobiles)"
+        ]
+      }
+    },
+    {
+      "nom": "Archipel méridional",
+      "modes_de_deplacement": {
+        "terrestre": [
+          "Marche sur passerelles (lagunes, vitesse 4 km/h, pour médiateurs batraciens, limités à îles interconnectées)",
+          "Chariots légers insulaires (Islakarion, tirés par buffles aquatiques, 5 km/h sur chemins boisés, pour épices locales)"
+        ],
+        "maritime": [
+          "Navires voiliers humains (mers, 10-20 km/h avec vents, pour commerce inter-îles, capacité 5-10 tonnes, armés contre piraterie)",
+          "Radeaux et barques batraciennes (lagons, propulsion à rame ou voile légère, 4-6 km/h, pour perles, radeaux en corail renforcé)"
+        ],
+        "aerien": [
+          "Rare : bénédictions marines (Islakarion, magie pour vents favorables limités, capitaines rituels, distance 5-10 km, tabous solsticiaux)"
+        ]
+      },
+      "reseaux_de_transport": {
+        "routes_commerciales": [
+          "Routes maritimes Islakarion-Lago’Vernis (est-ouest, 20 km mers calmes, navires quotidiens pour corail, phares pour navigation nocturne)",
+          "Chemins de lagunes Venarith (sud, 30 km passerelles et canaux, barques pour diplomatie, ponts flottants sur atolls)"
+        ],
+        "cols": [
+          "Aucun, mais passages récifaux (atolls : canaux naturels 5 km, tunnels sous-marins mineurs pour plongeurs batraciens)"
+        ],
+        "tunnels": [
+          "Tunnels coralliens submergés (Lago’Vernis : 2-3 km pour liaisons atolls, utilisés par nageurs experts, éclairage bioluminescent)"
+        ],
+        "voies_navigables": [
+          "Mers tropicales archipel (réseau 300 km interconnecté, navires pour routes secrètes, bouées sacrées pour courants)"
+        ]
+      },
+      "securite_des_trajets": {
+        "patrouilles": [
+          "Patrouilles navales humaines (mers : tous les 10 km, gardes armés sur voiliers, rotations diurnes contre piraterie)",
+          "Patrouilles médiateurs lagunaires (Venarith : batraciens tous les 5 km, signaux lumineux pour arbitrages)"
+        ],
+        "balises": [
+          "Phares rituels et bouées sacrées (mers : espacées 5 km, illuminées solsticiaux, protections magiques contre tempêtes)",
+          "Balises bioluminescentes (lagons : flottantes, visibles 2 km, maintenues par chœurs rituels)"
+        ],
+        "dangers_naturels": [
+          "Tempêtes moussons (mers : vents >80 km/h saisonniers, atténués par abris atolls et signaux de fumée)",
+          "Courants traîtres lagons (Lago’Vernis : tourbillons coralliens, sécurisé par guides locaux et tours d’observation)",
+          "Inondations tidal lagunes (Venarith : marées hautes, dangers évités par ponts suspendus et alertes rituelles)"
+        ]
+      }
+    }
+  ]
+}
