@@ -1,0 +1,853 @@
+{
+  "world": {
+    "continents": [
+      {
+        "continent": "Nordique",
+        "zones": [
+          {
+            "nom": "Valléfrost",
+            "climat": "Vallées glaciaires",
+            "population": {
+              "humains": {
+                "clans": 3,
+                "classes": ["dirigeants", "artisans", "marchands", "gardes", "fermiers", "civils"],
+                "employs": ["gouverneurs", "forgerons", "charpentiers", "herboristes", "gardes", "scribes", "pêcheurs", "mineurs"]
+              }
+            },
+            "architecture": {
+              "Glaciverne": {
+                "type": ["fortifications en pierre et bois", "toits inclinés", "places de marché", "temples solsticiaux"],
+                "infrastructure": ["grandes places", "ponts", "marchés couverts", "réservoirs d'eau", "tour de guet centrale"]
+              },
+              "hameaux_agricoles": {
+                "type": ["maisons de bois et pierre", "granges", "silos", "puits"],
+                "infrastructure": ["chemins pavés simples", "clôtures en bois", "ponts de bois sur ruisseaux"]
+              },
+              "postes_de_col": {
+                "type": ["tours de guet", "cabanes pour patrouilles"],
+                "infrastructure": ["chemins sécurisés", "balises rituelles", "points de ravitaillement"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Route Glaciverne-Ferthys",
+                "type": "col glaciaire",
+                "sécurité": "postes de patrouille tous les 10 km, patrouilles rituelles la nuit",
+                "balises": "totems et runes protectrices"
+              },
+              {
+                "nom": "Chemins vers hameaux",
+                "type": "sentiers ruraux",
+                "balises": "totems en bois"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "main droite levée + inclinaison",
+              "formules": "Que les vents glacés te protègent",
+              "repas_communautaires": "fêtes solsticiales",
+              "marchés": "régulés par guildes",
+              "interactions": "respect des anciens, hiérarchie clanique, consultation avant décisions"
+            },
+            "vêtements": {
+              "dirigeants": "peaux épaisses brodées du symbole du clan",
+              "artisans": "tabliers renforcés",
+              "gardes": "cuir et métal léger",
+              "civils": "laine et fourrures simples",
+              "fermiers": "vêtements robustes, manteaux à capuche"
+            },
+            "magie": {
+              "types": ["artisanale", "rituelle"],
+              "effets": ["protections", "bénédictions agricoles", "tempêtes ponctuelles"],
+              "limitations": "faible hors vallée"
+            },
+            "conflits": "guerres frontalières avec Tronchavale/Grunthalok; trêves à la fonte des neiges",
+            "ressources": ["minerais rares", "bois médicinal", "fourrures", "sel importé"],
+            "lingua_franca": "humaine, commerce inter-clans et avec Dralvaire",
+            "marches_paralleles": ["trafic de fourrures rares", "contrebande d'ambre", "prostitution saisonnière encadrée"]
+          },
+          {
+            "nom": "Tronchavale",
+            "climat": "Vallées fluviales, vents violents",
+            "population": {
+              "humains": {
+                "classes": ["militaires", "administrateurs", "artisans", "marchands", "espions", "civils"],
+                "employs": ["soldats", "garnisons", "forgerons", "messagers", "explorateurs"]
+              }
+            },
+            "architecture": {
+              "Ferthys": {
+                "type": ["fortifications massives", "ateliers de forge", "casernes", "places de marché"],
+                "infrastructure": ["ponts", "tours", "places centrales", "camps annexes"]
+              },
+              "villages_militaires": {
+                "type": ["casernes", "tours de garde", "routes pavées"],
+                "infrastructure": ["camps annexes", "petites places de rassemblement"]
+              },
+              "forges": {
+                "type": ["ateliers en pierre", "fours à charbon"],
+                "infrastructure": ["zones de stockage métal", "aires de trempe"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Route Ferthys-Glaciverne",
+                "type": "col périlleux",
+                "balises": "balises rituelles et patrouilles mixtes"
+              },
+              {
+                "nom": "Sentiers villages militaires",
+                "type": "routes pavées locales",
+                "balises": "balises de fer, signaux de fumée"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison + toucher ceinture/arme",
+              "formules": "Forge bénie",
+              "discipline": "hiérarchie respectée, inspection quotidienne",
+              "interactions": "respect strict du grade; décisions centralisées"
+            },
+            "vêtements": {
+              "soldats": "armures légères et cuir renforcé",
+              "forgerons": "tabliers de cuir",
+              "administrateurs": "robes officielles",
+              "civils": "tunique simple, manteau imperméable"
+            },
+            "magie": {
+              "types": ["artisanale offensive et défensive"],
+              "limitations": "dépend métal et climat; faible hors vallée"
+            },
+            "conflits": "raids sur Grunthalok; alliances ponctuelles avec Valléfrost",
+            "ressources": ["minerais", "sel gemme", "céréales importées"],
+            "lingua_franca": "humaine (armée et commerce)",
+            "marches_paralleles": ["esclavage de guerre (trolls captifs)", "contrebande d’armes", "prostitution forcée"]
+          },
+          {
+            "nom": "Grunthalok",
+            "climat": "Plateau humide, forêts",
+            "population": {
+              "trolls": {
+                "classes": ["chamans", "guerriers", "cueilleurs", "artisans", "civils"],
+                "employs": ["guides", "messagers", "herboristes", "sculpteurs", "éclaireurs forestiers"]
+              }
+            },
+            "architecture": {
+              "villages_chamaniques": {
+                "type": ["huttes de bois et branchages", "clairières sanctuarisées", "totems"],
+                "infrastructure": ["sentiers forestiers", "relais chamaniques"]
+              },
+              "clairières_sanctuarisées": {
+                "type": ["cercle de pierres", "autels naturels"],
+                "infrastructure": ["zones de rituels", "aires de méditation"]
+              },
+              "sentiers_relais": {
+                "type": ["sentiers de forêt", "balises naturelles"],
+                "infrastructure": ["postes discrets", "ponts de bois"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers chamaniques",
+                "balises": "totems et marques de rituels"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "gestes vers le sol ou totems",
+              "offrandes": "avant d’entrer dans clairières",
+              "rituels": "chants, danses, offrandes",
+              "interactions": "respect des anciens et des esprits; décisions communautaires"
+            },
+            "vêtements": {
+              "chamans": "robes chamaniques, ornements de plumes, tatouages rituels",
+              "guerriers": "peaux légères, amulettes",
+              "civils": "peaux simples",
+              "artisans": "tabliers renforcés"
+            },
+            "magie": {
+              "types": ["brumes", "illusions défensives"],
+              "limitations": "forte en forêt, inefficace hors biotope"
+            },
+            "conflits": "raids défensifs sur Tronchavale; échanges rituels avec Thulmar/Kerynth",
+            "ressources": ["bois hallucinogène", "plantes rituelles", "résines"],
+            "lingua_franca": "trollique partielle",
+            "marches_paralleles": ["drogues hallucinogènes (faible hors forêt)", "enlèvements rituels", "prostitution tribale régulée"]
+          },
+          {
+            "nom": "Slekdor",
+            "climat": "Sommets isolés",
+            "population": {
+              "geants": {
+                "classes": ["observateurs", "astronomes", "scribes", "gardiens"],
+                "employs": ["gardes rituels", "initiation aux constellations", "tâcherons de cristaux"]
+              }
+            },
+            "architecture": {
+              "observatoires": {
+                "type": ["tours massives en pierre", "terrasses", "sanctuaires"],
+                "infrastructure": ["ponts suspendus", "autels astronomiques"]
+              },
+              "forts_monasteres": {
+                "type": ["massifs en pierre", "terrasses", "sanctuaires"],
+                "infrastructure": ["passerelles", "ponts"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers astronomiques",
+                "balises": "piliers de cristal et marques codées"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison et dépôt d’offrande aux cristaux",
+              "tabous": "silence obligatoire; respect alignements",
+              "interactions": "consultation hiérarchique pour actions communes"
+            },
+            "vêtements": {
+              "astronomes": "tuniques brodées, capes lourdes, ornements de cristal",
+              "gardiens": "robes cérémonielles"
+            },
+            "magie": {
+              "types": ["cosmique rituelle"],
+              "limitations": "usage rare et codifié; tabous stricts"
+            },
+            "conflits": "interventions rares; médiations symboliques",
+            "ressources": ["cristaux rares", "pierre étoilée"],
+            "lingua_franca": "quasi absente",
+            "marches_paralleles": ["trafic clandestin de cristaux par intermédiaires humains/batraciens; sanctions sévères"]
+          },
+          {
+            "nom": "Ruines de Varkhul",
+            "climat": "Steppe maudite",
+            "population": {
+              "gobelins": {
+                "classes": ["tribus instables", "pilleurs", "civils"],
+                "employs": ["guerriers", "chasseurs de reliques", "collecteurs de soufre", "esclavagistes"]
+              }
+            },
+            "architecture": {
+              "villages_tribaux": {
+                "type": ["tentes, huttes improvisées"],
+                "infrastructure": ["chemins tracés, postes de guet mobiles"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers Varkhul-Dralvaire",
+                "type": "steppe ouverte",
+                "sécurité": "patrouilles limitées, balises de pierre"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison ou contact verbal rapide",
+              "interactions": "dépendance aux chefs tribaux, arbitrage par anciens"
+            },
+            "vêtements": {
+              "guerriers": "cuirs et fourrures improvisées",
+              "civils": "tuniques légères, capes",
+              "pilleurs": "capuches et peaux de bêtes"
+            },
+            "magie": {
+              "types": ["magie obscure instable"],
+              "limitations": "auto-destructrice; effets instables"
+            },
+            "conflits": "pillages, guerres internes entre tribus",
+            "ressources": ["reliques rares", "soufre toxique", "métaux corrompus"],
+            "lingua_franca": "quasi absente",
+            "marches_paralleles": ["esclavage rituel", "trafic d’êtres vivants", "drogues corrompues"]
+          }
+
+        ]
+      },
+      {
+        "continent": "Central",
+        "zones": [
+          {
+            "nom": "Dralvaire",
+            "climat": "Plaines fertiles, collines",
+            "population": {
+              "humains": {
+                "classes": ["dirigeants", "artisans", "marchands", "fermiers", "civils"],
+                "employs": ["maires", "forgerons", "tisserands", "herboristes", "gardiens de routes", "scribes", "agriculteurs", "éleveurs"]
+              }
+            },
+            "architecture": {
+              "Champsorne": {
+                "type": ["maisons de pierre et bois", "places centrales", "temples agricoles", "greniers collectifs"],
+                "infrastructure": ["rues pavées", "puits publics", "ponts sur rivières", "marchés couverts"]
+              },
+              "vallées_marchandes": {
+                "type": ["villages commerçants", "hall de marché"],
+                "infrastructure": ["rues pavées", "places de négociation", "entrepôts"]
+              },
+              "villages": {
+                "type": ["maisons en bois", "granges", "silos"],
+                "infrastructure": ["chemins ruraux", "ponts simples", "clôtures agricoles"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Route Champsorne-Korvalth",
+                "type": "route pavée principale",
+                "sécurité": "patrouilles régulières, relais de messagers",
+                "balises": "bornes de pierre, lanternes solaires"
+              },
+              {
+                "nom": "Chemins ruraux",
+                "type": "sentiers agricoles",
+                "sécurité": "clochettes d’avertissement, gardiens locaux"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison du torse + poignée de main",
+              "formules": "Que la récolte soit généreuse",
+              "repas_communautaires": "festivals saisonniers",
+              "interactions": "consultation des anciens; respect hiérarchie villageoise; partage des surplus"
+            },
+            "vêtements": {
+              "dirigeants": "robes brodées, capes lourdes, symboles du domaine",
+              "artisans": "tabliers renforcés, outils attachés",
+              "fermiers": "tuniques en lin, manteaux de laine",
+              "marchands": "robes colorées, ceintures utilitaires",
+              "civils": "vêtements simples en laine et lin"
+            },
+            "magie": {
+              "types": ["agricole", "rituelle collective"],
+              "effets": ["fertilité des sols", "protection des récoltes", "contrôle des eaux d’irrigation"],
+              "limitations": "rituels lents, faible effet hors zones agricoles"
+            },
+            "conflits": "rivalités internes entre cités-états; menaces de pillards de Varkhul",
+            "ressources": ["céréales", "épices rares", "minerais moyens", "sel importé critique"],
+            "lingua_franca": "humaine standardisée par guildes",
+            "marches_paralleles": ["maisons closes", "alcools détournés en drogues", "prostitution urbaine encadrée"]
+          },
+          {
+            "nom": "Korvalth",
+            "climat": "Collines boisées, forêts tempérées",
+            "population": {
+              "humains": {
+                "classes": ["dirigeants", "artisans", "gardiens", "civils", "cueilleurs"],
+                "employs": ["chefs locaux", "forgerons", "tisserands", "gardes forestiers", "chasseurs", "collecteurs de plantes"]
+              }
+            },
+            "architecture": {
+              "fortins": {
+                "type": ["fortifications légères", "tours de garde", "maisons en bois"],
+                "infrastructure": ["rues forestières", "ponts sur ruisseaux", "aires de marché"]
+              },
+              "villages": {
+                "type": ["maisons en bois et pierre", "granges", "silos"],
+                "infrastructure": ["chemins forestiers", "ponts de bois", "clôtures"]
+              },
+              "confréries": {
+                "type": ["bâtiments pour artisans et guildes", "salles de réunion"],
+                "infrastructure": ["places publiques", "zones d’apprentissage"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Route Korvalth-Dralvaire",
+                "type": "route principale",
+                "sécurité": "patrouilles locales, tours de garde",
+                "balises": "bornes en bois et pierres rituelles"
+              },
+              {
+                "nom": "Sentiers forestiers",
+                "type": "chemins secondaires",
+                "sécurité": "points de guet, avertissements sonores"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison + geste de la main sur le cœur",
+              "formules": "Que la forêt te guide",
+              "interactions": "consensus villageois; respect des aînés et des traditions forestières"
+            },
+            "vêtements": {
+              "dirigeants": "robes brodées avec symboles du clan",
+              "artisans": "tabliers renforcés et gants",
+              "gardiens": "cuir léger et capuches",
+              "civils": "tuniques simples, manteaux à capuche",
+              "cueilleurs": "vêtements en toile et peaux légères"
+            },
+            "magie": {
+              "types": ["artisanale défensive", "illusion de forêt"],
+              "limitations": "dépendance au biotope forestier"
+            },
+            "conflits": "rivalités territoriales avec Dralvaire",
+            "ressources": ["bois dur", "pigments rares", "artisanat local"],
+            "lingua_franca": "limité aux foires régionales",
+            "marches_paralleles": ["contrebande de pigments rares", "exploitation clandestine de bois"]
+          },
+          {
+            "nom": "Feslorin",
+            "climat": "Marécages",
+            "population": {
+              "batraciens": {
+                "classes": ["chefs de clan", "artisans aquatiques", "gardiens", "civils", "cultistes"],
+                "employs": ["chefs religieux", "constructeurs de palafittes", "messagers", "collecteurs de perles", "herboristes"]
+              }
+            },
+            "architecture": {
+              "Nénuphyr": {
+                "type": ["temples-palafittes", "maisons sur pilotis", "zones de marché flottantes"],
+                "infrastructure": ["passerelles", "radeaux", "ponts suspendus"]
+              },
+              "marais": {
+                "type": ["hutte de bois et roseaux", "cabane sur pilotis"],
+                "infrastructure": ["chemins flottants", "zones de pêche"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Voies aquatiques",
+                "type": "canaux et rivières",
+                "sécurité": "patrouilles de barques, signaux de cloche"
+              },
+              {
+                "nom": "Passerelles",
+                "type": "chemins sur pilotis",
+                "sécurité": "totems protecteurs et gardiens"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison de la tête + geste sur poitrine",
+              "formules": "Que l’eau te protège",
+              "rituels": "chants et danses sur l’eau",
+              "interactions": "consultation des anciens; médiation des conflits par chefs"
+            },
+            "vêtements": {
+              "chefs": "robes flottantes, ornements bioluminescents",
+              "gardiens": "peaux épaisses et cuir imperméable",
+              "civils": "vêtements légers adaptés à l’eau",
+              "artisans": "tabliers aquatiques",
+              "cultistes": "voiles rituels"
+            },
+            "magie": {
+              "types": ["aquatique", "rituelle"],
+              "limitations": "inefficace hors zones humides"
+            },
+            "conflits": "arbitrage religieux et commerce avec humains voisins",
+            "ressources": ["perles", "plantes médicinales", "bois aquatique"],
+            "lingua_franca": "amphibienne partielle",
+            "marches_paralleles": ["trafic de poisons aquatiques", "prostitution rituelle encadrée"]
+          }
+          
+        ]
+      },
+      {
+        "continent": "Oriental",
+        "zones": [
+          {
+            "nom": "Orraveth",
+            "climat": "Montagneux tempéré",
+            "population": {
+              "humains": {
+                "classes": ["dirigeants", "artisans", "marchands", "gardiens", "civils"],
+                "employs": ["maires", "forgerons", "tisserands", "herboristes", "gardes de col", "scribes", "messagers"]
+              },
+              "batraciens": {
+                "classes": ["médiateurs", "artisans aquatiques", "messagers"],
+                "employs": ["interprètes", "constructeurs de ponts flottants", "conseillers diplomatiques"]
+              }
+            },
+            "architecture": {
+              "Hautbourg_d’Orraval": {
+                "type": ["fortifications légères", "maisons en pierre", "places de marché", "temples solsticiaux"],
+                "infrastructure": ["rues pavées", "ponts", "escaliers en pierre", "places couvertes"]
+              },
+              "villages_artisans": {
+                "type": ["maisons en bois et pierre", "ateliers", "entrepôts"],
+                "infrastructure": ["chemins pavés", "ponts en bois", "aires de stockage"]
+              },
+              "cols": {
+                "type": ["tours de guet", "passages fortifiés"],
+                "infrastructure": ["routes pavées", "balises rituelles"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Route Orraval-Feslorin",
+                "type": "col de montagne",
+                "sécurité": "patrouilles mixtes humaines et batraciennes, relais tous les 8 km",
+                "balises": "totems et pierres gravées"
+              },
+              {
+                "nom": "Chemins artisans",
+                "type": "sentiers secondaires",
+                "sécurité": "balises lumineuses et signaux visuels"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison légère + toucher ceinture",
+              "formules": "Que le vent guide vos pas",
+              "repas_communautaires": "festivals saisonniers",
+              "interactions": "consultation des anciens, échanges via médiateurs batraciens, respect hiérarchie artisanale"
+            },
+            "vêtements": {
+              "dirigeants": "robes lourdes brodées, capes longues",
+              "artisans": "tabliers renforcés, outils attachés",
+              "marchands": "robes colorées, ceintures utilitaires",
+              "gardiens": "cuir et métal léger",
+              "civils": "tuniques simples et manteaux en laine"
+            },
+            "magie": {
+              "types": ["artisanale", "rituelle"],
+              "effets": ["protection des routes et cols", "artefacts bénis"],
+              "limitations": "faible hors ateliers et lieux sacrés"
+            },
+            "conflits": "Convoitise de Dralvaire et Islakarion; tensions sur routes commerciales",
+            "ressources": ["minerais rares", "épices", "bois de cime"],
+            "lingua_franca": "humaine (commerce mixte)",
+            "marches_paralleles": ["guildes criminelles", "prostitution urbaine encadrée", "trafics clandestins"]
+          },
+          {
+            "nom": "Thyrvalen",
+            "climat": "Forêts humides",
+            "population": {
+              "gobelins": {
+                "classes": ["chamans", "guerriers", "cueilleurs", "artisans", "civils"],
+                "employs": ["guides forestiers", "messagers", "herboristes", "collecteurs de bois rares"]
+              }
+            },
+            "architecture": {
+              "villages_sylvestres": {
+                "type": ["huttes dans les arbres", "clairières sanctuarisées", "relais chamaniques"],
+                "infrastructure": ["sentiers forestiers", "passerelles suspendues", "totems protecteurs"]
+              },
+              "clairières_sanctuarisées": {
+                "type": ["cercle de pierres", "autels naturels"],
+                "infrastructure": ["zones de rituels", "espaces communautaires"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers forestiers",
+                "type": "chemins boisés",
+                "sécurité": "patrouilles chamaniques et balises naturelles"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "gestes vers le sol ou totems",
+              "offrandes": "avant d’entrer dans clairières",
+              "rituels": "chants, danses, offrandes",
+              "interactions": "respect hiérarchie tribale; médiation des conflits par chamans"
+            },
+            "vêtements": {
+              "chamans": "robes ornées de plumes et tatouages rituels",
+              "guerriers": "peaux légères, amulettes protectrices",
+              "cueilleurs": "vêtements en fibres naturelles",
+              "civils": "peaux simples",
+              "artisans": "tabliers forestiers"
+            },
+            "magie": {
+              "types": ["animiste", "illusions forestières"],
+              "limitations": "dépendante de la forêt, faible hors canopée"
+            },
+            "conflits": "Pactes de lisière avec Thulmar; échanges limités avec Orraveth",
+            "ressources": ["bois précieux", "résines rares"],
+            "lingua_franca": "partielle (pactes forestiers)",
+            "marches_paralleles": ["trafic de créatures rares", "drogues forestières", "prostitution rituelle encadrée"]
+          },
+          {
+            "nom": "Vhorak",
+            "climat": "Plateaux inaccessibles",
+            "population": {
+              "geants": {
+                "classes": ["astronomes", "observateurs", "scribes", "gardiens"],
+                "employs": ["gardes rituels", "initiation aux constellations", "tâcherons de cristaux"]
+              }
+            },
+            "architecture": {
+              "observatoires": {
+                "type": ["tours massives en pierre", "terrasses", "sanctuaires astronomiques"],
+                "infrastructure": ["ponts suspendus", "escaliers gravés", "zones de méditation"]
+              },
+              "ateliers_de_cristal": {
+                "type": ["bâtiments en pierre", "terrasses"], 
+                "infrastructure": ["passerelles", "ponts"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers astronomiques",
+                "type": "chemins rocheux",
+                "sécurité": "balises de cristal et surveillance rituelle"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison + dépôt d’offrande aux cristaux",
+              "tabous": "silence obligatoire; respect alignements",
+              "interactions": "rituels d’initiation pour visiteurs; échanges limités"
+            },
+            "vêtements": {
+              "astronomes": "tuniques brodées, capes lourdes, ornements de cristal",
+              "gardiens": "robes cérémonielles",
+              "scribes": "tuniques simples mais symboliques"
+            },
+            "magie": {
+              "types": ["cosmique pragmatique"],
+              "limitations": "usage rare et codifié; tabous stricts"
+            },
+            "conflits": "alliances rares via intermédiaires; surveillance de trafics clandestins",
+            "ressources": ["cristaux rares", "verre céleste"],
+            "lingua_franca": "quasi absente",
+            "marches_paralleles": ["trafic clandestin de cristaux par intermédiaires; sanctions sévères"]
+          },
+          {
+            "nom": "Thulmar",
+            "climat": "Forêts denses",
+            "population": {
+              "trolls": {
+                "classes": ["chamans", "guerriers", "cueilleurs", "artisans", "civils"],
+                "employs": ["guides forestiers", "messagers", "herboristes", "constructeurs de huttes", "veilleurs de clairières"]
+              }
+            },
+            "architecture": {
+              "villages_sylvestres": {
+                "type": ["huttes et cabanes dans les arbres", "clairières sanctuarisées", "relais chamaniques"],
+                "infrastructure": ["passerelles suspendues", "sentiers forestiers"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Sentiers Thulmar-Grunthalok",
+                "type": "chemins forestiers",
+                "sécurité": "patrouilles chamaniques, balises naturelles"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "gestes vers le sol ou totems",
+              "rituels": "chants, danses, offrandes",
+              "interactions": "respect hiérarchie tribale, conseil des anciens"
+            },
+            "vêtements": {
+              "chamans": "robes ornées de plumes, tatouages rituels",
+              "guerriers": "peaux légères, amulettes",
+              "civils": "peaux simples",
+              "artisans": "tabliers forestiers"
+            },
+            "magie": {
+              "types": ["végétale", "justice rituelle"],
+              "limitations": "forte en forêt, faible hors biotope"
+            },
+            "conflits": "tensions avec Grunthalok/Kerynth; pactes verts communs",
+            "ressources": ["bois rituel", "plantes rares"],
+            "lingua_franca": "partielle",
+            "marches_paralleles": ["drogues végétales", "enlèvements rituels", "prostitution tribale encadrée"]
+          },
+          {
+            "nom": "Kerynth",
+            "climat": "Taïga et lisières forestières",
+            "population": {
+              "trolls": {
+                "classes": ["chamans saisonniers", "guerriers", "cueilleurs", "civils"],
+                "employs": ["guides saisonniers", "messagers de clan", "collecteurs de résines", "veilleurs de routes"]
+              }
+            },
+            "architecture": {
+              "villages_saisonniers": {
+                "type": ["hameaux mobiles", "cabines sur pilotis ou plateformes", "zones de stockage saisonnier"],
+                "infrastructure": ["chemins forestiers", "ponts de bois", "zones de campement"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Routes saisonnières Kerynth-Thulmar",
+                "type": "sentiers forestiers et taïga",
+                "sécurité": "patrouilles de clan, balises saisonnières"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison + geste de respect des saisons",
+              "rituels": "chants de migration, offrandes aux totems",
+              "interactions": "arbitrage de conflit par chamans, échanges saisonniers"
+            },
+            "vêtements": {
+              "chamans": "robes de laine lourde, symboles saisonniers",
+              "guerriers": "cuirs renforcés, capes camouflées",
+              "civils": "vêtements fonctionnels, manteaux chauds",
+              "cueilleurs": "tenues pratiques pour déplacement"
+            },
+            "magie": {
+              "types": ["saisons, givre, dissimulation"],
+              "limitations": "faible hors taïga; dépend des cycles saisonniers"
+            },
+            "conflits": "escarmouches frontalières; arbitrage entre Thulmar et Grunthalok",
+            "ressources": ["résines hallucinogènes", "fourrures", "bois souple"],
+            "lingua_franca": "partielle (foires saisonnières)",
+            "marches_paralleles": ["trafic de fourrures", "résines hallucinogènes (perte de puissance hors taïga)", "prostitution saisonnière encadrée"]
+          }
+        ]
+      },
+      {
+        "continent": "Archipel méridional",
+        "zones": [
+          {
+            "nom": "Islakarion",
+            "climat": "Îles tropicales",
+            "population": {
+              "humains": {
+                "classes": ["dirigeants", "marins", "artisans", "marchands", "civils"],
+                "employs": ["amiraux", "capitaines", "tisserands de voiles", "forgerons navals", "marchands portuaires", "pêcheurs"]
+              }
+            },
+            "architecture": {
+              "Port-Solaire": {
+                "type": ["maisons en bois et pierre sur pilotis", "arsenaux", "phares-rituels", "places de marché"],
+                "infrastructure": ["quais", "ponts flottants", "rues pavées en bois", "espaces cérémoniels"]
+              },
+              "villages_portuaires": {
+                "type": ["maisons légères en bois", "ateliers de pêche", "marchés couverts"],
+                "infrastructure": ["chemins de bois", "quais secondaires"]
+              },
+              "arsenaux": {
+                "type": ["hangars pour navires", "forges navales"],
+                "infrastructure": ["zones de stockage de matériaux", "routes pavées"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Routes maritimes Islakarion-Lago’Vernis",
+                "type": "voies maritimes",
+                "sécurité": "patrouilles navales, balises lumineuses et bouées sacrées",
+                "balises": "phares rituels et statues protectrices"
+              },
+              {
+                "nom": "Chemins portuaires internes",
+                "type": "rues boisées et pavées",
+                "sécurité": "gardes locaux et balises rituelles"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "hochement de tête + main sur cœur",
+              "rituels": "prières au lever et coucher du soleil",
+              "interactions": "respect des anciens marins, consultation des capitaines",
+              "repas_communautaires": "festivals de la mer"
+            },
+            "vêtements": {
+              "dirigeants": "tuniques longues brodées, capes marines",
+              "marins": "vêtements pratiques, manteaux imperméables",
+              "artisans": "tabliers renforcés",
+              "marchands": "robes colorées et ceintures utilitaires",
+              "civils": "vêtements légers, sandales"
+            },
+            "magie": {
+              "types": ["marine, navigation, bénédictions"],
+              "limitations": "dépend des rituels, faible hors îles sacrées"
+            },
+            "conflits": "rivalités avec Lago’Vernis; contrôle des routes maritimes",
+            "ressources": ["épices (abondant)", "nacre (rare)", "bois navals (moyen)"],
+            "lingua_franca": "commerciale (ports majeurs)",
+            "marches_paralleles": ["piraterie", "esclavage maritime", "prostitution portuaire", "trafic d’armes"]
+          },
+          {
+            "nom": "Lago’Vernis",
+            "climat": "Lagons, atolls coralliens",
+            "population": {
+              "humains": {
+                "classes": ["capitaines", "artisans", "marchands", "pêcheurs", "civils"],
+                "employs": ["navigateurs", "constructeurs de pontons", "forgerons", "collecteurs de corail"]
+              }
+            },
+            "architecture": {
+              "Lagonfort": {
+                "type": ["maisons sur pilotis", "tours d’observation", "entrepôts"],
+                "infrastructure": ["quais en bois", "passerelles", "marchés flottants"]
+              },
+              "atolls_ligués": {
+                "type": ["cabines légères", "docks improvisés"],
+                "infrastructure": ["chemins en bois", "pistes d’amarrage"]
+              },
+              "tours_observation": {
+                "type": ["tours en bois et pierre légère", "zones de surveillance maritime"],
+                "infrastructure": ["balises lumineuses", "signaux de fumée"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Routes maritimes internes",
+                "type": "voies de lagon",
+                "sécurité": "patrouilles locales, balises rituelles"
+              },
+              {
+                "nom": "Sentiers atolls",
+                "type": "passerelles et chemins boisés",
+                "sécurité": "gardes ligues et tours d’observation"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "hochement de tête + geste vers l’eau",
+              "rituels": "prières aux courants",
+              "interactions": "consultation des anciens et capitaines, arbitrage de ligues",
+              "repas_communautaires": "festivals des marées"
+            },
+            "vêtements": {
+              "capitaines": "robes légères brodées, manteaux de navigation",
+              "artisans": "tabliers de travail",
+              "marchands": "robes colorées, ceintures utilitaires",
+              "pêcheurs": "tenues imperméables",
+              "civils": "vêtements légers adaptés au climat"
+            },
+            "magie": {
+              "types": ["courants, navigation, bénédictions"],
+              "limitations": "faible hors lagon; inefficace par temps couvert prolongé"
+            },
+            "conflits": "rivalités avec Islakarion; survie économique dépendante des routes secrètes",
+            "ressources": ["corail (rare)", "perles fines (rares)", "sel marin (moyen)"],
+            "lingua_franca": "commerciale (ligues et marchés gris)",
+            "marches_paralleles": ["marché noir maritime", "contrebande d’armes et esclaves", "prostitution contrôlée"]
+          },
+          {
+            "nom": "Venarith",
+            "climat": "Lagunes et îles",
+            "population": {
+              "batraciens": {
+                "classes": ["médiateurs", "artisans aquatiques", "messagers", "civils"],
+                "employs": ["interprètes", "conseillers diplomatiques", "constructeurs de ponts flottants", "veilleurs de bassins"]
+              }
+            },
+            "architecture": {
+              "Nérethys": {
+                "type": ["maisons sur pilotis", "bassins judiciaires", "temples"],
+                "infrastructure": ["ponts de bois", "passerelles", "zones de médiation"]
+              },
+              "villages_insulaires": {
+                "type": ["cabines légères", "aires de stockage"], 
+                "infrastructure": ["sentiers boisés", "ponts entre îlots"]
+              }
+            },
+            "routes": [
+              {
+                "nom": "Chemins de lagunes",
+                "type": "passerelles et routes nautiques",
+                "sécurité": "patrouilles de médiateurs; balises lumineuses"
+              }
+            ],
+            "usages_sociaux": {
+              "salutations": "inclinaison + gestuelle aquatique",
+              "rituels": "chants de médiation et d’équilibre",
+              "interactions": "arbitrage inter-régions, respect hiérarchie confédérale",
+              "repas_communautaires": "festivals lagunaires"
+            },
+            "vêtements": {
+              "médiateurs": "tuniques légères et ornements bioluminescents",
+              "artisans": "tabliers aquatiques",
+              "civils": "vêtements simples adaptés à l’eau"
+            },
+            "magie": {
+              "types": ["aquatique défensive, protection de lagunes"],
+              "limitations": "faible hors lagunes; dépend des bassins consacrés et chœurs rituels"
+            },
+            "conflits": "arbitrage inter-régions; résistance à la pression d’Islakarion",
+            "ressources": ["perles (moyen)", "plantes aquatiques rares (rare)", "teintes bioluminescentes (rare)"],
+            "lingua_franca": "amphibienne partielle (diplomatie), lingua humana pour compacts",
+            "marches_paralleles": ["trafic sexuel limité mais organisé", "médiation forcée en cas de litiges", "tentative d’exploitation encadrée par tribunaux lagunaires"]
+            }
+        ]
+      }
+    ]
+  }
+}
+    
+  
+
+
+
