@@ -89,11 +89,13 @@
             "Sentiers couverts vers Fer-Noir (O, ~60 km)",
             "Chemin long vers Austremont/Thulcar (ESE, 120 km)"
           ]
+          "note_toponymique": "Attention : ‘Clair-Juste’ (plateau trollique, Septentria) ≠ ‘Clair-Justice’ (plaine austremontaine). Homonymie clarifiée pour éviter confusion administrative et ludique."
         },
         {
           "nom": "Vargr",
           "type": "Sommets isolés des géants",
-          "description_cartographique": "Massif NE de 49 000 km², crêtes 3 000–3 900 m, terrasses et ponts suspendus. Nœud sommitale : Pic-Loup.",
+          "population_k": 22,
+          "description": "Massif nord-est (≈49 000 km²) des géants du froid, pics reliés par ponts suspendus et terrasses troglodytiques. Population faible mais permanente (~22 000 individus regroupés en clans). Région stratégique pour la surveillance des cols septentrionaux."
           "villes_principales": ["Pic-Loup (tour principale, poste de signaux)"],
           "villages_nommes": [
             "Garde-Cristal (monastère fortifié, 11 km S)",
