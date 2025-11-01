@@ -1,0 +1,3177 @@
+{
+  "continents": [
+    {
+      "nom": "Septentria Obscura",
+      "description": "Grand continent boréal réaliste : chaînes glaciaires, vallées encaissées, plateaux forestiers brumeux et steppes froides. Densités humaines faibles, nains installés dans des massifs minéralisés profonds, trolls forestiers sur le plateau, géants ermites sur les crêtes, gobelins tribaux en lisière des steppes. Échelle : arc O–E ~2 100 km, N–S ~1 600 km.",
+      "reliefs_majeurs": [
+        "Épine d’Eldrum (chaîne glaciaire maîtresse, pics 3 800–4 400 m, vallées suspendues, cols rares)",
+        "Massif de Vargr (nord-est, dômes granitiques 3 000–3 900 m, corniches, vires)",
+        "Plateau de Morthyll (est, 1 200–1 800 m, forêts d’épineux et tourbières)",
+        "Bassin de Skalf (ouest, gorges, lits glaciaires, éboulis actifs)",
+        "Steppes cendreuses de Varkhar (sud-est, sols salins et vents froids)"
+      ],
+      "climats": [
+        "Subpolaire glaciaire en vallées (−18 à 4 °C ; 600–900 mm/an, neige)",
+        "Froid humide sur Morthyll (1 à 10 °C ; 900–1 200 mm/an, brouillards)",
+        "Alpin sec sur Vargr (−25 à −5 °C ; 400–600 mm/an)",
+        "Steppe froide sur Varkhar (−5 à 12 °C ; 200–400 mm/an)"
+      ],
+      "transitions_naturelles": [
+        "Toundra→forêt noire (20–60 km de tourbières, arbustes nains, mares froides)",
+        "Alpin→glaciaire (cols étroits à 2 600–3 000 m, pénitents et névés permanents)",
+        "Forêt→steppe (50–90 km de pins rabougris puis sols nus salinisés)"
+      ],
+      "zones": [
+        {
+          "nom": "Vallée-Grise d’Helgar",
+          "type": "Vallée glaciaire fortifiée humaine",
+          "description_cartographique": "Couloir N–S ~55 000 km², rivière Helg (160 km, gelée 8–9 mois). Capitale : Helgarstätt (alt. 780 m).",
+          "villes_principales": [
+            "Helgarstätt (citadelle-porte, marché d’hiver, garnison et entrepôts)"
+          ],
+          "villages_nommes": [
+            "Skalfheim (bourg minier, 32 km S)",
+            "Roche-Fiel (poste de péage, 27 km N)"
+          ],
+          "hameaux": [
+            "Anneaux d’éleveurs et pêcheurs sous-glace à 10–20 km"
+          ],
+          "postes_strategiques": [
+            "Tour des Hurles (tour de guet centrale, couverture visuelle de trois vallons)",
+            "Cols de Karsk (NE, 85 km, relais tous 12–15 km)"
+          ],
+          "connexions": [
+            "Route froide Helgar–Kar-Ferrum (E, 92 km, pavée par tronçons)",
+            "Chemins de rive (réseau rural S/NO, jalons bois goudronné)"
+          ]
+        },
+        {
+          "nom": "Fer-Noir",
+          "type": "District des forges humaines et naines",
+          "description_cartographique": "Bassin O–E ~42 000 km², vents d’ouest dominants. Citadelle-aciérie : Kar-Ferrum (alt. 910 m) au confluent de deux rivières ; en sous-sol, la Hold de Gransouterre (capitale naine).",
+          "villes_principales": [
+            "Kar-Ferrum (forteresse industrielle médiévale : hauts fourneaux à charbon de tourbe, arsenaux)",
+            "Gransouterre (cité naine souterraine à −300/−700 m, puits d’aérage, salles voûtées, rails à bêtes)"
+          ],
+          "villages_nommes": [
+            "Fosse-Grise (village-sentinelle N, 21 km)",
+            "Main-Forge (bourg artisanal S, 26 km)"
+          ],
+          "hameaux": [
+            "Camps de mineurs, scieries, et ateliers de charbonnières (anneau 8–12 km)"
+          ],
+          "postes_strategiques": [
+            "Bastions des cols d’Ourann (E, seuils vers Morthyll)",
+            "Sas de la Grande Veine (descenderies naines, portes blindées et herses)"
+          ],
+          "connexions": [
+            "Route Helgar–Ferrum (O, 80–95 km, patrouilles mixtes)",
+            "Gaines de roulage naines (galeries 3–5 m de large, traction caprine, 15–22 km entre stations)"
+          ]
+        },
+        {
+          "nom": "Morthyll",
+          "type": "Plateau humide forestier trollique",
+          "description_cartographique": "Table rocheuse boisée (1 500 m) sur ~62 000 km², clairières fortifiées et autels. Nœud : Clair-Juste (assemblée des clans).",
+          "villes_principales": ["Clair-Juste (clairière centrale palissadée, sanctuaire et halles)"] ,
+          "villages_nommes": [
+            "Tronc-Veil (relais SO, 28 km)",
+            "Brume-Haute (hameau NE, 19 km)"
+          ],
+          "hameaux": [
+            "Huttes en anneaux (5–12 habitations), jardins de mousses et fumoirs"
+          ],
+          "postes_strategiques": [
+            "Totems de garde aux seuils de sentiers",
+            "Ponts-vignes sur rus et fossés"
+          ],
+          "connexions": [
+            "Sentiers couverts vers Fer-Noir (O, ~60 km)",
+            "Chemin long vers Austremont/Thulcar (ESE, 120 km)"
+          ]
+        },
+        {
+          "nom": "Vargr",
+          "type": "Sommets isolés des géants",
+          "description_cartographique": "Massif NE de 49 000 km², crêtes 3 000–3 900 m, terrasses et ponts suspendus. Nœud sommitale : Pic-Loup.",
+          "villes_principales": ["Pic-Loup (tour principale, poste de signaux)"],
+          "villages_nommes": [
+            "Garde-Cristal (monastère fortifié, 11 km S)",
+            "Belvédère-des-Quatre-Vents (ermitage, 7 km NE)"
+          ],
+          "hameaux": ["Cabanes d’ascètes et abris de guet (3–6 km d’écart)"] ,
+          "postes_strategiques": [
+            "Ponts de corde blindée (1–2 km)",
+            "Piliers de feu (fanaux sur éperons)"
+          ],
+          "connexions": [
+            "Chemins en corniche (S, 48–55 km)",
+            "Échelles rocheuses (N, belvédères)"
+          ]
+        },
+        {
+          "nom": "Varkhar",
+          "type": "Steppe froide gobeline et ruines anciennes",
+          "description_cartographique": "Plaine SE ~41 000 km², campements mobiles autour de cratères salins et ruines. Camp central : Soufre-Bane.",
+          "villes_principales": ["Soufre-Bane (camp principal, lisière de cratère)"] ,
+          "villages_nommes": [
+            "Pilleur-Relique (bourg de récupérateurs, 19 km N)",
+            "Masque-Gris (camp d’hiver, 33 km S)"
+          ],
+          "hameaux": ["Tentes et roulottes en anneaux (groupes 10–20 km)"] ,
+          "postes_strategiques": [
+            "Guets mobiles aux pistes vers le sud",
+            "Balises de pierre et totems sifflants"
+          ],
+          "connexions": [
+            "Piste de Varkhar au Val d’Arden (S, 90 km)",
+            "Détours sous vents (anciens lits de rivières, ~120 km cumulés)"
+          ]
+        }
+      ],
+      "placement_relatif": "Septentria au nord global ; Helgar O (mer gelée), Fer-Noir centre-O (sous-sol nain actif), Morthyll E (plateau trollique), Vargr NE (géants), Varkhar SE (gobelins). Cols méridionaux vers le Medianor."
+    },
+
+    {
+      "nom": "Medianor (Cœur-Val)",
+      "description": "Continent tempéré central réaliste : plaines céréalières, collines calcaires boisées, marais lagunaires et fronts portuaires. Nœud commercial majeur entre Septentria et Austremont. Les batraciens dominent les marais, humains les cités-États des plaines ; enclaves naines en sous-sol des buttes calcaires ; minorités gobelines intégrées comme bateliers occasionnels.",
+      "reliefs_majeurs": [
+        "Plaines d’Arden (180–420 m, sols loess fertiles)",
+        "Collines de Kelwyn (500–950 m, karsts, dolines, grottes)",
+        "Marais d’Asphodel (lagunes, canaux, buttes tourbeuses)"
+      ],
+      "climats": [
+        "Tempéré humide (8–24 °C, 600–900 mm/an) en plaine",
+        "Tempéré forestier (5–20 °C, 700–1 000 mm/an) en collines",
+        "Humide chaud (10–28 °C, 900–1 300 mm/an) dans les marais"
+      ],
+      "transitions_naturelles": [
+        "Plaine→forêt (25–45 km de bocage et ripisylves)",
+        "Forêt→marais (15–30 km de prairies inondables)",
+        "Plaine→delta (10–15 km alluviaux vers ports du sud)"
+      ],
+      "zones": [
+        {
+          "nom": "Val d’Arden",
+          "type": "Plaines agricoles et cités-États humaines",
+          "description_cartographique": "Bassins interconnectés ~70 000 km² ; fleuve Arda navigable ; capitale : Champsorne (alt. 260 m).",
+          "villes_principales": [
+            "Champsorne (capitale commerciale, arsenaux fluviaux)"
+          ],
+          "villages_nommes": [
+            "Moulin-Long (meuniers, 18 km E)",
+            "Porte-Semence (bourg frontalier, 34 km N)"
+          ],
+          "hameaux": ["Réseau serré de hameaux agricoles 10–15 km"] ,
+          "postes_strategiques": [
+            "Chaîne de tours sur haute-Arda (12–18 m)"
+          ],
+          "connexions": [
+            "Grande Voie Champsorne–Kelwyn (E–O, 340 km)",
+            "Canal des Trois-Becs (S vers Asphodel, 100 km)"
+          ]
+        },
+        {
+          "nom": "Bois de Kelwyn",
+          "type": "Collines forestières humaines et enclaves naines",
+          "description_cartographique": "Massif boisé 38 000 km² ; grottes calcaires ; enclaves naines au pied des anciennes carrières (salles voûtées, ateliers de taille). Bourg principal : Garde-Bois (alt. 620 m).",
+          "villes_principales": ["Garde-Bois (bourg-palissade)", "Sous-Kelwyn (atelier nain souterrain, −80/−220 m)"] ,
+          "villages_nommes": [
+            "Feuille-Claire (teinturiers, 11 km S)",
+            "Roc-Troué (grottes, 22 km NE)"
+          ],
+          "hameaux": ["Clairières habitées (3–8 km d’écart)"] ,
+          "postes_strategiques": [
+            "Lisières fortifiées N/S",
+            "Portes de mine nainesblindées"
+          ],
+          "connexions": [
+            "Voie des Arbres (N–S, 120 km)",
+            "Tunnels calcaires (2–5 km, bacs à chaînes)"
+          ]
+        },
+        {
+          "nom": "Marais d’Asphodel",
+          "type": "Lagunes batraciennes et canaux fortifiés",
+          "description_cartographique": "Complexe marécageux 44 000 km² ; cité-lagune : Fescar. Réseaux de perches, passerelles et écluses défensives.",
+          "villes_principales": ["Fescar (capitale batelière sur pilotis)"] ,
+          "villages_nommes": [
+            "Perle-Somme (pêcheurs, 9 km E)",
+            "Rose-Étang (herboristes, 16 km O)"
+          ],
+          "hameaux": ["Îlots habités reliés par passerelles (2–4 km)"] ,
+          "postes_strategiques": [
+            "Tours sur pieux (cloches, fanaux)",
+            "Écluses de coupure des chenaux"
+          ],
+          "connexions": [
+            "Canal des Trois-Becs (N, 100 km vers Champsorne)",
+            "Routes maritimes vers l’Archipel (S)"
+          ]
+        }
+      ],
+      "placement_relatif": "Medianor au centre ; Val d’Arden au N, Kelwyn au NE, Asphodel au SO. Routes majeures vers Septentria (cols d’Helgar) et Austremont (portes d’Orr)."
+    },
+
+    {
+      "nom": "Austremont",
+      "description": "Continent oriental réaliste : hauts plateaux, forêts profondes et taïgas méridionales. Royaumes montagnards humains, ligues forestières trolliques, confédérations de vallées mixtes. Forts nains dans les entrailles d’Orr ; ermitages géants sur les falaises de Vhorak.",
+      "reliefs_majeurs": [
+        "Monts d’Orr (2 800–4 100 m, plateaux étagés)",
+        "Forêts de Thulcar (canopée fermée, ravins et racines-passerelles)",
+        "Taïga de Keryn (plaines froides, rivières tressées)",
+        "Falaises de Vhorak (dalles maritimes, ressacs)"
+      ],
+      "climats": [
+        "Montagnard humide (−5 à 12 °C)",
+        "Forestier tempéré (10 à 22 °C)",
+        "Subarctique sec (−20 à 5 °C)"
+      ],
+      "transitions_naturelles": [
+        "Cols d’altitude (10–25 km de vires et escaliers de pierre)",
+        "Écotone canopée→taïga (30–60 km)"
+      ],
+      "zones": [
+        {
+          "nom": "Orraveth",
+          "type": "Plateaux montagnards humains et forteresses naines",
+          "description_cartographique": "Plateaux 36 000 km², terrasses 1 800–2 300 m. Ville-porte : Haut-Col ; en profondeur, la Karâg-Tor (cité-forteresse naine) sous la dalle du Haut-Col.",
+          "villes_principales": [
+            "Haut-Col (ville-porte des cols, marchés de muletiers)",
+            "Karâg-Tor (forteresse naine à −250/−900 m, salles cyclopéennes, puits d’abattage, ateliers de mécanique sans poudre)"
+          ],
+          "villages_nommes": [
+            "Pont-Vert (carriers, 14 km SE)",
+            "Garde-Col (bourg fortifié, 19 km NO)"
+          ],
+          "hameaux": ["Terrasses agricoles et relais (1–3 km)"] ,
+          "postes_strategiques": [
+            "Batteries de pierre aux beffrois des cols",
+            "Puits d’aérage nains et portes blindées"
+          ],
+          "connexions": [
+            "Chaussée des Sept-Vires (O, vers Medianor)",
+            "Escaliers d’Orr (E, vers Thulcar)"
+          ]
+        },
+        {
+          "nom": "Thulcar",
+          "type": "Forêt profonde trollique et ligues humaines alliées",
+          "description_cartographique": "Canopée fermée 58 000 km² ; clairières fortifiées, cours d’eau lents. Assemblée centrale : Clair-Justice.",
+          "villes_principales": ["Clair-Justice (clairière-assemblée)"] ,
+          "villages_nommes": [
+            "Sève-Claire (herbiers, 12 km S)",
+            "Ronce-Haute (guetteurs, 27 km NE)"
+          ],
+          "hameaux": ["Anneaux de hameaux autour des clairières (4–9 km)"] ,
+          "postes_strategiques": [
+            "Lignes de pieux, fossés masqués",
+            "Tours à frondes dans la canopée"
+          ],
+          "connexions": [
+            "Sentiers de sève vers Orraveth (O)",
+            "Piste de la Lisière vers Keryn (N)"
+          ]
+        },
+        {
+          "nom": "Keryn",
+          "type": "Taïga méridionale humaine/trollique",
+          "description_cartographique": "Plaines froides 47 000 km² ; camp fixe : Givre-Porte (alt. 540 m).",
+          "villes_principales": ["Givre-Porte (bourg d’hiver)"] ,
+          "villages_nommes": [
+            "Bouleau-Blanc (pêcheurs, 9 km E)",
+            "Renarde (éleveurs, 21 km NO)"
+          ],
+          "hameaux": ["Camps déplacés selon saisons (anneaux de foyers)"] ,
+          "postes_strategiques": [
+            "Tours en rondins aux gués",
+            "Buttes de fumée pour signaux"
+          ],
+          "connexions": [
+            "Piste des Migrations (S)",
+            "Chemin de la Steppe (NO vers Septentria)"
+          ]
+        },
+        {
+          "nom": "Vhorak",
+          "type": "Falaises océaniques des géants et ateliers de pierre",
+          "description_cartographique": "Terrasses maritimes 33 000 km², falaises 200–400 m. Ermitages et fanaux. Nœud : Terrasse-du-Signe.",
+          "villes_principales": ["Terrasse-du-Signe (tour principale)"] ,
+          "villages_nommes": [
+            "Corniche-Basse (atelier de taille, 8 km S)",
+            "Porte-Écume (poste de signaux, 10 km NE)"
+          ],
+          "hameaux": ["Ermitages en surplomb (2–6 km)"] ,
+          "postes_strategiques": [
+            "Fanaux de falaise, poternes creusées",
+            "Chaînes d’amarrage des barques de secours"
+          ],
+          "connexions": [
+            "Chemins de corniche vers Thulcar (O)",
+            "Escaliers de goémon vers criques (S)"
+          ]
+        }
+      ],
+      "placement_relatif": "Austremont à l’est ; Orraveth centre-O (portes vers Medianor), Thulcar centre (forêts), Keryn N (transition vers Septentria), Vhorak E (falaises)."
+    },
+
+    {
+      "nom": "Archipel des Lamentes",
+      "description": "Archipel méridional réaliste : atolls calcaires, îles-bastions, bancs coralliens. Cités-ligues humaines sur pilotis, ateliers nains de taille de pierre importée, compagnies batraciennes de pilotes. Aucune implantation géante ou trollique pérenne.",
+      "reliefs_majeurs": [
+        "Atolls en anneaux (lagunes 5–20 km, passes étroites)",
+        "Îles-bastions (buttes calcaires 120–300 m, cavités littorales)"
+      ],
+      "climats": [
+        "Tropical marin (22–31 °C, alizés, saisons de pluies)"
+      ],
+      "transitions_naturelles": [
+        "Récifs→lagunes→passes (chenaux cartographiés, bancs mouvants)"
+      ],
+      "zones": [
+        {
+          "nom": "Islakarion",
+          "type": "Cité-phare humaine et ligue portuaire",
+          "description_cartographique": "Grand atoll en fer-à-cheval, passes au S, phares à feu noir. Quartiers marchands reliés par pontons.",
+          "villes_principales": ["Islakarion (ville-ligue, arsenal, phares)"] ,
+          "villages_nommes": [
+            "Anse-Longue (armateurs, 7 km E)",
+            "Bec-de-Corail (guetteurs, 5 km S)"
+          ],
+          "hameaux": ["Anneaux secondaires de maisons sur pilotis"] ,
+          "postes_strategiques": [
+            "Tours d’entrée de passe",
+            "Chaînes flottantes de barrage"
+          ],
+          "connexions": [
+            "Routes maritimes vers Fescar (N) et Vhorak (E)"
+          ]
+        },
+        {
+          "nom": "Lago’Vernis",
+          "type": "Ligues d’atolls et entrepôts humains/batraciens",
+          "description_cartographique": "Chapelet d’atolls, quais d’échanges et entrepôts salins. Passes multiples et forts sur pilotis.",
+          "villes_principales": ["Lago’Vernis (capitale des ligues)"] ,
+          "villages_nommes": [
+            "Tour-d’Écume (vigie, 6 km NO)",
+            "Atoll-Perlier (perliers, 12 km SE)"
+          ],
+          "hameaux": ["Camps de pêche dispersés sur bancs"] ,
+          "postes_strategiques": [
+            "Fortins d’étranglement des passes",
+            "Pieux anti-éperonnage"
+          ],
+          "connexions": [
+            "Route des Épices vers Islakarion (O) et Fescar (N)"
+          ]
+        }
+      ],
+      "placement_relatif": "Archipel au sud d’Asphodel ; Islakarion NO de la chaîne, Lago’Vernis E–SE. Routes vers Medianor et Austremont."
+    }
+  ]
+}
+{
+  "economie": {
+    "version": "3.1-sim-ultra",
+    "_note": "Modèle intégral prêt pour simulation (pas mensuel par défaut). Harmonisé avec population(v2), religion, magie, géographie, géopolitique. Ajout énergie carbone/tourbe, alignement Pierre_de_Flux.",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Monde d’Ardane — dungeon-synth médiéval sombre, rites contractuels",
+      "coherence_avec": [
+        "races.json",
+        "geographie.json",
+        "continents.json",
+        "population.json",
+        "magie.json",
+        "religion.json",
+        "geopolitique.json",
+        "politique_gouvernance.json",
+        "mythologie_histoire.json"
+      ],
+      "annee_calibration": "Cycle 412 (année de référence)",
+      "granularite_defaut": "mensuelle",
+      "unités": {
+        "masse": "kg",
+        "tonne": 1000,
+        "distance": "km",
+        "vitesse": "km/jour",
+        "monnaie": "Drachme_d_Acier (DA)",
+        "energie_bois": "kg_bois_sec_eq",
+        "energie_carbone": "kg_tourbe_eq",
+        "flux_magique": "Pierre_de_Flux (classes: F/M/H)"
+      }
+    },
+
+    "02_geo_noeuds_et_corridors": {
+        "noeuds": [
+            {"id": "CHAMP", "nom": "Champsorne", "type": "cite_humaine", "roles": ["grains", "droit_commercial"], "region": "Medianor", "population_k": 220},
+            {"id": "HELGA", "nom": "Helgarstätt", "type": "cite_humaine", "roles": ["metal_surface", "cols"], "region": "Septentria", "population_k": 90},
+            {"id": "KARFE", "nom": "Kar-Ferrum", "type": "complexe_humain_nain", "roles": ["raffinage_metaux", "armes_runiques"], "region": "Septentria", "population_k": 80},
+            {"id": "GRANS", "nom": "Gransouterre", "type": "cite_naine", "roles": ["pierres_flux", "banque_runique"], "region": "Septentria", "population_k": 70},
+            {"id": "KARAG", "nom": "Karâg-Tor", "type": "cite_naine", "roles": ["mines_profondes", "meca_puits"], "region": "Austremont", "population_k": 60},
+            {"id": "KELWY", "nom": "Sous-Kelwyn", "type": "cite_naine", "roles": ["hydro_karst", "taille_fine"], "region": "Medianor", "population_k": 45},
+            {"id": "FESCA", "nom": "Fescar", "type": "cite_batracienne", "roles": ["arbitrage_fluvial", "perles"], "region": "Medianor", "population_k": 120},
+            {"id": "LAGOV", "nom": "Lago’Vernis", "type": "port_archipel", "roles": ["commerce_maritime", "artefacts_aquatiques"], "region": "Archipel", "population_k": 90},
+            {"id": "ISLAK", "nom": "Islakarion", "type": "port_humain", "roles": ["transbordement", "douanes_marines"], "region": "Archipel", "population_k": 110},
+            {"id": "THULC", "nom": "Thulcar", "type": "territoire_troll", "roles": ["bois_dur", "resines"], "region": "Austremont", "population_k": 60},
+            {"id": "MORTH", "nom": "Morthyll", "type": "territoire_troll", "roles": ["resines_medic", "brumes_rituelles"], "region": "Septentria", "population_k": 30},
+            {"id": "VARKH", "nom": "Varkhar", "type": "territoire_gobelin", "roles": ["sels", "acides", "recyclage"], "region": "Septentria", "population_k": 90},
+            {"id": "VARGR", "nom": "Vargr", "type": "contreforts_geants", "roles": ["cols", "fanaux_sommitaux"], "region": "Septentria", "population_k": 4},
+            {"id": "VHORAK", "nom": "Vhorak", "type": "falaises_geantes", "roles": ["fanaux_marins", "fortins_de_chaine"], "region": "Austremont", "population_k": 2}
+        ],
+        "corridors": [
+            {"id": "ARDA", "type": "fleuve", "noeuds": ["CHAMP", "FESCA", "ISLAK"], "longueur_km": 310, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 95000, "description": "Axe fluvial principal reliant Medianor à l’Archipel. Convois mixtes sous assistance hydrorunique."},
+            {"id": "HEL-KARF", "type": "route_montagne", "noeuds": ["HELGA", "KARFE"], "longueur_km": 140, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 18000, "description": "Route haute de Septentria : traîneaux de minerai et convois d’hiver, entretenue par les jurats nains."},
+            {"id": "GRAN-KARAG", "type": "galerie_naine", "noeuds": ["GRANS", "KARAG"], "longueur_km": 90, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 165000, "description": "Galerie maîtresse des forges profondes, reliant Gransouterre à Karâg-Tor."},
+            {"id": "LAMENTES", "type": "cotiere", "noeuds": ["ISLAK", "LAGOV"], "longueur_km": 780, "saisonnalite": ["M3-M12"], "capacite_base_t_an": 24000, "description": "Route maritime de cabotage entre Islakarion et Lago’Vernis, soumise aux marées magiques."},
+            {"id": "THUL-KARF", "type": "mixte_route+fleuve", "noeuds": ["THULC", "KARFE"], "longueur_km": 220, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 31000, "description": "Couloir commercial combiné entre Thulcar et Kar-Ferrum. Segment clef du transit pyrique."},
+            {"id": "VARKH-CHAMP", "type": "caravane", "noeuds": ["VARKH", "CHAMP"], "longueur_km": 410, "saisonnalite": ["M4-M10"], "capacite_base_t_an": 9000, "description": "Liaison caravanière gobeline et humaine, spécialisée dans le troc d’acides, de suies et de minerais bruts."}
+        ],
+        "facteurs_magiques": "Amplification tellurique et hydrique des flux commerciaux via balises runiques Arda–Ferrum (+25% de rendement moyen sur les corridors actifs)."
+        },
+
+
+    "03_ressources": {
+      "primaires": [
+        {"code": "GRA", "nom": "grains", "producteurs": ["CHAMP"], "saisons": ["M7-M10"], "unite": "t", "rendement_t_an": 18000},
+        {"code": "BOI", "nom": "bois_dur", "producteurs": ["THULC", "MORTH"], "unite": "t", "rendement_t_an": 24000},
+        {"code": "TOU", "nom": "tourbe_carbone", "producteurs": ["MORTH", "FESCA"], "unite": "t", "rendement_t_an": 32000},
+        {"code": "MIN", "nom": "minerai_fer", "producteurs": ["HELGA", "KARAG"], "unite": "t", "rendement_t_an": 38000},
+        {"code": "SEL", "nom": "sels_et_nitrats", "producteurs": ["VARKH"], "unite": "t", "rendement_t_an": 12000},
+        {"code": "FLX", "nom": "pierres_de_flux_brutes", "producteurs": ["GRANS", "KARAG"], "unite": "kg", "rendement_t_an": 1800},
+        {"code": "POI", "nom": "poisson_maritime", "producteurs": ["ISLAK", "LAGOV"], "unite": "t", "rendement_t_an": 15000}
+      ],
+      "intermediaires": [
+        {"code": "FON", "nom": "fonte_basse", "entrees": {"MIN": 1.5, "BOI": 0.6, "TOU": 0.4}, "sorties": {"FON": 1}, "sites": ["KARFE", "HELGA"], "energie": {"energie_bois": 0.3, "energie_carbone": 0.7}},
+        {"code": "ACR", "nom": "acier_vivant", "entrees": {"FON": 1.2, "SEL": 0.05, "FLX": 0.002}, "sorties": {"ACR": 1}, "sites": ["KARFE", "GRANS"], "energie": {"energie_carbone": 0.8}},
+        {"code": "RSM", "nom": "resines_medicinales", "entrees": {"BOI": 0.4}, "sorties": {"RSM": 0.1}, "sites": ["MORTH", "THULC"]},
+        {"code": "ACD", "nom": "acides_industriels", "entrees": {"SEL": 1, "POI": 0.02}, "sorties": {"ACD": 0.4}, "sites": ["VARKH"]}
+      ],
+      "finis": [
+        {"code": "OUT", "nom": "outils_runiques", "entrees": {"ACR": 0.8, "FLX": 0.001}, "sites": ["GRANS", "KELWY", "KARFE"], "valeur_unitaire_DA": 24},
+        {"code": "ARM", "nom": "armes_runiques", "entrees": {"ACR": 1.0, "FLX": 0.003}, "sites": ["KARFE"], "valeur_unitaire_DA": 110},
+        {"code": "NAV", "nom": "coques_navales", "entrees": {"BOI": 3.2, "ACR": 0.6, "ACD": 0.1}, "sites": ["ISLAK", "LAGOV"], "valeur_unitaire_DA": 380},
+        {"code": "MED", "nom": "onguents_et_pansements", "entrees": {"RSM": 0.05, "SEL": 0.02}, "sites": ["MORTH", "FESCA"], "valeur_unitaire_DA": 6}
+      ]
+    },
+
+    "04_monnaies_et_conversions": {
+      "physiques": [
+        {"code": "DA", "nom": "Drachme d’Acier", "poids_g": 31, "garant": "Guilde du Marteau", "ancrage": "poids_metal_pur", "valeurs_ref": {"ration_ouvrier_jour": 0.8, "bois_sec_kg": 6}},
+        {"code": "SS", "nom": "Sou de Sel", "poids_g": 60, "garant": "Temples du Flux", "ancrage": "sel_grave", "usage": ["peages_ecluses", "marche_local"]},
+        {"code": "JS", "nom": "Jeton de Suie", "variabilite": "haute", "garant": "Soudeurs-Rouges (réputation)", "usage": ["marche_gris", "alchimie"]},
+        {"code": "PF", "nom": "Pierre_de_Flux", "classes": ["F", "M", "H"], "masse_typique_g": [12, 35, 90], "usage": ["reserve_valeur", "catalyseur_rituel", "stabilisation_runique"]}
+      ],
+      "taux_change_base": {"DA_SS": 5, "DA_PF_F": 520, "DA_JS": "0.05-0.40"},
+      "rituelles": [
+        {"code": "SF", "nom": "Serment de Fer", "support": "plaque_gravee", "convertible": true, "penalite_defaut": "ternissement+ban_professionnel"},
+        {"code": "MH", "nom": "Marée d’Honneur", "support": "vase_scelle", "convertible": true, "penalite_defaut": "perte_droit_parole"},
+        {"code": "MP", "nom": "Marque de Pierre", "support": "monolithe", "convertible": false, "penalite_defaut": "infamie_durable"}
+      ]
+    },
+
+    "05_parametres_transport": {
+      "couts_rel_ton_km": {"mer": 1, "fleuve": 4, "route": 8, "galerie": 3},
+      "couts_abs_DA_ton_km": {"mer": 0.02, "fleuve": 0.08, "route": 0.16, "galerie": 0.06},
+      "pertes_percent_par_100_km": {"mer": 0.6, "fleuve": 1.2, "route": 2.4, "galerie": 0.9},
+      "risques": {
+        "mer": ["tempetes_de_flux", "contrebandes"],
+        "fleuve": ["crues", "droits_de_passage"],
+        "route": ["banditisme", "cols_fermes"],
+        "galerie": ["effondrements", "séismes_telluriques"]
+      },
+      "plafonds_saisonniers": [
+        {"corridor": "HEL-KARF", "mois_ferm": ["M12", "M1", "M2"], "note": "neige et vents inverses"},
+        {"corridor": "LAMENTES", "mois_ferm": ["M1", "M2"], "note": "houles d’hiver"}
+      ]
+    },
+
+    "06_normes_et_douanes": {
+      "peages": [
+        {"id": "P-ARDA-ECL", "corridor": "ARDA", "base_DA_par_ton": 0.9, "gestion": "Juges_de_Maree"},
+        {"id": "P-HEL-COL", "corridor": "HEL-KARF", "base_DA_par_ton": 1.6, "gestion": "Guildes de route"},
+        {"id": "P-GAL-RUN", "corridor": "GRAN-KARAG", "base_DA_par_ton": 0.7, "gestion": "Jurats nains"}
+      ],
+      "tarifs": [
+        {"code": "T-ARM", "produit": "ARM", "taux_percent": 6},
+        {"code": "T-NAV", "produit": "NAV", "taux_percent": 8},
+        {"code": "T-ACD", "produit": "ACD", "taux_percent": 4},
+        {"code": "T-OUT", "produit": "OUT", "taux_percent": 3}
+      ],
+      "licences_magiques": [
+        {"type": "atelier_runique", "octroi": ["Chambre des Guildes", "Culte des Trois Fers"], "retraits": ["Tribunal de la Balance"]},
+        {"type": "flux_hydrique", "octroi": ["Juges de Flux"], "retraits": ["Assemblée de Marée"]},
+        {"type": "pyrique_industriel", "octroi": ["Synode des Forges"], "retraits": ["Vigiles de Pierre"]}
+      ]
+    },
+
+    "07_main_oeuvre_et_salaires": {
+      "categories": [
+        {"code": "APP", "nom": "apprentis", "salaire_DA_j": 0.6},
+        {"code": "ART", "nom": "artisans qualifies", "salaire_DA_j": 1.2},
+        {"code": "MIN", "nom": "mineurs", "salaire_DA_j": 1.4, "prime_risque_DA_j": 0.3},
+        {"code": "BAT", "nom": "bateliers", "salaire_DA_j": 1.0},
+        {"code": "SOU", "nom": "soudeurs_gobelins", "salaire_DA_j": 1.1, "prime_corrosion_DA_j": 0.4}
+      ],
+      "cout_vivant_ouvrier_DA_j": 0.8,
+      "assurances_et_caisses": [
+        {"nom": "Caisse de Secours des Forges", "cotisation_percent_salaire": 6},
+        {"nom": "Bourse des Marées", "cotisation_percent_salaire": 4}
+      ]
+    },
+
+    "08_offre_demande_prix": {
+      "elast_prix": {"GRA": -0.3, "BOI": -0.2, "TOU": -0.25, "MIN": -0.15, "FLX": -0.05, "SEL": -0.18},
+      "prix_init_DA_par_unite": {"GRA": 0.9, "BOI": 0.6, "TOU": 0.4, "MIN": 0.7, "FLX": 14, "SEL": 0.5, "FON": 1.3, "ACR": 3.8, "RSM": 5.0, "ACD": 2.4, "OUT": 26, "ARM": 120, "NAV": 400, "MED": 7.5},
+      "stocks_securite_jours": {"GRA": 40, "BOI": 60, "TOU": 90, "MIN": 50, "FLX": 120}
+    },
+
+    "09_energie_et_flux": {
+      "mix_energetique_percent": {"bois": 42, "tourbe": 38, "hydrique": 12, "pyrique_rituel": 8},
+      "rendements_thermiques": {"bois": 0.22, "tourbe": 0.28},
+      "usage_pierre_de_flux": {
+        "description": "La Pierre_de_Flux est un catalyseur tellurique concentré. Elle stabilise les matrices runiques et réduit les pertes sur convoyage.",
+        "effets": {"perte_transport_reduction_percent": 12, "bonus_sortie_runique_percent": 8}
+      }
+    },
+
+    "10_evenements_et_chocs": {
+      "evenements": [
+        {
+          "id": "E-CRUE-ARDA",
+          "nom": "Crue de l’Arda",
+          "frequence_moy_cycles": 6,
+          "effets": {"ARDA": {"capacite_base_t_an_delta_percent": -30}, "prix": {"GRA": +0.12, "BOI": +0.04}},
+          "contre_mesures": ["ouverture_bassins_FESCA", "priorite vivres"]
+        },
+        {
+          "id": "E-SEISME-OURR",
+          "nom": "Séisme des Ourann",
+          "frequence_moy_cycles": 9,
+          "effets": {"HEL-KARF": {"capacite_base_t_an_delta_percent": -40}, "couts_route": +0.08},
+          "contre_mesures": ["detours_VARGR", "renforts_runiques"]
+        },
+        {
+          "id": "E-BRUME-MORTH",
+          "nom": "Brumes saturées de Morthyll",
+          "frequence_moy_cycles": 5,
+          "effets": {"RSM": {"rendement_delta_percent": +15}, "route": {"pertes_percent_par_100_km_delta": +0.6}},
+          "contre_mesures": ["guides_trolls", "horaires_nocturnes"]
+        },
+        {
+          "id": "E-RUST-VARKH",
+          "nom": "Rouille Sacrée",
+          "frequence_moy_cycles": 7,
+          "effets": {"ACD": {"rendement_delta_percent": +12}, "ACR": {"defaut_taux_percent": +2}},
+          "contre_mesures": ["purges_d_ateliers", "inspections_Rouille-Mere"]
+        }
+      ]
+    },
+
+    "11_marches_et_contrats": {
+      "bourses": [
+        {"id": "B-CHAMP", "lieu": "Champsorne", "produits": ["GRA", "MIN", "FON", "ACR"], "clearing": "DA"},
+        {"id": "B-FESCA", "lieu": "Fescar", "produits": ["BOI", "TOU", "RSM", "MED"], "clearing": "SS"},
+        {"id": "B-ISLAK", "lieu": "Islakarion", "produits": ["NAV", "POI"], "clearing": "DA"}
+      ],
+      "contrats_types": [
+        {"code": "C-SF", "nom": "Serment de Fer", "devise": "DA", "garantie": "plaque_runique", "penalite": "ternissement+ban"},
+        {"code": "C-MH", "nom": "Marée d’Honneur", "devise": "SS", "garantie": "jarre_scellee", "penalite": "perte_parole"},
+        {"code": "C-MP", "nom": "Marque de Pierre", "devise": "PF", "garantie": "monolithe", "penalite": "infamie"}
+      ]
+    },
+
+    "12_militaire_et_logistique": {
+      "besoins_standard_armee": {
+        "fantassin_jour": {"GRA": 1.6, "BOI": 0.5},
+        "sapeur_jour": {"GRA": 1.8, "BOI": 0.5, "TOU": 0.1},
+        "pierrier_tir": {"ACR": 0.02, "FLX": 0.00004}
+      },
+      "convoyage": {
+        "mule": {"charge_t": 0.12, "vitesse_km_j": 24},
+        "chariot": {"charge_t": 1.2, "vitesse_km_j": 18},
+        "barge_fleuve": {"charge_t": 42, "vitesse_km_j": 30},
+        "cabinier_cotier": {"charge_t": 18, "vitesse_km_j": 45}
+      }
+    },
+
+    "13_equilibres_geo": {
+      "dependances_critiques": [
+        {"from": "KARFE", "to": "THULC", "ressource": "BOI", "ratio": 0.35},
+        {"from": "KARFE", "to": "MORTH", "ressource": "TOU", "ratio": 0.22},
+        {"from": "ISLAK", "to": "FESCA", "ressource": "SS", "ratio": 0.40},
+        {"from": "CHAMP", "to": "VARKH", "ressource": "ACD", "ratio": 0.18}
+      ],
+      "tampons_strategiques": [
+        {"noeud": "GRANS", "stock_FLX_kg": 22000},
+        {"noeud": "CHAMP", "stock_GRA_t": 9000},
+        {"noeud": "ISLAK", "stock_NAV_u": 36}
+      ]
+    },
+
+    "14_validation_coherence": {
+      "population_support": "Capacités mises à l’échelle pour population(v2). Les volumes annuels couvrent >60% de la demande urbaine déclarée des noeuds principaux.",
+      "religion_magie_alignement": "PF explicitée comme catalyseur (Voûte/Trois Fers) ; Flux hydrique ancré sur Fescar ; Rouille-Mère reliée à ACD.",
+      "geopolitique_conformite": "Corridors et peages identiques aux cartes stratégiques ; marges militaires simulables.",
+      "technique": {
+        "clefs_uniques": ["id", "code"],
+        "naming": "Pierre_de_Flux en snake_case constant",
+        "encodage": "UTF-8", "decimal_point": "."
+      }
+    },
+
+    "15_schema_simulation": {
+      "tick": "mois",
+      "ordre_calcul": [
+        "maj_evenements",
+        "capacites_corridors",
+        "production_primaires",
+        "raffinage_intermediaires",
+        "assemblage_finis",
+        "mise_a_jour_stocks",
+        "demande_et_prix",
+        "soldes_commerciaux",
+        "entretien_infrastructures",
+        "journal_rituels_et_serments"
+      ],
+      "equations_simplifiees": {
+        "prix_t+1": "prix_t * (1 + alpha*(demande - offre)/offre)",
+        "stocks_t+1": "stocks_t + production - consommation - pertes",
+        "pertes": "distance/100 * pertes_percent_par_100_km (par mode)",
+        "bonus_flux": "sortie_runique * (1 + bonus_sortie_runique_percent)"
+      }
+    }
+  }
+}
+{
+  "economie": {
+    "version": "3.1-sim-ultra",
+    "_note": "Modèle intégral prêt pour simulation (pas mensuel par défaut). Harmonisé avec population(v2), religion, magie, géographie, géopolitique. Ajout énergie carbone/tourbe, alignement Pierre_de_Flux.",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Monde d’Ardane — dungeon-synth médiéval sombre, rites contractuels",
+      "coherence_avec": [
+        "races.json",
+        "geographie.json",
+        "continents.json",
+        "population.json",
+        "magie.json",
+        "religion.json",
+        "geopolitique.json",
+        "politique_gouvernance.json",
+        "mythologie_histoire.json"
+      ],
+      "annee_calibration": "Cycle 412 (année de référence)",
+      "granularite_defaut": "mensuelle",
+      "unités": {
+        "masse": "kg",
+        "tonne": 1000,
+        "distance": "km",
+        "vitesse": "km/jour",
+        "monnaie": "Drachme_d_Acier (DA)",
+        "energie_bois": "kg_bois_sec_eq",
+        "energie_carbone": "kg_tourbe_eq",
+        "flux_magique": "Pierre_de_Flux (classes: F/M/H)"
+      }
+    },
+
+    "02_geo_noeuds_et_corridors": {
+        "noeuds": [
+            {"id": "CHAMP", "nom": "Champsorne", "type": "cite_humaine", "roles": ["grains", "droit_commercial"], "region": "Medianor", "population_k": 220},
+            {"id": "HELGA", "nom": "Helgarstätt", "type": "cite_humaine", "roles": ["metal_surface", "cols"], "region": "Septentria", "population_k": 90},
+            {"id": "KARFE", "nom": "Kar-Ferrum", "type": "complexe_humain_nain", "roles": ["raffinage_metaux", "armes_runiques"], "region": "Septentria", "population_k": 80},
+            {"id": "GRANS", "nom": "Gransouterre", "type": "cite_naine", "roles": ["pierres_flux", "banque_runique"], "region": "Septentria", "population_k": 70},
+            {"id": "KARAG", "nom": "Karâg-Tor", "type": "cite_naine", "roles": ["mines_profondes", "meca_puits"], "region": "Austremont", "population_k": 60},
+            {"id": "KELWY", "nom": "Sous-Kelwyn", "type": "cite_naine", "roles": ["hydro_karst", "taille_fine"], "region": "Medianor", "population_k": 45},
+            {"id": "FESCA", "nom": "Fescar", "type": "cite_batracienne", "roles": ["arbitrage_fluvial", "perles"], "region": "Medianor", "population_k": 120},
+            {"id": "LAGOV", "nom": "Lago’Vernis", "type": "port_archipel", "roles": ["commerce_maritime", "artefacts_aquatiques"], "region": "Archipel", "population_k": 90},
+            {"id": "ISLAK", "nom": "Islakarion", "type": "port_humain", "roles": ["transbordement", "douanes_marines"], "region": "Archipel", "population_k": 110},
+            {"id": "THULC", "nom": "Thulcar", "type": "territoire_troll", "roles": ["bois_dur", "resines"], "region": "Austremont", "population_k": 60},
+            {"id": "MORTH", "nom": "Morthyll", "type": "territoire_troll", "roles": ["resines_medic", "brumes_rituelles"], "region": "Septentria", "population_k": 30},
+            {"id": "VARKH", "nom": "Varkhar", "type": "territoire_gobelin", "roles": ["sels", "acides", "recyclage"], "region": "Septentria", "population_k": 90},
+            {"id": "VARGR", "nom": "Vargr", "type": "contreforts_geants", "roles": ["cols", "fanaux_sommitaux"], "region": "Septentria", "population_k": 4},
+            {"id": "VHORAK", "nom": "Vhorak", "type": "falaises_geantes", "roles": ["fanaux_marins", "fortins_de_chaine"], "region": "Austremont", "population_k": 2}
+        ],
+        "corridors": [
+            {"id": "ARDA", "type": "fleuve", "noeuds": ["CHAMP", "FESCA", "ISLAK"], "longueur_km": 310, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 95000, "description": "Axe fluvial principal reliant Medianor à l’Archipel. Convois mixtes sous assistance hydrorunique."},
+            {"id": "HEL-KARF", "type": "route_montagne", "noeuds": ["HELGA", "KARFE"], "longueur_km": 140, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 18000, "description": "Route haute de Septentria : traîneaux de minerai et convois d’hiver, entretenue par les jurats nains."},
+            {"id": "GRAN-KARAG", "type": "galerie_naine", "noeuds": ["GRANS", "KARAG"], "longueur_km": 90, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 165000, "description": "Galerie maîtresse des forges profondes, reliant Gransouterre à Karâg-Tor."},
+            {"id": "LAMENTES", "type": "cotiere", "noeuds": ["ISLAK", "LAGOV"], "longueur_km": 780, "saisonnalite": ["M3-M12"], "capacite_base_t_an": 24000, "description": "Route maritime de cabotage entre Islakarion et Lago’Vernis, soumise aux marées magiques."},
+            {"id": "THUL-KARF", "type": "mixte_route+fleuve", "noeuds": ["THULC", "KARFE"], "longueur_km": 220, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 31000, "description": "Couloir commercial combiné entre Thulcar et Kar-Ferrum. Segment clef du transit pyrique."},
+            {"id": "VARKH-CHAMP", "type": "caravane", "noeuds": ["VARKH", "CHAMP"], "longueur_km": 410, "saisonnalite": ["M4-M10"], "capacite_base_t_an": 9000, "description": "Liaison caravanière gobeline et humaine, spécialisée dans le troc d’acides, de suies et de minerais bruts."}
+        ],
+        "facteurs_magiques": "Amplification tellurique et hydrique des flux commerciaux via balises runiques Arda–Ferrum (+25% de rendement moyen sur les corridors actifs)."
+        },
+
+
+    "03_ressources": {
+      "primaires": [
+        {"code": "GRA", "nom": "grains", "producteurs": ["CHAMP"], "saisons": ["M7-M10"], "unite": "t", "rendement_t_an": 18000},
+        {"code": "BOI", "nom": "bois_dur", "producteurs": ["THULC", "MORTH"], "unite": "t", "rendement_t_an": 24000},
+        {"code": "TOU", "nom": "tourbe_carbone", "producteurs": ["MORTH", "FESCA"], "unite": "t", "rendement_t_an": 32000},
+        {"code": "MIN", "nom": "minerai_fer", "producteurs": ["HELGA", "KARAG"], "unite": "t", "rendement_t_an": 38000},
+        {"code": "SEL", "nom": "sels_et_nitrats", "producteurs": ["VARKH"], "unite": "t", "rendement_t_an": 12000},
+        {"code": "FLX", "nom": "pierres_de_flux_brutes", "producteurs": ["GRANS", "KARAG"], "unite": "kg", "rendement_t_an": 1800},
+        {"code": "POI", "nom": "poisson_maritime", "producteurs": ["ISLAK", "LAGOV"], "unite": "t", "rendement_t_an": 15000}
+      ],
+      "intermediaires": [
+        {"code": "FON", "nom": "fonte_basse", "entrees": {"MIN": 1.5, "BOI": 0.6, "TOU": 0.4}, "sorties": {"FON": 1}, "sites": ["KARFE", "HELGA"], "energie": {"energie_bois": 0.3, "energie_carbone": 0.7}},
+        {"code": "ACR", "nom": "acier_vivant", "entrees": {"FON": 1.2, "SEL": 0.05, "FLX": 0.002}, "sorties": {"ACR": 1}, "sites": ["KARFE", "GRANS"], "energie": {"energie_carbone": 0.8}},
+        {"code": "RSM", "nom": "resines_medicinales", "entrees": {"BOI": 0.4}, "sorties": {"RSM": 0.1}, "sites": ["MORTH", "THULC"]},
+        {"code": "ACD", "nom": "acides_industriels", "entrees": {"SEL": 1, "POI": 0.02}, "sorties": {"ACD": 0.4}, "sites": ["VARKH"]}
+      ],
+      "finis": [
+        {"code": "OUT", "nom": "outils_runiques", "entrees": {"ACR": 0.8, "FLX": 0.001}, "sites": ["GRANS", "KELWY", "KARFE"], "valeur_unitaire_DA": 24},
+        {"code": "ARM", "nom": "armes_runiques", "entrees": {"ACR": 1.0, "FLX": 0.003}, "sites": ["KARFE"], "valeur_unitaire_DA": 110},
+        {"code": "NAV", "nom": "coques_navales", "entrees": {"BOI": 3.2, "ACR": 0.6, "ACD": 0.1}, "sites": ["ISLAK", "LAGOV"], "valeur_unitaire_DA": 380},
+        {"code": "MED", "nom": "onguents_et_pansements", "entrees": {"RSM": 0.05, "SEL": 0.02}, "sites": ["MORTH", "FESCA"], "valeur_unitaire_DA": 6}
+      ]
+    },
+
+    "04_monnaies_et_conversions": {
+      "physiques": [
+        {"code": "DA", "nom": "Drachme d’Acier", "poids_g": 31, "garant": "Guilde du Marteau", "ancrage": "poids_metal_pur", "valeurs_ref": {"ration_ouvrier_jour": 0.8, "bois_sec_kg": 6}},
+        {"code": "SS", "nom": "Sou de Sel", "poids_g": 60, "garant": "Temples du Flux", "ancrage": "sel_grave", "usage": ["peages_ecluses", "marche_local"]},
+        {"code": "JS", "nom": "Jeton de Suie", "variabilite": "haute", "garant": "Soudeurs-Rouges (réputation)", "usage": ["marche_gris", "alchimie"]},
+        {"code": "PF", "nom": "Pierre_de_Flux", "classes": ["F", "M", "H"], "masse_typique_g": [12, 35, 90], "usage": ["reserve_valeur", "catalyseur_rituel", "stabilisation_runique"]}
+      ],
+      "taux_change_base": {"DA_SS": 5, "DA_PF_F": 520, "DA_JS": "0.05-0.40"},
+      "rituelles": [
+        {"code": "SF", "nom": "Serment de Fer", "support": "plaque_gravee", "convertible": true, "penalite_defaut": "ternissement+ban_professionnel"},
+        {"code": "MH", "nom": "Marée d’Honneur", "support": "vase_scelle", "convertible": true, "penalite_defaut": "perte_droit_parole"},
+        {"code": "MP", "nom": "Marque de Pierre", "support": "monolithe", "convertible": false, "penalite_defaut": "infamie_durable"}
+      ]
+    },
+
+    "05_parametres_transport": {
+      "couts_rel_ton_km": {"mer": 1, "fleuve": 4, "route": 8, "galerie": 3},
+      "couts_abs_DA_ton_km": {"mer": 0.02, "fleuve": 0.08, "route": 0.16, "galerie": 0.06},
+      "pertes_percent_par_100_km": {"mer": 0.6, "fleuve": 1.2, "route": 2.4, "galerie": 0.9},
+      "risques": {
+        "mer": ["tempetes_de_flux", "contrebandes"],
+        "fleuve": ["crues", "droits_de_passage"],
+        "route": ["banditisme", "cols_fermes"],
+        "galerie": ["effondrements", "séismes_telluriques"]
+      },
+      "plafonds_saisonniers": [
+        {"corridor": "HEL-KARF", "mois_ferm": ["M12", "M1", "M2"], "note": "neige et vents inverses"},
+        {"corridor": "LAMENTES", "mois_ferm": ["M1", "M2"], "note": "houles d’hiver"}
+      ]
+    },
+
+    "06_normes_et_douanes": {
+      "peages": [
+        {"id": "P-ARDA-ECL", "corridor": "ARDA", "base_DA_par_ton": 0.9, "gestion": "Juges_de_Maree"},
+        {"id": "P-HEL-COL", "corridor": "HEL-KARF", "base_DA_par_ton": 1.6, "gestion": "Guildes de route"},
+        {"id": "P-GAL-RUN", "corridor": "GRAN-KARAG", "base_DA_par_ton": 0.7, "gestion": "Jurats nains"}
+      ],
+      "tarifs": [
+        {"code": "T-ARM", "produit": "ARM", "taux_percent": 6},
+        {"code": "T-NAV", "produit": "NAV", "taux_percent": 8},
+        {"code": "T-ACD", "produit": "ACD", "taux_percent": 4},
+        {"code": "T-OUT", "produit": "OUT", "taux_percent": 3}
+      ],
+      "licences_magiques": [
+        {"type": "atelier_runique", "octroi": ["Chambre des Guildes", "Culte des Trois Fers"], "retraits": ["Tribunal de la Balance"]},
+        {"type": "flux_hydrique", "octroi": ["Juges de Flux"], "retraits": ["Assemblée de Marée"]},
+        {"type": "pyrique_industriel", "octroi": ["Synode des Forges"], "retraits": ["Vigiles de Pierre"]}
+      ]
+    },
+
+    "07_main_oeuvre_et_salaires": {
+      "categories": [
+        {"code": "APP", "nom": "apprentis", "salaire_DA_j": 0.6},
+        {"code": "ART", "nom": "artisans qualifies", "salaire_DA_j": 1.2},
+        {"code": "MIN", "nom": "mineurs", "salaire_DA_j": 1.4, "prime_risque_DA_j": 0.3},
+        {"code": "BAT", "nom": "bateliers", "salaire_DA_j": 1.0},
+        {"code": "SOU", "nom": "soudeurs_gobelins", "salaire_DA_j": 1.1, "prime_corrosion_DA_j": 0.4}
+      ],
+      "cout_vivant_ouvrier_DA_j": 0.8,
+      "assurances_et_caisses": [
+        {"nom": "Caisse de Secours des Forges", "cotisation_percent_salaire": 6},
+        {"nom": "Bourse des Marées", "cotisation_percent_salaire": 4}
+      ]
+    },
+
+    "08_offre_demande_prix": {
+      "elast_prix": {"GRA": -0.3, "BOI": -0.2, "TOU": -0.25, "MIN": -0.15, "FLX": -0.05, "SEL": -0.18},
+      "prix_init_DA_par_unite": {"GRA": 0.9, "BOI": 0.6, "TOU": 0.4, "MIN": 0.7, "FLX": 14, "SEL": 0.5, "FON": 1.3, "ACR": 3.8, "RSM": 5.0, "ACD": 2.4, "OUT": 26, "ARM": 120, "NAV": 400, "MED": 7.5},
+      "stocks_securite_jours": {"GRA": 40, "BOI": 60, "TOU": 90, "MIN": 50, "FLX": 120}
+    },
+
+    "09_energie_et_flux": {
+      "mix_energetique_percent": {"bois": 42, "tourbe": 38, "hydrique": 12, "pyrique_rituel": 8},
+      "rendements_thermiques": {"bois": 0.22, "tourbe": 0.28},
+      "usage_pierre_de_flux": {
+        "description": "La Pierre_de_Flux est un catalyseur tellurique concentré. Elle stabilise les matrices runiques et réduit les pertes sur convoyage.",
+        "effets": {"perte_transport_reduction_percent": 12, "bonus_sortie_runique_percent": 8}
+      }
+    },
+
+    "10_evenements_et_chocs": {
+      "evenements": [
+        {
+          "id": "E-CRUE-ARDA",
+          "nom": "Crue de l’Arda",
+          "frequence_moy_cycles": 6,
+          "effets": {"ARDA": {"capacite_base_t_an_delta_percent": -30}, "prix": {"GRA": +0.12, "BOI": +0.04}},
+          "contre_mesures": ["ouverture_bassins_FESCA", "priorite vivres"]
+        },
+        {
+          "id": "E-SEISME-OURR",
+          "nom": "Séisme des Ourann",
+          "frequence_moy_cycles": 9,
+          "effets": {"HEL-KARF": {"capacite_base_t_an_delta_percent": -40}, "couts_route": +0.08},
+          "contre_mesures": ["detours_VARGR", "renforts_runiques"]
+        },
+        {
+          "id": "E-BRUME-MORTH",
+          "nom": "Brumes saturées de Morthyll",
+          "frequence_moy_cycles": 5,
+          "effets": {"RSM": {"rendement_delta_percent": +15}, "route": {"pertes_percent_par_100_km_delta": +0.6}},
+          "contre_mesures": ["guides_trolls", "horaires_nocturnes"]
+        },
+        {
+          "id": "E-RUST-VARKH",
+          "nom": "Rouille Sacrée",
+          "frequence_moy_cycles": 7,
+          "effets": {"ACD": {"rendement_delta_percent": +12}, "ACR": {"defaut_taux_percent": +2}},
+          "contre_mesures": ["purges_d_ateliers", "inspections_Rouille-Mere"]
+        }
+      ]
+    },
+
+    "11_marches_et_contrats": {
+      "bourses": [
+        {"id": "B-CHAMP", "lieu": "Champsorne", "produits": ["GRA", "MIN", "FON", "ACR"], "clearing": "DA"},
+        {"id": "B-FESCA", "lieu": "Fescar", "produits": ["BOI", "TOU", "RSM", "MED"], "clearing": "SS"},
+        {"id": "B-ISLAK", "lieu": "Islakarion", "produits": ["NAV", "POI"], "clearing": "DA"}
+      ],
+      "contrats_types": [
+        {"code": "C-SF", "nom": "Serment de Fer", "devise": "DA", "garantie": "plaque_runique", "penalite": "ternissement+ban"},
+        {"code": "C-MH", "nom": "Marée d’Honneur", "devise": "SS", "garantie": "jarre_scellee", "penalite": "perte_parole"},
+        {"code": "C-MP", "nom": "Marque de Pierre", "devise": "PF", "garantie": "monolithe", "penalite": "infamie"}
+      ]
+    },
+
+    "12_militaire_et_logistique": {
+      "besoins_standard_armee": {
+        "fantassin_jour": {"GRA": 1.6, "BOI": 0.5},
+        "sapeur_jour": {"GRA": 1.8, "BOI": 0.5, "TOU": 0.1},
+        "pierrier_tir": {"ACR": 0.02, "FLX": 0.00004}
+      },
+      "convoyage": {
+        "mule": {"charge_t": 0.12, "vitesse_km_j": 24},
+        "chariot": {"charge_t": 1.2, "vitesse_km_j": 18},
+        "barge_fleuve": {"charge_t": 42, "vitesse_km_j": 30},
+        "cabinier_cotier": {"charge_t": 18, "vitesse_km_j": 45}
+      }
+    },
+
+    "13_equilibres_geo": {
+      "dependances_critiques": [
+        {"from": "KARFE", "to": "THULC", "ressource": "BOI", "ratio": 0.35},
+        {"from": "KARFE", "to": "MORTH", "ressource": "TOU", "ratio": 0.22},
+        {"from": "ISLAK", "to": "FESCA", "ressource": "SS", "ratio": 0.40},
+        {"from": "CHAMP", "to": "VARKH", "ressource": "ACD", "ratio": 0.18}
+      ],
+      "tampons_strategiques": [
+        {"noeud": "GRANS", "stock_FLX_kg": 22000},
+        {"noeud": "CHAMP", "stock_GRA_t": 9000},
+        {"noeud": "ISLAK", "stock_NAV_u": 36}
+      ]
+    },
+
+    "14_validation_coherence": {
+      "population_support": "Capacités mises à l’échelle pour population(v2). Les volumes annuels couvrent >60% de la demande urbaine déclarée des noeuds principaux.",
+      "religion_magie_alignement": "PF explicitée comme catalyseur (Voûte/Trois Fers) ; Flux hydrique ancré sur Fescar ; Rouille-Mère reliée à ACD.",
+      "geopolitique_conformite": "Corridors et peages identiques aux cartes stratégiques ; marges militaires simulables.",
+      "technique": {
+        "clefs_uniques": ["id", "code"],
+        "naming": "Pierre_de_Flux en snake_case constant",
+        "encodage": "UTF-8", "decimal_point": "."
+      }
+    },
+
+    "15_schema_simulation": {
+      "tick": "mois",
+      "ordre_calcul": [
+        "maj_evenements",
+        "capacites_corridors",
+        "production_primaires",
+        "raffinage_intermediaires",
+        "assemblage_finis",
+        "mise_a_jour_stocks",
+        "demande_et_prix",
+        "soldes_commerciaux",
+        "entretien_infrastructures",
+        "journal_rituels_et_serments"
+      ],
+      "equations_simplifiees": {
+        "prix_t+1": "prix_t * (1 + alpha*(demande - offre)/offre)",
+        "stocks_t+1": "stocks_t + production - consommation - pertes",
+        "pertes": "distance/100 * pertes_percent_par_100_km (par mode)",
+        "bonus_flux": "sortie_runique * (1 + bonus_sortie_runique_percent)"
+      }
+    }
+  }
+}
+{
+  "conflits_et_geopolitique": {
+    "version": "2.2-sim",
+    "00_note": "Mise à jour intégrale du module géopolitique : harmonisation inter-fichiers, consolidation des Concordats (Cycle 412), intégration du Voile du Monde et des Prieurés Géants. Tous les champs et structures respectent le format de la v2.1 avec compléments pour simulation en boucle mensuelle complète.",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (magie tangible, économie ritualisée, gouvernance concordataire)",
+      "cycle_actuel": "412 — Période des Concordats Consolidés",
+      "coherence_avec": [
+        "geographie.json",
+        "races.json",
+        "magie.json",
+        "religion.json",
+        "histoire.json",
+        "mythologie.json",
+        "economie.json",
+        "politique_et_gouvernance.json",
+        "population.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "distance": "km",
+        "masse": "kg",
+        "monnaie": "Drachme_d_Acier (DA)",
+        "effectifs": "tetes",
+        "cadence": "jours",
+        "flux": "Pierre_de_Flux (classes F/M/H)"
+      }
+    },
+
+    "02_theatres_et_frontieres": {
+      "noeuds_strategiques": [
+        {"id": "CHAMP", "nom": "Champsorne", "type": "cite_humaine", "valeurs": ["grains", "droit_commercial"], "population_k": 220},
+        {"id": "HELGA", "nom": "Helgarstätt", "type": "cite_humaine", "valeurs": ["fer", "cols"], "population_k": 90},
+        {"id": "KARFE", "nom": "Kar-Ferrum", "type": "complexe_humain_nain", "valeurs": ["raffinage", "armes_runiques"], "population_k": 80},
+        {"id": "GRANS", "nom": "Gransouterre", "type": "cite_naine", "valeurs": ["pierres_flux", "banque_runique"], "population_k": 70},
+        {"id": "KARAG", "nom": "Karâg-Tor", "type": "cite_naine", "valeurs": ["mines", "mécanique_puits"], "population_k": 60},
+        {"id": "KELWY", "nom": "Sous-Kelwyn", "type": "cite_naine", "valeurs": ["hydro_karst", "taille_fine"], "population_k": 45},
+        {"id": "FESCA", "nom": "Fescar", "type": "cite_batracienne", "valeurs": ["arbitrage_fluvial", "perles"], "population_k": 120},
+        {"id": "LAGOV", "nom": "Lago’Vernis", "type": "port_archipel", "valeurs": ["commerce_maritime", "artefacts_aquatiques"], "population_k": 90},
+        {"id": "ISLAK", "nom": "Islakarion", "type": "port_humain", "valeurs": ["transbordement", "douanes"], "population_k": 110},
+        {"id": "THULC", "nom": "Thulcar", "type": "territoire_troll", "valeurs": ["bois_dur", "résines"], "population_k": 60},
+        {"id": "MORTH", "nom": "Morthyll", "type": "territoire_troll", "valeurs": ["résines_medic", "brumes_rituelles"], "population_k": 30},
+        {"id": "VARKH", "nom": "Varkhar", "type": "territoire_gobelin", "valeurs": ["sels", "acides"], "population_k": 90},
+        {"id": "VARGR", "nom": "Vargr", "type": "contreforts_géants", "valeurs": ["cols", "fanaux_sommitaux"], "population_k": 4},
+        {"id": "VHORAK", "nom": "Vhorak", "type": "falaises_géantes", "valeurs": ["fanaux_marins", "fortins_de_chaîne"], "population_k": 2}
+      ],
+      "frontieres_sensibles": [
+        {"id": "FR-ARDAN-FES", "entre": ["CHAMP", "FESCA"], "type": "hydrique", "enjeux": ["écluses", "quotas_eau"], "tension": 0.48},
+        {"id": "FR-KARF-THUL", "entre": ["KARFE", "THULC"], "type": "forestière", "enjeux": ["coupe_bois", "routes_de_chasse"], "tension": 0.39},
+        {"id": "FR-VARKH-HEL", "entre": ["VARKH", "HELGA"], "type": "steppe-montagne", "enjeux": ["contrebandes", "acides"], "tension": 0.63},
+        {"id": "FR-GRANS-KARAG", "entre": ["GRANS", "KARAG"], "type": "souterrain", "enjeux": ["droits_de_galerie", "pierres_flux"], "tension": 0.33},
+        {"id": "FR-ISLAK-LAGOV", "entre": ["ISLAK", "LAGOV"], "type": "maritime", "enjeux": ["droit_de_phare", "douanes"], "tension": 0.28}
+      ],
+      "axes_operatifs": [
+        {"id": "AX-ARDA", "type": "fleuve", "noeuds": ["CHAMP", "FESCA", "ISLAK"], "longueur_km": 310, "capacite_t_an": 120000},
+        {"id": "AX-LAMENTES", "type": "côtier", "noeuds": ["ISLAK", "LAGOV"], "longueur_km": 780, "capacite_t_an": 32000},
+        {"id": "AX-HEL-KARF", "type": "cols", "noeuds": ["HELGA", "KARFE"], "longueur_km": 140, "capacite_t_an": 24000},
+        {"id": "AX-GRAN-KARAG", "type": "galerie", "noeuds": ["GRANS", "KARAG"], "longueur_km": 90, "capacite_t_an": 220000}
+      ]
+    },
+
+    "03_acteurs_et_forces": {
+      "factions": [
+        {"code": "CITES_HUMAINES", "but": "sécuriser grains/fer et routes", "relations": {"NAINS": "+", "BATRACIENS": "+/-", "TROLLS": "+", "GOBELINS": "-", "GEANTS": "0/+"}},
+        {"code": "NAINS", "but": "stabilité des galeries, monopole runique", "relations": {"HUMAINS": "+", "GOBELINS": "-", "TROLLS": "+/-", "GEANTS": "+"}},
+        {"code": "BATRACIENS", "but": "contrôle du flux hydrique et arbitrage", "relations": {"HUMAINS": "+/-", "NAINS": "+", "TROLLS": "+", "GOBELINS": "0"}},
+        {"code": "TROLLS", "but": "préservation forestière et rites", "relations": {"HUMAINS": "+", "GOBELINS": "-", "NAINS": "+/-"}},
+        {"code": "GOBELINS", "but": "profit de contrebande et contrôle des acides", "relations": {"HUMAINS": "-", "NAINS": "-", "TROLLS": "-"}},
+        {"code": "GEANTS", "but": "stabilité tellurique, neutralité armée", "relations": {"tous": "0/+"}, "statut": "Neutralité reconnue par traités et prieurés."},
+        {"code": "VOILE", "but": "préservation du secret et de l’équilibre des ombres", "relations": {"GEANTS": "+", "HUMAINS": "0/-", "NAINS": "0", "BATRACIENS": "0/+"}, "statut": "Culte toléré sous accords de Vhorak."}
+      ],
+      "ordres_de_bataille": {
+        "CHAMP": {"leviers": 8400, "milice": 2800, "compagnies_pro": 4, "mages_d_atelier": 64, "artillerie_runique": 12},
+        "HELGA": {"leviers": 5200, "milice": 1800, "compagnies_pro": 2, "mages_d_atelier": 44, "artillerie_runique": 8},
+        "KARFE": {"gardes_ateliers": 2200, "sapeurs_nains": 960, "boucliers_lourds": 1200, "artillerie_runique": 20},
+        "GRANS": {"boucliers_compacts": 1800, "piquiers": 800, "ingénieurs_flux": 140, "go_lems_de_pierre_rituels": 3},
+        "FESCA": {"gardes_de_passe": 1600, "harponniers": 1200, "choristes_rituels": 160, "éclusiers": 220},
+        "THULC": {"garde_lisiere": 1000, "frondes_lourdes": 600, "totems_mobiles": 80},
+        "VARKH": {"bandes": 1800, "soudeurs": 240, "lanceurs_de_fumee": 520}
+      }
+    },
+
+    "04_doctrines": {
+      "humains": ["mur_de_boucliers+hallebardes", "feux_gras", "machines_de_siège", "coordination avec sapeurs nains"],
+      "nains": ["sape_et_contra-sape", "positions_clavees", "masses_runiques", "pièges_de_galerie"],
+      "batraciens": ["barrages_d_eau", "lances-harpons", "murs_liquides", "manœuvre lagunaire"],
+      "trolls": ["embuscade_brumeuse", "filets", "frondes lourdes", "défense en profondeur de clairières"],
+      "gobelins": ["harcèlement nocturne", "fumées_acides", "sabotage"],
+      "geants": ["interdiction_de_col", "ondes_de_choc_telluriques", "lumières_de_dissuasion"],
+      "voile": ["mimétisme_brumeux", "désorientation_sensorielle", "propagation_de_fausse_lumière"],
+      "magie_de_campagne": {
+        "offensive": ["jets_pyriques contrôlés", "lignes_de_chaleur", "frappe_runique sur machines"],
+        "defensive": ["murs_d_eau", "sceaux_de_pierre", "brumes_d_aveuglement"],
+        "logistique": ["refroidissement_forges", "éclairage_fanaux", "renfort_structurel de ponts"]
+      }
+    },
+        "05_alliances_et_influences": {
+      "alliances_formelles": [
+        {
+          "nom": "Pacte_des_Cols",
+          "membres": ["HELGA", "KARFE", "VARGR"],
+          "clauses": ["fanaux_coordonnes", "neutre_but_ferme_des_geants"],
+          "solidite": 0.78,
+          "cycle_signature": 61,
+          "commentaire": "Alliance logistique montagnarde, cœur des secours et routes pyriques. Soutenue par les Prieurés de Vargr."
+        },
+        {
+          "nom": "Ligue_des_Passes",
+          "membres": ["FESCA", "ISLAK", "LAGOV"],
+          "clauses": ["normes_d_ecluse", "droit_de_phare_plafonne"],
+          "solidite": 0.74,
+          "cycle_signature": 399,
+          "commentaire": "Bloc maritime d’origine batracienne, précurseur de la Ligue des Ports de Lamentes (reconnue cycle 412)."
+        },
+        {
+          "nom": "Concordat_Runique",
+          "membres": ["GRANS", "KARAG", "KELWY", "KARFE"],
+          "clauses": ["normes_alliage", "traçabilité_flux"],
+          "solidite": 0.83,
+          "cycle_signature": 404,
+          "commentaire": "Traité nain fondateur, cadre légal des forges souterraines. Base technique du Concordat des Fers."
+        },
+        {
+          "nom": "Concordat_des_Fers",
+          "membres": ["Trois_Fers", "Voûte", "Confédération_Naine"],
+          "clauses": ["usage_pierre_flux", "armes_runiques_regulees"],
+          "solidite": 0.86,
+          "cycle_signature": 404,
+          "commentaire": "Établit la gouvernance conjointe des forges sacrées, pierre angulaire de la normalisation pyrique."
+        },
+        {
+          "nom": "Concordat_de_la_Flamme_Tempérée",
+          "membres": ["Trois_Fers", "Rouille_Mère"],
+          "clauses": ["stabilisation_pyrique", "partage_industriel_sacré"],
+          "solidite": 0.81,
+          "cycle_signature": 412,
+          "commentaire": "Traité final du Cycle des Concordats Consolidés ; garantit la cohabitation du feu industriel et du feu sacré."
+        },
+        {
+          "nom": "Pactes_de_Marée",
+          "membres": ["Foi_du_Flux", "Ports_archipélagiques"],
+          "clauses": ["flux_maritime_regulé", "licences_de_navigation"],
+          "solidite": 0.79,
+          "cycle_signature": 399,
+          "commentaire": "Régit les échanges maritimes sous supervision de la Foi du Flux et des Capitaineries jurées."
+        },
+        {
+          "nom": "Charte_des_Lisières",
+          "membres": ["Foi_de_la_Sève", "Guildes_de_route"],
+          "clauses": ["quotas_de_coupe", "replantations_rituelles"],
+          "solidite": 0.76,
+          "cycle_signature": 377,
+          "commentaire": "Régule les zones forestières et les routes de coupe sous arbitrage trollique."
+        },
+        {
+          "nom": "Accords_du_Voile",
+          "membres": ["Voile_du_Monde", "Prieurés_Géants_de_Vhorak"],
+          "clauses": ["neutralité_ombreuse", "transparence_diplomatique"],
+          "solidite": 0.82,
+          "cycle_signature": 410,
+          "commentaire": "Garantit la neutralité ombreuse entre les brumes du Voile et les fanaux des Prieurés."
+        }
+      ],
+
+      "zones_d_influence": [
+        {
+          "acteur": "CITES_HUMAINES",
+          "rayon_km": 160,
+          "noeud_centre": "CHAMP",
+          "opposition": ["FESCA", "ISLAK"],
+          "influence": ["commerce", "poids_legislatif", "licences_de_transit"],
+          "commentaire": "Axe commercial central ; influence mitigée sur l’Archipel."
+        },
+        {
+          "acteur": "NAINS",
+          "rayon_km": 130,
+          "noeud_centre": "GRANS",
+          "opposition": ["VARKH"],
+          "influence": ["runes", "alliages", "arbitrage_concordataire"],
+          "commentaire": "Réseau technique des galeries. Force d’équilibre face aux tensions gobelines."
+        },
+        {
+          "acteur": "BATRACIENS",
+          "rayon_km": 140,
+          "noeud_centre": "FESCA",
+          "opposition": ["CHAMP"],
+          "influence": ["hydroflux", "arbitrage_marée"],
+          "commentaire": "Pouvoir d’arbitrage confirmé depuis le Concordat des Marées."
+        },
+        {
+          "acteur": "GEANTS",
+          "rayon_km": 300,
+          "noeud_centre": "VHORAK",
+          "opposition": [],
+          "influence": ["neutralité_armée", "médiation_spirituelle"],
+          "commentaire": "Prieurés géants de Vhorak ; zones neutres reconnues par la Balance et les Concordats."
+        },
+        {
+          "acteur": "VOILE",
+          "rayon_km": 180,
+          "noeud_centre": "VHORAK",
+          "opposition": ["Guildes_pyriques"],
+          "influence": ["ombre", "renseignement_discret"],
+          "commentaire": "Émanation du culte du Voile du Monde ; surveillé mais toléré dans le cadre des Accords du Voile."
+        }
+      ]
+    },
+
+    "06_conflits_majeurs_historiques": [
+      {
+        "nom": "Guerre des Flux (Cycle 394–401)",
+        "belligérants": ["CHAMP", "FESCA"],
+        "causes": ["contrôle des écluses", "sécheresse artificielle"],
+        "batailles_clefs": [
+          {"nom": "Écluse des Trois-Pieux", "pertes": {"CHAMP": 1200, "FESCA": 900}},
+          {"nom": "Marais des Sept-Voix", "pertes": {"CHAMP": 600, "FESCA": 400}}
+        ],
+        "issue": "armistice de marée, quotas d’eau, tribunal mixte",
+        "consequences": ["hausse taxes d’écluse", "migration d’artisans vers Islakarion"]
+      },
+      {
+        "nom": "Chute d’Orr (Cycle 372)",
+        "belligérants": ["GRANS", "KARAG"],
+        "causes": ["effondrement de galeries", "dispute sur droits de veinage"],
+        "batailles_clefs": [
+          {"nom": "Crevasse des Treuils", "pertes": {"GRANS": 300, "KARAG": 420}}
+        ],
+        "issue": "normalisation des puits, partage 3/5 du flux",
+        "consequences": ["monopole nain sur trempe froide", "standardisation des plans gravés"]
+      },
+      {
+        "nom": "Purges de Soufre (Cycle 388)",
+        "belligérants": ["HELGA", "VARKH"],
+        "causes": ["émanations acides", "raids sur convois"],
+        "batailles_clefs": [
+          {"nom": "Fosses Fumantes", "pertes": {"HELGA": 500, "VARKH": 900}}
+        ],
+        "issue": "zones tampon, marchés tolérés",
+        "consequences": ["formalisation des Jetons de Suie", "douanes renforcées"]
+      }
+    ],
+
+    "07_conflits_actuels": {
+      "tension_globale_index": 0.61,
+      "incidents_mensuels_moy": 17,
+      "listes": [
+        {
+          "id": "CA-ARDAN-FES",
+          "description": "Escarmouches d’écluse entre bateliers ardanien et juges de marée.",
+          "localisation": "bassin moyen de l’Arda",
+          "acteurs": ["CHAMP", "FESCA"],
+          "intensite": 2,
+          "derniers_evenements": [
+            {"date_c412_m8_j21": "arrestation d’un scribe de tonnage"},
+            {"date_c412_m9_j3": "brèche de digue (réparée)"},
+            {"date_c412_m10_j18": "inspection mixte par les Juges de Marée et la Balance"}
+          ],
+          "risque_escalade": 0.39,
+          "commentaire": "Tension en décrue grâce à la médiation batracienne. Réouverture progressive des écluses sous quotas conjoints."
+        },
+        {
+          "id": "CA-THUL-KARF",
+          "description": "Litige forestier et profanation accidentelle d’un totem trollique.",
+          "localisation": "hauts de Thulcar",
+          "acteurs": ["THULC", "KARFE"],
+          "intensite": 1,
+          "derniers_evenements": [
+            {"date_c412_m7_j12": "procession trollique, relèvement du totem"},
+            {"date_c412_m9_j30": "ratification de la Charte des Lisières par le Synode local"}
+          ],
+          "risque_escalade": 0.24,
+          "commentaire": "Stabilisation effective. Dialogue rétabli entre Foi de la Sève et ingénieurs nains. Zone sous surveillance mixte."
+        },
+        {
+          "id": "CA-VARKH-HEL",
+          "description": "Sabotages répétés de convois de lingots et diffusion d’acides.",
+          "localisation": "cols d’Helgar",
+          "acteurs": ["VARKH", "HELGA"],
+          "intensite": 3,
+          "derniers_evenements": [
+            {"date_c412_m6_j2": "barils d’acide saisis"},
+            {"date_c412_m9_j15": "embuscade nocturne, pertes civiles"},
+            {"date_c412_m10_j8": "incendie d’un entrepôt pyrique (maîtrisé)"}
+          ],
+          "risque_escalade": 0.63,
+          "commentaire": "Escalade industrielle. Intervention prévue du Concordat de la Flamme Tempérée pour inspection des foyers pyriques."
+        },
+        {
+          "id": "CA-VHORAK-VOILE",
+          "description": "Fluctuations d’ombre dans les Brumes du Voile, incidents lumineux autour des fanaux.",
+          "localisation": "Falaises de Vhorak",
+          "acteurs": ["PRIEURES_GEANTS", "ADEPTES_DU_VOILE"],
+          "intensite": 2,
+          "derniers_evenements": [
+            {"date_c412_m9_j2": "affaiblissement temporaire de trois fanaux"},
+            {"date_c412_m9_j25": "apparition d’une nappe d’ombre autonome"},
+            {"date_c412_m10_j6": "veillée d’harmonisation menée par les Scribes de Pierre"}
+          ],
+          "risque_escalade": 0.46,
+          "commentaire": "Anomalies ombreuses sous contrôle. Accords du Voile respectés. Surveillance accrue par les Veilleurs de Vhorak."
+        },
+        {
+          "id": "CA-FESCA-LAGOV",
+          "description": "Litiges douaniers sur le transit de flux marins entre Ports et Cités libres.",
+          "localisation": "archipel des Lamentes",
+          "acteurs": ["FESCA", "LAGOV", "ISLAK"],
+          "intensite": 2,
+          "derniers_evenements": [
+            {"date_c412_m8_j10": "arrestation d’un capitaine portuaire pour excès de droits"},
+            {"date_c412_m9_j1": "session d’arbitrage maritime suspendue"},
+            {"date_c412_m10_j20": "reprise sous supervision de la Ligue des Ports"}
+          ],
+          "risque_escalade": 0.41,
+          "commentaire": "Tensions commerciales normales. Arbitrage sous le Pacte de Marée. Influence croissante de la Ligue des Ports de Lamentes."
+        },
+        {
+          "id": "CA-KARF-FORGE",
+          "description": "Surchauffe et incendie partiel d’un four pyrique dans les ateliers de Kar-Ferrum.",
+          "localisation": "Kar-Ferrum, quartier des Forges Saintes",
+          "acteurs": ["KARFE", "ROUILLE_MERE", "TROIS_FERS"],
+          "intensite": 3,
+          "derniers_evenements": [
+            {"date_c412_m9_j5": "explosion mineure de flux dans une trémie secondaire"},
+            {"date_c412_m9_j17": "déploiement de mages de refroidissement d’urgence"},
+            {"date_c412_m10_j4": "audit conjoint du Concordat de la Flamme Tempérée"}
+          ],
+          "risque_escalade": 0.58,
+          "commentaire": "Incident majeur à potentiel industriel. Coordination exemplaire entre cultes et guildes ; foyers stabilisés en 9 jours."
+        }
+      ],
+      "commentaire_global": "Cycle 412 marqué par un équilibre précaire entre relance commerciale et risques pyriques. Les Prieurés Géants et la Ligue des Ports jouent un rôle stabilisateur, limitant les escalades ouvertes. Aucun conflit armé majeur en cours."
+    },
+        "08_logistique_et_ravitaillement": {
+      "consommations_journalieres": {
+        "fantassin_kg": {"vivres": 1.8, "eau": 3.0, "bois": 1.0},
+        "soldat_heavy_kg": {"vivres": 2.2, "eau": 3.5, "bois": 1.5},
+        "bete_bat_kg": {"fourrage": 6.0, "eau": 20.0}
+      },
+      "cadences": {
+        "marche_km_j": {"plaine": 24, "col": 16, "galerie": 20},
+        "pontonnage_j": 2,
+        "reparation_digue_j": 3
+      },
+      "munitions_et_flux": {
+        "flèches_par_homme": 24,
+        "jarres_pyriques_par_piece": 6,
+        "pierres_flux_par_batterie": {"classe_F": 6, "classe_M": 3}
+      },
+      "capacites_depot": {
+        "CHAMP": {"grains_t": 16000, "lingots_t": 3000, "bois_t": 4000},
+        "HELGA": {"grains_t": 4000, "lingots_t": 6000, "pyrique_t": 800},
+        "KARFE": {"grains_t": 3000, "lingots_t": 9000, "bois_t": 5000},
+        "FESCA": {"grains_t": 7000, "eau_m3": 140000}
+      }
+    },
+
+    "09_renseignements_et_propagande": {
+      "reseaux": [
+        "bateliers-informateurs",
+        "clercs-lecteurs",
+        "tissages_de_signaux",
+        "gobelins_faussaires",
+        "adeptes_du_voile"
+      ],
+      "qualite_renseignement_index": {
+        "CHAMP": 0.71,
+        "HELGA": 0.61,
+        "FESCA": 0.74,
+        "GRANS": 0.69,
+        "VARKH": 0.47,
+        "VHORAK": 0.78
+      },
+      "propagande": {
+        "supports": [
+          "placards graves",
+          "chants de marée",
+          "totems parlants",
+          "balises lumineuses",
+          "brumes_sonores_du_voile"
+        ],
+        "effets_mensuels": {
+          "loyaute_morale": "+0.02 si budget propagande >= 1%",
+          "tension_frontiere": "-0.01 si campagnes croisées",
+          "cohesion_concordataire": "+0.03 si relais conjoints Voile+Prieurés actifs"
+        },
+        "commentaire": "L’introduction des brumes sonores du Voile a complexifié les communications militaires, mais renforcé la loyauté spirituelle locale."
+      }
+    },
+
+    "10_diplomatie_et_casus_belli": {
+      "casus_belli_types": [
+        {"code": "ECLUSE", "desc": "violation des quotas d’eau"},
+        {"code": "COL", "desc": "fermeture abusive de col"},
+        {"code": "GALERIE", "desc": "forage sans charte"},
+        {"code": "PHARE", "desc": "extinction de fanal sur voie commerciale"},
+        {"code": "SACR", "desc": "profanation de totem/temple"},
+        {"code": "OMBRE", "desc": "rupture d’équilibre spirituel dans les zones de Voile"}
+      ],
+      "seuils_intervention": {
+        "CHAMP": {"ECLUSE": 2, "PHARE": 3},
+        "FESCA": {"ECLUSE": 1, "SACR": 2},
+        "GRANS": {"GALERIE": 1},
+        "THULC": {"SACR": 1},
+        "VHORAK": {"OMBRE": 1}
+      },
+      "arbitrages": {
+        "tribunaux": [
+          "Tribunal de la Balance",
+          "Juges-de-Marée",
+          "Vigiles de Pierre",
+          "Prieurés_de_Vhorak"
+        ],
+        "delais_moyens_j": 18,
+        "taux_acceptation": 0.76,
+        "commentaire": "Les Prieurés de Vhorak servent désormais d’arbitres spirituels pour les incidents d’ombre et de lumière."
+      }
+    },
+
+    "11_parametres_simulation": {
+    "boucle_mensuelle": [
+        "MAJ_tensions (incidents, propagande)",
+        "MAJ_alliances (solidité +/-)",
+        "MAJ_logistique (stocks, pertes, consommation)",
+        "MAJ_operations (avancées/retraits, attrition)",
+        "MAJ_diplomatie (arbitrages, casus belli)",
+        "sorties (indice_guerre, lignes_de_front, pertes)"
+    ],
+    "attrition_mensuelle": {
+        "combat": 0.03,
+        "maladie": 0.01,
+        "faim": 0.005
+    },
+    "morale": {
+        "base": 0.62,
+        "bonus": {
+        "victoire": 0.05,
+        "ravitaillement_plein": 0.03,
+        "harmonie_voile": 0.02
+        },
+        "malus": {
+        "defaite": -0.07,
+        "rationnement": -0.04,
+        "rupture_concordat": -0.05
+        }
+    },
+    "mouvements": {
+        "plaine_km_mois": 360,
+        "col_km_mois": 210,
+        "galerie_km_mois": 300,
+        "brume_km_mois": 160
+    },
+    "commentaire": "Les unités opérant dans les zones de Voile voient leur mobilité réduite (−40 %) mais gagnent +10 % en furtivité et cohésion morale."
+    }
+  }
+}
+{
+  "langues": {
+    "version": "2.0-sim",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — langues liées aux flux, rites, et routes commerciales",
+      "coherence_avec": [
+        "geographie.json",
+        "geopolitique.json",
+        "economie.json",
+        "magie.json",
+        "religion.json",
+        "politique_gouvernance.json",
+        "population.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "intercomprehension": "indice (0-1)",
+        "cout_traduction": "DA/h",
+        "risque_rituel": "%"
+      }
+    },
+
+    "01_principes_generaux": {
+      "description": "Les langues d’Ardane résultent du tissage millénaire entre flux, cultures et matières. Les idiomes se forment par écho magique : les runes vibrent, les chants hydriques se répercutent, et les totems parlent. Chaque langue conserve une mémoire du lieu où elle fut forgée — acier, brume, chair, ou pierre.",
+      "familles_majeures": [
+        "Humanique (Medianor, Austremont, Archipel)",
+        "Khazil (forges et confédérations naines)",
+        "Tharnën (forêts trolles et brumes vivantes)",
+        "Vernath (lagunes et deltas batraciens)",
+        "Grekh (zones industrielles gobelines)",
+        "Urmath (hautes chaînes géantes et fanaux)"
+      ],
+      "systemes_d_ecriture": [
+        {"type": "Runique", "support": "métal, pierre", "licence": "atelier_runique"},
+        {"type": "Cursive marchande", "support": "parchemin, cire", "licence": "commerce_guilde"},
+        {"type": "Glyphique aquatique", "support": "bois, pieux, cordages", "licence": "flux_hydrique"},
+        {"type": "Totémique", "support": "bois, corde, os", "licence": "rites_forestiers"},
+        {"type": "Fanal-runique", "support": "cristaux, lumière", "licence": "prieure_geant"}
+      ],
+      "intercomprehension": {
+        "Humanique_Khazil": 0.75,
+        "Humanique_Vernath": 0.6,
+        "Humanique_Grekh": 0.46,
+        "Tharnen_Vernath": 0.55,
+        "Khazil_Urmath": 0.42,
+        "autres_combinaisons": 0.22
+      },
+      "cout_traduction_moyen_DA_h": 8.5,
+      "risque_erreur_rituelle_%": 3.2
+    },
+
+    "02_langues_detaillees": [
+      {
+        "nom": "Humanique",
+        "famille": "Langue des peuples d’Arda",
+        "aire_geographique": "Medianor, Austremont, Archipel des Lamentes",
+        "dialectes": [
+          {"nom": "Helgarin", "zone": "Septentria (Helgarstätt, Vargr)", "caracteristiques": "Phonétique dure, lexique martial et minier.", "usage": "Langue des forteresses et des patrouilles nordiques."},
+          {"nom": "Ardanien", "zone": "Medianor (Champsorne, Sous-Kelwyn)", "caracteristiques": "Souple et juridique, riche en voyelles, langue du droit et du commerce.", "usage": "Langue des guildes et tribunaux."},
+          {"nom": "Orrien", "zone": "Austremont (cols et plateaux d’Orr)", "caracteristiques": "Brève, codifiée, influencée par le Khazil.", "usage": "Langue de transit et de défense des routes."},
+          {"nom": "Islaréen", "zone": "Archipel des Lamentes", "caracteristiques": "Mélodique, accent chantant influencé par le Vernath.", "usage": "Langue des navigateurs et diplomates maritimes."}
+        ],
+        "structure": "Langue flexionnelle, accent tonique initial, riche en dérivations contractuelles.",
+        "ecriture": "Runique simplifiée, cursive pour les échanges.",
+        "vocabulaire_cle": {"fer": "tharn", "contrat": "gildr", "eau": "lor", "asile": "maen", "route": "via"}
+      },
+      {
+        "nom": "Khazil",
+        "famille": "Langue des Nains",
+        "aire_geographique": "Fer-Noir, Karâg-Tor, Sous-Kelwyn",
+        "dialectes": [
+          {"nom": "Khazil-Ferrum", "zone": "Fer-Noir", "caracteristiques": "Martelée, dense, vocabulaire métallurgique.", "usage": "Langue des ateliers et registres de production."},
+          {"nom": "Khazil-Orr", "zone": "Austremont", "caracteristiques": "Codée pour vibrations et signaux souterrains.", "usage": "Transmission à distance en galeries."},
+          {"nom": "Khazil-Kelwyn", "zone": "Medianor", "caracteristiques": "Souple, lexique hydrologique, emprunts humanique.", "usage": "Commerce et ingénierie mixte."}
+        ],
+        "structure": "Langue à préfixes fonctionnels, logique runique, syntaxe rigide.",
+        "ecriture": "Runes d’atelier sous licence atelier_runique.",
+        "vocabulaire_cle": {"acier": "kharn", "pierre": "dolz", "contrat": "thum", "serment": "krol", "travail": "maz"}
+      },
+      {
+        "nom": "Tharnën",
+        "famille": "Langue des Trolls",
+        "aire_geographique": "Morthyll, Thulcar, Keryn",
+        "dialectes": [
+          {"nom": "Tharnic du Nord", "zone": "Morthyll", "caracteristiques": "Rythme lent, souffle rauque, lexique mystique.", "usage": "Rituels de brume et chants de mémoire."},
+          {"nom": "Tharnic Central", "zone": "Thulcar", "caracteristiques": "Clics doux, sons d’oiseaux, lexique sylvestre.", "usage": "Langue des oracles et de la chasse."},
+          {"nom": "Tharnic Boréal", "zone": "Keryn", "caracteristiques": "Phonèmes graves, lexique neigeux.", "usage": "Langue des migrations hivernales."}
+        ],
+        "structure": "Langue agglutinante, métaphorique, polysémique.",
+        "ecriture": "Totems et entailles rituelles sous licence rites_forestiers.",
+        "vocabulaire_cle": {"foret": "murn", "brume": "sheth", "ancetre": "grun", "chasse": "lurn", "vie": "veth"}
+      },
+      {
+        "nom": "Vernath",
+        "famille": "Langue amphibienne",
+        "aire_geographique": "Fescar, Archipel des Lamentes",
+        "dialectes": [
+          {"nom": "Vernath-Fescar", "zone": "Marais d’Asphodel", "caracteristiques": "Chantée, rythmée, lente, haute précision tonale.", "usage": "Liturgie hydrique et arbitrage fluvial."},
+          {"nom": "Vernath-Lagos", "zone": "Lago’Vernis et Islakarion", "caracteristiques": "Rapide, lexique maritime, pauses du reflux.", "usage": "Commerce et navigation rituelle."}
+        ],
+        "structure": "Langue tonale et rythmique; le sens dépend de la hauteur et de la durée.",
+        "ecriture": "Glyphes aquatiques tactiles sous licence flux_hydrique.",
+        "vocabulaire_cle": {"eau": "hruu", "courant": "vell", "chant": "aia", "accord": "tholl", "serment": "muir"}
+      },
+      {
+        "nom": "Grekh",
+        "famille": "Créole gobelin",
+        "aire_geographique": "Varkhar, Thulcar, Fescar",
+        "dialectes": [
+          {"nom": "Grekh-Varkhar", "zone": "Steppes du Soufre", "caracteristiques": "Sifflée, rapide, consonnes fricatives.", "usage": "Commandement tribal et alchimie mobile."},
+          {"nom": "Grekh-Lisien", "zone": "Forêts de Thulcar", "caracteristiques": "Clics saccadés, lexique sylvestre.", "usage": "Langue de chasse et sabotage."}
+        ],
+        "structure": "Langue créole sifflante, complément gestuel.",
+        "ecriture": "Marques de résine, os gravés, codes de corde.",
+        "vocabulaire_cle": {"vent": "sskrr", "ombre": "trr", "proie": "zrik", "feu": "vakk", "sel": "ghir"}
+      },
+      {
+        "nom": "Urmath",
+        "famille": "Langue des Géants",
+        "aire_geographique": "Vargr, Vhorak",
+        "dialectes": [
+          {"nom": "Urmath Vargrien", "zone": "Crêtes du Nord", "caracteristiques": "Mots gutturaux, langue du vent et des pierres.", "usage": "Communication entre ermitages et fanaux de col."},
+          {"nom": "Urmath Vhorakien", "zone": "Falaises orientales", "caracteristiques": "Rythme lent, lexique maritime, signaux lumineux.", "usage": "Langue des prières et du guidage côtier."}
+        ],
+        "structure": "Langue isolante à concepts condensés; tonalité grave et lente.",
+        "ecriture": "Runes cristallines et fanaux sous licence prieure_geant.",
+        "vocabulaire_cle": {"montagne": "ur", "lumiere": "ther", "pierre": "drak", "serment": "voll", "paix": "mon"}
+      }
+    ],
+
+    "03_langue_commune": {
+      "nom": "Lingua Ardanis",
+      "origine": "Née du brassage humanique, khazil et vernath, via corridors AX-ARDA et AX-HEL-KARF.",
+      "usage": "Langue diplomatique, commerciale et rituelle; requise pour les traités multiraciaux.",
+      "alphabet": "Cursive marchande runifiée.",
+      "vocabulaire_cle": {"argent": "thal", "contrat": "gildra", "navire": "noel", "route": "via", "colline": "draen"},
+      "intercomprehension_moyenne": 0.73,
+      "cout_traduction_DA_h": 4.5
+    },
+
+    "04_controles_coherence": {
+      "toponymie": "Sous-Kelwyn et Lamentes unifiés; Asphodel précisé.",
+      "licences": "Runique/Flux/Rites/Prieurés harmonisés avec politique_gouvernance(v2).",
+      "axes": "Langues rattachées aux corridors AX-ARDA, AX-HEL-KARF, AX-LAMENTES.",
+      "energie": "Terminologie Pierre_de_Flux et Tourbe_Carbone alignée sur economie(v2).",
+      "neutralites": "Urmath conforme aux clauses géantes Vargr/Vhorak."
+    }
+  }
+}
+{
+  "magie": {
+    "version": "2.0-sim",
+
+    "principes_fondamentaux": {
+      "definition": "La magie est une pression dirigée sur les forces profondes du monde — chair, métal, pierre, cendre, eau, brume. Elle s’acquiert par répétition et sacrifice. Chaque usage laisse une dette mesurable (sang, mémoire, stabilité du corps). C’est la technologie primitive d’un monde blessé.",
+      "lois_fondamentales": {
+        "Loi_du_Sacrifice": "Tout effet a un coût : vie, sang, force, raison.",
+        "Loi_du_Support": "Chaque sort s’ancre à un vecteur physique (rune, talisman, métal, chair).",
+        "Loi_de_la_Saturation": "L’usage excessif du même flux provoque mutations, fièvres, nécroses.",
+        "Loi_du_Lieu": "Les zones imprégnées (forges, marais, ruines) amplifient ou distordent les effets.",
+        "Loi_de_la_Balance": "Un effet non compensé par rite ou catalyseur dégrade durablement le milieu (bruit, corrosion, subsidence)."
+      },
+      "normalisations": {
+        "unites": {
+          "catalyseur": "Pierre_de_Flux (g)",
+          "energie_carbone": "Tourbe_Carbone (kg_eq)",
+          "suies": "Suies_Actives (kg)",
+          "eau_rituelle": "Eaux_Régulées (L)",
+          "sang": "ml",
+          "temps": "secondes",
+          "distance": "m"
+        },
+        "licences_rituelles": ["atelier_runique", "flux_hydrique", "pyrique_industriel", "rites_forestiers"],
+        "concordats_ref": ["Concordat des Fers", "Pactes de Marée", "Charte des Lisières"]
+      },
+      "sources_d_energie": [
+        "Pierre_de_Flux — catalyseur tellurique concentré (Voûte/Trois Fers)",
+        "Tourbe_Carbone — énergie profane stabilisée par rites de Sève",
+        "Eaux_Régulées — mémoire liquide et pression d’équilibre (Flux)",
+        "Suies_Actives — vecteurs corrosifs/alchimiques (Rouille‑Mère)",
+        "Sang — essence vivante, catalyseur immédiat (Lames du Sang)"
+      ],
+      "formes_de_magie": [
+        "Runique (gravée/incrustée dans métal et pierre)",
+        "Sanguine (sacrifice et fluides vitaux)",
+        "Tellurique (forces du sol/gravité)",
+        "Pyrique (chaleur, feu, métaux)",
+        "Hydrique (eau, brumes, marées)",
+        "Corrosive (acides, moisissures, dissolution)",
+        "Ombreuse (ombres, silence, mirages tangibles)"
+      ],
+      "risques": {
+        "physiques": "Brûlures, hémorragies, paralysies, ossifications, corrosion pulmonaire.",
+        "mentaux": "Hallucinations, déréalisation, voix des flux, cauchemars lucides.",
+        "environnementaux": "Rémanence d’énergie, corruption du sol/air, faune mutée, subsidence."
+      }
+    },
+
+    "disciplines_et_sortileges": [
+      {
+        "nom": "Magie Runique",
+        "type": "Structurelle et défensive",
+        "description": "Symboles gravés qui captent, canalisent et stabilisent les ondes naturelles. Nains et humains d’Austremont y excellent. Les runes n’inventent pas : elles redirigent.",
+        "supports": ["Métal", "Pierre", "Os"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.8, "Tourbe_Carbone_kg": 0.0, "Eaux_Régulées_L": 0.0, "Suies_Actives_kg": 0.0, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 6, "fatigue_base": 2, "surcharge_risque_percent": 6},
+        "institutions": {"concordats": ["Concordat des Fers"], "licences": ["atelier_runique"], "cultes": ["Culte des Trois Fers", "Culte de la Voûte"]},
+        "exemples_de_sorts": [
+          {"nom": "Sceau d’Entrave", "effet": "Ralentit les mouvements dans un rayon de 3 m", "duree_s": 10},
+          {"nom": "Mur d’Ancrage", "effet": "Érige une paroi minérale dense", "largeur_m": 4, "hauteur_m": 2},
+          {"nom": "Cercle d’Inertie", "effet": "Annule charges et déplacements brusques", "duree_s": 6}
+        ],
+        "faiblesses": "Temps d’activation, besoin de matériaux, vulnérable aux séismes.",
+        "couts": "Engourdissement des membres, tremblements fins."
+      },
+
+      {
+        "nom": "Magie Sanguine",
+        "type": "Offensive et sacrificielle",
+        "description": "Le sang est un conducteur de volonté. L’Ordre des Lames du Sang a codifié gestes, scellés et coûts.",
+        "supports": ["Lames", "Tissus vivants", "Sol souillé"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.0, "Tourbe_Carbone_kg": 0.0, "Eaux_Régulées_L": 0.0, "Suies_Actives_kg": 0.0, "Sang_ml": 40},
+        "consommation": {"temps_cast_s": 2, "fatigue_base": 5, "surcharge_risque_percent": 18},
+        "institutions": {"concordats": [], "licences": [], "cultes": ["Lames du Sang (secte)"]},
+        "exemples_de_sorts": [
+          {"nom": "Déferlement Vital", "effet": "Jet de sang acide qui dissout armures légères", "portee_m": 6},
+          {"nom": "Liaison Rouge", "effet": "Liaison traumatique entre deux corps", "duree_s": 30},
+          {"nom": "Explosion Hémorragique", "effet": "Rupture de capillaires à courte portée"},
+          {"nom": "Vœu d’Épuisement", "effet": "Boost musculaire contre hémorragie interne"}
+        ],
+        "faiblesses": "Autodestruction rapide, dépendance au sang frais.",
+        "couts": "Fatigue extrême, pertes de mémoire, arythmies."
+      },
+
+      {
+        "nom": "Magie Tellurique",
+        "type": "Siège et gravité",
+        "description": "Manipulation d’ondes profondes : failles, ondes de choc, cages rocheuses. Usage par bastions nains et prieurés géants.",
+        "supports": ["Pierre", "Cristaux", "Runes gravées"],
+        "catalyseurs": {"Pierre_de_Flux_g": 1.2, "Tourbe_Carbone_kg": 0.0, "Eaux_Régulées_L": 0.0, "Suies_Actives_kg": 0.0, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 8, "fatigue_base": 6, "surcharge_risque_percent": 14},
+        "institutions": {"concordats": ["Concordat des Fers"], "licences": ["atelier_runique"], "cultes": ["Culte de la Voûte"]},
+        "exemples_de_sorts": [
+          {"nom": "Faille de Cendre", "effet": "Fend le sol et aspire ennemis", "longueur_m": 7},
+          {"nom": "Cage de Roches", "effet": "Blocs se refermant sur cible"},
+          {"nom": "Onde Souterraine", "effet": "Vibration renversant tout dans un rayon de 10 m"}
+        ],
+        "faiblesses": "Imprécise en terrains meubles, risque de dommages collatéraux.",
+        "couts": "Saignements auriculaires, spasmes, ossification précoce."
+      },
+
+      {
+        "nom": "Magie Pyrique",
+        "type": "Thermique et destructrice",
+        "description": "Concentration de feu, air brûlant et fusion des métaux. Forgerons‑mages d’Austremont et ateliers nains.",
+        "supports": ["Charbon", "Soufre", "Runes de cuivre"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.2, "Tourbe_Carbone_kg": 0.6, "Eaux_Régulées_L": 0.0, "Suies_Actives_kg": 0.1, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 3, "fatigue_base": 4, "surcharge_risque_percent": 12},
+        "institutions": {"concordats": ["Concordat des Fers"], "licences": ["pyrique_industriel"], "cultes": ["Culte des Trois Fers", "Foi de la Rouille‑Mère"]},
+        "exemples_de_sorts": [
+          {"nom": "Souffle d’Âtre", "effet": "Flamme comprimée fondant le fer", "portee_m": 5},
+          {"nom": "Couronne Ardente", "effet": "Halo brûlant autour du mage", "rayon_m": 2},
+          {"nom": "Éclat de Fournaise", "effet": "Déflagration ponctuelle"}
+        ],
+        "faiblesses": "Imprévisible sous pluie/vent, dévore l’oxygène local.",
+        "couts": "Brûlures, aphonie, bronches noircies."
+      },
+
+      {
+        "nom": "Magie Hydrique",
+        "type": "Défensive et utilitaire",
+        "description": "Manipulation de densité, mémoire et surface de l’eau. Batraciens et ordres côtiers en sont maîtres.",
+        "supports": ["Eaux stagnantes", "Perles", "Encres rituelles"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.1, "Tourbe_Carbone_kg": 0.0, "Eaux_Régulées_L": 2.0, "Suies_Actives_kg": 0.0, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 4, "fatigue_base": 3, "surcharge_risque_percent": 8},
+        "institutions": {"concordats": ["Pactes de Marée"], "licences": ["flux_hydrique"], "cultes": ["Foi du Flux et du Silence"]},
+        "exemples_de_sorts": [
+          {"nom": "Manteau Liquide", "effet": "Couche d’eau absorbant projectiles", "duree_s": 12},
+          {"nom": "Main des Abysses", "effet": "Bras liquides qui saisissent/étranglent"},
+          {"nom": "Souffle de Froid", "effet": "Gèle l’humidité ambiante (verglas)"},
+          {"nom": "Reflet de Lune", "effet": "Double aqueux éphémère"}
+        ],
+        "faiblesses": "Inefficace en zone sèche, dépend du climat.",
+        "couts": "Frilosité, dessèchement cutané, dépendance à l’humidité."
+      },
+
+      {
+        "nom": "Magie Corrosive",
+        "type": "Offensive et alchimique",
+        "description": "Acides, vapeurs et moisissures animés par flux. Terrifiante mais instable; spécialité gobeline.",
+        "supports": ["Sels", "Vapeurs", "Substances organiques"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.0, "Tourbe_Carbone_kg": 0.2, "Eaux_Régulées_L": 0.2, "Suies_Actives_kg": 0.6, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 3, "fatigue_base": 4, "surcharge_risque_percent": 16},
+        "institutions": {"concordats": [], "licences": ["pyrique_industriel"], "cultes": ["Foi de la Rouille‑Mère"]},
+        "exemples_de_sorts": [
+          {"nom": "Bile d’Outre", "effet": "Liquide corrosif contre métal et chair"},
+          {"nom": "Nuée Pestilentielle", "effet": "Nuage de spores acides irritants"},
+          {"nom": "Crachat Verdâtre", "effet": "Jet persistant post‑contact"}
+        ],
+        "faiblesses": "Risque de retour sur lanceur, sensible au vent.",
+        "couts": "Corrosion pulmonaire, peau décolorée, odeur ammoniacale."
+      },
+
+      {
+        "nom": "Magie Ombreuse",
+        "type": "Illusoire, défensive et prédatrice",
+        "description": "Matière d’ombre modelée : silence, voilement, armes froides. Sectes humaines et trolls; encadrement partiel par prieurés de Voûte.",
+        "supports": ["Encres noires", "Totems", "Cendres d’yeux brûlés"],
+        "catalyseurs": {"Pierre_de_Flux_g": 0.1, "Tourbe_Carbone_kg": 0.0, "Eaux_Régulées_L": 0.2, "Suies_Actives_kg": 0.0, "Sang_ml": 0},
+        "consommation": {"temps_cast_s": 2, "fatigue_base": 3, "surcharge_risque_percent": 10},
+        "institutions": {"concordats": [], "licences": ["flux_hydrique"], "cultes": ["Voile du Monde (secte)", "Culte de la Voûte (contrôle des fanaux)"]},
+        "exemples_de_sorts": [
+          {"nom": "Manteau de Nuit", "effet": "Obscurité mobile, torches inefficaces"},
+          {"nom": "Lame Silencieuse", "effet": "Arme d’ombre blessant à froid"},
+          {"nom": "Puits d’Éclipse", "effet": "Silence et obscurité totales sur zone"}
+        ],
+        "faiblesses": "Dépendance aux sources de lumière, inefficace en plein soleil.",
+        "couts": "Perte temporaire de vision, frissons, cauchemars."
+      }
+    ],
+
+    "magie_par_race": {
+      "Humains": "Polyvalents, combinent runes, feu et sang (licences requises).",
+      "Nains": "Tradition runique/tellurique/pyrique, contrôle strict des ateliers.",
+      "Gobelins": "Corrosive et alchimie de ruines; marchés gris; Jetons de Suie.",
+      "Batraciens": "Hydrique et chants; arbitrage; écluses et bassins.",
+      "Trolls": "Brume et ombre; totems; défense de clairières.",
+      "Géants": "Tellurique lente et colossale; fanaux et prieurés."
+    },
+
+    "artefacts_reliques": [
+      {"nom": "Cœur de Cendre", "origine": "Forge d’Austremont", "pouvoir": "Absorbe toute chaleur (rayon 5 m)", "prix": "Insensibilité au chaud, froideur affective"},
+      {"nom": "Pierre de Suintement", "origine": "Ruines d’Asphodel", "pouvoir": "Eau noire qui guérit la chair mais mord l’âme", "prix": "Peau couverte de lichens mouvants"},
+      {"nom": "Masque du Saignant", "origine": "Cultes de Medianor", "pouvoir": "Multiplie la magie sanguine (sacrifice requis)", "prix": "Perte progressive du visage véritable"},
+      {"nom": "Gantelet de Pierre", "origine": "Nains de Karâg‑Tor", "pouvoir": "Fend/soulève la roche à mains nues", "prix": "Bras qui se minéralise"}
+    ],
+
+    "interfaces_regulation": {
+      "licences": {
+        "atelier_runique": {"octroi": ["Chambre des Guildes", "Trois Fers", "Voûte"], "retraits": ["Tribunal de la Balance"]},
+        "flux_hydrique": {"octroi": ["Juges de Flux"], "retraits": ["Assemblée de Marée"]},
+        "pyrique_industriel": {"octroi": ["Synode des Forges", "Rouille‑Mère"], "retraits": ["Vigiles de Pierre"]},
+        "rites_forestiers": {"octroi": ["Mères‑de‑Sève"], "retraits": ["Veilleurs de Clairière"]}
+      },
+      "infractions_et_sanctions": [
+        {"code": "RUNE-DET", "infraction": "Atelier runique non licencié", "sanction": "Ternissement + ban de métier (Trois Fers)"},
+        {"code": "EAU-PROF", "infraction": "Usage hydrique sur bassin sacré sans arbitrage", "sanction": "Perte droit de parole (Flux)"},
+        {"code": "PYR-ILC", "infraction": "Pyrique industriel sans veille", "sanction": "Purge d’atelier (Rouille‑Mère)"},
+        {"code": "SEVE-SAC", "infraction": "Profanation d’arbre ou sentier rituel", "sanction": "Bannissement de brume (Sève)"}
+      ]
+    },
+
+    "parametres_simulation": {
+      "tick": "seconde",
+      "echelles": {"combat": "5 s", "rituel": "30 s", "industriel": "10 min"},
+      "equations": {
+        "fatigue_t+1": "fatigue_t + fatigue_base + k1*cout_sang_ml/100 + k2*log(1+PF_g)",
+        "risque_echec": "min(1, base + alpha*surcharge + beta*bruit_local - gamma*ancrage_runique)",
+        "bruit_local_t+1": "bruit_local_t * (1 - dissipation) + emission_sort"
+      },
+      "coefficients": {"k1": 0.8, "k2": 0.2, "alpha": 0.04, "beta": 0.03, "gamma": 0.05, "dissipation": 0.12}
+    },
+
+    "heresies_et_tabous": {
+      "interdits_majeurs": [
+        "Réanimer les morts sans rite complet de passage",
+        "Créer des formes vivantes fusionnées sans consentement",
+        "Altérer le flux tellurique d’un lieu sacré",
+        "Utiliser la chair d’un enfant ou d’un géant comme catalyseur",
+        "Pratiquer la magie hors contrôle dans les mines profondes"
+      ],
+      "punition": "Brûlage des artefacts, exécution ou pétrification du mage fautif",
+      "dogme": "La magie est un fardeau utilitaire, au service de la survie — non de la domination"
+    },
+
+    "controles_coherence": {
+      "terminologie": "Usage normalisé : Pierre_de_Flux (singulier), Tourbe_Carbone, Eaux_Régulées, Suies_Actives",
+      "religion": "Correspondances écoles ↔ cultes alignées (Trois Fers/Voûte/Flux/Sève/Rouille/Voile/Lames)",
+      "economie": "Consommations compatibles avec economie(v2) (énergie, catalyseurs, licences)",
+      "geopolitique": "Usage contrôlé sur axes (fanaux, écluses, galeries) — conforme aux traités"
+    }
+  }
+}
+{
+  "mythologie": {
+    "version": "2.1",
+    "note_editoriale": "Chronologie mythique stricte, styles variés (hymnes, serments, chroniques) mais ancrage physique: pierres, eaux, feu, sang. Cohérence totale avec races, magie, géographie, histoire.",
+    "01_cosmogonie": {
+      "001_Voute_et_Pierre_Premiere": {
+        "resume": "Avant les voix et les villes, il n’y eut que la Voûte sans faille et la Pierre Première. Du frottement de l’une sur l’autre naquirent les étincelles de flux.",
+        "motifs": ["lumiere_froide", "gravure_primordiale", "silence_structurant"],
+        "traces_materielles": ["monolithes géants Vargr/Vhorak", "veines cristallines des Monts d’Orr"]
+      },
+      "002_Trois_Sources": {
+        "resume": "Trois jaillissements donnèrent leurs disciplines au monde: SANG (vie/serment), FLUX (pierre/gravité), EAU (équilibre/mémoire). Le FEU naquit plus tard des mains mortelles.",
+        "attributions": {
+          "sang": ["liens, pactes, prix des sorts"],
+          "flux": ["stabilité, runes, pierre"],
+          "eau": ["cycle, arbitrage, oubli choisi"],
+          "feu": ["industrie, siège, risque"]
+        }
+      }
+    },
+
+    "02_ages_mythiques": [
+      {
+        "age": "Âge des Longues Ombres",
+        "ordre": 1,
+        "acteurs": ["Géants primitifs"],
+        "evenements": [
+          "Les Géants taillent les premiers fanaux pour parler à la Voûte.",
+          "Ils fixent les cols et barrent les glissements de montagne par des sceaux de lumière."
+        ],
+        "legues_concretes": ["fanaux marins de Vhorak", "ponts de corde blindée", "règle de neutralité sommitale"]
+      },
+      {
+        "age": "Âge des Trois Trempes",
+        "ordre": 2,
+        "acteurs": ["Nains éveillés", "Géants instructeurs"],
+        "evenements": [
+          "Les Nains découvrent la trempe froide au contact du flux.",
+          "Serments d’atelier: qui ment au métal voit sa barbe brûler de l’intérieur (mythe didactique)."
+        ],
+        "legues_concretes": ["runes d’atelier", "droit minier gravé", "banque sur plaques"]
+      },
+      {
+        "age": "Âge de la Route et des Eaux",
+        "ordre": 3,
+        "acteurs": ["Humains voyageurs", "Batraciens arbitres"],
+        "evenements": [
+          "Les Humains lient leurs promesses par le fer et le sang.",
+          "Les Batraciens chantent les premiers pactes de marée et codifient l’oubli des offenses contre tribut."
+        ],
+        "legues_concretes": ["écluses sacrées", "chartes gravées binaires (sceau de fer + encoche d’eau)"]
+      },
+      {
+        "age": "Âge des Cendres Vagabondes",
+        "ordre": 4,
+        "acteurs": ["Gobelins soudeurs", "Nains régulateurs", "Humains forgerons"],
+        "evenements": [
+          "Les Gobelins redécouvrent la Pyrique instable et la diffusent hors des forges naines, démocratisant l’usage du feu industriel.",
+          "Fondation du Concordat des Fers pour réguler la fonte runique et prévenir les explosions d’alliages.",
+          "Apparition des premières Forges de la Rouille-Mère, qui unissent corrosion et bénédiction du métal.",
+          "Les premières ombres conscientes apparaissent dans les Brumes du Voile; naissance de la Magie Ombreuse."
+        ],
+        "legues_concretes": ["alchimies acides", "plaques bénites", "chartes de fonte et de feu"]
+      },
+      {
+        "age": "Âge du Pacte Runique",
+        "ordre": 5,
+        "acteurs": ["Guildes mixtes", "Jurats", "Mages du Flux"],
+        "evenements": [
+          "Institution des guildes mixtes Nains-Humains.",
+          "Création des premières licences de flux et d’alliage.",
+          "Serments de la Balance fixés; le droit devient matière."
+        ],
+        "legues_concretes": ["licences gravées", "balances runiques", "archives d’alliages"]
+      },
+      {
+        "age": "Âge des Veilleurs",
+        "ordre": 6,
+        "acteurs": ["Prieurés Géants de Vhorak", "Cités-Forges", "Temples du Flux"],
+        "evenements": [
+          "Édification des Prieurés Géants pour arbitrer les cycles commerciaux et religieux.",
+          "Concordat de la Flamme Tempérée ratifié entre Trois Fers et Rouille-Mère, stabilisant le Feu Industriel et le Feu Sacré.",
+          "Réconciliation du Voile et du Flux après les querelles des Sceaux d’Ombre.",
+          "Équilibre des Six Courants rétabli sous le Cycle 400."
+        ],
+        "legues_concretes": ["chartes d’arbitrage", "fanaux scellés", "archives prieurales de pierre"]
+      }
+    ],
+
+    "03_pantheons_et_figures": {
+      "geants": [
+        {"nom": "Orn-du-Signe", "domaine": "alignements et seuils", "rites": ["allumage de fanal", "vœu de silence"], "interdits": ["guerre triviale"], "preuves": ["monolithes chantants"]},
+        {"nom": "Thun-des-Trois-Nuits", "domaine": "veille et constellations", "rites": ["veillée des cols"], "preuves": ["lueurs sur Vargr"]}
+      ],
+      "nains": [
+        {"nom": "Marteau-Vivant", "domaine": "trempe et vérité du métal", "rites": ["serment d’atelier"], "sanctions": ["barbe-cendre"]},
+        {"nom": "Veine-Mère", "domaine": "ressource et prudence", "rites": ["compte sur plaques"], "preuves": ["stabilité des galeries"]}
+      ],
+      "humains": [
+        {"nom": "Trois Fers", "domaine": "travail, route, moisson", "rites": ["Serment d’Âtre"], "preuves": ["contrats tenus"]}
+      ],
+      "batraciens": [
+        {"nom": "Silence Profond", "domaine": "équilibre, oubli choisi", "rites": ["chant de marée"], "preuves": ["apaisement des houles"]}
+      ],
+      "trolls": [
+        {"nom": "Souffle Humide", "domaine": "brume, mémoire", "rites": ["cercle de résine"], "preuves": ["échos dirigés"]}
+      ],
+      "gobelins": [
+        {"nom": "Rouille-Mère", "domaine": "dissolution utile", "rites": ["combustion d’huiles vivantes"], "preuves": ["réemploi universel"]}
+      ],
+      "ombreux": [
+        {"nom": "Voile du Monde", "domaine": "dissimulation, observation, oubli actif", "rites": ["passage de brume", "silence d’écho"], "preuves": ["brumes tangibles de Vhorak"]}
+      ]
+    },
+
+    "04_recits_canon": [
+      {
+        "titre": "Le Pont que la Montagne refusa",
+        "type": "épopée géante",
+        "resume": "Trois géants portèrent une arche de corde au-dessus d’un gouffre. La pierre parla: ‘Non’. Ils attendirent trois nuits jusqu’à ce que la Voûte déplace le vent. Alors seulement l’arche tint.",
+        "morale": "Patience structure le monde.",
+        "trace": "Pont de Vargr, vibrato nocturne mesurable"
+      },
+      {
+        "titre": "Les Deux Barbes et l’Enclume",
+        "type": "mythe d’atelier nain",
+        "resume": "Deux jurats jurèrent en vain. L’enclume resta tiède. Ils confessèrent, l’acier chanta à nouveau.",
+        "morale": "Le métal hait le mensonge.",
+        "trace": "alliages saints (analyse microstructure)"
+      },
+      {
+        "titre": "La Marée qui avala la rancune",
+        "type": "récit batracien",
+        "resume": "Deux clans chantèrent l’oubli pour sauver les digues. La rancune fut scellée sous vase rituelle.",
+        "morale": "Un oubli bien enregistré vaut paix durable.",
+        "trace": "jarres d’oubli (archives de Fescar)"
+      }
+    ],
+
+    "05_regles_theologiques_concretes": {
+      "preuves_demandees": ["effets mesurables (fanaux, trempe, marées)", "documents gravés", "témoins rituels"],
+      "tabous_transverses": ["parjure", "profanation de totem", "dilution de flux sans licence"],
+      "miracles_attendus": ["lumiere_froide des fanaux", "trempe_sans_fissure", "eau_qui_separe le temps d’un rite"]
+    }
+  },
+
+  "histoire": {
+    "version": "2.1",
+    "note_editoriale": "Progression chronologique stricte, cycles numérotés. Liens forts avec économie, politique, conflits.",
+    "unites": {"monnaie": "DA", "distance": "km", "effectifs": "tetes"},
+
+    "01_eres": [
+      {"ere": "Proto-cycles", "de": -200, "a": -1, "resume": "Installation des peuples, premiers traités de col, mise en place des fanaux géants."},
+      {"ere": "Cycles Classiques", "de": 0, "a": 299, "resume": "Normalisation des chartes, essor des guildes, consolidation naine."},
+      {"ere": "Cycles Tardifs", "de": 300, "a": 399, "resume": "Crises hydriques, Purges de Soufre, Chute d’Orr."},
+      {"ere": "Présent consolidé", "de": 400, "a": 412, "resume": "Armistices surveillés, standardisation inter-cités, tensions contrôlées."}
+    ],
+
+    "02_chronologie_detaillee": [
+      {"cycle": -173, "evenement": "Érection du premier fanal Vargr par les Vigiles du Signe.", "impact": ["routes de cols sécurisées", "codex lumineux"]},
+      {"cycle": -88, "evenement": "Découverte naine de la Trempe Froide à Gransouterre.", "impact": ["essor des lames sans fissure", "naissance des jurats"]},
+      {"cycle": -22, "evenement": "Chants de marée à Asphodel: premier arbitrage fluvial.", "impact": ["réseau d’écluses sacrées", "norme d’oubli consigné"]},
+      {"cycle": 14, "evenement": "Charte de Champsorne: balance, poids et mesures unifiés.", "impact": ["boom du commerce", "naissance du Tribunal de la Balance"]},
+      {"cycle": 61, "evenement": "Pacte des Cols (Helgar–Kar-Ferrum–Vargr).", "impact": ["fanaux coordonnés", "priorité secours"]},
+      {"cycle": 109, "evenement": "Fondation de l’Académie d’Atelier à Kar-Ferrum.", "impact": ["licences magiques d’atelier", "réduction accidents pyriques"]},
+      {"cycle": 312, "evenement": "Émeutes des meuniers à Champsorne (sécheresse).", "impact": ["quotas de moulins", "prix garanti du grain"]},
+      {"cycle": 372, "evenement": "Chute d’Orr (effondrement de galeries).", "impact": ["partage 3/5 du flux", "standard des plans gravés"]},
+      {"cycle": 388, "evenement": "Purges de Soufre (raids gobelins vs Helgar).", "impact": ["douanes renforcées", "marchés gris tolérés"]},
+      {"cycle": 394, "evenement": "Début de la Guerre des Flux (Champsorne–Fescar).", "impact": ["militarisation écluses", "tribunal mixte après 401"]},
+      {"cycle": 404, "evenement": "Concordat Runique (nains).", "impact": ["normes d’alliage", "traçabilité des pierres de flux"]},
+      {"cycle": 409, "evenement": "Loi des Fanaux Marins (Vhorak).", "impact": ["droit de phare plafonné", "routes sûres Archipel"]},
+      {"cycle": 412, "evenement": "Concordat de la Flamme Tempérée (Trois Fers–Rouille-Mère).", "impact": ["stabilisation des foyers pyriques", "harmonie industrielle-sacrée"]}
+    ],
+
+    "03_guerres_et_traites": {
+      "conflits_majeurs": [
+        {"nom": "Guerre des Flux", "de": 394, "a": 401, "cause": "quotas d’eau", "belligérants": ["Champsorne", "Fescar"], "pertes_est": {"CHAMP": 2400, "FESCA": 1700}, "traite": "Armistice de Marée"},
+        {"nom": "Purges de Soufre", "de": 388, "a": 389, "cause": "raids et acides", "belligérants": ["Helgarstätt", "Varkhar"], "pertes_est": {"HELGA": 500, "VARKH": 900}, "traite": "Marchés-tampon"},
+        {"nom": "Chute d’Orr", "de": 372, "a": 372, "cause": "galeries instables", "belligérants": ["Gransouterre", "Karâg-Tor"], "pertes_est": {"GRANS": 300, "KARAG": 420}, "traite": "Partage 3/5"}
+      ],
+      "traites_structurants": [
+        {"nom": "Pacte des Cols", "cycle": 61, "clauses": ["priorité secours", "fanaux coordonnés"], "signataires": ["Helgar", "Kar-Ferrum", "Vargr"]},
+        {"nom": "Concordat Runique", "cycle": 404, "clauses": ["normes d’alliage", "traçabilité"], "signataires": ["cités naines"]},
+        {"nom": "Concordat de la Flamme Tempérée", "cycle": 412, "clauses": ["stabilisation pyrique", "partage industriel-sacré"], "signataires": ["Trois Fers", "Rouille-Mère"]},
+        {"nom": "Ligue des Passes", "cycle": 399, "clauses": ["normes d’écluse", "plafond de phare"], "signataires": ["Fescar", "Islakarion", "Lago’Vernis"]}
+      ]
+    },
+
+    "04_dynamique_demographique": {
+      "tendances": [
+        "reprise lente post-401 dans les plaines humaines",
+        "stabilité naine (migrations internes)",
+        "croissance batracienne sur voies maritimes",
+        "déclin gobelin hors enclaves industrielles"
+      ],
+      "villes_cles": {
+        "Champsorne": {"pop_k": 110, "tendance": "+"},
+        "Helgarstätt": {"pop_k": 70, "tendance": "="},
+        "Gransouterre": {"pop_k": 60, "tendance": "+"},
+        "Fescar": {"pop_k": 90, "tendance": "+"}
+      }
+    },
+
+    "05_lieux_et_memoires": [
+      {"lieu": "Écluse des Trois-Pieux", "type": "hydrique", "memoire": "inscriptions d’armistice gravées sur pieux"},
+      {"lieu": "Crevasse des Treuils", "type": "minier", "memoire": "plaques de compensation runique"},
+      {"lieu": "Fosses Fumantes", "type": "steppe", "memoire": "stèles de suie (Jetons historiques)"}
+    ],
+
+    "06_indices_de_coherence": {
+      "alignement_politique": "conforme à politique_et_gouvernance v2",
+      "concordance_flux": "conforme à magie v2.1 (tangible/utilitaire)",
+      "compat_economie": "cohérent avec economie v3 (flux, quotas, fanaux)",
+      "integration_religieuse": "Concordat de la Flamme Tempérée et Concordat des Fers intégrés dans la chronologie.",
+      "cycle_actuel": "412 — Période des Concordats Consolidés"
+    }
+  }
+}
+{
+  "politique_et_gouvernance": {
+    "version": "2.0-sim",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth, concret, rites contractuels",
+      "coherence_avec": [
+        "geographie.json",
+        "continents.json",
+        "races.json",
+        "magie.json",
+        "religion.json",
+        "histoire.json",
+        "mythologie_histoire.json",
+        "economie.json",
+        "population.json",
+        "geopolitique.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "monnaie": "Drachme_d_Acier (DA)",
+        "distance": "km",
+        "personnel": "tetes",
+        "taux": "%",
+        "masse": "kg"
+      }
+    },
+
+    "02_cartographie_politique": {
+        "formes_de_regime": [
+            {
+            "code": "CITE-ETAT",
+            "label": "Cité-État",
+            "description": "Unité urbaine indépendante dotée d’un gouvernement local, d’une garde et d’un système de guilde. Présente surtout à Medianor et dans l’Archipel.",
+            "organes": ["Conseil des Maisons", "Garde municipale", "Chambre des Poids", "Tribunal de Ville"],
+            "statut": "Souveraineté pleine sur son territoire."
+            },
+            {
+            "code": "CONFED-NAINE",
+            "label": "Confédération Naine",
+            "description": "Réseaux de cités souterraines liées par des pactes d’atelier et de commerce. Gouvernance collégiale par jurats et caisses de secours.",
+            "organes": ["Assemblées d’Ateliers", "Jurats de Forge", "Caisse de Fer", "Cour d’Arbitrage runique"],
+            "statut": "Alliance technique et défensive reconnue par les Humains."
+            },
+            {
+            "code": "LIGUE-FORET",
+            "label": "Ligue Forestière",
+            "description": "Organisation décentralisée des clans trolls, régie par serments de clairière et arbitrage chamanique.",
+            "organes": ["Cercle des Anciens", "Garde-Lisière", "Chambre des Herboristes"],
+            "statut": "Autonomie communautaire dans les zones de lisière."
+            },
+            {
+            "code": "PRIEURE-GEANT",
+            "label": "Prieuré Géant",
+            "description": "Communauté spirituelle autonome, basée sur la neutralité des fanaux et la médiation des flux célestes.",
+            "organes": ["Vigiles du Signe", "Chambre Lithique", "Archiviers de Voûte"],
+            "statut": "Reconnu comme territoire neutre par le Concordat des Fers."
+            },
+            {
+            "code": "LIGUE-PORT",
+            "label": "Ligue des Ports de Lamentes",
+            "description": "Alliance maritime entre Islakarion et Lago’Vernis. Gouvernement par Capitaineries jurées et Arbitres de Flux. Supervision religieuse par la Foi du Flux. Contrôle du commerce naval et des licences de navigation.",
+            "organes": ["Assemblée des Capitaineries", "Juges des Courants", "Chambre Maritime", "Temple de Flux"],
+            "statut": "Autonomie reconnue par le Concordat des Marées (Cycle 412)."
+            }
+        ],
+
+        "territoires_speciaux": [
+            {
+            "nom": "Hauteurs d’Orraveth",
+            "type": "autonomie_montagnarde",
+            "description": "Secteurs mixtes nains-humains sous pacte de neutralité pyrique."
+            },
+            {
+            "nom": "Falaises de Vhorak",
+            "type": "territoire_prieur",
+            "description": "Ermitages géants et phares sous juridiction des Prieurés. Aucun impôt, neutralité absolue."
+            }
+        ]
+        },
+
+    "03_institutions_civiles": {
+      "conseils": {
+        "grand_conseil": {"taille": 120, "composition": {"guildes": 40, "maisons": 40, "cultes": 20, "quartiers": 20}, "mandat_ans": 4, "renouvellement": 0.5},
+        "petit_conseil": {"taille": 9, "role": "executif, urgences", "mandat_ans": 2},
+        "chambre_guildes": {"taille": 60, "role": "normes, prix, monopoles"},
+        "chambre_cultes": {"taille": 24, "role": "coordination cultes/licences, concordats"},
+        "tribunal_balance": {"juges": 7, "competence": ["contrats", "dettes ritualisées", "conflits inter-guildes", "retraits de licences"]}
+      },
+      "administration": {
+        "bureau_des_ponts": {"role": "peages, entretien", "personnel": 180},
+        "poids_mesures": {"role": "étalonnage", "personnel": 90},
+        "registres": {"role": "cadastre, citoyens, serments", "personnel": 70},
+        "douanes": {"role": "ports, portes, écluses", "personnel": 220}
+      },
+      "procedures": {
+        "adoption_charte": ["projet en Chambre", "lecture en Grand Conseil", "bénédiction cultuelle", "gravure publique"],
+        "abrogation": ["motion 2/3", "référenda de quartier si impact fiscal > 2%"],
+        "controle": ["audit annuel", "lecture des plaques de comptes", "serment des officiers"]
+      }
+    },
+
+    "04_droit_et_codification": {
+        "principes": [
+            "La Balance prévaut sur le Sceptre.",
+            "Les pactes jurés ont valeur de loi.",
+            "Les cultes reconnus peuvent exercer justice interne sous charte."
+        ],
+
+        "sanctions_type": [
+            "Exil ou bannissement pour rupture de serment.",
+            "Saisie de forge pour fraude runique.",
+            "Confiscation des licences magiques en cas d’abus de flux.",
+            "Suspension de cité pour trahison commerciale."
+        ],
+
+        "magie_sanguine": "Licence restreinte délivrée sous serment militaire. Usage civil strictement interdit. Contrôle trimestriel par le Tribunal de la Balance et le Collège des Mains Fermées."
+        },
+
+    "05_fiscalite_et_finances_publiques": {
+      "impots": {
+        "taille_fonciere": {"taux_%": 2.0, "base": "valeur cadastrale"},
+        "dime_cultuelle": {"taux_%": 10.0, "affectation": "temples, charité, fanaux"},
+        "aides_exceptionnelles": {"plage_%": [1.0, 3.0], "conditions": "guerres, famines"}
+      },
+      "droits_et_peages": {
+        "pont_majeur_%": 3.0,
+        "ecluse_%": 2.0,
+        "douane_portuaire_%": 5.0,
+        "hallage_marche_%": 1.0,
+        "alignement_economie": ["P-ARDA-ECL", "P-HEL-COL", "P-GAL-RUN"]
+      },
+      "emprunts_rituels": {
+        "serments_de_fer": {"taux_interet_%": 3.0, "echeance_ans": 5},
+        "lettres_de_change_runiques": {"frais_%": 0.5},
+        "plafond_dette_publique_DA_par_habitant": 12
+      },
+      "execution_budgetaire": {
+        "ventilation_depenses_%": {"defense": 28, "infrastructures": 22, "cultes": 16, "administration": 14, "secours": 10, "reserves": 10},
+        "reserve_pierre_de_flux_kg": {"min": 40000, "objectif": 60000}
+      }
+    },
+
+    "06_militaires_et_securite": {
+      "levies": {
+        "service_feodal_jours": 40,
+        "ratio_levy": "1 sur 12 hommes libres",
+        "delai_mobilisation_j": 10
+      },
+      "professionnels": {
+        "gardes_civiques": 1600,
+        "compagnies_contrat": 4,
+        "effectif_par_compagnie": 180
+      },
+      "doctrine": ["défense des ponts et cols", "interdiction des flux ennemis", "feux gras, armes runiques"],
+      "police": {
+        "guet_de_nuit": 220,
+        "inspecteurs_des_mesures": 30,
+        "officiers_des_flux": 24
+      },
+      "renseignement": {
+        "reseau": ["porteurs_de_messages", "clercs-lecteurs", "bateliers-informateurs"],
+        "chiffrement": "nœuds et chiffres de guilde"
+      }
+    },
+
+    "07_gouvernance_de_la_magie": {
+      "principes": ["magie utilitaire, tangible", "licence obligatoire", "traces et registres"],
+      "agences": {
+        "office_runique": {"role": "normes, inspections", "effectifs": 60},
+        "office_pyrique": {"role": "sécurité incendie/atelier", "effectifs": 80},
+        "office_hydrique": {"role": "écluses, rites d’eau", "effectifs": 70},
+        "office_forestier": {"role": "rites de sève, lisières", "effectifs": 40}
+      },
+      "regles": {
+        "traçabilite_pierres_flux": true,
+        "registre_sorts_majeurs": true,
+        "assurance_ateliers_obligatoire": true
+      },
+      "sanctions": {"usage_non_licencie": "fermeture + amende 200–1 000 DA", "accident_de_flux": "saisie + procès public"}
+    },
+
+    "08_relations_exterieures_et_traites": {
+      "diplomatie": {"legats": 12, "durees_missions_mois": 18, "maisons_d_invites": 6},
+      "types_de_traites": [
+        {"type": "paix_et_passages", "clauses": ["neutralite_de_routes", "peages_plafonnes"]},
+        {"type": "commerciaux", "clauses": ["normes_runiques", "poids_mesures_communs", "arbitrage_Balance"]},
+        {"type": "defense_mutuelle", "clauses": ["fanaux_coordonnes", "blocage_flux_corrompus"]}
+      ],
+      "ligues": [
+        {"nom": "Hanserran (réseau de cités)", "objet": "embargos, privilèges commerciaux, défense navale"},
+        {"nom": "Pacte_des_Cols", "objet": "sécurité des cols, standard de fanaux"},
+        {"nom": "Pactes_de_Marée", "objet": "libre passage saisonnier, arbitrage hydrique"}
+      ]
+    },
+
+    "09_corruption_controle_et_justice": {
+      "indicateurs": {"taux_affaires_fraude_par_an": 0.9, "delai_moyen_jugement_j": 22, "taux_execution_jugements_%": 94},
+      "mecanismes": ["rotation des offices", "double signature cultuelle", "audits croisés guildes-temples"],
+      "peines_type": {
+        "pots_de_vin": "amende 2x somme + inéligibilité 5 ans",
+        "falsification_runes": "marque au fer + bannissement",
+        "detournement_flux": "marque frontale + esclavage pénal 3–7 ans"
+      }
+    },
+
+    "10_processus_decisionnels": {
+      "budget_annuel": ["prévision guildes", "débat public", "vote Grand Conseil (majorité simple)", "sceau de temple", "gravure"],
+      "etat_d_urgence": {
+        "triggers": ["invasion", "rupture de flux", "pandémie"],
+        "pouvoirs": ["réquisition", "contrôle des prix", "censure des sorts pyriques"],
+        "duree_max_j": 60,
+        "contrepoids": ["rapport hebdomadaire", "comité de trois cultes", "réexamen 15 j"]
+      },
+      "referenda": {"conditions": ["impôt > +2%", "vente bien public"], "quorum_%": 40, "majorite": "simple"}
+    },
+
+    "11_armatures_locales": {
+      "quartiers_urbains": {"conseils_de_quartier": 12, "milice_par_quartier": 80, "budget_participatif_DA": 1200},
+      "communes_rurales": {"assemblee_de_village": true, "sergent_de_metayage": 1, "garde_bornes": 2},
+      "landsgemeinde_montagnarde": {"frequence": "annuelle", "competences": ["pâturages", "ponts", "peages locaux"], "vote": "main levée (public)"}
+    },
+
+    "12_indices_de_puissance": {
+      "score_puissance_cite": {"formule": "0.4*population + 0.3*stock_flux + 0.2*tonnage + 0.1*levy", "bornes": {"min": 0, "max": 100}},
+      "stabilite_politique": {"compose": ["confiance_guildes", "surplus_budgetaire", "ordre_public"], "seuils": {"alerte": 0.35, "crise": 0.2}}
+    },
+
+    "13_parametres_simulation": {
+      "boucle_mensuelle": [
+        "MAJ_recettes (impots+peages)",
+        "MAJ_depenses (defense+cultes+infrastructures)",
+        "MAJ_ordre_public (police+chocs)",
+        "MAJ_puissance (stocks_flux, effectifs)",
+        "verification_contraintes (dette plafond, reserves flux)"
+      ],
+      "evenements_aleatoires": [
+        {"code": "REV_GUILDE", "proba_m": 0.02, "effet": {"ordre_public": -0.1, "peages": -0.01}},
+        {"code": "CRIME_FLUX", "proba_m": 0.03, "effet": {"depenses_securite": 0.02}},
+        {"code": "FAMINE_LOCAL", "proba_m": 0.01, "effet": {"impots": -0.01, "ordre_public": -0.2}}
+      ],
+      "sorties": ["budget_balance_DA", "indice_stabilite", "score_puissance", "taux_crime"]
+    },
+
+    "14_profils_regionaux": {
+      "Champsorne": {
+        "regime": "CITE-ETAT",
+        "population_k": 220,
+        "budget_annuel_kDA": 15000,
+        "garde_civique": 2800,
+        "priorites": ["grains", "droit commercial", "ponts"],
+        "risques": ["révolte de meuniers", "crise de flux importés"]
+      },
+      "Helgarstätt": {
+        "regime": "CITE-ETAT",
+        "population_k": 90,
+        "budget_annuel_kDA": 9800,
+        "garde_civique": 1800,
+        "priorites": ["métal", "cols", "fanaux"],
+        "risques": ["avalanches politiques", "gobelinage clandestin"]
+      },
+      "Gransouterre": {
+        "regime": "CONF-NAINE",
+        "population_k": 70,
+        "budget_annuel_kDA": 11800,
+        "garde_civique": 1200,
+        "priorites": ["pierres de flux", "banque runique"],
+        "risques": ["effondrement galerie", "conflits licences"]
+      },
+      "Fescar": {
+        "regime": "LIGUE-FLUX",
+        "population_k": 120,
+        "budget_annuel_kDA": 10200,
+        "garde_civique": 1600,
+        "priorites": ["arbitrage fluvial", "eau bénite"],
+        "risques": ["sécheresse", "guerre de barrage"]
+      },
+      "Islakarion": {
+        "regime": "CITE-ETAT",
+        "population_k": 110,
+        "budget_annuel_kDA": 11200,
+        "garde_civique": 1600,
+        "priorites": ["douanes", "transbordement", "coques navales"],
+        "risques": ["piraterie", "choc commercial"]
+      },
+      "Lago’Vernis": {
+        "regime": "LIGUE-FLUX",
+        "population_k": 90,
+        "budget_annuel_kDA": 8600,
+        "garde_civique": 1200,
+        "priorites": ["commerce maritime", "artefacts aquatiques"],
+        "risques": ["tempêtes", "blocus côtier"]
+      }
+    },
+
+    "15_tableaux_de_bord": {
+      "kpi_budget": ["taux_dette_publique", "solde_mensuel", "capex_infrastructures"],
+      "kpi_ordre_public": ["criminalite_par_quartier", "dossiers_fraude", "temps_audits"],
+      "kpi_magie": ["accidents_de_flux", "licences_actives", "pierres_en_reserve_kg"],
+      "controles_coherence": {
+        "nomenclature": "Sous-Kelwyn (pas Kelwyn); Vargr/Vhorak statut neutralité",
+        "alignement_religion": "licences et bénédictions conformes aux cultes (Trois Fers, Flux, Sève, Rouille, Voûte)",
+        "alignement_economie": "peages référencés sur corridors ARDA/HEL-KARF/GRAN-KARAG; réserves PF en kg",
+        "alignement_geopolitique": "profils et effectifs compatibles avec ordres de bataille; prieurés géants neutres"
+      }
+    }
+  }
+}
+{
+  "population": [
+    {
+      "nom": "Septentria Obscura",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 720000,
+          "densite_moyenne_hab_km2": 80,
+          "description": "Clans montagnards et baronnies de vallée. Économie de survie avancée : mines de surface, pêche sous-glace, élevage rustique, artisanat métallique. Centres : Helgarstätt (porte), Kar-Ferrum (acier).",
+          "zones": ["Vallée-Grise d’Helgar", "Fer-Noir (surface)"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 410000,
+          "densite_moyenne_hab_km2_reseau": 240,
+          "description": "Cités profondes reliées par galeries : Gransouterre sous Kar-Ferrum et réseaux secondaires. Métallurgie bas-fourneau, laminoirs, mécanique de puits. Caisse de secours et jurats d’atelier structurent la société.",
+          "zones": ["Gransouterre (Fer-Noir)", "Descenderies d’Ourann"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 220000,
+          "densite_moyenne_hab_km2": 60,
+          "description": "Clans de plateau sur Morthyll. Clairières palissadées, totems et jardins de mousses. Guides de brume, éclaireurs forestiers, herboristes rituels.",
+          "zones": ["Morthyll : Clair-Juste, Tronc-Veil, Brume-Haute"]
+        },
+        {
+          "race": "Géants",
+          "population_totale": 34000,
+          "densite_moyenne_hab_km2": 6,
+          "description": "Ermitages de crêtes (Vargr) : tours, fanaux, plates-formes de guet. Médiateurs et gardiens des cols.",
+          "zones": ["Vargr : Pic-Loup, Garde-Cristal"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 190000,
+          "densite_moyenne_hab_km2": 40,
+          "description": "Bandes steppiques semi-nomades. Campements autour de cratères salins et ruines, récupération et contrebande. Attelages légers.",
+          "zones": ["Varkhar : Soufre-Bane, Pilleur-Relique, Masque-Gris"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": [
+          "Barons/chefs de vallée (4%)",
+          "Guildes minières et forgerons (18%)",
+          "Garnisons, veilleurs de cols (14%)",
+          "Pêcheurs/éleveurs/artisans (64%)"
+        ],
+        "nains": [
+          "Jurats et maîtres d’atelier (8%)",
+          "Fondeurs/lamineurs/mécaniciens (44%)",
+          "Charpentiers de galerie/porteurs (18%)",
+          "Civils (30%)"
+        ],
+        "trolls": [
+          "Chamans/anciennes (12%)",
+          "Veilleurs/guides (28%)",
+          "Artisans/herboristes (20%)",
+          "Civils (40%)"
+        ],
+        "geants": [
+          "Veilleurs/prieurs (60%)",
+          "Scribes de pierre (20%)",
+          "Civils intendants (20%)"
+        ],
+        "gobelins": [
+          "Chefs de bande (6%)",
+          "Pilleurs/éclaireurs (40%)",
+          "Artisans-récupérateurs (22%)",
+          "Civils (32%)"
+        ]
+      },
+      "metiers": {
+        "humains": ["forgeron glaciaire", "mineur de veine froide", "pêcheur sous-glace", "gardien de col", "charpentier de traîneau"],
+        "nains": ["fondeur bas-fourneau", "lamineur", "mécanicien de puits", "tailleur de claveaux", "graveur de plans"],
+        "trolls": ["guide de brume", "sculpteur de totems", "herboriste rituel", "piquier de lisière"],
+        "geants": ["garde-fanal", "tailleur mégalithique", "astronome rustique"],
+        "gobelins": ["piqueur de sel", "piégeur", "batelier noir", "récupérateur de ruines"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons élargies, héritage agnatique majoritaire, compérages entre forges et fermes.",
+        "nains": "Maisonnées d’atelier, adoptions d’apprentis, mariages tardifs contractés par plaques jurées.",
+        "trolls": "Clans matricentrés, oncles veilleurs, serments de clairière.",
+        "geants": "Groupes d’ermitage 3–9, vœux, tutorat spirituel.",
+        "gobelins": "Bandes flexibles, polyandrie/ployandrie opportuniste, prises d’otages coutumières converties en adoptions."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 26, "nains": 16, "trolls": 20, "geants": 8, "gobelins": 34},
+        "mortalite_infantile_pourcent": {"humains": 22, "nains": 14, "trolls": 17, "geants": 18, "gobelins": 33},
+        "esperance_vie_annees": {"humains": 56, "nains": 102, "trolls": 72, "geants": 120, "gobelins": 38},
+        "urbanisation_pourcent": {"humains": 38, "nains": 86, "trolls": 12, "geants": 0, "gobelins": 8},
+        "reserve_militaire_estimee": {"humains": 98000, "nains": 52000, "trolls": 31000, "geants": 4000, "gobelins": 62000}
+      },
+      "migrations": "Gobelins nord→sud en hiver (razzias, troc de sel). Humains migration interne Helgar⇄Ferrum selon cycles miniers. Trolls transhument entre clairières. Nains circulation d’atelier selon chantiers. Géants fixes (roulement par ermitage).",
+      "tendances_criminelles": "Contrebande de fourrures et d’armes (humains), marchés noirs de reliques (gobelins), détournements de lingots (nains), enlèvements rituels (trolls), rackets de passage (bandes mixtes)."
+    },
+
+    {
+      "nom": "Medianor (Cœur-Val)",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 1860000,
+          "densite_moyenne_hab_km2": 280,
+          "description": "Cités-États agricoles et marchandes, réseaux de canaux, meunerie, halleaux et beffrois. Armées de milice disciplinées.",
+          "zones": ["Val d’Arden : Champsorne", "Kelwyn : Garde-Bois"]
+        },
+        {
+          "race": "Batraciens",
+          "population_totale": 420000,
+          "densite_moyenne_hab_km2": 120,
+          "description": "Confédérations lagunaires : Fescar et villages d’étangs. Arbitrage hydrique, temples-bassins, juges de marée.",
+          "zones": ["Fescar", "Lagunes d’Arda"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 230000,
+          "densite_moyenne_hab_km2_reseau": 180,
+          "description": "Réseaux karstiques de Sous-Kelwyn. Taille fine, hydraulique, échanges techniques avec les cités humaines.",
+          "zones": ["Sous-Kelwyn", "Ateliers d’Arden"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 80000,
+          "densite_moyenne_hab_km2": 20,
+          "description": "Lisières forestières et zones humides amont, médiateurs de sentiers.",
+          "zones": ["Garde-Bois", "Lisières d’Arda"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 120000,
+          "densite_moyenne_hab_km2": 35,
+          "description": "Ateliers gris, récupération et acides pour les moulins. Comptoirs illégaux.",
+          "zones": ["Faubourgs de Champsorne", "Marchés noirs fluviaux"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Maisons (6%)", "Guildes (22%)", "Milices (10%)", "Laboureurs/ouvriers (62%)"],
+        "batraciens": ["Harmonistes (4%)", "Juges-de-Marée (10%)", "Bateliers/éclusiers (40%)", "Civils (46%)"],
+        "nains": ["Jurats (7%)", "Ingénieurs/taillandiers (48%)", "Porteurs (15%)", "Civils (30%)"],
+        "trolls": ["Chamans (10%)", "Garde-lisières (24%)", "Artisans/collecteurs (26%)", "Civils (40%)"],
+        "gobelins": ["Soudeurs (8%)", "Messagers (22%)", "Récupérateurs (30%)", "Civils (40%)"]
+      },
+      "metiers": {
+        "humains": ["meunier hydraulique", "scribe-contrat", "hallebardier de ville", "arpenteur d’Inertie"],
+        "batraciens": ["juge-de-marée", "pilote fluvial", "chantre d’étang"],
+        "nains": ["taille fine", "hydrologue karstique", "graveur de plans"],
+        "trolls": ["passeur de lisière", "herboriste de marais"],
+        "gobelins": ["raffineur de sels", "chimiste de suie"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons contractuelles, dots en outils et terres.",
+        "batraciens": "Maisons d’eau, adoption par parrainage de bassin.",
+        "nains": "Maisonnées d’atelier, plaques jurées.",
+        "trolls": "Clans à mémoire de résine.",
+        "gobelins": "Bandes marchandes, fratries d’atelier gris."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 24, "batraciens": 18, "nains": 15, "trolls": 19, "gobelins": 30},
+        "mortalite_infantile_pourcent": {"humains": 18, "batraciens": 12, "nains": 11, "trolls": 15, "gobelins": 28},
+        "esperance_vie_annees": {"humains": 58, "batraciens": 64, "nains": 100, "trolls": 70, "gobelins": 40},
+        "urbanisation_pourcent": {"humains": 52, "batraciens": 46, "nains": 72, "trolls": 16, "gobelins": 22},
+        "reserve_militaire_estimee": {"humains": 220000, "batraciens": 52000, "nains": 30000, "trolls": 9000, "gobelins": 20000}
+      },
+      "migrations": "Flux saisonniers de batellerie. Humains : campagnes→villes aux récoltes. Nains : chantiers karstiques. Gobelins : circulation de marché gris.",
+      "tendances_criminelles": "Fraude aux poids, contrebande de sels, corruption des douanes, culte clandestin des Mains Creuses."
+    },
+
+    {
+      "nom": "Austremont",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 540000,
+          "densite_moyenne_hab_km2": 150,
+          "description": "Cités de cols et vallées sèches, agriculture de terrasses, métallurgie pyrique, routes commerciales vers le nord. Centres : Karâg-Tor, Thulcar.",
+          "zones": ["Karâg-Tor (cols)", "Thulcar (plaine orientale)"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 360000,
+          "densite_moyenne_hab_km2_reseau": 220,
+          "description": "Souterrains d’Orraveth et puits profonds de Karâg-Tor. Architecture en gradins, forges à flamme vive, banques de plaques.",
+          "zones": ["Karâg-Tor", "Orraveth", "Sous-Kelwyn (branche sud)"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 90000,
+          "densite_moyenne_hab_km2": 40,
+          "description": "Clans forestiers d’altitude, rites de sève et de souffle. Gardiens des lisières d’Orraveth.",
+          "zones": ["Hauteurs d’Orr", "Bois d’Ondal"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 110000,
+          "densite_moyenne_hab_km2": 30,
+          "description": "Soudeurs et récupérateurs pyriques, artisans des creusets d’acide, nomades de cendre. Sociétés à réputation brûlée.",
+          "zones": ["Villes-creusets de Varkhar Sud", "Haltes industrielles de Fer-Sec"]
+        },
+        {
+          "race": "Géants",
+          "population_totale": 12000,
+          "densite_moyenne_hab_km2": 3,
+          "description": "Falaises et fanaux de Vhorak. Neutralité armée, prieurés runiques. Gardiens du ciel et des marées, arbitres naturels entre peuples de montagne et peuples marins.",
+          "zones": ["Vhorak : fanaux marins et fortins de chaîne"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Capitaines de cols (5%)", "Guildes de route (18%)", "Milices des passes (15%)", "Muletiers/ouvriers (62%)"],
+        "nains": ["Jurats (8%)", "Fondeurs/ingénieurs (46%)", "Sapeurs/porteurs (18%)", "Civils (28%)"],
+        "trolls": ["Mères-de-Sève (11%)", "Veilleurs (26%)", "Artisans (23%)", "Civils (40%)"],
+        "gobelins": ["Soudeurs-Rouges (9%)", "Fumeurs de sel (21%)", "Récupérateurs (32%)", "Civils (38%)"],
+        "geants": ["Vigiles du Signe (62%)", "Scribes de pierre (18%)", "Intendants et novices (20%)"]
+      },
+      "metiers": {
+        "humains": ["colporteur des cols", "hallebardier de passe", "logisticien pyrique"],
+        "nains": ["mécanicien de puits", "géophone rituel", "forgeron à flamme vive"],
+        "trolls": ["garde-lisière d’altitude", "herboriste des vents"],
+        "gobelins": ["distillateur d’acides", "réparateur de creusets"],
+        "geants": ["garde-fanal", "monolitheur", "tailleur mégalithique", "veilleur marin"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons de transit, alliances de route et contrats de compagnonnage.",
+        "nains": "Clans-guildes, adoptions d’apprentis, contrats de forge jurés.",
+        "trolls": "Clans de pentes, pactes de sentier, serments de brume.",
+        "gobelins": "Bandes sous contrat, parrainages d’atelier, hiérarchies de réputation.",
+        "geants": "Prieurés et ermitages souverains liés par vœux runiques, mémoire gravée de lignée."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 23, "nains": 14, "trolls": 18, "gobelins": 28, "geants": 7},
+        "mortalite_infantile_pourcent": {"humains": 19, "nains": 13, "trolls": 16, "gobelins": 29, "geants": 17},
+        "esperance_vie_annees": {"humains": 57, "nains": 104, "trolls": 71, "gobelins": 39, "geants": 122},
+        "urbanisation_pourcent": {"humains": 44, "nains": 88, "trolls": 14, "gobelins": 18, "geants": 0},
+        "reserve_militaire_estimee": {"humains": 62000, "nains": 41000, "trolls": 21000, "gobelins": 11000, "geants": 1500}
+      },
+      "migrations": "Transhumances de cols et routes de fonte. Chantiers nains en rotation. Gobelins suivent les saisons d’extraction. Géants stationnaires, relais des prieurés.",
+      "tendances_criminelles": "Rackets de passage, détournement d’alliages, contrebande pyrique, trafics de licences de route et récupération de reliques interdites."
+
+    },
+
+    {
+      "nom": "Archipel des Lamentes",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 380000,
+          "densite_moyenne_hab_km2": 95,
+          "description": "Ports sur pilotis, guildes maritimes, douanes, chantiers navals. Navigation en eaux à gravité fluctuante.",
+          "zones": ["Islakarion", "Îlots de transit"]
+        },
+        {
+          "race": "Batraciens",
+          "population_totale": 260000,
+          "densite_moyenne_hab_km2": 85,
+          "description": "Cités-étangs fédérées. Arbitrage de marée, temples-bassins, mémoire liquide.",
+          "zones": ["Lago’Vernis", "Perle-Somme"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 80000,
+          "densite_moyenne_hab_km2": 30,
+          "description": "Cavernes littorales et docks gris. Recyclage naval, aciers ‘vivants’ corrodés.",
+          "zones": ["Darses noires", "Antres de suie"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 40000,
+          "densite_moyenne_hab_km2_reseau": 120,
+          "description": "Forges marines, ancres runiques, phares-atelier.",
+          "zones": ["Ateliers d’Islakarion", "Phares runiques"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 30000,
+          "densite_moyenne_hab_km2": 22,
+          "description": "Mangroves élevées, collecte de résines marines.",
+          "zones": ["Îles brumeuses", "Forêts littorales"]
+        },
+        {
+          "race": "Géants",
+          "population_totale": 2000,
+          "densite_moyenne_hab_km2": 1,
+          "description": "Fanaux marins tenus par des ermites géants, traités de neutralité absolue.",
+          "zones": ["Falaises de Vhorak (chaîne maritime)"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Capitaines/armateurs (7%)", "Guildes portuaires (20%)", "Garde-douanes (12%)", "Marins/ouvriers (61%)"],
+        "batraciens": ["Harmonistes (6%)", "Juges de flux (14%)", "Bateliers/pêcheurs (40%)", "Civils (40%)"],
+        "gobelins": ["Soudeurs (10%)", "Récupérateurs (34%)", "Messagers (18%)", "Civils (38%)"],
+        "nains": ["Maîtres-atelier (9%)", "Fondeurs (41%)", "Porteurs/charpentiers (20%)", "Civils (30%)"],
+        "trolls": ["Veilleurs (15%)", "Collecteurs (35%)", "Artisans (20%)", "Civils (30%)"]
+      },
+      "metiers": {
+        "humains": ["capitaine de passe", "charpentier naval", "douanier des marées"],
+        "batraciens": ["juge-de-marée marin", "choriste de bassin"],
+        "gobelins": ["récupérateur de coques", "raffineur d’huiles acides"],
+        "nains": ["forgeron d’ancre runique", "gardien de phare-atelier"],
+        "trolls": ["collecteur de résine marine", "tanneur de varech"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons maritimes, droits de quai héréditaires.",
+        "batraciens": "Maisons d’eau, parrainage de barque.",
+        "gobelins": "Bandes de docks.",
+        "nains": "Ateliers-phares.",
+        "trolls": "Clans de mangrove."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 23, "batraciens": 17, "gobelins": 27, "nains": 14, "trolls": 18, "geants": 6},
+        "mortalite_infantile_pourcent": {"humains": 17, "batraciens": 11, "gobelins": 26, "nains": 12, "trolls": 15, "geants": 16},
+        "esperance_vie_annees": {"humains": 59, "batraciens": 66, "gobelins": 41, "nains": 101, "trolls": 71, "geants": 121},
+        "urbanisation_pourcent": {"humains": 68, "batraciens": 62, "gobelins": 48, "nains": 74, "trolls": 28, "geants": 0},
+        "reserve_militaire_estimee": {"humains": 52000, "batraciens": 36000, "gobelins": 9000, "nains": 6000, "trolls": 4000, "geants": 300}
+      },
+      "migrations": "Saisons de mousson magique : relèves de phares, rotation des équipages, pèlerinages du Grand Silence.",
+      "tendances_criminelles": "Piratage littoral, fraude douanière, ateliers de suie clandestins, contrebande d’artefacts noyés."
+    }
+  ],
+
+  "notes_de_coherence": {
+    "ancrage": "Version harmonisée pour aligner démographie ↔ géopolitique ↔ économie. Populations ×10 en Septentria/Medianor, ajout d’Austremont et de l’Archipel, intégration systématique des Batraciens.",
+    "impact_sur_systemes": [
+      "Capacités militaires désormais compatibles avec ordres de bataille.",
+      "Marchés et corridors (Arda, Helgar–Kar-Ferrum, Lamentes) soutenus par des bassins de population crédibles.",
+      "Taux et espérances de vie respectent l’esthétique dungeon-synth médiévale sombre."
+    ],
+    "compatibilite_fichiers": [
+      "geopolitique.json : cohérence populations des noeuds (",
+      "economie.json : corridors et capacités vs. réservoirs humains",
+      "religion.json : poids des cultes par régions (Flux en Archipel/Medianor, Trois Fers en Septentria/Medianor, Voûte en Vargr/Vhorak)"
+    ]
+  }
+}
+{
+  "races": {
+    "version": "2.0-sim",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (biogéographie contrainte par flux)",
+      "coherence_avec": [
+        "geographie.json",
+        "geopolitique.json",
+        "economie.json",
+        "langues.json",
+        "religion.json",
+        "magie.json",
+        "politique_gouvernance.json",
+        "population.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "taille": "m",
+        "masse": "kg",
+        "densite": "hab/km2",
+        "energie": "Pierre_de_Flux (g)",
+        "risque": "%"
+      }
+    },
+
+    "01_races": [
+      {
+        "nom": "Humains",
+        "description_physique": "Bipèdes endurants et polymorphes. 1.60–1.90 m (extrêmes 1.50–2.00), 55–95 kg. Pilosité variable, peau du pâle septentrional au brun insulaire. Adaptations fréquentes : thorax ample en altitude, callosités d’atelier, résistance modérée au froid, sudation efficace, scotopie faible.",
+        "longevite": {"esperance_vie": "58–74 ans (montagnes 52–64 ; plaines 60–72 ; archipel 60–74)", "maturite": "16–18 ans", "max_biologique": "~90 ans"},
+        "variantes_regionales": [
+          {"zone": "Septentria (Helgarstätt, Vargr)", "variante": "Montagnards : peau claire, cage thoracique développée, tolérance atmosphères pauvres ; pratique d’ancrage runique élémentaire."},
+          {"zone": "Medianor (Champsorne, Sous‑Kelwyn)", "variante": "Plainsards : peau olive, forte densité osseuse (travaux agricoles/urbains), dextérité scripturale ; spécialisation en droit des flux et comptabilité gravée."},
+          {"zone": "Austremont (Karâg‑Tor, Thulcar)", "variante": "Colporteurs des cols : silhouette sèche, endurance élevée, marques pyro‑protectrices (tatouages minéraux), aptitude à la logistique de haute montagne."},
+          {"zone": "Archipel des Lamentes (Islakarion, Lago’Vernis)", "variante": "Insulaires : peau brun doré, respiration profonde, ‘oreille maritime’ (sens rythmique), excellente proprioception sur passerelles et coques."}
+        ],
+        "implantations_principales": ["CHAMP", "HELGA", "KARFE (surface)", "ISLAK", "LAGOV"],
+        "traits_culturels": "Espèce poly‑guildes (cités‑États, confréries). Tolérance élevée à l’innovation utile ; attachement au contrat gravé.",
+        "comportements_sociaux": "Maisons étendues, patronages d’artisans, confréries. Médiation par notables assermentés; fêtes de marée et maintenance des sceaux.",
+        "langues_dialectes": {"famille": "Humanique", "dialectes": [
+          {"nom": "Helgarin", "aire": "Septentria", "note": "Phonétique dure, lexique minier et martial."},
+          {"nom": "Ardanien", "aire": "Medianor", "note": "Souple ; langue du droit/comptes."},
+          {"nom": "Orrien", "aire": "Austremont", "note": "Brève ; consignes techniques."},
+          {"nom": "Islaréen", "aire": "Archipel", "note": "Rythmée ; vocabulaire nautique."}
+        ], "ecriture": "Runique simplifiée (contrats), cursive marchande (échanges)."},
+        "licences_et_cultes": {"licences": ["atelier_runique", "pyrique_industriel"], "cultes": ["Trois Fers", "Voûte"]},
+        "metiers_typiques": ["forgeron runique de surface", "hallebardier de ville", "pilote fluvial", "scribe‑contrat", "charpentier naval", "arpenteur d’Inertie"],
+        "architecture_et_habitat": "Pierre appareillée (montagnes), colombages/terre crue (plaines), pilotis/passerelles (archipel). Ceintures d’Inertie municipales, lanternes lourdes, citernes et écluses normalisées.",
+        "guerre_et_tactiques": "Milices + cadres pros. Mur de lances/boucliers, archers longs, hallebardiers urbains. Siège : beffrois, trébuchets au feu gras, scorpions pyriques. Coop inter‑espèces (sape naine, brumes trolls, passes batraciennes).",
+        "magie_et_pratiques": "Polyvalents : runique (contrats/ancrages), pyrique (feux utilitaires/siège), sanguine (serments/renfort). Usage sous licence et registre.",
+        "religion_et_rites": "Culte des Trois Fers et de la Voûte; serments gravés; processions d’entretien des sceaux.",
+        "relations_interpeuples": "Alliés techniques des Nains; médiations batraciennes; patrouilles mixtes avec Trolls; marchés gris avec Gobelins; révérence protocolaire envers Géants.",
+        "droit_et_institutions": "Chartes communales, banques de serments, permissions de flux (Veilleurs), tribunaux mixtes.",
+        "demographie": {"densite": {"plaines": "22–48", "montagnes": "4–10", "plateaux": "6–12", "archipel": "12–22"}, "natalite_pour_mille": "22–28", "mortalite_infantile_%": "14–22"},
+        "nourriture_et_ecologie": "Céréales, légumineuses, poisson, gibier; fromages d’altitude; conserves salées. Jachères et haies; moulins hydrauliques.",
+        "pathologies_et_risques": "Silicose légère, brûlures pyriques, épuisement sanguin des sermentaires, traumatismes de siège.",
+        "noms_personnels": "Nord: Halgard/Brynna; Plaine: Severin/Maelia; Montagnes: toponymiques (d’Orr, d’Helgar).",
+        "modifs_simulation": {"mvt_plaine": 1.0, "mvt_col": 0.9, "mvt_galerie": 0.95, "resilience_pyrique": 0.9}
+      },
+
+      {
+        "nom": "Nains",
+        "description_physique": "Humanoïdes trapus 1.25–1.55 m, 60–95 kg. Ossature dense, muscles courts; barbes épaisses (tous sexes) codant rang/métier. Pupilles réduites, tympans sensibles aux vibrations; haute tolérance aux poussières et atmosphères pauvres.",
+        "longevite": {"esperance_vie": "90–130 ans", "maturite": "22–28 ans", "max_biologique": "~160 ans"},
+        "variantes_regionales": [
+          {"zone": "Fer‑Noir (Gransouterre)", "variante": "Veinards : teint cendre, doigts carrés; fonte basse, laminage à froid, aciers ‘vivants’."},
+          {"zone": "Orraveth (Karâg‑Tor)", "variante": "Profondins : teint ardoise; ingénierie des puits, cages à contrepoids, géophones rituels."},
+          {"zone": "Sous‑Kelwyn", "variante": "Calcaires : teint sable; hydrologie karstique, taille fine, acoustique de voûte."}
+        ],
+        "implantations_principales": ["GRANS", "KARAG", "KELWY"],
+        "traits_culturels": "Clans‑guildes, serments d’atelier, comptabilité gravée. Droit minier strict; primes d’accident; caisse de secours.",
+        "comportements_sociaux": "Maisonnées (forges/laminoirs), conseils de jurats; mariages tardifs; parrainage d’apprentis inter‑clans.",
+        "langues_dialectes": {"famille": "Khazil", "dialectes": [
+          {"nom": "Khazil‑Ferrum", "aire": "Fer‑Noir", "note": "Consonnes roulées; sécurité/acier."},
+          {"nom": "Khazil‑Orr", "aire": "Orraveth", "note": "Levage/sismique; signaux vibrés."},
+          {"nom": "Khazil‑Kelwyn", "aire": "Sous‑Kelwyn", "note": "Hydrologie/voûtes; emprunts humanique."}
+        ], "ecriture": "Runes d’atelier; plans gravés; codes de cloche."},
+        "licences_et_cultes": {"licences": ["atelier_runique"], "cultes": ["Trois Fers", "Voûte"]},
+        "metiers_typiques": ["fondeur bas‑fourneau", "lamineur", "charpentier de galerie", "mécanicien de puits", "tailleur de claveaux", "graveur de plans"],
+        "architecture_et_habitat": "Réseaux troglodytes à tirage d’air, arcs clavés, bassins de décantation; quartiers d’hôtes distincts; éclairage par feux sourds et prismes.",
+        "guerre_et_tactiques": "Sape/contre‑sape; pavois courts; haches/masses; herses, trappes, effondrements synchronisés.",
+        "magie_et_pratiques": "Tellurique/Runique d’atelier (trempe froide, ancrages anti‑effondrement). Rayon court, fiabilité élevée.",
+        "religion_et_rites": "Marteau muet; frappe de nom; fêtes d’achèvement de voûte; dépôts d’outils défectueux.",
+        "relations_interpeuples": "Alliés des Humains; protocoles avec Géants; frictions Trolls (lisières); vigilance Gobelins.",
+        "droit_et_institutions": "Statuts d’atelier, responsabilité gravée, jurats, contrats d’aérage/eau, permissions de flux.",
+        "demographie": {"densite": {"reseaux": "12–30", "enclaves_surface": "4–8"}, "natalite_pour_mille": "14–18", "mortalite_infantile_%": "9–14"},
+        "nourriture_et_ecologie": "Rations d’atelier; champignonnières; élevages troglodytes; recyclage thermique/hydraulique.",
+        "pathologies_et_risques": "Hypoacousie, pneumoconioses, écrasements, ‘fièvre de trempe’.",
+        "noms_personnels": "Binômes clan/atelier (Hadrik de la Veine‑Grise).",
+        "modifs_simulation": {"mvt_plaine": 0.85, "mvt_col": 0.9, "mvt_galerie": 1.1, "resilience_tellurique": 1.1}
+      },
+
+      {
+        "nom": "Trolls",
+        "description_physique": "Humanoïdes massifs 2.10–2.60 m, 150–280 kg. Peau épaisse vert/gris mousse; parfois lichenisée. Odorat/ouïe excellents; micro‑régénération lente.",
+        "longevite": {"esperance_vie": "60–85 ans", "maturite": "20–24 ans", "max_biologique": "~110 ans"},
+        "variantes_regionales": [
+          {"zone": "Morthyll", "variante": "Brumeux : peau pâle tachetée; branchies rudimentaires actives en brume saturée; ritualistes de l’écho."},
+          {"zone": "Thulcar", "variante": "Forestiers : peau sombre; agilité arboricole; tatouages résineux; totems vivants."},
+          {"zone": "Keryn", "variante": "Taïgans : fourrure saisonnière; grande endurance au gel; traqueurs d’hivernage."}
+        ],
+        "implantations_principales": ["THULC", "MORTH"],
+        "traits_culturels": "Animisme forestier; ligues de clairières; justice par médiation chamanique; pharmacopée des mousses et résines.",
+        "comportements_sociaux": "Clans 60–200; matri‑lignages fréquents; conseils d’anciens; rituels de brume (mémoire partagée). Tabou d’abattage des arbres‑mères.",
+        "langues_dialectes": {"famille": "Tharnën", "dialectes": [
+          {"nom": "Tharnic du Nord", "aire": "Morthyll", "note": "Rythme lent; lexique ombre/illusion."},
+          {"nom": "Tharnic Central", "aire": "Thulcar", "note": "Imitatif; justice/chasse."},
+          {"nom": "Tharnic Boréal", "aire": "Keryn", "note": "Tons graves; givre/piste."}
+        ], "ecriture": "Totems gravés, ficelles nouées, peintures de brume."},
+        "licences_et_cultes": {"licences": ["rites_forestiers"], "cultes": ["Sève et Souffle"]},
+        "metiers_typiques": ["guide forestier", "herboriste rituel", "sculpteur de totems", "éclaireur", "garde‑lisière"],
+        "architecture_et_habitat": "Maisons‑arbres, passerelles, sanctuaires de brume; digues légères en bois vivant.",
+        "guerre_et_tactiques": "Ambuscades; frondes lourdes; filets; brumes d’aveuglement; défense en profondeur de clairières.",
+        "magie_et_pratiques": "Ombreuse/Hydrique : voiles de brume, échos trompeurs, apaisements, illusions matérielles; interdits d’usage offensif hors défense sacrée.",
+        "religion_et_rites": "Conseils de brume, totems d’écho, veillées muettes; enterrements en tourbe.",
+        "relations_interpeuples": "Alliances avec Humains/Batraciens; conflits opportunistes avec Gobelins; respect distant pour Nains; visites protocolaires aux Géants.",
+        "droit_et_institutions": "Arbitrages de clairière; serments gestuels; marquages totemiques; lecture de traces probatoire.",
+        "demographie": {"densite": {"forets": "5–12"}, "natalite_pour_mille": "18–22", "mortalite_infantile_%": "12–18"},
+        "nourriture_et_ecologie": "Champignons, gibier, résines; poissons de ruisseaux; saisons de prélèvement strictes.",
+        "pathologies_et_risques": "Intoxications résineuses, gelures profondes, confusions identitaires post‑rituels.",
+        "noms_personnels": "Composés naturalistes (Brume‑Lente, Aiguille‑Sombre).",
+        "modifs_simulation": {"mvt_foret": 1.15, "mvt_marais": 1.05, "mvt_plaine": 0.9, "resilience_ombreuse": 1.1}
+      },
+
+      {
+        "nom": "Batraciens",
+        "description_physique": "Amphibiens anthropomorphes 1.50–1.85 m, 60–100 kg. Peau lisse/granuleuse (vert sombre à brun, parfois nacrée); membranes inter‑digitales partielles; paupière nictitante. Respiration mixte.",
+        "longevite": {"esperance_vie": "55–85 ans", "maturite": "17–20 ans", "max_biologique": "~100 ans"},
+        "variantes_regionales": [
+          {"zone": "Asphodel (Fescar)", "variante": "Lagunaires : peau tachetée; doigts palmés; sacs vocaux développés; chant polyphonique."},
+          {"zone": "Archipel (Lago’Vernis)", "variante": "Insulaires : pigmentation claire; tolérance saline accrue; réflexes aux courants."}
+        ],
+        "implantations_principales": ["FESCA", "LAGOV", "ISLAK"],
+        "traits_culturels": "Confédérations d’étangs; justice collégiale; rigueur hydraulique; maîtrise de canaux/écluses.",
+        "comportements_sociaux": "Clans‑étangs; chefs élus lors de marées rituelles; hospitalité conditionnelle; tabou de pollution des eaux.",
+        "langues_dialectes": {"famille": "Vernath", "dialectes": [
+          {"nom": "Vernath‑Fescar", "aire": "Asphodel", "note": "Chants graves; lexique hydraulique/juridique; pauses du reflux."},
+          {"nom": "Vernath‑Lagos", "aire": "Lamentes", "note": "Rapide; lexique maritime/passes."}
+        ], "ecriture": "Glyphes aquatiques tactiles; pieux et cordages."},
+        "licences_et_cultes": {"licences": ["flux_hydrique"], "cultes": ["Foi du Flux et du Silence"]},
+        "metiers_typiques": ["pilote de passe", "charpentier sur pieux", "perlier", "herboriste aquatique", "juge de marée"],
+        "architecture_et_habitat": "Pilotis, chaussées sur digues, bassins d’écrêtage sacrés, phares de lagune.",
+        "guerre_et_tactiques": "Emboscades lagunaires; lances‑harpons; filets lestés; digues/écluses comme armes hydrauliques.",
+        "magie_et_pratiques": "Hydrique : manteaux d’eau, murs liquides, respiration aquatique; nécessite chœurs coordonnés; interdits offensifs hors sanctuaires.",
+        "religion_et_rites": "Culte des Courants/Silence Profond; ordalies de marée; bains de mémoire.",
+        "relations_interpeuples": "Médiateurs entre Humains et Nains; neutralité prudente avec Gobelins; coopération herboriste avec Trolls; respect des Géants côtiers.",
+        "droit_et_institutions": "Collèges de Marée, gardes des passes, permis d’irrigation, quarantaines hydriques.",
+        "demographie": {"densite": {"marais": "10–18", "atolls": "6–12"}, "natalite_pour_mille": "18–24", "mortalite_infantile_%": "10–16"},
+        "nourriture_et_ecologie": "Poissons, crustacés, algues; riz des marais; aquaculture; frayères protégées.",
+        "pathologies_et_risques": "Mycoses cutanées, intoxications lagunaires, hypothermie, ‘surcharge de chant’.",
+        "noms_personnels": "Voyelles dominantes, redoublements (Aoo, Irena, Lua); cognomina d’eau.",
+        "modifs_simulation": {"mvt_lagune": 1.2, "mvt_fleuve": 1.1, "mvt_plaine": 0.9, "resilience_hydrique": 1.15}
+      },
+
+      {
+        "nom": "Gobelins",
+        "description_physique": "Petits bipèdes 1.10–1.45 m, 28–48 kg. Peau verdâtre/ocre/gris cendre; iris rouge/orange; oreilles mobiles; glandes cutanées sécrétant huiles acides protectrices.",
+        "longevite": {"esperance_vie": "28–45 ans", "maturite": "9–11 ans", "max_biologique": "~60 ans"},
+        "variantes_regionales": [
+          {"zone": "Varkhar (Septentria)", "variante": "Steppiques salins : peau craquelée; narines filtrantes; griffes de fouille; distillation corrosive."},
+          {"zone": "Thulcar (lisières)", "variante": "Sylvestres : peau sombre; silhouette sèche; agilité arboricole; marquages résineux."},
+          {"zone": "Asphodel (Fescar)", "variante": "Lagunaires assimilés : stature menue; doigts semi‑palmés; récupération de vase/perles mortes."}
+        ],
+        "implantations_principales": ["VARKH", "THULC", "FESCA (quartiers bas)"],
+        "traits_culturels": "Pragmatisme opportuniste; sens aigu du troc; micro‑chefferies (‘crevasses’). Artisanat rusé : colles, pièges, réemploi; alchimies acides.",
+        "comportements_sociaux": "Bandes 20–120; chefferies par mérite/force; adoption d’orphelins utiles; cheffes marchandes fréquentes.",
+        "langues_dialectes": {"famille": "Grekh", "dialectes": [
+          {"nom": "Grekh‑Varkhar", "aire": "Steppes du Soufre", "note": "Sifflant salin; lexique toxines/vents."},
+          {"nom": "Grekh‑Lisien", "aire": "Thulcar", "note": "Clics brefs; lexique chasse/pièges."}
+        ], "ecriture": "Marques de résine, os gravés, cordes codées; graffitis de suie."},
+        "licences_et_cultes": {"licences": [], "cultes": ["Rouille‑Mère"]},
+        "metiers_typiques": ["piégeur", "récupérateur", "colleur‑résine", "piqueur de sel", "batelier noir"],
+        "architecture_et_habitat": "Campements modulaires; quartiers bas labyrinthiques; ateliers à l’air libre; citernes de neutralisation basiques.",
+        "guerre_et_tactiques": "Harcèlement; fumigènes soufrés; sarbacanes; frondes; fosses; diversions; retraits feints; sabotages.",
+        "magie_et_pratiques": "Corrosive/Sanguine : fioles de bile froide, huiles ‘mange‑métal’, colles vivantes; rituels de crachat de sang. Risques élevés; tabou d’usage dans tentes de clan.",
+        "religion_et_rites": "Esprits du Vent Corrodé et des Caves Salées; principe de Rouille‑Mère (recyclage). Offrandes de fumées vertes; cicatrices d’appartenance.",
+        "relations_interpeuples": "Commerce gris avec Humains/Nains; embauches comme pisteurs; tensions avec Trolls; crainte respectueuse des Géants.",
+        "droit_et_institutions": "Justice de bande (réparations rapides); arbitrages achetés; marques de dette cutanée; faible reconnaissance des tribunaux mixtes.",
+        "demographie": {"densite": {"steppe": "3–10", "foret_lagune": "8–15"}, "natalite_pour_mille": "30–38", "mortalite_infantile_%": "25–35"},
+        "nourriture_et_ecologie": "Omnivores; charognes/insectes/poissons de marais; pains secs; excellents recycleurs; tolèrent sols contaminés.",
+        "pathologies_et_risques": "Brûlures chimiques; intoxications soufrées; mutilations d’atelier; mortalité par essais alchimiques.",
+        "noms_personnels": "Consonantiques/sifflés (Skrek, Ziz, Marr); surnoms fonctionnels (Masque‑Gris).",
+        "modifs_simulation": {"mvt_steppe": 1.1, "mvt_foret": 1.0, "mvt_marais": 0.95, "resilience_corrosive": 1.1}
+      },
+
+      {
+        "nom": "Géants",
+        "description_physique": "Très grands humanoïdes 3.50–4.50 m, 450–900 kg. Peau gris pierre; regards pâles; frugalité élevée; faible besoin de sommeil; mouvements lents mais sûrs.",
+        "longevite": {"esperance_vie": "100–160 ans", "maturite": "30–35 ans", "max_biologique": "~200 ans"},
+        "variantes_regionales": [
+          {"zone": "Vargr (Septentria)", "variante": "Sommitaux : ascètes des crêtes; callosités plantaires; manteaux laine/cuir; médiation inter‑cités."},
+          {"zone": "Vhorak (Austremont)", "variante": "Falaisiens : praticiens des fanaux; épaules puissantes; poternes/chaînes; optique de lumière froide."}
+        ],
+        "implantations_principales": ["VARGR", "VHORAK"],
+        "traits_culturels": "Monachisme laïc; rôle d’arbitres; fanaux côtiers; construction mégalithique; ponts de corde blindée.",
+        "comportements_sociaux": "Ermitages, duos, prieurés (3–9); vœux de silence partiels; transmission par gestes et taille.",
+        "langues_dialectes": {"famille": "Urmath", "dialectes": [
+          {"nom": "Urmath Vargrien", "aire": "Vargr", "note": "Phrases courtes; toponymie des vents."},
+          {"nom": "Urmath Vhorakien", "aire": "Vhorak", "note": "Lexique maritime/optique; signaux lumineux."}
+        ], "ecriture": "Gravures sur piliers cristallins; codes lumineux (fanaux)."},
+        "licences_et_cultes": {"licences": [], "cultes": ["Voûte et Pierre‑Ancienne"]},
+        "metiers_typiques": ["gardien de col", "garde‑fanal", "tailleur mégalithique", "astronome rustique"],
+        "architecture_et_habitat": "Terrasses sculptées, monolithes, salles de veille ouvertes au vent; fanaux de falaise; ponts corde‑chaîne.",
+        "guerre_et_tactiques": "Usage parcimonieux : jets de roches, lances démesurées, barrières mobiles; rôle d’arrêt/dissuasion; neutralité armée.",
+        "magie_et_pratiques": "Tellurique/Lumineuse : barrières de lumière froide, ancrages gravitationnels, signes de veille; alignements lunaires.",
+        "religion_et_rites": "Révérences à la Voûte; vigiles muettes; contrats gravés; refus des querelles triviales.",
+        "relations_interpeuples": "Médiateurs respectés; accords de neutralité; enseignements ponctuels aux guildes.",
+        "droit_et_institutions": "Arbitrages par stèles; décisions non verbales; scellés de pierre; serments lourds.",
+        "demographie": {"densite": {"hautes_chaines": "<1"}, "natalite_pour_mille": "très faible", "mortalite_infantile_%": "modérée"},
+        "nourriture_et_ecologie": "Pâtures d’altitude, racines, gibier rare; pêche de falaise. Empreinte écologique minime.",
+        "pathologies_et_risques": "Érosion articulaire, hypoxie d’effort (novices), ‘fatigue de pierre’ après usages lourds.",
+        "noms_personnels": "Monosyllabes lourds (Orn, Varg, Thun) + titres (du‑Signe).",
+        "modifs_simulation": {"mvt_col": 1.2, "mvt_plaine": 0.8, "resilience_tellurique": 1.2, "neutralite": true}
+      }
+    ],
+
+    "02_affinites_et_contraintes": {
+      "affinites_magiques": {
+        "Humains": ["runique", "pyrique", "sanguine"],
+        "Nains": ["runique", "tellurique", "pyrique"],
+        "Trolls": ["ombreuse", "hydrique"],
+        "Batraciens": ["hydrique"],
+        "Gobelins": ["corrosive", "sanguine"],
+        "Géants": ["tellurique", "lumineuse"]
+      },
+      "contraintes_rituelles": {
+        "Humains": "registre obligatoire des sorts majeurs (licences)",
+        "Nains": "serments d’atelier; audits runiques",
+        "Trolls": "interdit offensif hors défense sacrée",
+        "Batraciens": "pauses de reflux; chœurs requis",
+        "Gobelins": "tabou d’usage en tentes de clan",
+        "Géants": "neutralité armée; arbitrage prioritaire"
+      }
+    },
+
+    "03_parametres_simulation": {
+      "coeff_mobilite": {
+        "plaine": {"Humains": 1.0, "Nains": 0.85, "Trolls": 0.9, "Batraciens": 0.9, "Gobelins": 1.0, "Géants": 0.8},
+        "col": {"Humains": 0.9, "Nains": 0.9, "Trolls": 0.95, "Batraciens": 0.8, "Gobelins": 0.95, "Géants": 1.2},
+        "galerie": {"Humains": 0.95, "Nains": 1.1, "Trolls": 0.85, "Batraciens": 0.7, "Gobelins": 1.0, "Géants": 0.7},
+        "marais": {"Humains": 0.9, "Nains": 0.7, "Trolls": 1.05, "Batraciens": 1.2, "Gobelins": 0.95, "Géants": 0.6},
+        "foret": {"Humains": 0.95, "Nains": 0.85, "Trolls": 1.15, "Batraciens": 1.0, "Gobelins": 1.0, "Géants": 0.7}
+      },
+      "coeff_resilience_magique": {
+        "pyrique": {"Humains": 0.9, "Nains": 1.05, "Trolls": 0.8, "Batraciens": 0.85, "Gobelins": 0.9, "Géants": 1.0},
+        "hydrique": {"Humains": 0.95, "Nains": 0.9, "Trolls": 1.05, "Batraciens": 1.15, "Gobelins": 0.95, "Géants": 1.0},
+        "corrosive": {"Humains": 0.85, "Nains": 0.9, "Trolls": 0.9, "Batraciens": 0.95, "Gobelins": 1.1, "Géants": 1.0},
+        "ombreuse": {"Humains": 0.95, "Nains": 0.9, "Trolls": 1.1, "Batraciens": 1.0, "Gobelins": 0.95, "Géants": 1.0},
+        "tellurique": {"Humains": 0.95, "Nains": 1.1, "Trolls": 0.9, "Batraciens": 0.9, "Gobelins": 0.95, "Géants": 1.2}
+      },
+      "commerce_et_langues": {
+        "lingua_ardanis_necessaire": ["traites_multiraciaux", "douanes", "écluses"],
+        "pidgins_corridors": {"AX-ARDA": ["Ardanien", "Vernath‑Fescar"], "AX-HEL-KARF": ["Helgarin", "Khazil‑Orr"], "AX-LAMENTES": ["Islaréen", "Vernath‑Lagos"]}
+      }
+    },
+
+    "04_controles_coherence": {
+      "toponymie": "Sous‑Kelwyn unifié; Asphodel rattaché à Fescar; implantations en identifiants de noeuds (CHAMP, HELGA, etc.)",
+      "licences": "Alignées avec politique_gouvernance(v2): atelier_runique, flux_hydrique, rites_forestiers",
+      "religions": "Concordance avec religion(v2): Trois Fers/Voûte (Humains/Nains), Flux (Batraciens), Sève (Trolls), Rouille‑Mère (Gobelins), Voûte (Géants)",
+      "langues": "Dialects et écritures concordants avec langues(v2)",
+      "geographie": "Biotopes et mobilités compatibles avec geographie(v2) et axes logistiques",
+      "population": "Plages démographiques compatibles avec population(v2) (pas de sur‑densités)"
+    }
+  }
+}
+{
+  "religion": {
+    "version": "2.0-sim",
+    "principes_generaux": {
+      "description": "La religion dans le monde de l’Ardane n’est jamais un pur acte de foi abstrait : elle est fonctionnelle, contractuelle et ritualisée. Les puissances (dieux, ordres, esprits) sont tangibles et liées à la matière — pierre, métal, sang, eau, feu, brume. Chaque culte structure la société autour d’une ressource critique et stabilise les flux magiques. Les prêtres sont artisans, scribes, combattants ou magistrats : leur sacré se mesure à l’utilité publique.",
+      "alignements_systemiques": {
+        "monnaies_rituelles": ["Serment de Fer", "Marée d’Honneur", "Marque de Pierre"],
+        "catalyseurs": {
+          "Pierre_de_Flux": "catalyseur tellurique concentré (Voûte/Trois Fers)",
+          "Tourbe_Carbone": "énergie profane stabilisée par rites de Sève",
+          "Eaux_Régulées": "flux hydrique codifié par la Foi du Flux",
+          "Suies_Actives": "vecteurs corrosifs bénis par la Rouille-Mère"
+        },
+        "licences_magiques": {
+          "atelier_runique": ["Culte des Trois Fers", "Culte de la Voûte"],
+          "flux_hydrique": ["Foi du Flux et du Silence"],
+          "pyrique_industriel": ["Culte des Trois Fers", "Foi de la Rouille-Mère"],
+          "rites_forestiers": ["Culte de la Sève et du Souffle"]
+        }
+      }
+    },
+
+    "grands_cultes": [
+      {
+        "nom": "Culte des Trois Fers",
+        "culte_dominant_parmi": "Humains et Nains",
+        "domaines": ["travail", "forge", "serment", "justice des artisans"],
+        "description": "Trois aspects du labeur : Fer‑Vivant (création), Fer‑Lié (contrat), Fer‑Mort (punition). Régit la validité des promesses et la sûreté des ateliers.",
+        "hiérarchie": {
+          "haut_clergé": "Fondeurs‑Saints — prêtres‑jurés gardiens des textes de fonte et des plaques de serment",
+          "clergé_local": "Chapelains de Fonderie — desservants d’ateliers, bénissent outils et contrats",
+          "laïcs": "Ouvriers‑Serments — artisans porteurs d’amulette gravée"
+        },
+        "rites_quotidiens": [
+          "Frappe de l’outil sur dalle sanctifiée à l’aube",
+          "Offrande de limaille/sueur dans les bassins d’atelier",
+          "Marquage du fer lors de l’achèvement d’un contrat"
+        ],
+        "temples_et_structures": "Forges‑temples publiques. Dalle des Serments dans chaque cité majeure (contrats gravés puis effacés à l’accomplissement).",
+        "symboles": "Trois marteaux entrecroisés dans un cercle de suie",
+        "dettes_rituelles": "Dettes de forge : rupture = métal terni + ban professionnel",
+        "influence_politique": "Très forte (Chambre des Guildes, Tribunal de la Balance)",
+        "liens_magie_et_economie": {
+          "ecoles": ["Magie Runique", "Magie Pyrique (industrielle)", "Tellurique d’ancrage"],
+          "catalyseurs": ["Pierre_de_Flux (stabilisation runique)", "Tourbe/bois pour trempes"],
+          "licences": ["atelier_runique", "pyrique_industriel"],
+          "produits_clés": ["outils_runiques", "armes_runiques", "normes d’alliage"]
+        },
+        "fetes_majeures": [
+          {"nom": "Jour de Trempe", "saison": "fin d’hiver", "rituel": "Trempe d’outil dans eau bénite (renouveau du travail)"},
+          {"nom": "Marche du Feu", "saison": "été", "rituel": "Défilé nocturne d’apprentis aux braises allumées"}
+        ]
+      },
+
+      {
+        "nom": "Foi du Flux et du Silence",
+        "culte_dominant_parmi": "Batraciens et peuples marins",
+        "domaines": ["eau", "équilibre", "mémoire", "neutralité"],
+        "description": "Le cycle de l’eau et le silence régulent le monde. La parole ne sert qu’à peser la vérité des pactes.",
+        "hiérarchie": {
+          "haut_clergé": "Harmonistes — gardiens de bassins sacrés et des archives liquides",
+          "clergé_local": "Juges‑de‑Marée — médiateurs communautaires",
+          "laïcs": "Voix‑d’Eau — citoyens autorisés à parler au nom de la marée"
+        },
+        "rites_quotidiens": [
+          "Silence d’aube (aucune parole avant la première onde)",
+          "Offrande d’eau propre aux bassins",
+          "Chant de marée au couchant"
+        ],
+        "temples_et_structures": "Sanctuaires semi‑immergés aux dalles mobiles.",
+        "symboles": "Cercle d’eau à trois ondes concentriques",
+        "dettes_rituelles": "Dettes de marée : service soldé avant changement de saison, sinon perte du droit de parole",
+        "influence_politique": "Médiatrice (arbitrage hydrique, ports et écluses)",
+        "liens_magie_et_economie": {
+          "ecoles": ["Magie Hydrique", "Ombreuse (dissimulation de surface)", "Tellurique douce (équilibre de berges)"],
+          "catalyseurs": ["Eaux_Régulées", "Pierre_de_Flux (balises de niveau)"]
+        },
+        "fetes_majeures": [
+          {"nom": "Nuit du Grand Silence", "saison": "équinoxe d’automne", "rituel": "Silence total dans le bassin de Fescar"},
+          {"nom": "Remontée des Eaux", "saison": "printemps", "rituel": "Défilé de barques ornées (montée du flux vital)"}
+        ]
+      },
+
+      {
+        "nom": "Culte de la Sève et du Souffle",
+        "culte_dominant_parmi": "Trolls forestiers et clans sylvestres",
+        "domaines": ["forêt", "mémoire", "régénération", "ombre"],
+        "description": "Les Arbres‑Mères gardent mémoire. La sève est parole. Corrompre le bois, c’est pervertir l’histoire commune.",
+        "hiérarchie": {
+          "haut_clergé": "Mères‑de‑Sève — gardiennes des Arbres‑Mères",
+          "clergé_local": "Veilleurs de Clairière — gardiens des totems et collecteurs de résine",
+          "laïcs": "Porteurs‑de‑Brume — participants aux rituels de mémoire"
+        },
+        "rites_quotidiens": [
+          "Goutte de sève sur le totem avant repas",
+          "Chant de brume au crépuscule",
+          "Offrande de mousse séchée aux funérailles"
+        ],
+        "temples_et_structures": "Clairières totémiques reliées par sentiers secrets; fragments de sève scellés en résine.",
+        "symboles": "Totem spiralé aux yeux de résine",
+        "dettes_rituelles": "Dettes de sève : entretien d’arbre/sentier; négligence = bannissement du réseau de brume",
+        "influence_politique": "Locale (contrôle des passes forestières)",
+        "liens_magie_et_economie": {
+          "ecoles": ["Magie Tellurique (végétale)", "Ombreuse (brumes)"],
+          "catalyseurs": ["Tourbe_Carbone (feux doux)", "Résines"],
+          "licences": ["rites_forestiers"]
+        },
+        "fetes_majeures": [
+          {"nom": "Veillée des Arbres‑Mères", "saison": "début d’hiver", "rituel": "Brûler une branche ancienne pour libérer mémoire d’ancêtre"},
+          {"nom": "Jour de Brume‑Claire", "saison": "printemps", "rituel": "Partage de résine bénie; ouverture des routes forestières"}
+        ]
+      },
+
+      {
+        "nom": "Foi de la Rouille‑Mère",
+        "culte_dominant_parmi": "Gobelins et castes alchimiques marginales",
+        "domaines": ["dissolution", "changement", "recyclage", "chaos utile"],
+        "description": "La corrosion est acte de renaissance. Rien ne meurt : tout s’altère pour servir autrement.",
+        "hiérarchie": {
+          "haut_clergé": "Soudeurs‑Rouges — alchimistes initiés aux fumées saintes",
+          "clergé_local": "Fumeurs de Sel — responsables de creusets communautaires",
+          "laïcs": "Réparateurs — artisans du réemploi"
+        },
+        "rites_quotidiens": [
+          "Lampe à vapeur verte au lever du jour",
+          "Consummation d’un fragment de métal dans les cendres",
+          "Cercle de suie autour du poste de travail"
+        ],
+        "temples_et_structures": "Cavernes‑fonderies, bassins d’acides bénits, fours tournants; autels contenant des métaux en décomposition lente.",
+        "symboles": "Cercle fendu traversé d’une goutte noire",
+        "dettes_rituelles": "Dettes de suie : métal prêté/volé rendu sous autre forme; défaut = marque circulaire au front",
+        "influence_politique": "Marginale mais essentielle (recyclage, composants pyriques)",
+        "liens_magie_et_economie": {
+          "ecoles": ["Magie Corrosive", "Pyrique (feux instables)"],
+          "catalyseurs": ["Suies_Actives", "Sels/Nitrats"],
+          "licences": ["pyrique_industriel"]
+        },
+        "fetes_majeures": [
+          {"nom": "Grande Fumée", "saison": "été", "rituel": "Combustion d’outils brisés pour bénir la nouvelle production"},
+          {"nom": "Cendre Haute", "saison": "hiver", "rituel": "Choix et fonte d’un métal sacré en offrande"}
+        ]
+      },
+
+      {
+        "nom": "Culte de la Voûte et de la Pierre‑Ancienne",
+        "culte_dominant_parmi": "Géants + ordres runiques humains/nains",
+        "domaines": ["gravité", "équilibre du monde", "vérité", "mémoire tellurique"],
+        "description": "La pierre conserve tout. Les monolithes sont des nerfs du monde; la parole gravée vaut loi absolue.",
+        "hiérarchie": {
+          "haut_clergé": "Vigiles‑de‑Pierre — gardiens de fanaux et interprètes des séismes",
+          "clergé_local": "Gardiens‑du‑Signe — graveurs de pierres de serment",
+          "laïcs": "Porte‑Voûte — carriers et bâtisseurs assermentés"
+        },
+        "rites_quotidiens": [
+          "Frapper la roche trois fois avant un vœu",
+          "Tracer un signe de craie avant toute construction",
+          "Nettoyer les monolithes au lever du soleil"
+        ],
+        "temples_et_structures": "Sanctuaires mégalithiques, tours runiques‑fanaux, tunnels résonants; prières gravées plutôt que prononcées.",
+        "symboles": "Triangle de pierre cerclé de lumière",
+        "dettes_rituelles": "Dettes de pierre : promesse gravée; si brisée, fissure infamante et incapacité rituelle",
+        "influence_politique": "Très haute (routes commerciales, ouvrages d’art, neutralité sommitale)",
+        "liens_magie_et_economie": {
+          "ecoles": ["Magie Runique (structure)", "Tellurique (ondes, inertie)"],
+          "catalyseurs": ["Pierre_de_Flux"],
+          "licences": ["atelier_runique"],
+          "role_geopolitique": "Neutralité des prieurés géants garantie par traités"
+        },
+        "fetes_majeures": [
+          {"nom": "Cycle de la Voûte Haute", "saison": "solstice d’été", "rituel": "Observation stellaire et réajustement des repères sacrés"},
+          {"nom": "Repos du Roc", "saison": "hiver", "rituel": "Silence des marteaux trois jours (sommeil du monde)"}
+        ]
+      }
+    ],
+
+    "religions_secondaires_et_sectes": [
+      {
+        "nom": "Les Lames du Sang",
+        "origine": "Humaine",
+        "description": "Ordre de mercenaires mystiques pour qui le sang est le lien magique le plus pur. Serments de bataille gravés sur la chair.",
+        "pratiques": "Saignées rituelles pré‑combat, vœux de vengeance, échanges de cicatrices",
+        "magie_associee": "Magie Sanguine (codifiée par l’Ordre) — coûts : fatigue, mémoire, hémorragies",
+        "statut": "Tolérés dans les guerres du nord, bannis ailleurs"
+      },
+      {
+        "nom": "Le Souffle Gris",
+        "origine": "Trollique et humaine",
+        "description": "Secte syncrétique de route : la brume relie vivants et morts; rituels d’ensevelissement d’une grande précision magique.",
+        "pratiques": "Inhalations de brume bénite, enterrements en brume sèche, veillées de silence",
+        "magie_associee": "Ombreuse (mémoire et brume)",
+        "statut": "Respectés mais craints dans les cités fluviales"
+      },
+      {
+        "nom": "Les Mains Creuses",
+        "origine": "Gobelino‑humaine",
+        "description": "Confrérie illégale de receleurs et faux‑prêtres. Doctrine : ‘voler, c’est redistribuer la volonté du métal’. Voue ses pillages à la Rouille‑Mère.",
+        "pratiques": "Partage rituel du butin, bénédictions d’outils corrompus, serments de silence (brûlure de langue)",
+        "magie_associee": "Corrosive (dissolution utilitaire)",
+        "statut": "Traqués par les guildes officielles"
+      },
+      {
+        "nom": "Le Voile du Monde",
+        "origine": "Mi‑cléricale, mi‑artisanale (clandestine)",
+        "description": "Fraternité de lanterniers et d’arpenteurs d’ombre. Ils prétendent que l’ombre est une matière fine que la Voûte retourne comme une étoffe.",
+        "pratiques": "Jeûnes de lumière, peinture de suie sur paupières, relevés d’ombre aux carrefours",
+        "magie_associee": "Magie Ombreuse (dissimulation, mirages tangibles) — encadrée par les fanaux de la Voûte",
+        "statut": "Tolérance conditionnelle (licences restreintes)"
+      }
+    ],
+
+    "influence_globale": {
+      "sur_la_magie": "Les cultes structurent les écoles : runique (Fer & Voûte), hydrique (Flux), tellurique (Sève), pyrique/corrosive (Rouille), ombreuse (Voile). Pierre_de_Flux reconnue comme catalyseur commun pour runes et étalons de stabilité.",
+      "sur_le_droit": "Les contrats religieux remplacent souvent le notariat. Un serment gravé ou scellé rituellement a force de loi. Les sanctions (ternissement, perte de parole, infamie de pierre) sont opposables en Tribunal de la Balance.",
+      "sur_le_pouvoir_politique": "Prêtres siégeant dans les conseils municipaux et de guildes; intégration explicite : Chambre des Cultes ⟶ Chambre des Guildes (évite double pouvoir). Prieurés géants : neutralité d’arbitrage reconnue.",
+      "sur_le_peuple": "Le culte est une assurance de survie : travail légitime, eau sûre, routes ouvertes, outils bénis. Refuser le culte, c’est sortir des circuits économiques et magiques."
+    },
+
+    "concordats_et_licences_rituelles": {
+      "concordats": [
+        {
+          "nom": "Concordat des Fers",
+          "parties": ["Trois Fers", "Voûte"],
+          "objet": "Normes runiques, usage de Pierre_de_Flux, certification des forges pyriques et répartition des droits d’alliage.",
+          "sanction": "Marque de Pierre sur l’atelier contrevenant et retrait temporaire des runes maîtresses."
+        },
+        {
+          "nom": "Pactes de Marée",
+          "parties": ["Flux", "Ports archipélagiques"],
+          "objet": "Libre passage saisonnier et arbitrage hydrique entre temples du Flux et Capitaineries de la Ligue des Ports de Lamentes.",
+          "sanction": "Marée d’Honneur suspendue; interdiction de navigation bénite pour cycle lunaire complet."
+        },
+        {
+          "nom": "Charte des Lisières",
+          "parties": ["Sève", "Guildes de route"],
+          "objet": "Quotas de coupe, routes de chasse, replantations rituelles et sauvegarde des clairières d’offrande.",
+          "sanction": "Trempe de blâme appliquée au sermentier fautif."
+        },
+        {
+          "nom": "Concordat de la Flamme Tempérée",
+          "parties": ["Trois Fers", "Rouille-Mère"],
+          "objet": "Partage et régulation des foyers pyriques industriels entre temples métallurgiques et forges bénites. Définit les plages thermiques sacrées, les horaires de fonte et les droits de bénédiction du feu.",
+          "sanction": "Scellement immédiat des foyers non conformes et suspension des licences pyriques jusqu’à purification complète par le Collège des Feux."
+        }
+      ],
+
+      "licences": [
+        {"type": "atelier_runique", "octroi": ["Chambre des Guildes", "Trois Fers", "Voûte"], "retraits": ["Tribunal de la Balance"]},
+        {"type": "flux_hydrique", "octroi": ["Juges de Flux"], "retraits": ["Assemblée de Marée"]},
+        {"type": "pyrique_industriel", "octroi": ["Synode des Forges", "Rouille-Mère"], "retraits": ["Vigiles de Pierre"]},
+        {"type": "sanguine_militaire", "octroi": ["Lames du Sang"], "retraits": ["Tribunal de la Balance"]},
+        {"type": "ombreuse_confidentielle", "octroi": ["Voile"], "retraits": ["Chambre des Cultes"]}
+      ]
+    },
+
+    "matrice_correspondances": {
+      "ressource→culte": {
+        "acier": "Trois Fers",
+        "pierre": "Voûte",
+        "eau": "Flux",
+        "bois/tourbe": "Sève",
+        "suie/acidité": "Rouille-Mère",
+        "ombre": "Voile"
+      },
+      "ecole_magique→culte": {
+        "runique": ["Trois Fers", "Voûte"],
+        "hydrique": ["Flux"],
+        "tellurique": ["Voûte", "Sève"],
+        "pyrique": ["Trois Fers", "Rouille-Mère"],
+        "corrosive": ["Rouille-Mère"],
+        "ombreuse": ["Voile", "Flux (dissimulation de surface)"],
+        "sanguine": ["Lames du Sang (magie sous licence militaire)"]
+      }
+    },
+
+    "controles_coherence": {
+      "nomenclature": "Usage normalisé : Pierre_de_Flux (singulier) dans tous champs doctrinaux.",
+      "geopolitique": "Prieurés géants = neutralité d’arbitrage, conforme aux traités et aux Concordats des Fers / Flamme Tempérée.",
+      "economie": "Rituels adossés aux chaînes (outils_runiques, armes_runiques, licences). Mix énergétique équilibré entre Sève, Rouille et Flux.",
+      "magie": "Toutes les écoles référencées et associées à un culte reconnu; la Magie Sanguine contrôlée par licence militaire exclusive.",
+      "politique": "Chambre des Cultes intégrée à la Chambre des Guildes (évite double hiérarchie entre foi et production)."
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
