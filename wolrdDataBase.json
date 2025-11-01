@@ -374,8 +374,7 @@
           "placement_relatif": "Archipel au sud d’Asphodel ; Islakarion NO de la chaîne, Lago’Vernis E–SE. Routes vers Medianor et Austremont."
         }
       ]
-    }
-    {
+    },
       "economie": {
         "version": "3.1-sim-ultra",
         "_note": "Modèle intégral prêt pour simulation (pas mensuel par défaut). Harmonisé avec population(v2), religion, magie, géographie, géopolitique. Ajout énergie carbone/tourbe, alignement Pierre_de_Flux.",
