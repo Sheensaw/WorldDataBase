@@ -1,0 +1,666 @@
+{
+  "flore": {
+    "version": "2.1-sim-ultra",
+    "_note": "Flore complète d’Ardane — dark dungeon synth. 48 espèces : ressources (12), sauvages (16), parasites runiques (6), légendaires (6), basiques (8). Écosystème vivant, cycles, usages, dangers, rituels. Cohérent avec carto_* v2.0-sim, population v2.2-sim, races v2.0-sim, magie v2.0-sim, faune v2.1-sim-ultra, transports v2.0-sim, architecture v2.0-sim, sombre v2.0-sim, economie v3.1-sim-ultra. Prêt pour simulation mensuelle.",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (la plante est contrat, la cueillette est dette, le mythe est racine)",
+      "coherence_avec": [
+        "carto_septentria_obscura.json",
+        "carto_medianor.json",
+        "carto_austremont.json",
+        "carto_archipel_des_lamentes.json",
+        "population.json",
+        "races.json",
+        "magie.json",
+        "faune.json",
+        "transports.json",
+        "architecture.json",
+        "sombre.json",
+        "economie.json",
+        "index_univers_ardane.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "surface": "m²",
+        "production": "t/an ou unités",
+        "croissance": "mois",
+        "danger": "0.00–1.00",
+        "usage": "rituel, nourriture, construction, poison",
+        "cycle": "mois"
+      }
+    },
+
+    "01_categories_flore": [
+      {
+        "categorie": "ressources",
+        "nombre": 12,
+        "description": "Cultivées, récoltées, échangées. Gravées, bénies, liées par serment."
+      },
+      {
+        "categorie": "sauvages",
+        "nombre": 16,
+        "description": "Cueillette, menace, ressource. Cycle saisonnier, dispersion."
+      },
+      {
+        "categorie": "parasites_runiques",
+        "nombre": 6,
+        "description": "Infestation magique. Consomment Pierre_de_Flux, suies, sève."
+      },
+      {
+        "categorie": "legendaires",
+        "nombre": 6,
+        "description": "Légendes végétales. Liées à cultes, malédictions, artefacts."
+      },
+      {
+        "categorie": "basiques",
+        "nombre": 8,
+        "description": "Flore commune, omniprésente, non magique. Base de l’écosystème."
+      }
+    ],
+
+    "02_ecosysteme_global": {
+      "total_especes": 48,
+      "surface_couverte_km2": 182000,
+      "biomasse_t_an": 620000,
+      "chaines_alimentaires": [
+        {"consommateur": "yak_glaciaire", "plante": "lichen_glaciaire", "impact": "+1800 t/an"},
+        {"consommateur": "rat_commun", "plante": "racine_commune", "impact": "+820 t/an"}
+      ],
+      "parasitisme": [
+        {"parasite": "mousse_suie", "hote": "bois_noir", "perte_m3_an": 420},
+        {"parasite": "liane_flux", "hote": "arbre_mère", "perte_sève_an": 280}
+      ],
+      "symbioses": [
+        {"plante1": "mousse_lumineuse", "plante2": "arbre_mère", "bonus": "lumière + croissance"},
+        {"plante1": "champignon_mine", "plante2": "ver_de_fer", "bonus": "force + infestation"}
+      ]
+    },
+
+    "03_ressources": [
+      {
+        "nom": "lichen_glaciaire",
+        "race_utilisatrice": "Humains",
+        "zone": "Helgarstätt",
+        "surface_m2": 82000,
+        "production_t_an": 1800,
+        "cycle_croissance_mois": 12,
+        "usage": ["nourriture", "teinture_rituelle", "isolation"],
+        "cout_entretien_DA_m2": 0.8,
+        "danger": 0.12,
+        "description": "Croît sur pierre froide. Teinture runique contre le gel."
+      },
+      {
+        "nom": "blé_d_arden",
+        "race_utilisatrice": "Humains",
+        "zone": "Champsorne",
+        "surface_m2": 128000,
+        "production_t_an": 42000,
+        "cycle_croissance_mois": 8,
+        "usage": ["pain", "bière", "offrande"],
+        "cout_entretien_DA_m2": 1.2,
+        "danger": 0.08,
+        "description": "Épis gravés. Pain des serments."
+      },
+      {
+        "nom": "champignon_mine",
+        "race_utilisatrice": "Nains",
+        "zone": "Gransouterre",
+        "surface_m2": 62000,
+        "production_t_an": 8200,
+        "cycle_croissance_mois": 6,
+        "usage": ["nourriture", "lumière", "force"],
+        "cout_entretien_DA_m2": 1.8,
+        "danger": 0.22,
+        "description": "Lumière bleue. Force temporaire. Infeste ver_de_fer."
+      },
+      {
+        "nom": "roseau_noir",
+        "race_utilisatrice": "Batraciens",
+        "zone": "Fescar",
+        "surface_m2": 92000,
+        "production_t_an": 12800,
+        "cycle_croissance_mois": 4,
+        "usage": ["pilotis", "tissage", "encre"],
+        "cout_entretien_DA_m2": 1.1,
+        "danger": 0.15,
+        "description": "Tige gravée. Pilotis rituels."
+      },
+      {
+        "nom": "suie_active",
+        "race_utilisatrice": "Gobelins",
+        "zone": "Varkhar",
+        "surface_m2": 48000,
+        "production_t_an": 6200,
+        "cycle_croissance_mois": 3,
+        "usage": ["teinture", "poison", "rituel"],
+        "cout_entretien_DA_m2": 2.2,
+        "danger": 0.38,
+        "description": "Poudre noire. Brûle lentement. Infeste rat_suie."
+      },
+      {
+        "nom": "mousse_lumineuse",
+        "race_utilisatrice": "Trolls",
+        "zone": "Thulcar",
+        "surface_m2": 72000,
+        "production_t_an": 4200,
+        "cycle_croissance_mois": 5,
+        "usage": ["lumière", "médecine", "totem"],
+        "cout_entretien_DA_m2": 1.5,
+        "danger": 0.18,
+        "description": "Lumière verte. Croît sur arbre_mère."
+      },
+      {
+        "nom": "cristal_flux",
+        "race_utilisatrice": "Nains",
+        "zone": "Karâg-Tor",
+        "surface_m2": 12000,
+        "production_g_an": 820,
+        "cycle_croissance_mois": 24,
+        "usage": ["magie", "éclairage", "artefact"],
+        "cout_entretien_DA_m2": 8.2,
+        "danger": 0.28,
+        "description": "Cristal runique. Pierre_de_Flux pure."
+      },
+      {
+        "nom": "perle_vivante",
+        "race_utilisatrice": "Batraciens",
+        "zone": "Lago’Vernis",
+        "surface_m2": 28000,
+        "production_unites_an": 6200,
+        "cycle_croissance_mois": 18,
+        "usage": ["commerce", "rituel", "lumière"],
+        "cout_entretien_DA_m2": 6.8,
+        "danger": 0.25,
+        "description": "Perle pulsante. Croît dans tortue_perliere."
+      },
+      {
+        "nom": "bois_noir",
+        "race_utilisatrice": "Batraciens",
+        "zone": "Islakarion",
+        "surface_m2": 42000,
+        "production_m3_an": 8200,
+        "cycle_croissance_mois": 36,
+        "usage": ["pilotis", "coques", "gravure"],
+        "cout_entretien_DA_m2": 3.2,
+        "danger": 0.15,
+        "description": "Bois imputrescible. Gravure runique."
+      },
+      {
+        "nom": "résine_sève",
+        "race_utilisatrice": "Trolls",
+        "zone": "Morthyll",
+        "surface_m2": 52000,
+        "production_l_an": 6200,
+        "cycle_croissance_mois": 7,
+        "usage": ["médecine", "colle_vivante", "rituel"],
+        "cout_entretien_DA_m2": 2.8,
+        "danger": 0.22,
+        "description": "Résine guérisseuse. Infeste mouche_de_brume."
+      },
+      {
+        "nom": "sel_nitré",
+        "race_utilisatrice": "Gobelins",
+        "zone": "Varkhar",
+        "surface_m2": 62000,
+        "production_t_an": 12800,
+        "cycle_croissance_mois": 12,
+        "usage": ["conservation", "explosif", "rituel"],
+        "cout_entretien_DA_m2": 1.8,
+        "danger": 0.32,
+        "description": "Sel corrosif. Croît sur cratères."
+      },
+      {
+        "nom": "ardoise_pyrique",
+        "race_utilisatrice": "Humains",
+        "zone": "Kar-Ferrum",
+        "surface_m2": 32000,
+        "production_m2_an": 8200,
+        "cycle_croissance_mois": 48,
+        "usage": ["toiture", "dalle_serment", "isolation"],
+        "cout_entretien_DA_m2": 4.1,
+        "danger": 0.18,
+        "description": "Ardoise chaude. Résiste au feu."
+      }
+    ],
+
+    "04_sauvages": [
+      {
+        "nom": "racine_commune",
+        "zone": "toutes",
+        "surface_m2": 182000,
+        "production_t_an": 42000,
+        "cycle_croissance_mois": 6,
+        "usage": ["nourriture", "corde"],
+        "danger": 0.05,
+        "predation": ["rat_commun"],
+        "description": "Racine basique. Nourriture de base."
+      },
+      {
+        "nom": "herbe_glaciaire",
+        "zone": "Helgarstätt",
+        "surface_m2": 62000,
+        "production_t_an": 8200,
+        "cycle_croissance_mois": 9,
+        "usage": ["fourrage", "teinture"],
+        "danger": 0.08,
+        "predation": ["yak_glaciaire"],
+        "description": "Herbe résistante. Teinture bleue."
+      },
+      {
+        "nom": "champignon_brume",
+        "zone": "Morthyll",
+        "surface_m2": 52000,
+        "production_t_an": 6200,
+        "cycle_croissance_mois": 4,
+        "usage": ["hallucinations", "médecine"],
+        "danger": 0.32,
+        "predation": ["ours_brumeux"],
+        "description": "Champignon phosphorescent. Infeste mouche_de_brume."
+      },
+      {
+        "nom": "liane_ecluse",
+        "zone": "Fescar",
+        "surface_m2": 42000,
+        "production_m_an": 8200,
+        "cycle_croissance_mois": 5,
+        "usage": ["corde", "filet"],
+        "danger": 0.22,
+        "predation": ["serpent_d_ecluse"],
+        "description": "Liane aquatique. Bloque écluses."
+      },
+      {
+        "nom": "cactus_suie",
+        "zone": "Varkhar",
+        "surface_m2": 72000,
+        "production_t_an": 9200,
+        "cycle_croissance_mois": 18,
+        "usage": ["eau", "teinture_noire"],
+        "danger": 0.28,
+        "predation": ["loup_de_sel"],
+        "description": "Cactus corrosif. Eau acide."
+      },
+      {
+        "nom": "fougère_totem",
+        "zone": "Thulcar",
+        "surface_m2": 62000,
+        "production_t_an": 5200,
+        "cycle_croissance_mois": 7,
+        "usage": ["rituel", "médecine"],
+        "danger": 0.18,
+        "predation": ["lynx_totemique"],
+        "description": "Fougère spiralée. Croît sur totem."
+      },
+      {
+        "nom": "algue_phare",
+        "zone": "Islakarion",
+        "surface_m2": 82000,
+        "production_t_an": 12800,
+        "cycle_croissance_mois": 3,
+        "usage": ["nourriture", "lumière"],
+        "danger": 0.15,
+        "predation": ["pieuvre_lagunaire"],
+        "description": "Algue lumineuse. Guide nocturne."
+      },
+      {
+        "nom": "lierre_pierre",
+        "zone": "Vargr",
+        "surface_m2": 32000,
+        "production_m_an": 4200,
+        "cycle_croissance_mois": 24,
+        "usage": ["corde", "isolation"],
+        "danger": 0.25,
+        "predation": ["ours_de_pierre"],
+        "description": "Lierre minéralisé. Résiste au vent."
+      },
+      {
+        "nom": "mousse_flux",
+        "zone": "fleuve_Arda",
+        "surface_m2": 48000,
+        "production_t_an": 6200,
+        "cycle_croissance_mois": 5,
+        "usage": ["médecine", "rituel"],
+        "danger": 0.22,
+        "predation": ["serpent_d_arda"],
+        "description": "Mousse aquatique. Contrôle flux."
+      },
+      {
+        "nom": "fleur_suie",
+        "zone": "Varkhar",
+        "surface_m2": 42000,
+        "production_unites_an": 8200,
+        "cycle_croissance_mois": 6,
+        "usage": ["poison", "teinture"],
+        "danger": 0.38,
+        "predation": ["rat_suie"],
+        "description": "Fleur noire. Poudre corrosive."
+      },
+      {
+        "nom": "arbre_mère",
+        "zone": "Thulcar",
+        "surface_m2": 12000,
+        "production_m3_an": 820,
+        "cycle_croissance_mois": 120,
+        "usage": ["pilotis", "totem", "sève"],
+        "danger": 0.15,
+        "predation": ["lynx_totemique"],
+        "description": "Arbre sacré. Totem vivant."
+      },
+      {
+        "nom": "cristal_lunaire",
+        "zone": "Vargr",
+        "surface_m2": 8200,
+        "production_g_an": 420,
+        "cycle_croissance_mois": 36,
+        "usage": ["magie", "fanal"],
+        "danger": 0.32,
+        "predation": ["ver_de_pierre"],
+        "description": "Cristal luminescent. Croît sur falaise."
+      },
+      {
+        "nom": "algue_corail",
+        "zone": "Lago’Vernis",
+        "surface_m2": 62000,
+        "production_t_an": 9200,
+        "cycle_croissance_mois": 4,
+        "usage": ["nourriture", "teinture"],
+        "danger": 0.18,
+        "predation": ["serpent_de_corail"],
+        "description": "Algue rouge. Teinture rituelle."
+      },
+      {
+        "nom": "lierre_brume",
+        "zone": "Morthyll",
+        "surface_m2": 52000,
+        "production_m_an": 6200,
+        "cycle_croissance_mois": 8,
+        "usage": ["corde", "médecine"],
+        "danger": 0.22,
+        "predation": ["ours_brumeux"],
+        "description": "Lierre spectral. Infeste mouche_de_brume."
+      },
+      {
+        "nom": "fougère_flux",
+        "zone": "Fescar",
+        "surface_m2": 42000,
+        "production_t_an": 5200,
+        "cycle_croissance_mois": 6,
+        "usage": ["rituel", "eau_bénite"],
+        "danger": 0.25,
+        "predation": ["serpent_flux"],
+        "description": "Fougère aquatique. Contrôle marée."
+      },
+      {
+        "nom": "cactus_phare",
+        "zone": "Islakarion",
+        "surface_m2": 32000,
+        "production_t_an": 4200,
+        "cycle_croissance_mois": 12,
+        "usage": ["eau", "lumière"],
+        "danger": 0.28,
+        "predation": ["aigle_phare"],
+        "description": "Cactus luminescent. Guide nocturne."
+      }
+    ],
+
+    "05_parasites_runiques": [
+      {
+        "nom": "mousse_suie",
+        "zone": "Varkhar",
+        "surface_m2": 42000,
+        "danger": 0.38,
+        "cycle_croissance_mois": 3,
+        "effet": "corrompt_bois_noir",
+        "remede": "feu_tempéré",
+        "description": "Mousse noire. Infeste pilotis."
+      },
+      {
+        "nom": "liane_flux",
+        "zone": "fleuve_Arda",
+        "surface_m2": 32000,
+        "danger": 0.35,
+        "cycle_croissance_mois": 4,
+        "effet": "bloque_barges",
+        "remede": "chant_marée",
+        "description": "Liane runique. Infeste écluses."
+      },
+      {
+        "nom": "champignon_fer",
+        "zone": "Kar-Ferrum",
+        "surface_m2": 28000,
+        "danger": 0.41,
+        "cycle_croissance_mois": 5,
+        "effet": "fragilise_acier",
+        "remede": "suie_pure",
+        "description": "Champignon corrosif. Infeste forges."
+      },
+      {
+        "nom": "racine_brume",
+        "zone": "Morthyll",
+        "surface_m2": 22000,
+        "danger": 0.32,
+        "cycle_croissance_mois": 6,
+        "effet": "hallucinations",
+        "remede": "résine_sève",
+        "description": "Racine spectrale. Infeste totems."
+      },
+      {
+        "nom": "algue_noire",
+        "zone": "Lago’Vernis",
+        "surface_m2": 18000,
+        "danger": 0.28,
+        "cycle_croissance_mois": 4,
+        "effet": "corrompt_perles",
+        "remede": "eau_bénite",
+        "description": "Algue toxique. Infeste tortues."
+      },
+      {
+        "nom": "liane_pierre",
+        "zone": "Vargr",
+        "surface_m2": 12000,
+        "danger": 0.45,
+        "cycle_croissance_mois": 8,
+        "effet": "fragilise_monolithes",
+        "remede": "gravure_lunaire",
+        "description": "Liane minéralisée. Infeste falaises."
+      }
+    ],
+
+    "06_legendaires": [
+      {
+        "nom": "arbre_mère_primordial",
+        "zone": "Thulcar",
+        "surface_m2": 1,
+        "danger": 0.99,
+        "cycle_apparition": "solstice_été",
+        "pouvoir": "sève_vie",
+        "malédiction": "racine_maudite",
+        "artefact_lie": "Sève Primordiale",
+        "description": "Arbre originel. Totem de tous les trolls."
+      },
+      {
+        "nom": "fleur_de_flux",
+        "zone": "Fescar",
+        "surface_m2": 1,
+        "danger": 0.97,
+        "cycle_apparition": "lune_noire",
+        "pouvoir": "contrôle_marée",
+        "malédiction": "inondation_permanente",
+        "artefact_lie": "Pétale de Flux",
+        "description": "Fleur aquatique. Contrôle le fleuve."
+      },
+      {
+        "nom": "cristal_lunaire_primordial",
+        "zone": "Vargr",
+        "surface_m2": 1,
+        "danger": 0.95,
+        "cycle_apparition": "solstice_hiver",
+        "pouvoir": "lumière_infinie",
+        "malédiction": "regard_aveugle",
+        "artefact_lie": "Éclat Lunaire",
+        "description": "Cristal originel. Fanal des géants."
+      },
+      {
+        "nom": "mousse_brume_primordiale",
+        "zone": "Morthyll",
+        "surface_m2": 1,
+        "danger": 0.96,
+        "cycle_apparition": "pleine_lune_rouge",
+        "pouvoir": "brume_vivante",
+        "malédiction": "hantise_brume",
+        "artefact_lie": "Spore de Brume",
+        "description": "Mousse originelle. Ancêtre des totems."
+      },
+      {
+        "nom": "algue_kraken",
+        "zone": "Islakarion",
+        "surface_m2": 1,
+        "danger": 0.98,
+        "cycle_apparition": "tempête_solstice",
+        "pouvoir": "tentacules_écluses",
+        "malédiction": "eau_noire",
+        "artefact_lie": "Encre du Kraken",
+        "description": "Algue originelle. Garde les passes."
+      },
+      {
+        "nom": "champignon_flux_primordial",
+        "zone": "Fescar",
+        "surface_m2": 1,
+        "danger": 0.94,
+        "cycle_apparition": "crue_maximale",
+        "pouvoir": "contrôle_marée",
+        "malédiction": "inondation_permanente",
+        "artefact_lie": "Spore de Flux",
+        "description": "Champignon originel. Ancêtre des bassins."
+      }
+    ],
+
+    "07_basiques": [
+      {
+        "nom": "herbe_commune",
+        "zone": "toutes",
+        "surface_m2": 282000,
+        "production_t_an": 82000,
+        "cycle_croissance_mois": 3,
+        "usage": ["fourrage", "toiture"],
+        "danger": 0.02,
+        "description": "Herbe basique. Nourriture animale."
+      },
+      {
+        "nom": "buisson_commun",
+        "zone": "plaines",
+        "surface_m2": 128000,
+        "production_t_an": 18200,
+        "cycle_croissance_mois": 6,
+        "usage": ["bois", "baies"],
+        "danger": 0.05,
+        "description": "Buisson basique. Bois de chauffage."
+      },
+      {
+        "nom": "fleur_commune",
+        "zone": "villes",
+        "surface_m2": 82000,
+        "production_unites_an": 62000,
+        "cycle_croissance_mois": 4,
+        "usage": ["décoration", "teinture"],
+        "danger": 0.01,
+        "description": "Fleur basique. Marchés."
+      },
+      {
+        "nom": "algue_commune",
+        "zone": "lagunes",
+        "surface_m2": 92000,
+        "production_t_an": 12800,
+        "cycle_croissance_mois": 2,
+        "usage": ["nourriture"],
+        "danger": 0.03,
+        "description": "Algue basique. Pêche."
+      },
+      {
+        "nom": "mousse_commune",
+        "zone": "forêts",
+        "surface_m2": 72000,
+        "production_t_an": 8200,
+        "cycle_croissance_mois": 5,
+        "usage": ["isolation"],
+        "danger": 0.04,
+        "description": "Mousse basique. Toiture."
+      },
+      {
+        "nom": "racine_commune",
+        "zone": "toutes",
+        "surface_m2": 182000,
+        "production_t_an": 42000,
+        "cycle_croissance_mois": 6,
+        "usage": ["nourriture", "corde"],
+        "danger": 0.05,
+        "description": "Racine basique. Nourriture de base."
+      },
+      {
+        "nom": "champignon_commun",
+        "zone": "mines",
+        "surface_m2": 62000,
+        "production_t_an": 8200,
+        "cycle_croissance_mois": 4,
+        "usage": ["nourriture"],
+        "danger": 0.06,
+        "description": "Champignon basique. Rations."
+      },
+      {
+        "nom": "lierre_commun",
+        "zone": "falaises",
+        "surface_m2": 42000,
+        "production_m_an": 6200,
+        "cycle_croissance_mois": 8,
+        "usage": ["corde"],
+        "danger": 0.08,
+        "description": "Lierre basique. Escalade."
+      }
+    ],
+
+    "08_interactions_ecosysteme": [
+      {
+        "interaction": "lichen_glaciaire + yak_glaciaire",
+        "type": "alimentation",
+        "impact": {"production_lait": "+1800 t/an", "croissance_yak": "+12%"},
+        "mesure": "pâturages_controlés"
+      },
+      {
+        "interaction": "mousse_suie + bois_noir",
+        "type": "parasitisme",
+        "impact": {"perte_bois_m3_an": 420, "risque_effondrement": "+0.18"},
+        "mesure": "feu_tempéré"
+      },
+      {
+        "interaction": "arbre_mère + mousse_lumineuse",
+        "type": "symbiose",
+        "impact": {"lumière_totem": "+100%", "croissance_mousse": "+22%"},
+        "mesure": "rituel_sève"
+      },
+      {
+        "interaction": "champignon_fer + acier_vivant",
+        "type": "parasitisme",
+        "impact": {"perte_acier_t_an": 280, "risque_corrosion": "+0.15"},
+        "mesure": "suie_pure"
+      }
+    ],
+
+    "09_controles_coherence": {
+      "total_especes": 48,
+      "total_ressources": 12,
+      "total_sauvages": 16,
+      "total_parasites": 6,
+      "total_legendaires": 6,
+      "total_basiques": 8,
+      "total_surface_km2": 182000,
+      "liens_carto": "Toutes les zones couvertes",
+      "liens_faune": "Alimentation, prédation, parasitisme",
+      "liens_population": "Ressources, cueillette, culture",
+      "liens_magie": "Runes, malédictions, artefacts",
+      "liens_sombre": "Trafic, poisons, parasites",
+      "liens_economie": "Production, coûts, revenus",
+      "syntaxe": "JSON 100% valide, indentation 2 espaces, clés uniques",
+      "simulation_prete": "Croissance, récolte, infestation, ressources mensuelles"
+    }
+  }
+}

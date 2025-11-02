@@ -1,0 +1,308 @@
+{
+  "politique_et_gouvernance": {
+    "version": "2.0-sim",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth, concret, rites contractuels",
+      "coherence_avec": [
+        "geographie.json",
+        "continents.json",
+        "races.json",
+        "magie.json",
+        "religion.json",
+        "histoire.json",
+        "mythologie_histoire.json",
+        "economie.json",
+        "population.json",
+        "geopolitique.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "monnaie": "Drachme_d_Acier (DA)",
+        "distance": "km",
+        "personnel": "tetes",
+        "taux": "%",
+        "masse": "kg"
+      }
+    },
+
+    "02_cartographie_politique": {
+        "formes_de_regime": [
+            {
+            "code": "CITE-ETAT",
+            "label": "Cité-État",
+            "description": "Unité urbaine indépendante dotée d’un gouvernement local, d’une garde et d’un système de guilde. Présente surtout à Medianor et dans l’Archipel.",
+            "organes": ["Conseil des Maisons", "Garde municipale", "Chambre des Poids", "Tribunal de Ville"],
+            "statut": "Souveraineté pleine sur son territoire."
+            },
+            {
+            "code": "CONFED-NAINE",
+            "label": "Confédération Naine",
+            "description": "Réseaux de cités souterraines liées par des pactes d’atelier et de commerce. Gouvernance collégiale par jurats et caisses de secours.",
+            "organes": ["Assemblées d’Ateliers", "Jurats de Forge", "Caisse de Fer", "Cour d’Arbitrage runique"],
+            "statut": "Alliance technique et défensive reconnue par les Humains."
+            },
+            {
+            "code": "LIGUE-FORET",
+            "label": "Ligue Forestière",
+            "description": "Organisation décentralisée des clans trolls, régie par serments de clairière et arbitrage chamanique.",
+            "organes": ["Cercle des Anciens", "Garde-Lisière", "Chambre des Herboristes"],
+            "statut": "Autonomie communautaire dans les zones de lisière."
+            },
+            {
+            "code": "PRIEURE-GEANT",
+            "label": "Prieuré Géant",
+            "description": "Communauté spirituelle autonome, basée sur la neutralité des fanaux et la médiation des flux célestes.",
+            "organes": ["Vigiles du Signe", "Chambre Lithique", "Archiviers de Voûte"],
+            "statut": "Reconnu comme territoire neutre par le Concordat des Fers."
+            },
+            {
+            "code": "LIGUE-PORT",
+            "label": "Ligue des Ports de Lamentes",
+            "description": "Alliance maritime entre Islakarion et Lago’Vernis. Gouvernement par Capitaineries jurées et Arbitres de Flux. Supervision religieuse par la Foi du Flux. Contrôle du commerce naval et des licences de navigation.",
+            "organes": ["Assemblée des Capitaineries", "Juges des Courants", "Chambre Maritime", "Temple de Flux"],
+            "statut": "Autonomie reconnue par le Concordat des Marées (Cycle 412)."
+            }
+        ],
+
+        "territoires_speciaux": [
+            {
+            "nom": "Hauteurs d’Orraveth",
+            "type": "autonomie_montagnarde",
+            "description": "Secteurs mixtes nains-humains sous pacte de neutralité pyrique."
+            },
+            {
+            "nom": "Falaises de Vhorak",
+            "type": "territoire_prieur",
+            "description": "Ermitages géants et phares sous juridiction des Prieurés. Aucun impôt, neutralité absolue."
+            }
+        ]
+        },
+
+    "03_institutions_civiles": {
+      "conseils": {
+        "grand_conseil": {"taille": 120, "composition": {"guildes": 40, "maisons": 40, "cultes": 20, "quartiers": 20}, "mandat_ans": 4, "renouvellement": 0.5},
+        "petit_conseil": {"taille": 9, "role": "executif, urgences", "mandat_ans": 2},
+        "chambre_guildes": {"taille": 60, "role": "normes, prix, monopoles"},
+        "chambre_cultes": {"taille": 24, "role": "coordination cultes/licences, concordats"},
+        "tribunal_balance": {"juges": 7, "competence": ["contrats", "dettes ritualisées", "conflits inter-guildes", "retraits de licences"]}
+      },
+      "administration": {
+        "bureau_des_ponts": {"role": "peages, entretien", "personnel": 180},
+        "poids_mesures": {"role": "étalonnage", "personnel": 90},
+        "registres": {"role": "cadastre, citoyens, serments", "personnel": 70},
+        "douanes": {"role": "ports, portes, écluses", "personnel": 220}
+      },
+      "procedures": {
+        "adoption_charte": ["projet en Chambre", "lecture en Grand Conseil", "bénédiction cultuelle", "gravure publique"],
+        "abrogation": ["motion 2/3", "référenda de quartier si impact fiscal > 2%"],
+        "controle": ["audit annuel", "lecture des plaques de comptes", "serment des officiers"]
+      }
+    },
+
+    "04_droit_et_codification": {
+        "principes": [
+            "La Balance prévaut sur le Sceptre.",
+            "Les pactes jurés ont valeur de loi.",
+            "Les cultes reconnus peuvent exercer justice interne sous charte."
+        ],
+
+        "sanctions_type": [
+            "Exil ou bannissement pour rupture de serment.",
+            "Saisie de forge pour fraude runique.",
+            "Confiscation des licences magiques en cas d’abus de flux.",
+            "Suspension de cité pour trahison commerciale."
+        ],
+
+        "magie_sanguine": "Licence restreinte délivrée sous serment militaire. Usage civil strictement interdit. Contrôle trimestriel par le Tribunal de la Balance et le Collège des Mains Fermées."
+        },
+
+    "05_fiscalite_et_finances_publiques": {
+      "impots": {
+        "taille_fonciere": {"taux_%": 2.0, "base": "valeur cadastrale"},
+        "dime_cultuelle": {"taux_%": 10.0, "affectation": "temples, charité, fanaux"},
+        "aides_exceptionnelles": {"plage_%": [1.0, 3.0], "conditions": "guerres, famines"}
+      },
+      "droits_et_peages": {
+        "pont_majeur_%": 3.0,
+        "ecluse_%": 2.0,
+        "douane_portuaire_%": 5.0,
+        "hallage_marche_%": 1.0,
+        "alignement_economie": ["P-ARDA-ECL", "P-HEL-COL", "P-GAL-RUN"]
+      },
+      "emprunts_rituels": {
+        "serments_de_fer": {"taux_interet_%": 3.0, "echeance_ans": 5},
+        "lettres_de_change_runiques": {"frais_%": 0.5},
+        "plafond_dette_publique_DA_par_habitant": 12
+      },
+      "execution_budgetaire": {
+        "ventilation_depenses_%": {"defense": 28, "infrastructures": 22, "cultes": 16, "administration": 14, "secours": 10, "reserves": 10},
+        "reserve_pierre_de_flux_kg": {"min": 40000, "objectif": 60000}
+      }
+    },
+
+    "06_militaires_et_securite": {
+      "levies": {
+        "service_feodal_jours": 40,
+        "ratio_levy": "1 sur 12 hommes libres",
+        "delai_mobilisation_j": 10
+      },
+      "professionnels": {
+        "gardes_civiques": 1600,
+        "compagnies_contrat": 4,
+        "effectif_par_compagnie": 180
+      },
+      "doctrine": ["défense des ponts et cols", "interdiction des flux ennemis", "feux gras, armes runiques"],
+      "police": {
+        "guet_de_nuit": 220,
+        "inspecteurs_des_mesures": 30,
+        "officiers_des_flux": 24
+      },
+      "renseignement": {
+        "reseau": ["porteurs_de_messages", "clercs-lecteurs", "bateliers-informateurs"],
+        "chiffrement": "nœuds et chiffres de guilde"
+      }
+    },
+
+    "07_gouvernance_de_la_magie": {
+      "principes": ["magie utilitaire, tangible", "licence obligatoire", "traces et registres"],
+      "agences": {
+        "office_runique": {"role": "normes, inspections", "effectifs": 60},
+        "office_pyrique": {"role": "sécurité incendie/atelier", "effectifs": 80},
+        "office_hydrique": {"role": "écluses, rites d’eau", "effectifs": 70},
+        "office_forestier": {"role": "rites de sève, lisières", "effectifs": 40}
+      },
+      "regles": {
+        "traçabilite_pierres_flux": true,
+        "registre_sorts_majeurs": true,
+        "assurance_ateliers_obligatoire": true
+      },
+      "sanctions": {"usage_non_licencie": "fermeture + amende 200–1 000 DA", "accident_de_flux": "saisie + procès public"}
+    },
+
+    "08_relations_exterieures_et_traites": {
+      "diplomatie": {"legats": 12, "durees_missions_mois": 18, "maisons_d_invites": 6},
+      "types_de_traites": [
+        {"type": "paix_et_passages", "clauses": ["neutralite_de_routes", "peages_plafonnes"]},
+        {"type": "commerciaux", "clauses": ["normes_runiques", "poids_mesures_communs", "arbitrage_Balance"]},
+        {"type": "defense_mutuelle", "clauses": ["fanaux_coordonnes", "blocage_flux_corrompus"]}
+      ],
+      "ligues": [
+        {"nom": "Hanserran (réseau de cités)", "objet": "embargos, privilèges commerciaux, défense navale"},
+        {"nom": "Pacte_des_Cols", "objet": "sécurité des cols, standard de fanaux"},
+        {"nom": "Pactes_de_Marée", "objet": "libre passage saisonnier, arbitrage hydrique"}
+      ]
+    },
+
+    "09_corruption_controle_et_justice": {
+      "indicateurs": {"taux_affaires_fraude_par_an": 0.9, "delai_moyen_jugement_j": 22, "taux_execution_jugements_%": 94},
+      "mecanismes": ["rotation des offices", "double signature cultuelle", "audits croisés guildes-temples"],
+      "peines_type": {
+        "pots_de_vin": "amende 2x somme + inéligibilité 5 ans",
+        "falsification_runes": "marque au fer + bannissement",
+        "detournement_flux": "marque frontale + esclavage pénal 3–7 ans"
+      }
+    },
+
+    "10_processus_decisionnels": {
+      "budget_annuel": ["prévision guildes", "débat public", "vote Grand Conseil (majorité simple)", "sceau de temple", "gravure"],
+      "etat_d_urgence": {
+        "triggers": ["invasion", "rupture de flux", "pandémie"],
+        "pouvoirs": ["réquisition", "contrôle des prix", "censure des sorts pyriques"],
+        "duree_max_j": 60,
+        "contrepoids": ["rapport hebdomadaire", "comité de trois cultes", "réexamen 15 j"]
+      },
+      "referenda": {"conditions": ["impôt > +2%", "vente bien public"], "quorum_%": 40, "majorite": "simple"}
+    },
+
+    "11_armatures_locales": {
+      "quartiers_urbains": {"conseils_de_quartier": 12, "milice_par_quartier": 80, "budget_participatif_DA": 1200},
+      "communes_rurales": {"assemblee_de_village": true, "sergent_de_metayage": 1, "garde_bornes": 2},
+      "landsgemeinde_montagnarde": {"frequence": "annuelle", "competences": ["pâturages", "ponts", "peages locaux"], "vote": "main levée (public)"}
+    },
+
+    "12_indices_de_puissance": {
+      "score_puissance_cite": {"formule": "0.4*population + 0.3*stock_flux + 0.2*tonnage + 0.1*levy", "bornes": {"min": 0, "max": 100}},
+      "stabilite_politique": {"compose": ["confiance_guildes", "surplus_budgetaire", "ordre_public"], "seuils": {"alerte": 0.35, "crise": 0.2}}
+    },
+
+    "13_parametres_simulation": {
+      "boucle_mensuelle": [
+        "MAJ_recettes (impots+peages)",
+        "MAJ_depenses (defense+cultes+infrastructures)",
+        "MAJ_ordre_public (police+chocs)",
+        "MAJ_puissance (stocks_flux, effectifs)",
+        "verification_contraintes (dette plafond, reserves flux)"
+      ],
+      "evenements_aleatoires": [
+        {"code": "REV_GUILDE", "proba_m": 0.02, "effet": {"ordre_public": -0.1, "peages": -0.01}},
+        {"code": "CRIME_FLUX", "proba_m": 0.03, "effet": {"depenses_securite": 0.02}},
+        {"code": "FAMINE_LOCAL", "proba_m": 0.01, "effet": {"impots": -0.01, "ordre_public": -0.2}}
+      ],
+      "sorties": ["budget_balance_DA", "indice_stabilite", "score_puissance", "taux_crime"]
+    },
+
+    "14_profils_regionaux": {
+      "Champsorne": {
+        "regime": "CITE-ETAT",
+        "population_k": 220,
+        "budget_annuel_kDA": 15000,
+        "garde_civique": 2800,
+        "priorites": ["grains", "droit commercial", "ponts"],
+        "risques": ["révolte de meuniers", "crise de flux importés"]
+      },
+      "Helgarstätt": {
+        "regime": "CITE-ETAT",
+        "population_k": 90,
+        "budget_annuel_kDA": 9800,
+        "garde_civique": 1800,
+        "priorites": ["métal", "cols", "fanaux"],
+        "risques": ["avalanches politiques", "gobelinage clandestin"]
+      },
+      "Gransouterre": {
+        "regime": "CONF-NAINE",
+        "population_k": 70,
+        "budget_annuel_kDA": 11800,
+        "garde_civique": 1200,
+        "priorites": ["pierres de flux", "banque runique"],
+        "risques": ["effondrement galerie", "conflits licences"]
+      },
+      "Fescar": {
+        "regime": "LIGUE-FLUX",
+        "population_k": 120,
+        "budget_annuel_kDA": 10200,
+        "garde_civique": 1600,
+        "priorites": ["arbitrage fluvial", "eau bénite"],
+        "risques": ["sécheresse", "guerre de barrage"]
+      },
+      "Islakarion": {
+        "regime": "CITE-ETAT",
+        "population_k": 110,
+        "budget_annuel_kDA": 11200,
+        "garde_civique": 1600,
+        "priorites": ["douanes", "transbordement", "coques navales"],
+        "risques": ["piraterie", "choc commercial"]
+      },
+      "Lago’Vernis": {
+        "regime": "LIGUE-FLUX",
+        "population_k": 90,
+        "budget_annuel_kDA": 8600,
+        "garde_civique": 1200,
+        "priorites": ["commerce maritime", "artefacts aquatiques"],
+        "risques": ["tempêtes", "blocus côtier"]
+      }
+    },
+
+    "15_tableaux_de_bord": {
+      "kpi_budget": ["taux_dette_publique", "solde_mensuel", "capex_infrastructures"],
+      "kpi_ordre_public": ["criminalite_par_quartier", "dossiers_fraude", "temps_audits"],
+      "kpi_magie": ["accidents_de_flux", "licences_actives", "pierres_en_reserve_kg"],
+      "controles_coherence": {
+        "nomenclature": "Sous-Kelwyn (pas Kelwyn); Vargr/Vhorak statut neutralité",
+        "alignement_religion": "licences et bénédictions conformes aux cultes (Trois Fers, Flux, Sève, Rouille, Voûte)",
+        "alignement_economie": "peages référencés sur corridors ARDA/HEL-KARF/GRAN-KARAG; réserves PF en kg",
+        "alignement_geopolitique": "profils et effectifs compatibles avec ordres de bataille; prieurés géants neutres"
+      }
+    }
+  }
+}

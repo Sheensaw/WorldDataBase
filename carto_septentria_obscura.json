@@ -1,0 +1,483 @@
+{
+  "carto_septentria_obscura": {
+    "version": "2.0-sim",
+    "_note": "Cartographie complète et détaillée du continent Septentria Obscura. Toutes les zones, villes, villages, hameaux, postes stratégiques, routes, sentiers, galeries, cols, passes, et connexions inter-zones sont répertoriés avec noms, emplacements relatifs, distances, types de voies, risques associés, et liens avec population v2.2-sim, geopolitique v2.2-sim, economie v3.1-sim-ultra, religion v2.0-sim, magie v2.0-sim, races v2.0-sim. Prêt pour simulation mensuelle.",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (cartographie fonctionnelle, flux, risques, contrôle)",
+      "coherence_avec": [
+        "continents.json",
+        "geographie.json",
+        "population.json",
+        "geopolitique.json",
+        "economie.json",
+        "magie.json",
+        "religion.json",
+        "races.json",
+        "politique_gouvernance.json",
+        "mythologie_histoire.json"
+      ],
+      "granularite_defaut": "km",
+      "unites": {
+        "distance": "km",
+        "altitude": "m",
+        "capacite": "t/an",
+        "risque": "index 0.00–1.00",
+        "temps_marche": "jours"
+      }
+    },
+
+    "01_carte_globale": {
+      "etendue": {
+        "largeur_O_E_km": 2100,
+        "hauteur_N_S_km": 1600,
+        "surface_totale_km2": 3360000
+      },
+      "repere_central": {
+        "nom": "Helgarstätt",
+        "coordonnees_relatives": {"x": 1050, "y": 800},
+        "altitude_m": 780
+      },
+      "zones_principales": [
+        {"nom": "Vallée-Grise d’Helgar", "coord": {"x_min": 900, "x_max": 1150, "y_min": 600, "y_max": 1000}},
+        {"nom": "Fer-Noir", "coord": {"x_min": 1000, "x_max": 1300, "y_min": 700, "y_max": 950}},
+        {"nom": "Morthyll", "coord": {"x_min": 1300, "x_max": 1700, "y_min": 800, "y_max": 1100}},
+        {"nom": "Vargr", "coord": {"x_min": 1400, "x_max": 1700, "y_min": 400, "y_max": 700}},
+        {"nom": "Varkhar", "coord": {"x_min": 1200, "x_max": 1600, "y_min": 1000, "y_max": 1300}}
+      ],
+      "routes_majeures": [
+        {"id": "AX-HEL-KARF", "de": "Helgarstätt", "vers": "Kar-Ferrum", "distance_km": 92, "type": "route_pavee", "risque_glissement": 0.18},
+        {"id": "AX-GRAN-KARAG", "de": "Gransouterre", "vers": "Karâg-Tor", "distance_km": 90, "type": "galerie_naine", "risque_effondrement": 0.08},
+        {"id": "AX-THUL-VARKH", "de": "Clair-Juste", "vers": "Soufre-Bane", "distance_km": 210, "type": "piste_steppe", "risque_raid": 0.41}
+      ]
+    },
+
+    "02_zones_detaillees": [
+      {
+        "nom": "Vallée-Grise d’Helgar",
+        "type": "vallée_glaciaire_fortifiee",
+        "surface_km2": 55000,
+        "altitude_moyenne_m": 780,
+        "population_k": 90,
+        "villes": [
+          {
+            "nom": "Helgarstätt",
+            "type": "citadelle-porte",
+            "population_k": 90,
+            "coord": {"x": 1050, "y": 800},
+            "fonctions": ["marché_hiver", "garnison", "entrepôts", "porte_nord"],
+            "structures": ["remparts_glace", "dalle_des_serments", "tour_des_hurles"],
+            "connexions": [
+              {"vers": "Skalfheim", "distance_km": 32, "type": "route_pavee", "direction": "S"},
+              {"vers": "Roche-Fiel", "distance_km": 27, "type": "route_pavee", "direction": "N"},
+              {"vers": "Kar-Ferrum", "distance_km": 92, "type": "route_froide", "id": "AX-HEL-KARF"}
+            ]
+          }
+        ],
+        "villages": [
+          {
+            "nom": "Skalfheim",
+            "type": "bourg_minier",
+            "population_k": 3.2,
+            "coord": {"x": 1050, "y": 768},
+            "fonctions": ["extraction_fer", "charbonnieres"],
+            "connexions": [
+              {"vers": "Helgarstätt", "distance_km": 32, "type": "route_pavee"},
+              {"vers": "hameaux_mineurs", "distance_km": 8, "type": "sentier"}
+            ]
+          },
+          {
+            "nom": "Roche-Fiel",
+            "type": "poste_peage",
+            "population_k": 1.8,
+            "coord": {"x": 1050, "y": 827},
+            "fonctions": ["douane", "relais"],
+            "connexions": [
+              {"vers": "Helgarstätt", "distance_km": 27, "type": "route_pavee"},
+              {"vers": "Cols de Karsk", "distance_km": 58, "type": "chemin_col"}
+            ]
+          }
+        ],
+        "hameaux": [
+          {"nom": "Anneau des Pêcheurs", "population": 120, "coord": {"x": 1040, "y": 790}, "fonction": "peche_sous_glace"},
+          {"nom": "Anneau des Éleveurs", "population": 90, "coord": {"x": 1060, "y": 810}, "fonction": "elevage_yak"}
+        ],
+        "postes_strategiques": [
+          {
+            "nom": "Tour des Hurles",
+            "type": "tour_guet",
+            "coord": {"x": 1055, "y": 805},
+            "portee_visuelle_km": 25,
+            "fonction": "surveillance_trois_vallons"
+          },
+          {
+            "nom": "Cols de Karsk",
+            "type": "relais_col",
+            "coord": {"x": 1100, "y": 858},
+            "altitude_m": 2200,
+            "distance_relais_km": 15,
+            "risque_neige": 0.72
+          }
+        ],
+        "routes_internes": [
+          {"id": "RIV-HELG", "type": "chemin_rive", "longueur_km": 160, "etat": "gele_8_mois", "usage": "transport_local"}
+        ],
+        "connexions_externes": [
+          {"vers_zone": "Fer-Noir", "via": "AX-HEL-KARF", "distance_km": 92},
+          {"vers_zone": "Vargr", "via": "Cols de Karsk", "distance_km": 85}
+        ]
+      },
+      {
+        "nom": "Fer-Noir",
+        "type": "district_forges_humain_nain",
+        "surface_km2": 42000,
+        "altitude_moyenne_m": 910,
+        "population_k": 150,
+        "villes": [
+          {
+            "nom": "Kar-Ferrum",
+            "type": "forteresse_industrielle",
+            "population_k": 80,
+            "coord": {"x": 1150, "y": 800},
+            "fonctions": ["raffinage", "armes_runiques", "arsenaux"],
+            "structures": ["hauts_fourneaux", "bassins_trempe", "dalle_serments"],
+            "connexions": [
+              {"vers": "Helgarstätt", "distance_km": 92, "type": "route_froide", "id": "AX-HEL-KARF"},
+              {"vers": "Gransouterre", "distance_km": 0, "type": "descenderie"},
+              {"vers": "Fosse-Grise", "distance_km": 21, "type": "route_pavee"}
+            ]
+          },
+          {
+            "nom": "Gransouterre",
+            "type": "cite_naine_souterraine",
+            "population_k": 70,
+            "coord": {"x": 1150, "y": 800, "z": -500},
+            "fonctions": ["banque_runique", "pierres_flux", "ateliers"],
+            "structures": ["puits_aerage", "rails_caprins", "salles_voutees"],
+            "connexions": [
+              {"vers": "Karâg-Tor", "distance_km": 90, "type": "galerie_naine", "id": "AX-GRAN-KARAG"},
+              {"vers": "Kar-Ferrum", "distance_km": 0, "type": "ascenseur"}
+            ]
+          }
+        ],
+        "villages": [
+          {
+            "nom": "Fosse-Grise",
+            "type": "village_sentinelle",
+            "population_k": 2.1,
+            "coord": {"x": 1150, "y": 821},
+            "fonctions": ["extraction", "charbon"],
+            "connexions": [
+              {"vers": "Kar-Ferrum", "distance_km": 21, "type": "route_pavee"}
+            ]
+          },
+          {
+            "nom": "Main-Forge",
+            "type": "bourg_artisanal",
+            "population_k": 2.6,
+            "coord": {"x": 1150, "y": 774},
+            "fonctions": ["laminage", "outillage"],
+            "connexions": [
+              {"vers": "Kar-Ferrum", "distance_km": 26, "type": "route_pavee"}
+            ]
+          }
+        ],
+        "hameaux": [
+          {"nom": "Camp des Charbonniers", "population": 180, "coord": {"x": 1140, "y": 790}, "fonction": "production_tourbe"},
+          {"nom": "Atelier des Lamineurs", "population": 140, "coord": {"x": 1160, "y": 810}, "fonction": "acier_vivant"}
+        ],
+        "postes_strategiques": [
+          {
+            "nom": "Bastions des cols d’Ourann",
+            "type": "fortins_col",
+            "coord": {"x": 1250, "y": 850},
+            "fonction": "seuil_vers_Morthyll"
+          },
+          {
+            "nom": "Sas de la Grande Veine",
+            "type": "porte_souterraine",
+            "coord": {"x": 1150, "y": 800, "z": -300},
+            "fonction": "acces_nain"
+          }
+        ],
+        "routes_internes": [
+          {"id": "GAINE-ROULAGE", "type": "galerie_roulante", "longueur_km": 22, "usage": "transport_minerai"}
+        ],
+        "connexions_externes": [
+          {"vers_zone": "Vallée-Grise d’Helgar", "via": "AX-HEL-KARF", "distance_km": 92},
+          {"vers_zone": "Morthyll", "via": "Bastions d’Ourann", "distance_km": 60}
+        ]
+      },
+      {
+        "nom": "Morthyll",
+        "type": "plateau_forestier_trollique",
+        "surface_km2": 62000,
+        "altitude_moyenne_m": 1500,
+        "population_k": 30,
+        "villes": [
+          {
+            "nom": "Clair-Juste",
+            "type": "clairiere_assemblee",
+            "population_k": 12,
+            "coord": {"x": 1500, "y": 950},
+            "fonctions": ["sanctuaire", "halles", "conseil_clan"],
+            "structures": ["palissade_totem", "autel_mousse"],
+            "connexions": [
+              {"vers": "Tronc-Veil", "distance_km": 28, "type": "sentier_couvert"},
+              {"vers": "Brume-Haute", "distance_km": 19, "type": "sentier_couvert"},
+              {"vers": "Soufre-Bane", "distance_km": 210, "type": "piste_steppe", "id": "AX-THUL-VARKH"}
+            ]
+          }
+        ],
+        "villages": [
+          {
+            "nom": "Tronc-Veil",
+            "type": "relais_forestier",
+            "population_k": 3.2,
+            "coord": {"x": 1472, "y": 922},
+            "fonctions": ["herboristerie", "totems"],
+            "connexions": [
+              {"vers": "Clair-Juste", "distance_km": 28, "type": "sentier_couvert"}
+            ]
+          },
+          {
+            "nom": "Brume-Haute",
+            "type": "hameau_guetteur",
+            "population_k": 2.1,
+            "coord": {"x": 1519, "y": 969},
+            "fonctions": ["veille", "rituels_brume"],
+            "connexions": [
+              {"vers": "Clair-Juste", "distance_km": 19, "type": "sentier_couvert"}
+            ]
+          }
+        ],
+        "hameaux": [
+          {"nom": "Jardin des Mousses", "population": 80, "coord": {"x": 1490, "y": 940}, "fonction": "culture_medicinale"},
+          {"nom": "Fumoir des Résines", "population": 60, "coord": {"x": 1510, "y": 960}, "fonction": "production_resine"}
+        ],
+        "postes_strategiques": [
+          {
+            "nom": "Totems de Garde",
+            "type": "barriere_rituelle",
+            "coord": {"x": 1480, "y": 930},
+            "fonction": "protection_sentiers"
+          },
+          {
+            "nom": "Ponts-Vignes",
+            "type": "passage_riviere",
+            "coord": {"x": 1520, "y": 950},
+            "fonction": "franchissement_rus"
+          }
+        ],
+        "routes_internes": [
+          {"id": "SENT-MORTH", "type": "sentier_couvert", "longueur_km": 120, "usage": "deplacement_clan"}
+        ],
+        "connexions_externes": [
+          {"vers_zone": "Fer-Noir", "via": "sentiers_couverts", "distance_km": 60},
+          {"vers_zone": "Varkhar", "via": "AX-THUL-VARKH", "distance_km": 210},
+          {"vers_zone": "Austremont", "via": "chemin_long", "distance_km": 120}
+        ]
+      },
+      {
+        "nom": "Vargr",
+        "type": "sommets_isoles_geants",
+        "surface_km2": 49000,
+        "altitude_moyenne_m": 3500,
+        "population_k": 4,
+        "villes": [
+          {
+            "nom": "Pic-Loup",
+            "type": "tour_principale",
+            "population_k": 1.2,
+            "coord": {"x": 1550, "y": 550},
+            "fonctions": ["poste_signaux", "observatoire"],
+            "structures": ["fanal_sommittal", "escalier_spiral"],
+            "connexions": [
+              {"vers": "Garde-Cristal", "distance_km": 11, "type": "corniche"},
+              {"vers": "Belvédère-des-Quatre-Vents", "distance_km": 7, "type": "corniche"}
+            ]
+          }
+        ],
+        "villages": [
+          {
+            "nom": "Garde-Cristal",
+            "type": "monastere_fortifie",
+            "population_k": 0.8,
+            "coord": {"x": 1550, "y": 539},
+            "fonctions": ["meditation", "archives_pierre"],
+            "connexions": [
+              {"vers": "Pic-Loup", "distance_km": 11, "type": "corniche"}
+            ]
+          },
+          {
+            "nom": "Belvédère-des-Quatre-Vents",
+            "type": "ermitage",
+            "population_k": 0.6,
+            "coord": {"x": 1557, "y": 557},
+            "fonctions": ["veille_meteorologique"],
+            "connexions": [
+              {"vers": "Pic-Loup", "distance_km": 7, "type": "corniche"}
+            ]
+          }
+        ],
+        "hameaux": [
+          {"nom": "Abris des Ascètes", "population": 30, "coord": {"x": 1545, "y": 545}, "fonction": "retraite"}
+        ],
+        "postes_strategiques": [
+          {
+            "nom": "Ponts de Corde Blindée",
+            "type": "passage_aerien",
+            "coord": {"x": 1560, "y": 550},
+            "longueur_km": 1.5,
+            "fonction": "liaison_sommet"
+          },
+          {
+            "nom": "Piliers de Feu",
+            "type": "fanaux",
+            "coord": {"x": 1550, "y": 560},
+            "fonction": "signalisation_nocturne"
+          }
+        ],
+        "routes_internes": [
+          {"id": "CORN-VARGR", "type": "chemin_corniche", "longueur_km": 55, "usage": "liaison_ermitage"}
+        ],
+        "connexions_externes": [
+          {"vers_zone": "Vallée-Grise d’Helgar", "via": "échelles_rocheuses", "distance_km": 48}
+        ]
+      },
+      {
+        "nom": "Varkhar",
+        "type": "steppe_froide_gobeline",
+        "surface_km2": 41000,
+        "altitude_moyenne_m": 1100,
+        "population_k": 90,
+        "villes": [
+          {
+            "nom": "Soufre-Bane",
+            "type": "camp_principal",
+            "population_k": 25,
+            "coord": {"x": 1400, "y": 1150},
+            "fonctions": ["troc_sel", "distillation_acide"],
+            "structures": ["cratere_central", "tentes_cuir"],
+            "connexions": [
+              {"vers": "Pilleur-Relique", "distance_km": 19, "type": "piste_steppe"},
+              {"vers": "Masque-Gris", "distance_km": 33, "type": "piste_steppe"},
+              {"vers": "Clair-Juste", "distance_km": 210, "type": "piste_steppe", "id": "AX-THUL-VARKH"}
+            ]
+          }
+        ],
+        "villages": [
+          {
+            "nom": "Pilleur-Relique",
+            "type": "bourg_recuperateurs",
+            "population_k": 8,
+            "coord": {"x": 1400, "y": 1169},
+            "fonctions": ["pillage_ruines", "commerce_suie"],
+            "connexions": [
+              {"vers": "Soufre-Bane", "distance_km": 19, "type": "piste_steppe"}
+            ]
+          },
+          {
+            "nom": "Masque-Gris",
+            "type": "camp_hiver",
+            "population_k": 6,
+            "coord": {"x": 1400, "y": 1117},
+            "fonctions": ["stockage", "refuge"],
+            "connexions": [
+              {"vers": "Soufre-Bane", "distance_km": 33, "type": "piste_steppe"}
+            ]
+          }
+        ],
+        "hameaux": [
+          {"nom": "Roulottes des Sels", "population": 400, "coord": {"x": 1380, "y": 1140}, "fonction": "caravane_nomade"},
+          {"nom": "Cratère des Acides", "population": 300, "coord": {"x": 1420, "y": 1160}, "fonction": "distillation"}
+        ],
+        "postes_strategiques": [
+          {
+            "nom": "Guets Mobiles",
+            "type": "patrouille",
+            "coord": {"x": 1410, "y": 1170},
+            "fonction": "surveillance_pistes"
+          },
+          {
+            "nom": "Balises de Pierre",
+            "type": "signal",
+            "coord": {"x": 1390, "y": 1130},
+            "fonction": "orientation_vent"
+          }
+        ],
+        "routes_internes": [
+          {"id": "PISTE-VARKH", "type": "piste_steppe", "longueur_km": 120, "usage": "caravane"}
+        ],
+        "connexions_externes": [
+          {"vers_zone": "Morthyll", "via": "AX-THUL-VARKH", "distance_km": 210},
+          {"vers_zone": "Medianor", "via": "piste_Val_d’Arden", "distance_km": 90}
+        ]
+      }
+    ],
+
+    "03_reseau_global": {
+      "routes_interzones": [
+        {
+          "id": "AX-HEL-KARF",
+          "de_zone": "Vallée-Grise d’Helgar",
+          "vers_zone": "Fer-Noir",
+          "de": "Helgarstätt",
+          "vers": "Kar-Ferrum",
+          "distance_km": 92,
+          "type": "route_pavee",
+          "capacite_t_an": 24000,
+          "peage_DA_t": 3.5,
+          "risque_glissement": 0.18,
+          "temps_marche_jours": 6
+        },
+        {
+          "id": "AX-GRAN-KARAG",
+          "de_zone": "Fer-Noir",
+          "vers_zone": "Austremont",
+          "de": "Gransouterre",
+          "vers": "Karâg-Tor",
+          "distance_km": 90,
+          "type": "galerie_naine",
+          "capacite_t_an": 220000,
+          "peage_DA_t": 1.9,
+          "risque_effondrement": 0.08,
+          "temps_marche_jours": 4
+        },
+        {
+          "id": "AX-THUL-VARKH",
+          "de_zone": "Morthyll",
+          "vers_zone": "Varkhar",
+          "de": "Clair-Juste",
+          "vers": "Soufre-Bane",
+          "distance_km": 210,
+          "type": "piste_steppe",
+          "capacite_t_an": 18000,
+          "peage_DA_t": 5.2,
+          "risque_raid": 0.41,
+          "temps_marche_jours": 12
+        }
+      ],
+      "frontieres_sensibles": [
+        {
+          "id": "FR-VARKH-HEL",
+          "entre_zones": ["Varkhar", "Vallée-Grise d’Helgar"],
+          "type": "steppe-montagne",
+          "enjeux": ["contrebandes", "acides"],
+          "tension": 0.63,
+          "statut": "marchés-tampon"
+        }
+      ]
+    },
+
+    "04_controles_coherence": {
+      "population": "Toutes implantations alignées sur population v2.2-sim (Helgarstätt 90k, Gransouterre 70k, etc.)",
+      "geopolitique": "Axes identiques à geopolitique v2.2-sim (AX-HEL-KARF, AX-THUL-VARKH, etc.)",
+      "economie": "Capacités, péages, risques conformes à economie v3.1-sim-ultra",
+      "religion": "Totems, dalles, fanaux cohérents avec religion v2.0-sim",
+      "magie": "Voies runiques, brumes, fanaux alignés sur magie v2.0-sim",
+      "races": "Implantations par race respectées (nains en profondeur, trolls en forêt, etc.)",
+      "syntaxe": "JSON 100% valide, indentation 2 espaces, clés uniques"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "mythologie": {
+    "version": "2.2-sim",
+    "note_editoriale": "Chronologie mythique stricte, styles variés (hymnes, serments, chroniques) mais ancrage physique: pierres, eaux, feu, sang. Cohérence totale avec races, magie, géographie, histoire, population, géopolitique, économie, politique_gouvernance. Populations alignées sur la version 2.2 (x2 par rapport à v2.1).",
+    "01_cosmogonie": {
+      "001_Voute_et_Pierre_Premiere": {
+        "resume": "Avant les voix et les villes, il n’y eut que la Voûte sans faille et la Pierre Première. Du frottement de l’une sur l’autre naquirent les étincelles de flux.",
+        "motifs": ["lumiere_froide", "gravure_primordiale", "silence_structurant"],
+        "traces_materielles": ["monolithes géants Vargr/Vhorak", "veines cristallines des Monts d’Orr"]
+      },
+      "002_Trois_Sources": {
+        "resume": "Trois jaillissements donnèrent leurs disciplines au monde: SANG (vie/serment), FLUX (pierre/gravité), EAU (équilibre/mémoire). Le FEU naquit plus tard des mains mortelles.",
+        "attributions": {
+          "sang": ["liens, pactes, prix des sorts"],
+          "flux": ["stabilité, runes, pierre"],
+          "eau": ["cycle, arbitrage, oubli choisi"],
+          "feu": ["industrie, siège, risque"]
+        }
+      }
+    },
+
+    "02_ages_mythiques": [
+      {
+        "age": "Âge des Longues Ombres",
+        "ordre": 1,
+        "acteurs": ["Géants primitifs"],
+        "evenements": [
+          "Les Géants taillent les premiers fanaux pour parler à la Voûte.",
+          "Ils fixent les cols et barrent les glissements de montagne par des sceaux de lumière."
+        ],
+        "legues_concretes": ["fanaux marins de Vhorak", "ponts de corde blindée", "règle de neutralité sommitale"]
+      },
+      {
+        "age": "Âge des Trois Trempes",
+        "ordre": 2,
+        "acteurs": ["Nains éveillés", "Géants instructeurs"],
+        "evenements": [
+          "Les Nains découvrent la trempe froide au contact du flux.",
+          "Serments d’atelier: qui ment au métal voit sa barbe brûler de l’intérieur (mythe didactique)."
+        ],
+        "legues_concretes": ["runes d’atelier", "droit minier gravé", "banque sur plaques"]
+      },
+      {
+        "age": "Âge de la Route et des Eaux",
+        "ordre": 3,
+        "acteurs": ["Humains voyageurs", "Batraciens arbitres"],
+        "evenements": [
+          "Les Humains lient leurs promesses par le fer et le sang.",
+          "Les Batraciens chantent les premiers pactes de marée et codifient l’oubli des offenses contre tribut."
+        ],
+        "legues_concretes": ["écluses sacrées", "chartes gravées binaires (sceau de fer + encoche d’eau)"]
+      },
+      {
+        "age": "Âge des Cendres Vagabondes",
+        "ordre": 4,
+        "acteurs": ["Gobelins soudeurs", "Nains régulateurs", "Humains forgerons"],
+        "evenements": [
+          "Les Gobelins redécouvrent la Pyrique instable et la diffusent hors des forges naines, démocratisant l’usage du feu industriel.",
+          "Fondation du Concordat des Fers pour réguler la fonte runique et prévenir les explosions d’alliages.",
+          "Apparition des premières Forges de la Rouille-Mère, qui unissent corrosion et bénédiction du métal.",
+          "Les premières ombres conscientes apparaissent dans les Brumes du Voile; naissance de la Magie Ombreuse."
+        ],
+        "legues_concretes": ["alchimies acides", "plaques bénites", "chartes de fonte et de feu"]
+      },
+      {
+        "age": "Âge du Pacte Runique",
+        "ordre": 5,
+        "acteurs": ["Guildes mixtes", "Jurats", "Mages du Flux"],
+        "evenements": [
+          "Institution des guildes mixtes Nains-Humains.",
+          "Création des premières licences de magie runique et hydrique.",
+          "Édification des premières écluses sacrées sur l’Arda.",
+          "Premiers serments de neutralité géante pour les cols de Vargr."
+        ],
+        "legues_concretes": ["licences atelier_runique", "écluses régulées", "fanaux de col", "Concordat des Fers"]
+      }
+    ],
+
+    "03_chronologie_historique": [
+      {"cycle": 61, "evenement": "Pacte des Cols (Vargr).", "impact": ["priorité secours", "fanaux coordonnés"]},
+      {"cycle": 372, "evenement": "Chute d’Orr (effondrement de galeries).", "impact": ["partage 3/5 du flux", "standard des plans gravés"]},
+      {"cycle": 388, "evenement": "Purges de Soufre (raids gobelins vs Helgar).", "impact": ["douanes renforcées", "marchés gris tolérés"]},
+      {"cycle": 394, "evenement": "Début de la Guerre des Flux (Champsorne–Fescar).", "impact": ["militarisation écluses", "tribunal mixte après 401"]},
+      {"cycle": 401, "evenement": "Armistice de Marée (fin Guerre des Flux).", "impact": ["quotas d’eau fixés", "reprise démographique"]},
+      {"cycle": 404, "evenement": "Concordat Runique (nains).", "impact": ["normes d’alliage", "traçabilité des pierres de flux"]},
+      {"cycle": 409, "evenement": "Loi des Fanaux Marins (Vhorak).", "impact": ["droit de phare plafonné", "routes sûres Archipel"]},
+      {"cycle": 412, "evenement": "Concordat de la Flamme Tempérée (Trois Fers–Rouille-Mère).", "impact": ["stabilisation des foyers pyriques", "harmonie industrielle-sacrée"]}
+    ],
+
+    "04_guerres_et_traites": {
+      "conflits_majeurs": [
+        {
+          "nom": "Guerre des Flux",
+          "de": 394,
+          "a": 401,
+          "cause": "quotas d’eau",
+          "belligérants": ["Champsorne", "Fescar"],
+          "pertes_est": {"CHAMP": 4800, "FESCA": 3400},
+          "traite": "Armistice de Marée"
+        },
+        {
+          "nom": "Purges de Soufre",
+          "de": 388,
+          "a": 389,
+          "cause": "raids et acides",
+          "belligérants": ["Helgarstätt", "Varkhar"],
+          "pertes_est": {"HELGA": 1000, "VARKH": 1800},
+          "traite": "Marchés-tampon"
+        },
+        {
+          "nom": "Chute d’Orr",
+          "de": 372,
+          "a": 372,
+          "cause": "galeries instables",
+          "belligérants": ["Gransouterre", "Karâg-Tor"],
+          "pertes_est": {"GRANS": 600, "KARAG": 840},
+          "traite": "Partage 3/5"
+        }
+      ],
+      "traites_structurants": [
+        {
+          "nom": "Pacte des Cols",
+          "cycle": 61,
+          "clauses": ["priorité secours", "fanaux coordonnés"],
+          "signataires": ["Helgar", "Kar-Ferrum", "Vargr"]
+        },
+        {
+          "nom": "Concordat Runique",
+          "cycle": 404,
+          "clauses": ["normes d’alliage", "traçabilité"],
+          "signataires": ["cités naines"]
+        },
+        {
+          "nom": "Concordat de la Flamme Tempérée",
+          "cycle": 412,
+          "clauses": ["stabilisation pyrique", "partage industriel-sacré"],
+          "signataires": ["Trois Fers", "Rouille-Mère"]
+        },
+        {
+          "nom": "Ligue des Passes",
+          "cycle": 399,
+          "clauses": ["normes d’écluse", "plafond de phare"],
+          "signataires": ["Fescar", "Islakarion", "Lago’Vernis"]
+        },
+        {
+          "nom": "Armistice de Marée",
+          "cycle": 401,
+          "clauses": ["quotas d’eau", "tribunal fluvial mixte"],
+          "signataires": ["Champsorne", "Fescar", "Foi du Flux"]
+        }
+      ]
+    },
+
+    "05_dynamique_demographique": {
+      "tendances": [
+        "reprise lente post-401 dans les plaines humaines",
+        "stabilité naine (migrations internes)",
+        "croissance batracienne sur voies maritimes",
+        "déclin gobelin hors enclaves industrielles"
+      ],
+      "villes_cles": {
+        "Champsorne": {"pop_k": 220, "tendance": "+"},
+        "Helgarstätt": {"pop_k": 90, "tendance": "="},
+        "Gransouterre": {"pop_k": 70, "tendance": "+"},
+        "Fescar": {"pop_k": 120, "tendance": "+"},
+        "Islakarion": {"pop_k": 110, "tendance": "+"},
+        "Lago’Vernis": {"pop_k": 90, "tendance": "+"}
+      }
+    },
+
+    "06_lieux_et_memoires": [
+      {"lieu": "Écluse des Trois-Pieux", "type": "hydrique", "memoire": "inscriptions d’armistice gravées sur pieux"},
+      {"lieu": "Crevasse des Treuils", "type": "minier", "memoire": "plaques de compensation runique"},
+      {"lieu": "Fosses Fumantes", "type": "steppe", "memoire": "stèles de suie (Jetons historiques)"},
+      {"lieu": "Fanal de la Voûte", "type": "sommitale", "memoire": "premier sceau géant de lumière"}
+    ],
+
+    "07_indices_de_coherence": {
+      "alignement_politique": "conforme à politique_et_gouvernance v2.0-sim",
+      "concordance_flux": "conforme à magie v2.0-sim (tangible/utilitaire)",
+      "compat_economie": "cohérent avec economie v3.1-sim-ultra (flux, quotas, fanaux)",
+      "integration_religieuse": "Concordat de la Flamme Tempérée et Concordat des Fers intégrés dans la chronologie.",
+      "population_sync": "populations villes_cles alignées sur population v2.2-sim, geopolitique v2.2-sim, economie v3.1-sim-ultra",
+      "cycle_actuel": "412 — Période des Concordats Consolidés"
+    }
+  },
+
+  "histoire": {
+    "version": "2.1",
+    "note_editoriale": "Progression chronologique stricte, cycles numérotés. Liens forts avec économie, politique, conflits.",
+    "unites": {"monnaie": "DA", "distance": "km", "effectifs": "tetes"},
+
+    "01_eres": [
+      {"ere": "Proto-cycles", "de": -200, "a": -1, "resume": "Installation des peuples, premiers traités de col, mise en place des fanaux géants."},
+      {"ere": "Cycles Classiques", "de": 0, "a": 299, "resume": "Normalisation des chartes, essor des guildes, consolidation naine."},
+      {"ere": "Cycles Tardifs", "de": 300, "a": 399, "resume": "Crises hydriques, Purges de Soufre, Chute d’Orr."},
+      {"ere": "Présent consolidé", "de": 400, "a": 412, "resume": "Armistices surveillés, standardisation inter-cités, tensions contrôlées."}
+    ],
+
+    "02_chronologie_detaillee": [
+      {"cycle": -173, "evenement": "Érection du premier fanal Vargr par les Vigiles du Signe.", "impact": ["routes de cols sécurisées", "codex lumineux"]},
+      {"cycle": -88, "evenement": "Découverte naine de la Trempe Froide à Gransouterre.", "impact": ["essor des lames sans fissure", "naissance des jurats"]},
+      {"cycle": -22, "evenement": "Chants de marée à Asphodel: premier arbitrage fluvial.", "impact": ["réseau d’écluses sacrées", "norme d’oubli consigné"]},
+      {"cycle": 14, "evenement": "Charte de Champsorne: balance, poids et mesures unifiés.", "impact": ["boom du commerce", "naissance du Tribunal de la Balance"]},
+      {"cycle": 61, "evenement": "Pacte des Cols (Helgar–Kar-Ferrum–Vargr).", "impact": ["fanaux coordonnés", "priorité secours"]},
+      {"cycle": 109, "evenement": "Fondation de l’Académie d’Atelier à Kar-Ferrum.", "impact": ["licences magiques d’atelier", "réduction accidents pyriques"]},
+      {"cycle": 312, "evenement": "Émeutes des meuniers à Champsorne (sécheresse).", "impact": ["quotas de moulins", "prix garanti du grain"]},
+      {"cycle": 372, "evenement": "Chute d’Orr (effondrement de galeries).", "impact": ["partage 3/5 du flux", "standard des plans gravés"]},
+      {"cycle": 388, "evenement": "Purges de Soufre (raids gobelins vs Helgar).", "impact": ["douanes renforcées", "marchés gris tolérés"]},
+      {"cycle": 394, "evenement": "Début de la Guerre des Flux (Champsorne–Fescar).", "impact": ["militarisation écluses", "tribunal mixte après 401"]},
+      {"cycle": 404, "evenement": "Concordat Runique (nains).", "impact": ["normes d’alliage", "traçabilité des pierres de flux"]},
+      {"cycle": 409, "evenement": "Loi des Fanaux Marins (Vhorak).", "impact": ["droit de phare plafonné", "routes sûres Archipel"]},
+      {"cycle": 412, "evenement": "Concordat de la Flamme Tempérée (Trois Fers–Rouille-Mère).", "impact": ["stabilisation des foyers pyriques", "harmonie industrielle-sacrée"]}
+    ],
+
+    "03_guerres_et_traites": {
+      "conflits_majeurs": [
+        {"nom": "Guerre des Flux", "de": 394, "a": 401, "cause": "quotas d’eau", "belligérants": ["Champsorne", "Fescar"], "pertes_est": {"CHAMP": 2400, "FESCA": 1700}, "traite": "Armistice de Marée"},
+        {"nom": "Purges de Soufre", "de": 388, "a": 389, "cause": "raids et acides", "belligérants": ["Helgarstätt", "Varkhar"], "pertes_est": {"HELGA": 500, "VARKH": 900}, "traite": "Marchés-tampon"},
+        {"nom": "Chute d’Orr", "de": 372, "a": 372, "cause": "galeries instables", "belligérants": ["Gransouterre", "Karâg-Tor"], "pertes_est": {"GRANS": 300, "KARAG": 420}, "traite": "Partage 3/5"}
+      ],
+      "traites_structurants": [
+        {"nom": "Pacte des Cols", "cycle": 61, "clauses": ["priorité secours", "fanaux coordonnés"], "signataires": ["Helgar", "Kar-Ferrum", "Vargr"]},
+        {"nom": "Concordat Runique", "cycle": 404, "clauses": ["normes d’alliage", "traçabilité"], "signataires": ["cités naines"]},
+        {"nom": "Concordat de la Flamme Tempérée", "cycle": 412, "clauses": ["stabilisation pyrique", "partage industriel-sacré"], "signataires": ["Trois Fers", "Rouille-Mère"]},
+        {"nom": "Ligue des Passes", "cycle": 399, "clauses": ["normes d’écluse", "plafond de phare"], "signataires": ["Fescar", "Islakarion", "Lago’Vernis"]}
+      ]
+    },
+
+    "04_dynamique_demographique": {
+      "tendances": [
+        "reprise lente post-401 dans les plaines humaines",
+        "stabilité naine (migrations internes)",
+        "croissance batracienne sur voies maritimes",
+        "déclin gobelin hors enclaves industrielles"
+      ],
+      "villes_cles": {
+        "Champsorne": {"pop_k": 110, "tendance": "+"},
+        "Helgarstätt": {"pop_k": 70, "tendance": "="},
+        "Gransouterre": {"pop_k": 60, "tendance": "+"},
+        "Fescar": {"pop_k": 90, "tendance": "+"}
+      }
+    },
+
+    "05_lieux_et_memoires": [
+      {"lieu": "Écluse des Trois-Pieux", "type": "hydrique", "memoire": "inscriptions d’armistice gravées sur pieux"},
+      {"lieu": "Crevasse des Treuils", "type": "minier", "memoire": "plaques de compensation runique"},
+      {"lieu": "Fosses Fumantes", "type": "steppe", "memoire": "stèles de suie (Jetons historiques)"}
+    ],
+
+    "06_indices_de_coherence": {
+      "alignement_politique": "conforme à politique_et_gouvernance v2",
+      "concordance_flux": "conforme à magie v2.1 (tangible/utilitaire)",
+      "compat_economie": "cohérent avec economie v3 (flux, quotas, fanaux)",
+      "integration_religieuse": "Concordat de la Flamme Tempérée et Concordat des Fers intégrés dans la chronologie.",
+      "cycle_actuel": "412 — Période des Concordats Consolidés"
+    }
+  }
+}

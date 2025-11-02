@@ -1,0 +1,420 @@
+{
+  "races": {
+    "version": "2.0-sim",
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (biogéographie contrainte par flux)",
+      "coherence_avec": [
+        "geographie.json",
+        "geopolitique.json",
+        "economie.json",
+        "langues.json",
+        "religion.json",
+        "magie.json",
+        "politique_gouvernance.json",
+        "population.json",
+        "mythologie_histoire.json",
+        "continents.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "taille": "m",
+        "masse": "kg",
+        "densite": "hab/km2",
+        "energie": "Pierre_de_Flux (g)",
+        "risque": "%"
+      }
+    },
+
+    "01_races": [
+      {
+        "nom": "Humains",
+        "description_physique": "Bipèdes endurants et polymorphes. 1.60–1.90 m (extrêmes 1.50–2.00), 55–95 kg. Pilosité variable, peau du pâle septentrional au brun insulaire. Adaptations fréquentes : thorax ample en altitude, callosités d’atelier, résistance modérée au froid, sudation efficace, scotopie faible.",
+        "longevite": {"esperance_vie": "58–74 ans (montagnes 52–64 ; plaines 60–72 ; archipel 60–74)", "maturite": "16–18 ans", "max_biologique": "~90 ans"},
+        "variantes_regionales": [
+          {"zone": "Septentria (Helgarstätt, Vargr)", "variante": "Montagnards : peau claire, cage thoracique développée, tolérance atmosphères pauvres ; pratique d’ancrage runique élémentaire."},
+          {"zone": "Medianor (Champsorne, Sous‑Kelwyn)", "variante": "Plainsards : peau olive, forte densité osseuse (travaux agricoles/urbains), dextérité scripturale ; spécialisation en droit des flux et comptabilité gravée."},
+          {"zone": "Austremont (Karâg‑Tor, Thulcar)", "variante": "Colporteurs des cols : silhouette sèche, endurance élevée, marques pyro‑protectrices (tatouages minéraux), aptitude à la logistique de haute montagne."},
+          {"zone": "Archipel des Lamentes (Islakarion, Lago’Vernis)", "variante": "Insulaires : peau brun doré, respiration profonde, ‘oreille maritime’ (sens rythmique), excellente proprioception sur passerelles et coques."}
+        ],
+        "implantations_principales": ["CHAMP", "HELGA", "KARFE", "ISLAK", "LAGOV"],
+        "traits_culturels": "Espèce poly‑guildes (cités‑États, confréries). Tolérance élevée à l’innovation utile ; attachement au contrat gravé.",
+        "comportements_sociaux": "Maisons étendues, patronages d’artisans, confréries. Médiation par notables assermentés; fêtes de marée et maintenance des sceaux.",
+        "langues_dialectes": {
+          "famille": "Humanique",
+          "dialectes": [
+            {"nom": "Helgarin", "aire": "Septentria", "note": "Phonétique dure, lexique minier et martial."},
+            {"nom": "Ardanien", "aire": "Medianor", "note": "Souple ; langue du droit/comptes."},
+            {"nom": "Orrien", "aire": "Austremont", "note": "Brève ; consignes techniques."},
+            {"nom": "Islaréen", "aire": "Archipel", "note": "Rythmée ; vocabulaire nautique."}
+          ],
+          "ecriture": "Runique simplifiée (contrats), cursive marchande (échanges)."
+        },
+        "licences_et_cultes": {
+          "licences": ["atelier_runique", "pyrique_industriel", "sanguine_militaire"],
+          "cultes": ["Culte des Trois Fers", "Culte de la Voûte"]
+        },
+        "metiers_typiques": [
+          "forgeron runique de surface",
+          "hallebardier de ville",
+          "pilote fluvial",
+          "scribe‑contrat",
+          "charpentier naval",
+          "arpenteur d’Inertie"
+        ],
+        "architecture_et_habitat": "Pierre appareillée (montagnes), colombages/terre crue (plaines), pilotis/passerelles (archipel). Ceintures d’Inertie municipales, lanternes lourdes, citernes et écluses normalisées.",
+        "guerre_et_tactiques": "Milices + cadres pros. Mur de lances/boucliers, archers longs, hallebardiers urbains. Siège : beffrois, trébuchets au feu gras, scorpions pyriques. Coop inter‑espèces (sape naine, brumes trolls, passes batraciennes).",
+        "magie_et_pratiques": "Polyvalents : runique (contrats/ancrages), pyrique (feux utilitaires/siège), sanguine (serments/renfort). Usage sous licence et registre.",
+        "religion_et_rites": "Culte des Trois Fers et de la Voûte; serments gravés; processions d’entretien des sceaux.",
+        "relations_interpeuples": "Alliés techniques des Nains; médiations batraciennes; patrouilles mixtes avec Trolls; marchés gris avec Gobelins; révérence protocolaire envers Géants.",
+        "droit_et_institutions": "Chartes communales, banques de serments, permissions de flux (Veilleurs), tribunaux mixtes.",
+        "demographie": {
+          "densite": {"plaines": "22–48", "montagnes": "4–10", "plateaux": "6–12", "archipel": "12–22"},
+          "natalite_pour_mille": "22–28",
+          "mortalite_infantile_%": "14–22"
+        },
+        "nourriture_et_ecologie": "Céréales, légumineuses, poisson, gibier; fromages d’altitude; conserves salées. Jachères et haies; moulins hydrauliques.",
+        "pathologies_et_risques": "Silicose légère, brûlures pyriques, épuisement sanguin des sermentaires, traumatismes de siège.",
+        "noms_personnels": "Nord: Halgard/Brynna; Plaine: Severin/Maelia; Montagnes: toponymiques (d’Orr, d’Helgar).",
+        "modifs_simulation": {
+          "mvt_plaine": 1.0,
+          "mvt_col": 0.9,
+          "mvt_galerie": 0.95,
+          "mvt_marais": 0.9,
+          "mvt_foret": 0.95,
+          "resilience_pyrique": 0.9,
+          "resilience_hydrique": 0.95
+        }
+      },
+      {
+        "nom": "Nains",
+        "description_physique": "Humanoïdes trapus 1.25–1.55 m, 60–95 kg. Ossature dense, muscles courts; barbes épaisses (tous sexes) codant rang/métier. Pupilles réduites, tympans sensibles aux vibrations; haute tolérance aux poussières et atmosphères pauvres.",
+        "longevite": {"esperance_vie": "90–130 ans", "maturite": "22–28 ans", "max_biologique": "~160 ans"},
+        "variantes_regionales": [
+          {"zone": "Fer‑Noir (Gransouterre)", "variante": "Veinards : teint cendre, doigts carrés; fonte basse, laminage à froid, aciers ‘vivants’."},
+          {"zone": "Orraveth (Karâg‑Tor)", "variante": "Profondins : teint ardoise; ingénierie des puits, cages à contrepoids, géophones rituels."},
+          {"zone": "Sous‑Kelwyn", "variante": "Calcaires : teint sable; hydrologie karstique, taille fine, acoustique de voûte."}
+        ],
+        "implantations_principales": ["GRANS", "KARAG", "KELWY"],
+        "traits_culturels": "Clans‑guildes, serments d’atelier, comptabilité gravée. Droit minier strict; primes d’accident; caisse de secours.",
+        "comportements_sociaux": "Maisonnées (forges/laminoirs), conseils de jurats; mariages tardifs; parrainage d’apprentis inter‑clans.",
+        "langues_dialectes": {
+          "famille": "Khazil",
+          "dialectes": [
+            {"nom": "Khazil‑Ferrum", "aire": "Fer‑Noir", "note": "Consonnes roulées; sécurité/acier."},
+            {"nom": "Khazil‑Orr", "aire": "Orraveth", "note": "Levage/sismique; signaux vibrés."},
+            {"nom": "Khazil‑Kelwyn", "aire": "Sous‑Kelwyn", "note": "Hydrologie/voûtes; emprunts humanique."}
+          ],
+          "ecriture": "Runes d’atelier; plans gravés; codes de cloche."
+        },
+        "licences_et_cultes": {
+          "licences": ["atelier_runique", "pyrique_industriel"],
+          "cultes": ["Culte des Trois Fers", "Culte de la Voûte"]
+        },
+        "metiers_typiques": [
+          "fondeur bas‑fourneau",
+          "lamineur",
+          "charpentier de galerie",
+          "mécanicien de puits",
+          "tailleur de claveaux",
+          "graveur de plans"
+        ],
+        "architecture_et_habitat": "Réseaux troglodytes à tirage d’air, arcs clavés, bassins de décantation; quartiers d’hôtes distincts; éclairage par feux sourds et prismes.",
+        "guerre_et_tactiques": "Sape/contre‑sape; pavois courts; haches/masses; herses, trappes, effondrements synchronisés.",
+        "magie_et_pratiques": "Tellurique/Runique d’atelier (trempe froide, ancrages anti‑effondrement). Rayon court, fiabilité élevée.",
+        "religion_et_rites": "Marteau muet; frappe de nom; fêtes d’achèvement de voûte; dépôts d’outils défectueux.",
+        "relations_interpeuples": "Alliés des Humains; protocoles avec Géants; frictions Trolls (lisières); vigilance Gobelins.",
+        "droit_et_institutions": "Statuts d’atelier, responsabilité gravée, jurats, contrats d’aérage/eau, permissions de flux.",
+        "demographie": {
+          "densite": {"reseaux": "12–30", "enclaves_surface": "4–8"},
+          "natalite_pour_mille": "14–18",
+          "mortalite_infantile_%": "9–14"
+        },
+        "nourriture_et_ecologie": "Rations d’atelier; champignonnières; élevages troglodytes; recyclage thermique/hydraulique.",
+        "pathologies_et_risques": "Hypoacousie, pneumoconioses, écrasements, ‘fièvre de trempe’.",
+        "noms_personnels": "Binômes clan/atelier (Hadrik de la Veine‑Grise).",
+        "modifs_simulation": {
+          "mvt_plaine": 0.85,
+          "mvt_col": 0.9,
+          "mvt_galerie": 1.1,
+          "mvt_marais": 0.7,
+          "mvt_foret": 0.85,
+          "resilience_tellurique": 1.1,
+          "resilience_pyrique": 1.05
+        }
+      },
+      {
+        "nom": "Trolls",
+        "description_physique": "Humanoïdes massifs 2.10–2.60 m, 150–280 kg. Peau épaisse vert/gris mousse; parfois lichenisée. Odorat/ouïe excellents; micro‑régénération lente.",
+        "longevite": {"esperance_vie": "60–85 ans", "maturite": "20–24 ans", "max_biologique": "~110 ans"},
+        "variantes_regionales": [
+          {"zone": "Morthyll", "variante": "Brumeux : peau pâle tachetée; branchies rudimentaires actives en brume saturée; ritualistes de l’écho."},
+          {"zone": "Thulcar", "variante": "Forestiers : peau sombre; agilité arboricole; tatouages résineux; totems vivants."},
+          {"zone": "Keryn", "variante": "Taïgans : fourrure saisonnière; grande endurance au gel; traqueurs d’hivernage."}
+        ],
+        "implantations_principales": ["THULC", "MORTH"],
+        "traits_culturels": "Animisme forestier; ligues de clairières; justice par médiation chamanique; pharmacopée des mousses et résines.",
+        "comportements_sociaux": "Clans 60–200; matri‑lignages fréquents; conseils d’anciens; rituels de brume (mémoire partagée). Tabou d’abattage des arbres‑mères.",
+        "langues_dialectes": {
+          "famille": "Tharnën",
+          "dialectes": [
+            {"nom": "Tharnic du Nord", "aire": "Morthyll", "note": "Rythme lent; lexique ombre/illusion."},
+            {"nom": "Tharnic Central", "aire": "Thulcar", "note": "Imitatif; justice/chasse."},
+            {"nom": "Tharnic Boréal", "aire": "Keryn", "note": "Tons graves; givre/piste."}
+          ],
+          "ecriture": "Totems gravés, ficelles nouées, peintures de brume."
+        },
+        "licences_et_cultes": {
+          "licences": ["rites_forestiers", "ombreuse_confidentielle"],
+          "cultes": ["Culte de la Sève et du Souffle"]
+        },
+        "metiers_typiques": [
+          "guide forestier",
+          "herboriste rituel",
+          "sculpteur de totems",
+          "éclaireur",
+          "garde‑lisière"
+        ],
+        "architecture_et_habitat": "Maisons‑arbres, passerelles, sanctuaires de brume; digues légères en bois vivant.",
+        "guerre_et_tactiques": "Ambuscades; frondes lourdes; filets; brumes d’aveuglement; défense en profondeur de clairières.",
+        "magie_et_pratiques": "Ombreuse/Hydrique : voiles de brume, échos trompeurs, apaisements, illusions matérielles; interdits d’usage offensif hors défense sacrée.",
+        "religion_et_rites": "Conseils de brume, totems d’écho, veillées muettes; enterrements en tourbe.",
+        "relations_interpeuples": "Alliances avec Humains/Batraciens; conflits opportunistes avec Gobelins; respect distant pour Nains; visites protocolaires aux Géants.",
+        "droit_et_institutions": "Arbitrages de clairière; serments gestuels; marquages totemiques; lecture de traces probatoire.",
+        "demographie": {
+          "densite": {"forets": "5–12"},
+          "natalite_pour_mille": "18–22",
+          "mortalite_infantile_%": "12–18"
+        },
+        "nourriture_et_ecologie": "Champignons, gibier, résines; poissons de ruisseaux; saisons de prélèvement strictes.",
+        "pathologies_et_risques": "Intoxications résineuses, gelures profondes, confusions identitaires post‑rituels.",
+        "noms_personnels": "Composés naturalistes (Brume‑Lente, Aiguille‑Sombre).",
+        "modifs_simulation": {
+          "mvt_foret": 1.15,
+          "mvt_marais": 1.05,
+          "mvt_plaine": 0.9,
+          "mvt_col": 0.95,
+          "mvt_galerie": 0.85,
+          "resilience_ombreuse": 1.1,
+          "resilience_hydrique": 1.05
+        }
+      },
+      {
+        "nom": "Batraciens",
+        "description_physique": "Amphibiens anthropomorphes 1.50–1.85 m, 60–100 kg. Peau lisse/granuleuse (vert sombre à brun, parfois nacrée); membranes inter‑digitales partielles; paupière nictitante. Respiration mixte.",
+        "longevite": {"esperance_vie": "55–85 ans", "maturite": "17–20 ans", "max_biologique": "~100 ans"},
+        "variantes_regionales": [
+          {"zone": "Asphodel (Fescar)", "variante": "Lagunaires : peau tachetée; doigts palmés; sacs vocaux développés; chant polyphonique."},
+          {"zone": "Archipel (Lago’Vernis)", "variante": "Insulaires : pigmentation claire; tolérance saline accrue; réflexes aux courants."}
+        ],
+        "implantations_principales": ["FESCA", "LAGOV", "ISLAK"],
+        "traits_culturels": "Confédérations d’étangs; justice collégiale; rigueur hydraulique; maîtrise de canaux/écluses.",
+        "comportements_sociaux": "Clans‑étangs; chefs élus lors de marées rituelles; hospitalité conditionnelle; tabou de pollution des eaux.",
+        "langues_dialectes": {
+          "famille": "Vernath",
+          "dialectes": [
+            {"nom": "Vernath‑Fescar", "aire": "Asphodel", "note": "Chants graves; lexique hydraulique/juridique; pauses du reflux."},
+            {"nom": "Vernath‑Lagos", "aire": "Lamentes", "note": "Rapide; lexique maritime/passes."}
+          ],
+          "ecriture": "Glyphes aquatiques tactiles; pieux et cordages."
+        },
+        "licences_et_cultes": {
+          "licences": ["flux_hydrique", "ombreuse_confidentielle"],
+          "cultes": ["Foi du Flux et du Silence"]
+        },
+        "metiers_typiques": [
+          "pilote de passe",
+          "charpentier sur pieux",
+          "perlier",
+          "herboriste aquatique",
+          "juge de marée"
+        ],
+        "architecture_et_habitat": "Pilotis, chaussées sur digues, bassins d’écrêtage sacrés, phares de lagune.",
+        "guerre_et_tactiques": "Emboscades lagunaires; lances‑harpons; filets lestés; digues/écluses comme armes hydrauliques.",
+        "magie_et_pratiques": "Hydrique : manteaux d’eau, murs liquides, respiration aquatique; nécessite chœurs coordonnés; interdits offensifs hors sanctuaires.",
+        "religion_et_rites": "Culte des Courants/Silence Profond; ordalies de marée; bains de mémoire.",
+        "relations_interpeuples": "Médiateurs entre Humains et Nains; neutralité prudente avec Gobelins; coopération herboriste avec Trolls; respect des Géants côtiers.",
+        "droit_et_institutions": "Collèges de Marée, gardes des passes, permis d’irrigation, quarantaines hydriques.",
+        "demographie": {
+          "densite": {"marais": "10–18", "atolls": "6–12"},
+          "natalite_pour_mille": "18–24",
+          "mortalite_infantile_%": "10–16"
+        },
+        "nourriture_et_ecologie": "Poissons, crustacés, algues; riz des marais; aquaculture; frayères protégées.",
+        "pathologies_et_risques": "Mycoses cutanées, intoxications lagunaires, hypothermie, ‘surcharge de chant’.",
+        "noms_personnels": "Voyelles dominantes, redoublements (Aoo, Irena, Lua); cognomina d’eau.",
+        "modifs_simulation": {
+          "mvt_lagune": 1.2,
+          "mvt_fleuve": 1.1,
+          "mvt_plaine": 0.9,
+          "mvt_col": 0.8,
+          "mvt_galerie": 0.7,
+          "resilience_hydrique": 1.15,
+          "resilience_ombreuse": 1.0
+        }
+      },
+      {
+        "nom": "Gobelins",
+        "description_physique": "Petits bipèdes 1.10–1.45 m, 28–48 kg. Peau verdâtre/ocre/gris cendre; iris rouge/orange; oreilles mobiles; glandes cutanées sécrétant huiles acides protectrices.",
+        "longevite": {"esperance_vie": "28–45 ans", "maturite": "9–11 ans", "max_biologique": "~60 ans"},
+        "variantes_regionales": [
+          {"zone": "Varkhar (Septentria)", "variante": "Steppiques salins : peau craquelée; narines filtrantes; griffes de fouille; distillation corrosive."},
+          {"zone": "Thulcar (lisières)", "variante": "Sylvestres : peau sombre; silhouette sèche; agilité arboricole; marquages résineux."},
+          {"zone": "Asphodel (Fescar)", "variante": "Lagunaires assimilés : stature menue; doigts semi‑palmés; récupération de vase/perles mortes."}
+        ],
+        "implantations_principales": ["VARKH", "THULC", "FESCA"],
+        "traits_culturels": "Pragmatisme opportuniste; sens aigu du troc; micro‑chefferies (‘crevasses’). Artisanat rusé : colles, pièges, réemploi; alchimies acides.",
+        "comportements_sociaux": "Bandes 20–120; chefferies par mérite/force; adoption d’orphelins utiles; cheffes marchandes fréquentes.",
+        "langues_dialectes": {
+          "famille": "Grekh",
+          "dialectes": [
+            {"nom": "Grekh‑Varkhar", "aire": "Steppes du Soufre", "note": "Sifflant salin; lexique toxines/vents."},
+            {"nom": "Grekh‑Lisien", "aire": "Thulcar", "note": "Clics brefs; lexique chasse/pièges."}
+          ],
+          "ecriture": "Marques de résine, os gravés, cordes codées; graffitis de suie."
+        },
+        "licences_et_cultes": {
+          "licences": ["pyrique_industriel"],
+          "cultes": ["Foi de la Rouille‑Mère"]
+        },
+        "metiers_typiques": [
+          "piégeur",
+          "récupérateur",
+          "colleur‑résine",
+          "piqueur de sel",
+          "batelier noir"
+        ],
+        "architecture_et_habitat": "Campements modulaires; quartiers bas labyrinthiques; ateliers à l’air libre; citernes de neutralisation basiques.",
+        "guerre_et_tactiques": "Harcèlement; fumigènes soufrés; sarbacanes; frondes; fosses; diversions; retraits feints; sabotages.",
+        "magie_et_pratiques": "Corrosive/Sanguine : fioles de bile froide, huiles ‘mange‑métal’, colles vivantes; rituels de crachat de sang. Risques élevés; tabou d’usage en tentes de clan.",
+        "religion_et_rites": "Esprits du Vent Corrodé et des Caves Salées; principe de Rouille‑Mère (recyclage). Offrandes de fumées vertes; cicatrices d’appartenance.",
+        "relations_interpeuples": "Commerce gris avec Humains/Nains; embauches comme pisteurs; tensions avec Trolls; crainte respectueuse des Géants.",
+        "droit_et_institutions": "Justice de bande (réparations rapides); arbitrages achetés; marques de dette cutanée; faible reconnaissance des tribunaux mixtes.",
+        "demographie": {
+          "densite": {"steppe": "3–10", "foret_lagune": "8–15"},
+          "natalite_pour_mille": "30–38",
+          "mortalite_infantile_%": "25–35"
+        },
+        "nourriture_et_ecologie": "Omnivores; charognes/insectes/poissons de marais; pains secs; excellents recycleurs; tolèrent sols contaminés.",
+        "pathologies_et_risques": "Brûlures chimiques; intoxications soufrées; mutilations d’atelier; mortalité par essais alchimiques.",
+        "noms_personnels": "Consonantiques/sifflés (Skrek, Ziz, Marr); surnoms fonctionnels (Masque‑Gris).",
+        "modifs_simulation": {
+          "mvt_steppe": 1.1,
+          "mvt_foret": 1.0,
+          "mvt_marais": 0.95,
+          "mvt_plaine": 1.0,
+          "mvt_col": 0.95,
+          "mvt_galerie": 1.0,
+          "resilience_corrosive": 1.1
+        }
+      },
+      {
+        "nom": "Géants",
+        "description_physique": "Très grands humanoïdes 3.50–4.50 m, 450–900 kg. Peau gris pierre; regards pâles; frugalité élevée; faible besoin de sommeil; mouvements lents mais sûrs.",
+        "longevite": {"esperance_vie": "100–160 ans", "maturite": "30–35 ans", "max_biologique": "~200 ans"},
+        "variantes_regionales": [
+          {"zone": "Vargr (Septentria)", "variante": "Sommitaux : ascètes des crêtes; callosités plantaires; manteaux laine/cuir; médiation inter‑cités."},
+          {"zone": "Vhorak (Archipel)", "variante": "Falaisiens : praticiens des fanaux; épaules puissantes; poternes/chaînes; optique de lumière froide."}
+        ],
+        "implantations_principales": ["VARGR", "VHORAK"],
+        "traits_culturels": "Monachisme laïc; rôle d’arbitres; fanaux côtiers; construction mégalithique; ponts de corde blindée.",
+        "comportements_sociaux": "Ermitages, duos, prieurés (3–9); vœux de silence partiels; transmission par gestes et taille.",
+        "langues_dialectes": {
+          "famille": "Urmath",
+          "dialectes": [
+            {"nom": "Urmath Vargrien", "aire": "Vargr", "note": "Phrases courtes; toponymie des vents."},
+            {"nom": "Urmath Vhorakien", "aire": "Vhorak", "note": "Lexique maritime/optique; signaux lumineux."}
+          ],
+          "ecriture": "Gravures sur piliers cristallins; codes lumineux (fanaux)."
+        },
+        "licences_et_cultes": {
+          "licences": [],
+          "cultes": ["Culte de la Voûte et de la Pierre‑Ancienne"]
+        },
+        "metiers_typiques": [
+          "gardien de col",
+          "garde‑fanal",
+          "tailleur mégalithique",
+          "astronome rustique"
+        ],
+        "architecture_et_habitat": "Terrasses sculptées, monolithes, salles de veille ouvertes au vent; fanaux de falaise; ponts corde‑chaîne.",
+        "guerre_et_tactiques": "Usage parcimonieux : jets de roches, lances démesurées, barrières mobiles; rôle d’arrêt/dissuasion; neutralité armée.",
+        "magie_et_pratiques": "Tellurique/Lumineuse : barrières de lumière froide, ancrages gravitationnels, signes de veille; alignements lunaires.",
+        "religion_et_rites": "Révérences à la Voûte; vigiles muettes; contrats gravés; refus des querelles triviales.",
+        "relations_interpeuples": "Médiateurs respectés; accords de neutralité; enseignements ponctuels aux guildes.",
+        "droit_et_institutions": "Arbitrages par stèles; décisions non verbales; scellés de pierre; serments lourds.",
+        "demographie": {
+          "densite": {"hautes_chaines": "<1"},
+          "natalite_pour_mille": "très faible",
+          "mortalite_infantile_%": "modérée"
+        },
+        "nourriture_et_ecologie": "Pâtures d’altitude, racines, gibier rare; pêche de falaise. Empreinte écologique minime.",
+        "pathologies_et_risques": "Érosion articulaire, hypoxie d’effort (novices), ‘fatigue de pierre’ après usages lourds.",
+        "noms_personnels": "Monosyllabes lourds (Orn, Varg, Thun) + titres (du‑Signe).",
+        "modifs_simulation": {
+          "mvt_col": 1.2,
+          "mvt_plaine": 0.8,
+          "mvt_galerie": 0.7,
+          "mvt_marais": 0.6,
+          "mvt_foret": 0.7,
+          "resilience_tellurique": 1.2,
+          "neutralite": true
+        }
+      }
+    ],
+
+    "02_affinites_et_contraintes": {
+      "affinites_magiques": {
+        "Humains": ["runique", "pyrique", "sanguine"],
+        "Nains": ["runique", "tellurique", "pyrique"],
+        "Trolls": ["ombreuse", "hydrique"],
+        "Batraciens": ["hydrique"],
+        "Gobelins": ["corrosive", "sanguine"],
+        "Géants": ["tellurique", "lumineuse"]
+      },
+      "contraintes_rituelles": {
+        "Humains": "registre obligatoire des sorts majeurs (licences)",
+        "Nains": "serments d’atelier; audits runiques",
+        "Trolls": "interdit offensif hors défense sacrée",
+        "Batraciens": "pauses de reflux; chœurs requis",
+        "Gobelins": "tabou d’usage en tentes de clan",
+        "Géants": "neutralité armée; arbitrage prioritaire"
+      }
+    },
+
+    "03_parametres_simulation": {
+      "coeff_mobilite": {
+        "plaine": {"Humains": 1.0, "Nains": 0.85, "Trolls": 0.9, "Batraciens": 0.9, "Gobelins": 1.0, "Géants": 0.8},
+        "col": {"Humains": 0.9, "Nains": 0.9, "Trolls": 0.95, "Batraciens": 0.8, "Gobelins": 0.95, "Géants": 1.2},
+        "galerie": {"Humains": 0.95, "Nains": 1.1, "Trolls": 0.85, "Batraciens": 0.7, "Gobelins": 1.0, "Géants": 0.7},
+        "marais": {"Humains": 0.9, "Nains": 0.7, "Trolls": 1.05, "Batraciens": 1.2, "Gobelins": 0.95, "Géants": 0.6},
+        "foret": {"Humains": 0.95, "Nains": 0.85, "Trolls": 1.15, "Batraciens": 1.0, "Gobelins": 1.0, "Géants": 0.7}
+      },
+      "coeff_resilience_magique": {
+        "pyrique": {"Humains": 0.9, "Nains": 1.05, "Trolls": 0.8, "Batraciens": 0.85, "Gobelins": 0.9, "Géants": 1.0},
+        "hydrique": {"Humains": 0.95, "Nains": 0.9, "Trolls": 1.05, "Batraciens": 1.15, "Gobelins": 0.95, "Géants": 1.0},
+        "corrosive": {"Humains": 0.85, "Nains": 0.9, "Trolls": 0.9, "Batraciens": 0.95, "Gobelins": 1.1, "Géants": 1.0},
+        "ombreuse": {"Humains": 0.95, "Nains": 0.9, "Trolls": 1.1, "Batraciens": 1.0, "Gobelins": 0.95, "Géants": 1.0},
+        "tellurique": {"Humains": 0.95, "Nains": 1.1, "Trolls": 0.9, "Batraciens": 0.9, "Gobelins": 0.95, "Géants": 1.2}
+      },
+      "commerce_et_langues": {
+        "lingua_ardanis_necessaire": ["traites_multiraciaux", "douanes", "écluses"],
+        "pidgins_corridors": {
+          "AX-ARDA": ["Ardanien", "Vernath‑Fescar"],
+          "AX-HEL-KARF": ["Helgarin", "Khazil‑Orr"],
+          "AX-LAMENTES": ["Islaréen", "Vernath‑Lagos"]
+        }
+      }
+    },
+
+    "04_controles_coherence": {
+      "toponymie": "Sous‑Kelwyn unifié; Asphodel rattaché à Fescar; implantations en identifiants de noeuds (CHAMP, HELGA, etc.)",
+      "licences": "Alignées avec politique_gouvernance v2.0-sim: atelier_runique, flux_hydrique, rites_forestiers, sanguine_militaire, ombreuse_confidentielle",
+      "religions": "Concordance avec religion v2.0-sim: Trois Fers/Voûte (Humains/Nains), Flux (Batraciens), Sève (Trolls), Rouille‑Mère (Gobelins), Voûte (Géants)",
+      "langues": "Dialectes et écritures concordants avec langues v2.0-sim",
+      "geographie": "Biotopes et mobilités compatibles avec geographie v2.0-sim et axes logistiques",
+      "population": "Plages démographiques compatibles avec population v2.2-sim (pas de sur‑densités)",
+      "magie": "Affinités magiques alignées sur magie v2.0-sim",
+      "economie": "Métiers et ressources cohérents avec economie v3.1-sim-ultra"
+    }
+  }
+}

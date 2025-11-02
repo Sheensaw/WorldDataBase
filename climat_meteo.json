@@ -1,0 +1,349 @@
+{
+  "climat_meteo": {
+    "version": "2.1-sim-ultra",
+    "_note": "Climat & Météo d’Ardane — dark dungeon synth. 12 mois, 4 saisons, 14 zones, 8 phénomènes, impacts sur transports, production, santé, magie, faune, flore, événements. Probabilités, intensités, cycles lunaires, solstices. Cohérent avec carto_* v2.0-sim, transports v2.0-sim, faune v2.1-sim-ultra, flore v2.1-sim-ultra, evenements_dynamiques v2.1-sim-ultra, us_coutumes v2.1-sim-ultra, architecture v2.0-sim, economie v3.1-sim-ultra. Prêt pour simulation mensuelle.",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (le ciel est contrat, la tempête est dette, le gel est malédiction)",
+      "coherence_avec": [
+        "carto_septentria_obscura.json",
+        "carto_medianor.json",
+        "carto_austremont.json",
+        "carto_archipel_des_lamentes.json",
+        "transports.json",
+        "faune.json",
+        "flore.json",
+        "evenements_dynamiques.json",
+        "us_coutumes.json",
+        "architecture.json",
+        "economie.json",
+        "index_univers_ardane.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "temperature": "°C",
+        "precipitations": "mm/mois",
+        "vent": "km/h",
+        "visibilite": "km",
+        "risque": "0.00–1.00",
+        "impact": "% ou index"
+      }
+    },
+
+    "01_saisons_globales": [
+      {
+        "saison": "Hiver Glaciaire",
+        "mois": ["M12", "M1", "M2"],
+        "temperature_moyenne": -12,
+        "precipitations_moyenne": 120,
+        "vent_moyen": 28,
+        "phenomenes": ["neige", "verglas", "tempête_glace", "gel_permanent"]
+      },
+      {
+        "saison": "Printemps Humide",
+        "mois": ["M3", "M4", "M5"],
+        "temperature_moyenne": 6,
+        "precipitations_moyenne": 180,
+        "vent_moyen": 22,
+        "phenomenes": ["pluie", "crue", "brume", "orage"]
+      },
+      {
+        "saison": "Été Aride",
+        "mois": ["M6", "M7", "M8"],
+        "temperature_moyenne": 18,
+        "precipitations_moyenne": 80,
+        "vent_moyen": 32,
+        "phenomenes": ["canicule", "tempête_sable", "orages_violents", "sécheresse"]
+      },
+      {
+        "saison": "Automne Brumeux",
+        "mois": ["M9", "M10", "M11"],
+        "temperature_moyenne": 8,
+        "precipitations_moyenne": 150,
+        "vent_moyen": 25,
+        "phenomenes": ["brouillard", "pluie_acide", "tempête_cotiere", "chute_feuilles"]
+      }
+    ],
+
+    "02_zones_climatiques": [
+      {
+        "zone": "Septentria Obscura",
+        "type": "subpolaire_glaciaire",
+        "altitude_moyenne": 900,
+        "temperature_base": -15,
+        "precipitations_base": 140,
+        "vent_base": 35,
+        "phenomenes_specifiques": ["neige_permanente", "verglas_cols", "tempête_blanche", "aurores_runiques"],
+        "impact_transports": {"AX-HEL-KARF": "ferme M12-M2", "risque_glissement": "+0.32"},
+        "impact_production": {"acier": "-18%", "yak_lait": "-22%"},
+        "impact_faune": {"loup_des_hurles": "+28% activité", "yak_glaciaire": "-12% reproduction"},
+        "impact_magie": {"pyrique": "-0.22", "glaciaire": "+0.38"}
+      },
+      {
+        "zone": "Vallée-Grise d’Helgar",
+        "type": "glaciaire_protegee",
+        "altitude_moyenne": 780,
+        "temperature_base": -8,
+        "precipitations_base": 120,
+        "vent_base": 28,
+        "phenomenes_specifiques": ["neige_lourde", "verglas_remparts", "brouillard_glace"],
+        "impact_transports": {"route_pavee": "-30% vitesse", "risque_chute": "+0.28"},
+        "impact_production": {"charbon": "-15%", "yak_laine": "+12%"},
+        "impact_faune": {"loup_des_hurles": "+22% raids"},
+        "impact_magie": {"glaciaire": "+0.28", "pyrique": "-0.15"}
+      },
+      {
+        "zone": "Fer-Noir",
+        "type": "industriel_souterrain",
+        "altitude_moyenne": 910,
+        "temperature_base": 12,
+        "precipitations_base": 80,
+        "vent_base": 18,
+        "phenomenes_specifiques": ["vapeur_forges", "fumées_acides", "pluie_cendres"],
+        "impact_transports": {"galerie_roulante": "+8% vitesse", "risque_effondrement": "+0.08"},
+        "impact_production": {"acier": "+22%", "suie": "+28%"},
+        "impact_faune": {"ver_de_fer": "+32% infestation"},
+        "impact_magie": {"pyrique": "+0.38", "tellurique": "+0.22"}
+      },
+      {
+        "zone": "Morthyll",
+        "type": "forestier_brumeux",
+        "altitude_moyenne": 1500,
+        "temperature_base": 4,
+        "precipitations_base": 220,
+        "vent_base": 25,
+        "phenomenes_specifiques": ["brume_permanente", "pluie_resine", "orage_sève"],
+        "impact_transports": {"sentier_couvert": "-40% visibilité", "risque_raid": "+0.31"},
+        "impact_production": {"résine": "+28%", "mousse_lumineuse": "+22%"},
+        "impact_faune": {"lynx_totemique": "+25% activité"},
+        "impact_magie": {"ombreuse": "+0.32", "tellurique": "+0.18"}
+      },
+      {
+        "zone": "Vargr",
+        "type": "sommitale_glaciaire",
+        "altitude_moyenne": 3500,
+        "temperature_base": -18,
+        "precipitations_base": 100,
+        "vent_base": 45,
+        "phenomenes_specifiques": ["tempête_sommitale", "neige_cristal", "vent_lunaire"],
+        "impact_transports": {"corniche": "ferme M12-M3", "risque_chute": "+0.68"},
+        "impact_production": {"cristal_lunaire": "+18% croissance"},
+        "impact_faune": {"aigle_de_vargr": "+32% visibilité"},
+        "impact_magie": {"lunaire": "+0.42", "pyrique": "-0.38"}
+      },
+      {
+        "zone": "Varkhar",
+        "type": "steppe_acide",
+        "altitude_moyenne": 1100,
+        "temperature_base": 14,
+        "precipitations_base": 80,
+        "vent_base": 38,
+        "phenomenes_specifiques": ["tempête_suie", "pluie_acide", "vent_corrosif"],
+        "impact_transports": {"piste_steppe": "+15% vitesse", "risque_corrosion": "+0.41"},
+        "impact_production": {"suie_active": "+32%", "sel_nitré": "+28%"},
+        "impact_faune": {"loup_de_sel": "+35% raids"},
+        "impact_magie": {"corrosive": "+0.38", "pyrique": "+0.22"}
+      },
+      {
+        "zone": "Val d’Arden",
+        "type": "tempéré_plaine",
+        "altitude_moyenne": 260,
+        "temperature_base": 12,
+        "precipitations_base": 160,
+        "vent_base": 22,
+        "phenomenes_specifiques": ["pluie_fertilisante", "brouillard_matinal", "orage_grains"],
+        "impact_transports": {"route_pavee": "+8% vitesse", "risque_crue": "+0.22"},
+        "impact_production": {"blé_d_arden": "+28%", "boeuf": "+18%"},
+        "impact_faune": {"sanglier_kelwyn": "+22% reproduction"},
+        "impact_magie": {"tellurique": "+0.25", "hydrique": "+0.18"}
+      },
+      {
+        "zone": "Bois de Kelwyn",
+        "type": "colline_forestiere",
+        "altitude_moyenne": 620,
+        "temperature_base": 10,
+        "precipitations_base": 180,
+        "vent_base": 25,
+        "phenomenes_specifiques": ["pluie_acide", "brouillard_teinture", "vent_resine"],
+        "impact_transports": {"sentier_foret": "-25% visibilité", "risque_chute": "+0.18"},
+        "impact_production": {"teinture_naturelle": "+22%", "champignon_mine": "+18%"},
+        "impact_faune": {"sanglier_kelwyn": "+25% activité"},
+        "impact_magie": {"tellurique": "+0.22", "pyrique": "-0.15"}
+      },
+      {
+        "zone": "Marais d’Asphodel",
+        "type": "lagunaire_humide",
+        "altitude_moyenne": 50,
+        "temperature_base": 16,
+        "precipitations_base": 220,
+        "vent_base": 28,
+        "phenomenes_specifiques": ["crue_permanente", "brouillard_eau", "pluie_perle"],
+        "impact_transports": {"passerelle_pilotis": "-30% vitesse", "risque_inondation": "+0.68"},
+        "impact_production": {"perles": "+32%", "roseau_noir": "+28%"},
+        "impact_faune": {"tortue_perliere": "+22% croissance"},
+        "impact_magie": {"hydrique": "+0.42", "tellurique": "+0.18"}
+      },
+      {
+        "zone": "Orraveth",
+        "type": "plateau_montagnard",
+        "altitude_moyenne": 2100,
+        "temperature_base": -5,
+        "precipitations_base": 140,
+        "vent_base": 32,
+        "phenomenes_specifiques": ["neige_lourde", "tempête_cols", "vent_pierre"],
+        "impact_transports": {"escalier_pierre": "-40% vitesse", "risque_glissement": "+0.38"},
+        "impact_production": {"cristal_flux": "+18% croissance"},
+        "impact_faune": {"chèvre_des_cols": "+15% laine"},
+        "impact_magie": {"tellurique": "+0.32", "pyrique": "-0.22"}
+      },
+      {
+        "zone": "Thulcar",
+        "type": "foret_profonde",
+        "altitude_moyenne": 1200,
+        "temperature_base": 8,
+        "precipitations_base": 200,
+        "vent_base": 25,
+        "phenomenes_specifiques": ["brume_dense", "pluie_resine", "orage_totem"],
+        "impact_transports": {"pont_vigne": "-35% visibilité", "risque_raid": "+0.31"},
+        "impact_production": {"résine_sève": "+28%", "mousse_lumineuse": "+22%"},
+        "impact_faune": {"lynx_totemique": "+25% traque"},
+        "impact_magie": {"ombreuse": "+0.35", "tellurique": "+0.22"}
+      },
+      {
+        "zone": "Keryn",
+        "type": "taiga_meridionale",
+        "altitude_moyenne": 540,
+        "temperature_base": 2,
+        "precipitations_base": 160,
+        "vent_base": 28,
+        "phenomenes_specifiques": ["neige_fine", "brouillard_givre", "vent_froid"],
+        "impact_transports": {"piste_givre": "-25% vitesse", "risque_gel": "+0.28"},
+        "impact_production": {"rondins": "+15%", "peaux": "+18%"},
+        "impact_faune": {"ours_brumeux": "+22% hibernation"},
+        "impact_magie": {"glaciaire": "+0.28", "pyrique": "-0.18"}
+      },
+      {
+        "zone": "Vhorak",
+        "type": "falaise_oceanique",
+        "altitude_moyenne": 300,
+        "temperature_base": 14,
+        "precipitations_base": 180,
+        "vent_base": 42,
+        "phenomenes_specifiques": ["tempête_cotiere", "embruns_sel", "vent_falaise"],
+        "impact_transports": {"corniche": "-50% visibilité", "risque_chute": "+0.62"},
+        "impact_production": {"corde_fer": "+12% usure"},
+        "impact_faune": {"aigle_phare": "+28% vol"},
+        "impact_magie": {"lunaire": "+0.38", "hydrique": "+0.22"}
+      },
+      {
+        "zone": "Islakarion & Lago’Vernis",
+        "type": "tropical_marin",
+        "altitude_moyenne": 50,
+        "temperature_base": 22,
+        "precipitations_base": 220,
+        "vent_base": 35,
+        "phenomenes_specifiques": ["mousson", "tempête_solstice", "brume_perle"],
+        "impact_transports": {"cabinier_cotier": "-60% vitesse", "risque_naufrage": "+0.78"},
+        "impact_production": {"perles": "+32%", "algue_phare": "+28%"},
+        "impact_faune": {"requin_passe": "+35% activité"},
+        "impact_magie": {"hydrique": "+0.42", "pyrique": "-0.28"}
+      }
+    ],
+
+    "03_phenomenes_meteorologiques": [
+      {
+        "nom": "neige_permanente",
+        "zones": ["Septentria", "Vargr"],
+        "probabilite_mensuelle": 0.92,
+        "intensite": "lourde",
+        "impact": {"visibilité": "-80%", "vitesse": "-40%", "risque_glissement": "+0.38"}
+      },
+      {
+        "nom": "crue",
+        "zones": ["Marais d’Asphodel"],
+        "probabilite_mensuelle": 0.22,
+        "intensite": "maximale",
+        "impact": {"AX-ARDA": "-30%", "CANAL-TROIS-BECS": "-40%", "risque_inondation": "+0.68"}
+      },
+      {
+        "nom": "tempête_suie",
+        "zones": ["Varkhar"],
+        "probabilite_mensuelle": 0.41,
+        "intensite": "corrosive",
+        "impact": {"visibilité": "-60%", "risque_corrosion": "+0.52", "suie_production": "+28%"}
+      },
+      {
+        "nom": "brume_permanente",
+        "zones": ["Morthyll", "Thulcar"],
+        "probabilite_mensuelle": 0.88,
+        "intensite": "dense",
+        "impact": {"visibilité": "-90%", "risque_raid": "+0.31", "ombreuse_magie": "+0.35"}
+      },
+      {
+        "nom": "tempête_cotiere",
+        "zones": ["Islakarion", "Lago’Vernis"],
+        "probabilite_mensuelle": 0.35,
+        "intensite": "solstice",
+        "impact": {"ROUTE-EPICES": "-60%", "risque_naufrage": "+0.78", "perles_production": "+32%"}
+      },
+      {
+        "nom": "verglas_cols",
+        "zones": ["Orraveth", "Vargr"],
+        "probabilite_mensuelle": 0.68,
+        "intensite": "permanent",
+        "impact": {"escalier_pierre": "-50% vitesse", "risque_chute": "+0.62"}
+      },
+      {
+        "nom": "pluie_acide",
+        "zones": ["Varkhar", "Bois de Kelwyn"],
+        "probabilite_mensuelle": 0.28,
+        "intensite": "corrosive",
+        "impact": {"teinture": "-22%", "risque_corrosion": "+0.38"}
+      },
+      {
+        "nom": "vent_lunaire",
+        "zones": ["Vargr", "Vhorak"],
+        "probabilite_mensuelle": 0.18,
+        "intensite": "spectral",
+        "impact": {"fanal_visible": "+50 km", "lunaire_magie": "+0.42"}
+      }
+    ],
+
+    "04_cycles_lunaires_solstices": [
+      {
+        "cycle": "lune_noire",
+        "mois": "M15",
+        "impact": {"ombreuse_magie": "+0.52", "legendaires_apparition": "+0.88", "risque_hantise": "+0.62"}
+      },
+      {
+        "cycle": "pleine_lune",
+        "mois": "M1",
+        "impact": {"hydrique_magie": "+0.38", "perles_croissance": "+28%", "risque_lycanthropie": "+0.41"}
+      },
+      {
+        "cycle": "solstice_ete",
+        "mois": "M6",
+        "impact": {"pyrique_magie": "+0.45", "legendaires_dragon": "+0.95", "canicule": "+0.68"}
+      },
+      {
+        "cycle": "solstice_hiver",
+        "mois": "M12",
+        "impact": {"glaciaire_magie": "+0.48", "legendaires_aigle": "+0.92", "gel_permanent": "+0.82"}
+      }
+    ],
+
+    "05_controles_coherence": {
+      "total_zones": 14,
+      "total_phenomenes": 8,
+      "total_cycles": 4,
+      "liens_carto": "Toutes les zones couvertes",
+      "liens_transports": "Vitesse, visibilité, fermeture",
+      "liens_faune_flore": "Croissance, migration, prédation",
+      "liens_evenements": "Crues, raids, tempêtes",
+      "liens_magie": "Bonus/malus par élément",
+      "liens_economie": "Production, commerce, risques",
+      "syntaxe": "JSON 100% valide, indentation 2 espaces, clés uniques",
+      "simulation_prete": "Prévision mensuelle, impacts, risques"
+    }
+  }
+}

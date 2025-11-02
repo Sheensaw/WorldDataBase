@@ -1,0 +1,315 @@
+{
+  "population": [
+    {
+      "nom": "Septentria Obscura",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 720000,
+          "densite_moyenne_hab_km2": 80,
+          "description": "Clans montagnards et baronnies de vallée. Économie de survie avancée : mines de surface, pêche sous-glace, élevage rustique, artisanat métallique. Centres : Helgarstätt (porte), Kar-Ferrum (acier).",
+          "zones": ["Vallée-Grise d’Helgar", "Fer-Noir (surface)"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 410000,
+          "densite_moyenne_hab_km2_reseau": 240,
+          "description": "Cités profondes reliées par galeries : Gransouterre sous Kar-Ferrum et réseaux secondaires. Métallurgie bas-fourneau, laminoirs, mécanique de puits. Caisse de secours et jurats d’atelier structurent la société.",
+          "zones": ["Gransouterre (Fer-Noir)", "Descenderies d’Ourann"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 220000,
+          "densite_moyenne_hab_km2": 60,
+          "description": "Clans de plateau sur Morthyll. Clairières palissadées, totems et jardins de mousses. Guides de brume, éclaireurs forestiers, herboristes rituels.",
+          "zones": ["Morthyll : Clair-Juste, Tronc-Veil, Brume-Haute"]
+        },
+        {
+          "race": "Géants",
+          "population_totale": 34000,
+          "densite_moyenne_hab_km2": 6,
+          "description": "Ermitages de crêtes (Vargr) : tours, fanaux, plates-formes de guet. Médiateurs et gardiens des cols.",
+          "zones": ["Vargr : Pic-Loup, Garde-Cristal"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 190000,
+          "densite_moyenne_hab_km2": 40,
+          "description": "Bandes steppiques semi-nomades. Campements autour de cratères salins et ruines, récupération et contrebande. Attelages légers.",
+          "zones": ["Varkhar : Soufre-Bane, Pilleur-Relique, Masque-Gris"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": [
+          "Barons/chefs de vallée (4%)",
+          "Guildes minières et forgerons (18%)",
+          "Garnisons, veilleurs de cols (14%)",
+          "Pêcheurs/éleveurs/artisans (64%)"
+        ],
+        "nains": [
+          "Jurats et maîtres d’atelier (8%)",
+          "Fondeurs/lamineurs/mécaniciens (44%)",
+          "Charpentiers de galerie/porteurs (18%)",
+          "Civils (30%)"
+        ],
+        "trolls": [
+          "Chamans/anciennes (12%)",
+          "Veilleurs/guides (28%)",
+          "Artisans/herboristes (20%)",
+          "Civils (40%)"
+        ],
+        "geants": [
+          "Veilleurs/prieurs (60%)",
+          "Scribes de pierre (20%)",
+          "Civils intendants (20%)"
+        ],
+        "gobelins": [
+          "Chefs de bande (6%)",
+          "Pilleurs/éclaireurs (40%)",
+          "Artisans-récupérateurs (22%)",
+          "Civils (32%)"
+        ]
+      },
+      "metiers": {
+        "humains": ["forgeron glaciaire", "mineur de veine froide", "pêcheur sous-glace", "gardien de col", "charpentier de traîneau"],
+        "nains": ["fondeur bas-fourneau", "lamineur", "mécanicien de puits", "tailleur de claveaux", "graveur de plans"],
+        "trolls": ["guide de brume", "sculpteur de totems", "herboriste rituel", "piquier de lisière"],
+        "geants": ["garde-fanal", "tailleur mégalithique", "astronome rustique"],
+        "gobelins": ["piqueur de sel", "piégeur", "batelier noir", "récupérateur de suie", "soudeur de résine"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons de vallée, lignages de guetteurs, parrainage d’apprenti.",
+        "nains": "Clans d’atelier, héritage de marteau, jurats familiaux.",
+        "trolls": "Cercles de clairière, liens de brume, adoption par totem.",
+        "geants": "Lignées de fanal, transmission orale de pierre.",
+        "gobelins": "Bandes de camp, chefs éphémères, partage de butin."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 24, "nains": 15, "trolls": 19, "geants": 7, "gobelins": 28},
+        "mortalite_infantile_pourcent": {"humains": 18, "nains": 13, "trolls": 16, "geants": 15, "gobelins": 27},
+        "esperance_vie_annees": {"humains": 58, "nains": 102, "trolls": 70, "geants": 122, "gobelins": 40},
+        "urbanisation_pourcent": {"humains": 62, "nains": 78, "trolls": 25, "geants": 0, "gobelins": 45},
+        "reserve_militaire_estimee": {"humains": 48000, "nains": 14000, "trolls": 9000, "geants": 800, "gobelins": 22000}
+      },
+      "migrations": "Cycles de transhumance glaciaire (humains), rotations d’ateliers (nains), pèlerinages de brume (trolls), relevés de fanaux (géants), raids saisonniers (gobelins).",
+      "tendances_criminelles": "Contrebande de sel, faux serments d’atelier, braconnage de brume, pillage de fanaux, marchés noirs de suie."
+    },
+    {
+      "nom": "Medianor",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 880000,
+          "densite_moyenne_hab_km2": 110,
+          "description": "Cités-États fluviales et plaines agricoles. Guildes marchandes, tribunaux gravés, arsenaux runiques. Centres : Champsorne (capitale), Sous-Kelwyn (hydro-karst).",
+          "zones": ["Plaines d’Arden", "Bassin de l’Arda", "Sous-Kelwyn"]
+        },
+        {
+          "race": "Batraciens",
+          "population_totale": 360000,
+          "densite_moyenne_hab_km2": 95,
+          "description": "Ligues hydriques, juges de marée, choristes de bassin. Contrôle des écluses et arbitrage fluvial.",
+          "zones": ["Fescar", "Marais d’Asphodel"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 90000,
+          "densite_moyenne_hab_km2_reseau": 260,
+          "description": "Ateliers karstiques, taille fine, hydro-ingénierie.",
+          "zones": ["Sous-Kelwyn (profondeurs)"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Conseillers de guilde (6%)", "Marchands jurés (22%)", "Arpenteurs de flux (15%)", "Ouvriers/agriculteurs (57%)"],
+        "batraciens": ["Harmonistes (5%)", "Juges de flux (18%)", "Choristes/bateliers (38%)", "Civils (39%)"],
+        "nains": ["Maîtres-tailleurs (10%)", "Hydro-mécaniciens (42%)", "Porteurs de pierre (20%)", "Civils (28%)"]
+      },
+      "metiers": {
+        "humains": ["scribe-contrat", "pilote fluvial", "arpenteur d’inertie", "meunier runique"],
+        "batraciens": ["juge-de-marée", "choriste de bassin", "gardien d’écluse"],
+        "nains": ["tailleur de pierre fine", "ingénieur karstique"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons de guilde, héritage de sceau.",
+        "batraciens": "Maisons d’eau, parrainage de barque.",
+        "nains": "Clans de taille, transmission de ciseau."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 26, "batraciens": 18, "nains": 14},
+        "mortalite_infantile_pourcent": {"humains": 16, "batraciens": 12, "nains": 11},
+        "esperance_vie_annees": {"humains": 62, "batraciens": 68, "nains": 104},
+        "urbanisation_pourcent": {"humains": 78, "batraciens": 70, "nains": 82},
+        "reserve_militaire_estimee": {"humains": 62000, "batraciens": 28000, "nains": 6000}
+      },
+      "migrations": "Saisons de foire fluviale, rotations d’éclusiers, pèlerinages d’Arda.",
+      "tendances_criminelles": "Fraude douanière, faux sceaux, sabotage d’écluses, marchés noirs de perles."
+    },
+    {
+      "nom": "Austremont",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 420000,
+          "densite_moyenne_hab_km2": 70,
+          "description": "Colporteurs des cols, forteresses de passage, arsenaux pyriques. Centres : Karâg-Tor, Orraveth.",
+          "zones": ["Monts d’Orr", "Cols d’Ourann"]
+        },
+        {
+        "race": "Nains",
+        "population_totale": 160000,
+        "densite_moyenne_hab_km2_reseau": 280,
+        "description": "Cités profondes et forges de montagne. Maîtres des puits, mécaniciens de treuil, extracteurs de Pierre_de_Flux brute. Centres : Karâg-Tor (capitale minière), Orraveth (forges pyriques).",
+        "zones": ["Karâg-Tor", "Puits d’Orraveth", "Galeries des Monts d’Orr"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 120000,
+          "densite_moyenne_hab_km2": 55,
+          "description": "Clans forestiers, gardiens de résine, veilleurs de lisière.",
+          "zones": ["Thulcar", "Forêts de la Lisière"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 80000,
+          "densite_moyenne_hab_km2": 48,
+          "description": "Bandes de recyclage, soudeurs nomades, marchés de suie.",
+          "zones": ["Puits d’Orraveth", "Cratères de Thulcar"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Seigneurs de col (5%)", "Forgerons pyriques (25%)", "Colporteurs (18%)", "Ouvriers/mines (52%)"],
+        "nains": ["Maîtres de puits (9%)", "Mécaniciens de treuil (40%)", "Porteurs (22%)", "Civils (29%)"],
+        "trolls": ["Veilleurs de résine (14%)", "Collecteurs (36%)", "Artisans (21%)", "Civils (29%)"],
+        "gobelins": ["Soudeurs (12%)", "Récupérateurs (35%)", "Messagers (17%)", "Civils (36%)"]
+      },
+      "metiers": {
+        "humains": ["forgeron pyrique", "gardien de col", "colporteur de flux"],
+        "nains": ["mécanicien de puits", "tailleur de treuil"],
+        "trolls": ["collecteur de résine", "tanneur de sève"],
+        "gobelins": ["soudeur de suie", "raffineur d’acide"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons de col, lignages de passe.",
+        "nains": "Clans de puits, héritage de treuil.",
+        "trolls": "Clans de résine, liens de sève.",
+        "gobelins": "Bandes de cratère."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 22, "nains": 13, "trolls": 17, "gobelins": 26},
+        "mortalite_infantile_pourcent": {"humains": 19, "nains": 14, "trolls": 17, "gobelins": 28},
+        "esperance_vie_annees": {"humains": 56, "nains": 99, "trolls": 68, "gobelins": 38},
+        "urbanisation_pourcent": {"humains": 58, "nains": 72, "trolls": 22, "gobelins": 42},
+        "reserve_militaire_estimee": {"humains": 32000, "nains": 8000, "trolls": 6000, "gobelins": 12000}
+      },
+      "migrations": "Saisons de col, rotations de puits, pèlerinages de résine.",
+      "tendances_criminelles": "Contrebande pyrique, sabotage de treuil, vol de résine."
+    },
+    {
+      "nom": "Archipel des Lamentes",
+      "peuples_civilises_et_tribaux": [
+        {
+          "race": "Humains",
+          "population_totale": 540000,
+          "densite_moyenne_hab_km2": 120,
+          "description": "Ligues portuaires, armateurs, douaniers marins. Centres : Islakarion, Lago’Vernis.",
+          "zones": ["Îles-bastions", "Atolls marchands"]
+        },
+        {
+          "race": "Batraciens",
+          "population_totale": 280000,
+          "densite_moyenne_hab_km2": 100,
+          "description": "Harmonistes marins, juges de passe, pilotes de lagune.",
+          "zones": ["Lagunes de Lago’Vernis", "Passes d’Islakarion"]
+        },
+        {
+          "race": "Gobelins",
+          "population_totale": 60000,
+          "densite_moyenne_hab_km2": 65,
+          "description": "Récupérateurs de coques, soudeurs de docks, contrebandiers.",
+          "zones": ["Récifs de récupération"]
+        },
+        {
+          "race": "Nains",
+          "population_totale": 30000,
+          "densite_moyenne_hab_km2_reseau": 180,
+          "description": "Ateliers-phare, forgerons d’ancre.",
+          "zones": ["Docks de pierre"]
+        },
+        {
+          "race": "Trolls",
+          "population_totale": 40000,
+          "densite_moyenne_hab_km2": 30,
+          "description": "Collecteurs de résine marine, tanneurs de varech.",
+          "zones": ["Mangroves élevées", "Forêts littorales"]
+        },
+        {
+          "race": "Géants",
+          "population_totale": 2000,
+          "densite_moyenne_hab_km2": 1,
+          "description": "Fanaux marins tenus par des ermites géants, traités de neutralité absolue.",
+          "zones": ["Falaises de Vhorak (chaîne maritime)"]
+        }
+      ],
+      "classes_sociales": {
+        "humains": ["Capitaines/armateurs (7%)", "Guildes portuaires (20%)", "Garde-douanes (12%)", "Marins/ouvriers (61%)"],
+        "batraciens": ["Harmonistes (6%)", "Juges de flux (14%)", "Bateliers/pêcheurs (40%)", "Civils (40%)"],
+        "gobelins": ["Soudeurs (10%)", "Récupérateurs (34%)", "Messagers (18%)", "Civils (38%)"],
+        "nains": ["Maîtres-atelier (9%)", "Fondeurs (41%)", "Porteurs/charpentiers (20%)", "Civils (30%)"],
+        "trolls": ["Veilleurs (15%)", "Collecteurs (35%)", "Artisans (20%)", "Civils (30%)"],
+        "geants": ["Prieurs de fanal (70%)", "Gardiens de chaîne (20%)", "Intendants (10%)"]
+      },
+      "metiers": {
+        "humains": ["capitaine de passe", "charpentier naval", "douanier des marées", "pilote de lagune"],
+        "batraciens": ["juge-de-marée marin", "choriste de bassin", "gardien de passe"],
+        "gobelins": ["récupérateur de coques", "raffineur d’huiles acides", "soudeur de docks"],
+        "nains": ["forgeron d’ancre runique", "gardien de phare-atelier"],
+        "trolls": ["collecteur de résine marine", "tanneur de varech"],
+        "geants": ["gardien de fanal marin", "tailleur de chaîne"]
+      },
+      "structures_familiales": {
+        "humains": "Maisons maritimes, droits de quai héréditaires.",
+        "batraciens": "Maisons d’eau, parrainage de barque.",
+        "gobelins": "Bandes de docks.",
+        "nains": "Ateliers-phares.",
+        "trolls": "Clans de mangrove.",
+        "geants": "Lignées de fanal."
+      },
+      "demographie": {
+        "natalite_pour_mille": {"humains": 23, "batraciens": 17, "gobelins": 27, "nains": 14, "trolls": 18, "geants": 6},
+        "mortalite_infantile_pourcent": {"humains": 17, "batraciens": 11, "gobelins": 26, "nains": 12, "trolls": 15, "geants": 16},
+        "esperance_vie_annees": {"humains": 59, "batraciens": 66, "gobelins": 41, "nains": 101, "trolls": 71, "geants": 121},
+        "urbanisation_pourcent": {"humains": 68, "batraciens": 62, "gobelins": 48, "nains": 74, "trolls": 28, "geants": 0},
+        "reserve_militaire_estimee": {"humains": 52000, "batraciens": 36000, "gobelins": 9000, "nains": 6000, "trolls": 4000, "geants": 300}
+      },
+      "migrations": "Saisons de mousson magique : relèves de phares, rotation des équipages, pèlerinages du Grand Silence.",
+      "tendances_criminelles": "Piratage littoral, fraude douanière, ateliers de suie clandestins, contrebande d’artefacts noyés."
+    }
+  ],
+
+  "notes_de_coherence": {
+    "version": "2.2-sim",
+    "ancrage": "Version harmonisée pour aligner démographie ↔ géopolitique ↔ économie ↔ mythologie_histoire. Populations alignées sur v2.2-sim (x2 par rapport à v2.1).",
+    "impact_sur_systemes": [
+      "Capacités militaires compatibles avec ordres de bataille (geopolitique v2.2-sim).",
+      "Marchés et corridors (Arda, Helgar–Kar-Ferrum, Lamentes) soutenus par bassins de population crédibles.",
+      "Taux et espérances de vie respectent l’esthétique dungeon-synth médiévale sombre.",
+      "Réserves militaires ajustées proportionnellement aux populations totales."
+    ],
+    "compatibilite_fichiers": [
+      "geopolitique.json v2.2-sim : populations des noeuds (CHAMP=220k, HELGA=90k, etc.)",
+      "economie.json v3.1-sim-ultra : corridors et capacités vs. réservoirs humains",
+      "mythologie_histoire.json v2.2-sim : villes_cles alignées",
+      "politique_gouvernance.json v2.0-sim : profils régionaux cohérents",
+      "religion.json v2.0-sim : poids des cultes par régions (Flux en Archipel/Medianor, Trois Fers en Septentria/Medianor, Voûte en Vargr/Vhorak)"
+    ],
+    "chiffres_cles_verifies": {
+      "total_habitants_ardane": 4786000,
+      "proportion_humains": "46.2%",
+      "proportion_batraciens": "13.4%",
+      "proportion_nains": "11.0%",
+      "proportion_trolls": "8.0%",
+      "proportion_gobelins": "6.9%",
+      "proportion_geants": "0.8%"
+    }
+  }
+}

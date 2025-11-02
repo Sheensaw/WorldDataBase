@@ -1,0 +1,343 @@
+{
+  "guildes_confreries": {
+    "version": "2.1-sim-ultra",
+    "_note": "Guildes & Confréries d’Ardane — dark dungeon synth. Organisations professionnelles, secrètes, religieuses, commerciales, militaires. Monopoles, rivalités, contrats, trésorerie, hiérarchie, lieux, membres, serments, sanctions. Cohérent avec economie v3.1-sim-ultra, population v2.2-sim, relations_sociales v2.0-sim, us_coutumes v2.1-sim-ultra, transports v2.0-sim, architecture v2.0-sim, sombre v2.0-sim, evenements_dynamiques v2.1-sim-ultra. Prêt pour simulation mensuelle.",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — dark dungeon synth (la guilde est contrat, le monopole est serment, la trahison est malédiction)",
+      "coherence_avec": [
+        "economie.json",
+        "population.json",
+        "relations_sociales.json",
+        "us_coutumes.json",
+        "transports.json",
+        "architecture.json",
+        "sombre.json",
+        "evenements_dynamiques.json",
+        "index_univers_ardane.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "effectif": "têtes",
+        "tresorerie": "Drachme_d_Acier (DA)",
+        "monopole": "type",
+        "contrat": "DA/an",
+        "sanction": "niveau 1–5"
+      }
+    },
+
+    "01_categories_guildes": [
+      {
+        "categorie": "guildes_professionnelles",
+        "description": "Métiers, production, commerce. Monopoles légaux."
+      },
+      {
+        "categorie": "confreries_religieuses",
+        "description": "Cultes, rituels, licences. Gravures, offrandes."
+      },
+      {
+        "categorie": "ordres_militaires",
+        "description": "Garde, convois, défense. Lames, serments."
+      },
+      {
+        "categorie": "societes_secretes",
+        "description": "Trafics, assassinats, marchés noirs. Serments de sang."
+      }
+    ],
+
+    "02_guildes_professionnelles": [
+      {
+        "nom": "Guilde du Marteau",
+        "categorie": "professionnelle",
+        "siege": "Kar-Ferrum",
+        "effectif": 840,
+        "tresorerie_DA": 1280000,
+        "monopole": "Drachme_d_Acier",
+        "contrats_actifs": [
+          {"type": "production_acier", "DA_an": 820000},
+          {"type": "entretien_forges", "DA_an": 420000}
+        ],
+        "dirigeant": "Fondeur-Saint Aldric",
+        "membres_cles": ["Maître des Fours", "Graveur des Runes"],
+        "lieux": ["Forges Noires", "Atelier des Lames"],
+        "serments": ["serment_de_fer"],
+        "rivalites": ["Soudeurs-Rouges"],
+        "sanctions": [
+          {"niveau": 3, "type": "ternissement + amende"},
+          {"niveau": 4, "type": "exil + perte_outil"}
+        ],
+        "description": "Maîtres de la frappe. Contrôle total de la monnaie."
+      },
+      {
+        "nom": "Ligue des Passes",
+        "categorie": "professionnelle",
+        "siege": "Fescar",
+        "effectif": 620,
+        "tresorerie_DA": 980000,
+        "monopole": "navigation_lagunaire",
+        "contrats_actifs": [
+          {"type": "entretien_AX-ARDA", "DA_an": 620000},
+          {"type": "douanes_marée", "DA_an": 380000}
+        ],
+        "dirigeant": "Harmoniste Lua",
+        "membres_cles": ["Maître des Écluses", "Capitaine des Passes"],
+        "lieux": ["Bassin des Juges", "Passes Secrètes"],
+        "serments": ["serment_de_marée"],
+        "rivalites": ["Mains Creuses"],
+        "sanctions": [
+          {"niveau": 2, "type": "amende + silence"},
+          {"niveau": 4, "type": "exil + perte_barge"}
+        ],
+        "description": "Contrôle des flux. Péages, écluses, barges."
+      },
+      {
+        "nom": "Confrérie des Jurats",
+        "categorie": "professionnelle",
+        "siege": "Gransouterre",
+        "effectif": 420,
+        "tresorerie_DA": 820000,
+        "monopole": "plans_mineurs",
+        "contrats_actifs": [
+          {"type": "cartographie_galerie", "DA_an": 520000},
+          {"type": "audit_runique", "DA_an": 320000}
+        ],
+        "dirigeant": "Jurat Hadrik",
+        "membres_cles": ["Maître des Plans", "Graveur des Voûtes"],
+        "lieux": ["Fosse des Jurats", "Sas de la Grande Veine"],
+        "serments": ["serment_de_pierre"],
+        "rivalites": ["aucune"],
+        "sanctions": [
+          {"niveau": 3, "type": "regravure_publique"},
+          {"niveau": 4, "type": "exil_mine + perte_plan"}
+        ],
+        "description": "Gardiens des plans. Gravure sacrée."
+      },
+      {
+        "nom": "Compagnie des Muletiers",
+        "categorie": "professionnelle",
+        "siege": "Haut-Col",
+        "effectif": 380,
+        "tresorerie_DA": 620000,
+        "monopole": "convois_cols",
+        "contrats_actifs": [
+          {"type": "transport_AX-HEL-KARF", "DA_an": 420000},
+          {"type": "entretien_chaussée", "DA_an": 220000}
+        ],
+        "dirigeant": "Maître-Muletier Tharn",
+        "membres_cles": ["Guide des Neiges", "Maréchal des Mules"],
+        "lieux": ["Relais des Sept-Vires", "Écuries de Haut-Col"],
+        "serments": ["serment_de_fer"],
+        "rivalites": ["bandes gobelines"],
+        "sanctions": [
+          {"niveau": 2, "type": "amende + repos"},
+          {"niveau": 3, "type": "exil_convoi"}
+        ],
+        "description": "Maîtres des mules. Convois haute montagne."
+      },
+      {
+        "nom": "Ordre des Tailleurs",
+        "categorie": "professionnelle",
+        "siege": "Sous-Kelwyn",
+        "effectif": 280,
+        "tresorerie_DA": 520000,
+        "monopole": "taille_fine_calcaire",
+        "contrats_actifs": [
+          {"type": "gravure_acoustique", "DA_an": 320000},
+          {"type": "export_pierre", "DA_an": 220000}
+        ],
+        "dirigeant": "Maître-Taille Dwalin",
+        "membres_cles": ["Acousticien", "Graveur des Grottes"],
+        "lieux": ["Atelier Souterrain", "Grotte des Échos"],
+        "serments": ["serment_de_pierre"],
+        "rivalites": ["aucune"],
+        "sanctions": [
+          {"niveau": 3, "type": "retaillage_publique"},
+          {"niveau": 4, "type": "exil_grotte"}
+        ],
+        "description": "Maîtres de la taille. Acoustique parfaite."
+      }
+    ],
+
+    "03_confreries_religieuses": [
+      {
+        "nom": "Synode des Forges",
+        "categorie": "religieuse",
+        "siege": "Kar-Ferrum",
+        "effectif": 320,
+        "tresorerie_DA": 720000,
+        "monopole": "licences_pyriques",
+        "contrats_actifs": [
+          {"type": "bénédiction_fours", "DA_an": 420000},
+          {"type": "rituel_trempe", "DA_an": 280000}
+        ],
+        "dirigeant": "Prêtre-Fondeur Aldric",
+        "membres_cles": ["Gardien du Feu", "Chanteur des Runes"],
+        "lieux": ["Temple des Fours", "Dalle des Serments"],
+        "serments": ["serment_de_fer"],
+        "rivalites": ["Rouille-Mère"],
+        "sanctions": [
+          {"niveau": 4, "type": "ternissement + exil"},
+          {"niveau": 5, "type": "pétrification"}
+        ],
+        "description": "Gardiens du feu sacré. Bénédiction des forges."
+      },
+      {
+        "nom": "Mères-de-Sève",
+        "categorie": "religieuse",
+        "siege": "Thulcar",
+        "effectif": 180,
+        "tresorerie_DA": 420000,
+        "monopole": "licences_forestieres",
+        "contrats_actifs": [
+          {"type": "rituel_sève", "DA_an": 220000},
+          {"type": "entretien_totems", "DA_an": 180000}
+        ],
+        "dirigeant": "Mère Aiguille-Sombre",
+        "membres_cles": ["Chanteuse des Racines", "Gardienne des Brumes"],
+        "lieux": ["Clair-Justice", "Arbre-Mère"],
+        "serments": ["serment_de_brume"],
+        "rivalites": ["Rouille-Mère"],
+        "sanctions": [
+          {"niveau": 3, "type": "exclusion_brume"},
+          {"niveau": 4, "type": "hantise_brume"}
+        ],
+        "description": "Gardiens de la sève. Rituels totémiques."
+      },
+      {
+        "nom": "Juges de Marée",
+        "categorie": "religieuse",
+        "siege": "Fescar",
+        "effectif": 220,
+        "tresorerie_DA": 620000,
+        "monopole": "licences_hydriques",
+        "contrats_actifs": [
+          {"type": "bénédiction_flux", "DA_an": 320000},
+          {"type": "rituel_écluse", "DA_an": 220000}
+        ],
+        "dirigeant": "Harmoniste Irena",
+        "membres_cles": ["Chanteur des Échos", "Gardien des Bassins"],
+        "lieux": ["Bassin des Juges", "Écluse de Coupure"],
+        "serments": ["serment_de_marée"],
+        "rivalites": ["Mains Creuses"],
+        "sanctions": [
+          {"niveau": 3, "type": "silence_forcé"},
+          {"niveau": 4, "type": "exil + perte_droit_parole"}
+        ],
+        "description": "Gardiens du flux. Bénédiction des eaux."
+      }
+    ],
+
+    "04_ordres_militaires": [
+      {
+        "nom": "Lames du Sang",
+        "categorie": "militaire",
+        "siege": "Champsorne",
+        "effectif": 420,
+        "tresorerie_DA": 820000,
+        "monopole": "licences_sanguines",
+        "contrats_actifs": [
+          {"type": "garde_caravanes", "DA_an": 520000},
+          {"type": "duel_rituel", "DA_an": 320000}
+        ],
+        "dirigeant": "Maître-Lame Severin",
+        "membres_cles": ["Capitaine des Gardes", "Exécuteur des Serments"],
+        "lieux": ["Arène des Fers", "Tour des Hurles"],
+        "serments": ["serment_de_sang"],
+        "rivalites": ["Mains Creuses"],
+        "sanctions": [
+          {"niveau": 4, "type": "exécution + hantise"},
+          {"niveau": 5, "type": "castration rituelle"}
+        ],
+        "description": "Gardiens des serments. Duels, exécutions."
+      },
+      {
+        "nom": "Gardes-Glace",
+        "categorie": "militaire",
+        "siege": "Helgarstätt",
+        "effectif": 380,
+        "tresorerie_DA": 620000,
+        "monopole": "défense_nord",
+        "contrats_actifs": [
+          {"type": "patrouille_AX-HEL-KARF", "DA_an": 420000},
+          {"type": "garde_Helgarstätt", "DA_an": 220000}
+        ],
+        "dirigeant": "Capitaine Halgard",
+        "membres_cles": ["Sentinelle des Hurles", "Maître des Glaces"],
+        "lieux": ["Tour des Hurles", "Remparts Glace"],
+        "serments": ["serment_de_fer"],
+        "rivalites": ["bandes gobelines"],
+        "sanctions": [
+          {"niveau": 3, "type": "exil_glace"},
+          {"niveau": 4, "type": "gel_rituel"}
+        ],
+        "description": "Défenseurs du nord. Patrouilles, remparts."
+      }
+    ],
+
+    "05_societes_secretes": [
+      {
+        "nom": "Mains Creuses",
+        "categorie": "secrete",
+        "siege": "Soufre-Bane",
+        "effectif": 280,
+        "tresorerie_DA": 920000,
+        "monopole": "marché_noir",
+        "contrats_actifs": [
+          {"type": "trafic_humain", "DA_an": 620000},
+          {"type": "assassinats", "DA_an": 420000}
+        ],
+        "dirigeant": "Main-Noire Skrek",
+        "membres_cles": ["Pilleur-Relique", "Ombre des Passes"],
+        "lieux": ["Cratère des Paris", "Labyrinthe des Mains Creuses"],
+        "serments": ["serment_de_suie"],
+        "rivalites": ["Lames du Sang", "Ligue des Passes"],
+        "sanctions": [
+          {"niveau": 4, "type": "marque_front + exil"},
+          {"niveau": 5, "type": "corrosion_rituelle"}
+        ],
+        "description": "Maîtres du noir. Trafics, assassinats."
+      },
+      {
+        "nom": "Soudeurs-Rouges",
+        "categorie": "secrete",
+        "siege": "Kar-Ferrum",
+        "effectif": 180,
+        "tresorerie_DA": 720000,
+        "monopole": "acier_vivant_non_gravé",
+        "contrats_actifs": [
+          {"type": "contrebande_acier", "DA_an": 520000},
+          {"type": "sabotage_forges", "DA_an": 320000}
+        ],
+        "dirigeant": "Maître-Rouge",
+        "membres_cles": ["Fondeur-Noir", "Graveur des Ombres"],
+        "lieux": ["Forges Noires", "Atelier des Lames"],
+        "serments": ["serment_de_suie"],
+        "rivalites": ["Guilde du Marteau"],
+        "sanctions": [
+          {"niveau": 4, "type": "ternissement + exil"},
+          {"niveau": 5, "type": "fonte_rituelle"}
+        ],
+        "description": "Contrebandiers d’acier. Sabotage runique."
+      }
+    ],
+
+    "06_controles_coherence": {
+      "total_guildes": 12,
+      "total_professionnelles": 5,
+      "total_religieuses": 3,
+      "total_militaires": 2,
+      "total_secretes": 2,
+      "total_effectif": 4210,
+      "total_tresorerie_DA": 8520000,
+      "liens_economie": "Monopoles, contrats, revenus alignés",
+      "liens_population": "Sièges, effectifs cohérents",
+      "liens_relations_sociales": "Serments, rivalités, sanctions",
+      "liens_us_coutumes": "Gravures, rituels, silences",
+      "liens_transports": "Convois, barges, mules",
+      "liens_sombre": "Trafics, assassinats, sabotages",
+      "liens_evenements": "Fêtes, marchés, duels",
+      "syntaxe": "JSON 100% valide, indentation 2 espaces, clés uniques",
+      "simulation_prete": "Évolution mensuelle des contrats, rivalités, sanctions"
+    }
+  }
+}

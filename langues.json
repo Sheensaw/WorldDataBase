@@ -1,0 +1,149 @@
+{
+  "langues": {
+    "version": "2.0-sim",
+
+    "00_metadonnees": {
+      "ancrage_univers": "Ardane — langues liées aux flux, rites, et routes commerciales",
+      "coherence_avec": [
+        "geographie.json",
+        "geopolitique.json",
+        "economie.json",
+        "magie.json",
+        "religion.json",
+        "politique_gouvernance.json",
+        "population.json"
+      ],
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "intercomprehension": "indice (0-1)",
+        "cout_traduction": "DA/h",
+        "risque_rituel": "%"
+      }
+    },
+
+    "01_principes_generaux": {
+      "description": "Les langues d’Ardane résultent du tissage millénaire entre flux, cultures et matières. Les idiomes se forment par écho magique : les runes vibrent, les chants hydriques se répercutent, et les totems parlent. Chaque langue conserve une mémoire du lieu où elle fut forgée — acier, brume, chair, ou pierre.",
+      "familles_majeures": [
+        "Humanique (Medianor, Austremont, Archipel)",
+        "Khazil (forges et confédérations naines)",
+        "Tharnën (forêts trolles et brumes vivantes)",
+        "Vernath (lagunes et deltas batraciens)",
+        "Grekh (zones industrielles gobelines)",
+        "Urmath (hautes chaînes géantes et fanaux)"
+      ],
+      "systemes_d_ecriture": [
+        {"type": "Runique", "support": "métal, pierre", "licence": "atelier_runique"},
+        {"type": "Cursive marchande", "support": "parchemin, cire", "licence": "commerce_guilde"},
+        {"type": "Glyphique aquatique", "support": "bois, pieux, cordages", "licence": "flux_hydrique"},
+        {"type": "Totémique", "support": "bois, corde, os", "licence": "rites_forestiers"},
+        {"type": "Fanal-runique", "support": "cristaux, lumière", "licence": "prieure_geant"}
+      ],
+      "intercomprehension": {
+        "Humanique_Khazil": 0.75,
+        "Humanique_Vernath": 0.6,
+        "Humanique_Grekh": 0.46,
+        "Tharnen_Vernath": 0.55,
+        "Khazil_Urmath": 0.42,
+        "autres_combinaisons": 0.22
+      },
+      "cout_traduction_moyen_DA_h": 8.5,
+      "risque_erreur_rituelle_%": 3.2
+    },
+
+    "02_langues_detaillees": [
+      {
+        "nom": "Humanique",
+        "famille": "Langue des peuples d’Arda",
+        "aire_geographique": "Medianor, Austremont, Archipel des Lamentes",
+        "dialectes": [
+          {"nom": "Helgarin", "zone": "Septentria (Helgarstätt, Vargr)", "caracteristiques": "Phonétique dure, lexique martial et minier.", "usage": "Langue des forteresses et des patrouilles nordiques."},
+          {"nom": "Ardanien", "zone": "Medianor (Champsorne, Sous-Kelwyn)", "caracteristiques": "Souple et juridique, riche en voyelles, langue du droit et du commerce.", "usage": "Langue des guildes et tribunaux."},
+          {"nom": "Orrien", "zone": "Austremont (cols et plateaux d’Orr)", "caracteristiques": "Brève, codifiée, influencée par le Khazil.", "usage": "Langue de transit et de défense des routes."},
+          {"nom": "Islaréen", "zone": "Archipel des Lamentes", "caracteristiques": "Mélodique, accent chantant influencé par le Vernath.", "usage": "Langue des navigateurs et diplomates maritimes."}
+        ],
+        "structure": "Langue flexionnelle, accent tonique initial, riche en dérivations contractuelles.",
+        "ecriture": "Runique simplifiée, cursive pour les échanges.",
+        "vocabulaire_cle": {"fer": "tharn", "contrat": "gildr", "eau": "lor", "asile": "maen", "route": "via"}
+      },
+      {
+        "nom": "Khazil",
+        "famille": "Langue des Nains",
+        "aire_geographique": "Fer-Noir, Karâg-Tor, Gransouterre, Sous-Kelwyn",
+        "dialectes": [
+          {"nom": "Khazil-Fer-Noir", "zone": "Fer-Noir et Gransouterre", "caracteristiques": "Consonnes gutturales, lexique minier profond et technique.", "usage": "Langue des ateliers souterrains et des jurats de forge."},
+          {"nom": "Khazil-Orr", "zone": "Karâg-Tor et Monts d’Orr", "caracteristiques": "Influencée par l’Orrien humain, termes pyriques et mécaniques.", "usage": "Langue des puits et des cols fortifiés."},
+          {"nom": "Khazil-Kelwyn", "zone": "Sous-Kelwyn", "caracteristiques": "Mélange hydrique, lexique karstique et de taille fine.", "usage": "Langue des hydro-ingénieurs et scribes runiques."}
+        ],
+        "structure": "Langue agglutinante avec consonnes dures et suffixes techniques; sens dépend de la profondeur tonale.",
+        "ecriture": "Runique complète, supports métal et pierre, sous licence atelier_runique.",
+        "vocabulaire_cle": {"forge": "khaz", "pierre": "dur", "flux": "ril", "serment": "grom", "profondeur": "tor"}
+      },
+      {
+        "nom": "Tharnën",
+        "famille": "Langue des Trolls",
+        "aire_geographique": "Morthyll, Thulcar, Brumes du Voile",
+        "dialectes": [
+          {"nom": "Tharnën-Morthyll", "zone": "Plateau de Morthyll", "caracteristiques": "Gutturale, mots longs, influence ombreuse avec pauses brumeuses.", "usage": "Langue des clairières et des veilleurs de brume."},
+          {"nom": "Tharnën-Thulcar", "zone": "Forêts de Thulcar", "caracteristiques": "Rythmée par les vents, lexique sylvestre et chasseur.", "usage": "Langue des pistes et des totems de chasse."}
+        ],
+        "structure": "Langue isolante avec éléments composés; tonalité influencée par les brumes, gestes totémiques complémentaires.",
+        "ecriture": "Glyphes totémiques et signes brumeux pour les rituelles sous licence rites_forestiers.",
+        "vocabulaire_cle": {"foret": "murn", "brume": "sheth", "ancetre": "grun", "chasse": "lurn", "vie": "veth"}
+      },
+      {
+        "nom": "Vernath",
+        "famille": "Langue amphibienne",
+        "aire_geographique": "Fescar, Archipel des Lamentes",
+        "dialectes": [
+          {"nom": "Vernath-Fescar", "zone": "Marais d’Asphodel", "caracteristiques": "Chantée, rythmée, lente, haute précision tonale.", "usage": "Liturgie hydrique et arbitrage fluvial."},
+          {"nom": "Vernath-Lagos", "zone": "Lago’Vernis et Islakarion", "caracteristiques": "Rapide, lexique maritime, pauses du reflux.", "usage": "Commerce et navigation rituelle."}
+        ],
+        "structure": "Langue tonale et rythmique; le sens dépend de la hauteur et de la durée.",
+        "ecriture": "Glyphes aquatiques tactiles sous licence flux_hydrique.",
+        "vocabulaire_cle": {"eau": "hruu", "courant": "vell", "chant": "aia", "accord": "tholl", "serment": "muir"}
+      },
+      {
+        "nom": "Grekh",
+        "famille": "Créole gobelin",
+        "aire_geographique": "Varkhar, Thulcar, Fescar",
+        "dialectes": [
+          {"nom": "Grekh-Varkhar", "zone": "Steppes du Soufre", "caracteristiques": "Sifflée, rapide, consonnes fricatives.", "usage": "Commandement tribal et alchimie mobile."},
+          {"nom": "Grekh-Lisien", "zone": "Forêts de Thulcar", "caracteristiques": "Clics saccadés, lexique sylvestre.", "usage": "Langue de chasse et sabotage."}
+        ],
+        "structure": "Langue créole sifflante, complément gestuel.",
+        "ecriture": "Marques de résine, os gravés, codes de corde.",
+        "vocabulaire_cle": {"vent": "sskrr", "ombre": "trr", "proie": "zrik", "feu": "vakk", "sel": "ghir"}
+      },
+      {
+        "nom": "Urmath",
+        "famille": "Langue des Géants",
+        "aire_geographique": "Vargr, Vhorak",
+        "dialectes": [
+          {"nom": "Urmath Vargrien", "zone": "Crêtes du Nord", "caracteristiques": "Mots gutturaux, langue du vent et des pierres.", "usage": "Communication entre ermitages et fanaux de col."},
+          {"nom": "Urmath Vhorakien", "zone": "Falaises orientales", "caracteristiques": "Rythme lent, lexique maritime, signaux lumineux.", "usage": "Langue des prières et du guidage côtier."}
+        ],
+        "structure": "Langue isolante à concepts condensés; tonalité grave et lente.",
+        "ecriture": "Runes cristallines et fanaux sous licence prieure_geant.",
+        "vocabulaire_cle": {"montagne": "ur", "lumiere": "ther", "pierre": "drak", "serment": "voll", "paix": "mon"}
+      }
+    ],
+
+    "03_langue_commune": {
+      "nom": "Lingua Ardanis",
+      "origine": "Née du brassage humanique, khazil et vernath, via corridors AX-ARDA et AX-HEL-KARF.",
+      "usage": "Langue diplomatique, commerciale et rituelle; requise pour les traités multiraciaux.",
+      "alphabet": "Cursive marchande runifiée.",
+      "vocabulaire_cle": {"argent": "thal", "contrat": "gildra", "navire": "noel", "route": "via", "colline": "draen"},
+      "intercomprehension_moyenne": 0.73,
+      "cout_traduction_DA_h": 4.5
+    },
+
+    "04_controles_coherence": {
+      "toponymie": "Sous-Kelwyn et Lamentes unifiés; Asphodel précisé.",
+      "licences": "Runique/Flux/Rites/Prieurés harmonisés avec politique_gouvernance(v2).",
+      "axes": "Langues rattachées aux corridors AX-ARDA, AX-HEL-KARF, AX-LAMENTES.",
+      "energie": "Terminologie Pierre_de_Flux et Tourbe_Carbone alignée sur economie(v2).",
+      "neutralites": "Urmath conforme aux clauses géantes Vargr/Vhorak."
+    }
+  }
+}

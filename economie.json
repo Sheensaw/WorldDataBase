@@ -1,0 +1,276 @@
+{
+  "economie": {
+    "version": "3.1-sim-ultra",
+    "_note": "Modèle intégral prêt pour simulation (pas mensuel par défaut). Harmonisé avec population v2.2-sim, religion v2.0-sim, magie v2.0-sim, géographie v2.0-sim, géopolitique v2.2-sim, mythologie_histoire v2.2-sim, politique_gouvernance v2.0-sim, langues v2.0-sim. Ajout énergie carbone/tourbe, alignement Pierre_de_Flux. Populations, corridors, stocks, prix, ressources, contrats, simulation entièrement synchronisés. Tous les champs numériques sont valides JSON (pas de +0.08, mais 0.08).",
+
+    "01_metadonnees": {
+      "ancrage_univers": "Monde d’Ardane — dungeon-synth médiéval sombre, rites contractuels",
+      "coherence_avec": [
+        "races.json",
+        "geographie.json",
+        "continents.json",
+        "population.json",
+        "magie.json",
+        "religion.json",
+        "geopolitique.json",
+        "politique_gouvernance.json",
+        "mythologie_histoire.json",
+        "langues.json"
+      ],
+      "annee_calibration": "Cycle 412 (année de référence)",
+      "granularite_defaut": "mensuelle",
+      "unites": {
+        "masse": "kg",
+        "tonne": 1000,
+        "distance": "km",
+        "vitesse": "km/jour",
+        "monnaie": "Drachme_d_Acier (DA)",
+        "energie_bois": "kg_bois_sec_eq",
+        "energie_carbone": "kg_tourbe_eq",
+        "flux_magique": "Pierre_de_Flux (classes: F/M/H)"
+      }
+    },
+
+    "02_geo_noeuds_et_corridors": {
+      "noeuds": [
+        {"id": "CHAMP", "nom": "Champsorne", "type": "cite_humaine", "roles": ["grains", "droit_commercial"], "region": "Medianor", "population_k": 220},
+        {"id": "HELGA", "nom": "Helgarstätt", "type": "cite_humaine", "roles": ["metal_surface", "cols"], "region": "Septentria", "population_k": 90},
+        {"id": "KARFE", "nom": "Kar-Ferrum", "type": "complexe_humain_nain", "roles": ["raffinage_metaux", "armes_runiques"], "region": "Septentria", "population_k": 80},
+        {"id": "GRANS", "nom": "Gransouterre", "type": "cite_naine", "roles": ["pierres_flux", "banque_runique"], "region": "Septentria", "population_k": 70},
+        {"id": "KARAG", "nom": "Karâg-Tor", "type": "cite_naine", "roles": ["mines_profondes", "meca_puits"], "region": "Austremont", "population_k": 60},
+        {"id": "KELWY", "nom": "Sous-Kelwyn", "type": "cite_naine", "roles": ["hydro_karst", "taille_fine"], "region": "Medianor", "population_k": 45},
+        {"id": "FESCA", "nom": "Fescar", "type": "cite_batracienne", "roles": ["arbitrage_fluvial", "perles"], "region": "Medianor", "population_k": 120},
+        {"id": "LAGOV", "nom": "Lago’Vernis", "type": "port_archipel", "roles": ["commerce_maritime", "artefacts_aquatiques"], "region": "Archipel", "population_k": 90},
+        {"id": "ISLAK", "nom": "Islakarion", "type": "port_humain", "roles": ["transbordement", "douanes_marines"], "region": "Archipel", "population_k": 110},
+        {"id": "THULC", "nom": "Thulcar", "type": "territoire_troll", "roles": ["bois_dur", "resines"], "region": "Austremont", "population_k": 60},
+        {"id": "MORTH", "nom": "Morthyll", "type": "territoire_troll", "roles": ["resines_medic", "brumes_rituelles"], "region": "Septentria", "population_k": 30},
+        {"id": "VARKH", "nom": "Varkhar", "type": "territoire_gobelin", "roles": ["sels", "acides", "recyclage"], "region": "Septentria", "population_k": 90},
+        {"id": "VARGR", "nom": "Vargr", "type": "contreforts_geants", "roles": ["cols", "fanaux_sommitaux"], "region": "Septentria", "population_k": 4},
+        {"id": "VHORAK", "nom": "Vhorak", "type": "falaises_geantes", "roles": ["fanaux_marins", "fortins_de_chaine"], "region": "Archipel", "population_k": 2}
+      ],
+      "corridors": [
+        {"id": "AX-ARDA", "type": "fleuve", "noeuds": ["CHAMP", "FESCA", "ISLAK"], "longueur_km": 310, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 120000, "peage_DA_t": 2.8, "risque_piraterie": 0.12, "description": "Axe fluvial principal reliant Medianor à l’Archipel. Convois mixtes sous assistance hydrorunique."},
+        {"id": "AX-HEL-KARF", "type": "route_montagne", "noeuds": ["HELGA", "KARFE"], "longueur_km": 140, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 24000, "peage_DA_t": 3.5, "risque_glissement": 0.18, "description": "Route haute de Septentria : traîneaux de minerai et convois d’hiver, entretenue par les jurats nains."},
+        {"id": "AX-GRAN-KARAG", "type": "galerie_naine", "noeuds": ["GRANS", "KARAG"], "longueur_km": 90, "saisonnalite": ["M1-M12"], "capacite_base_t_an": 220000, "peage_DA_t": 1.9, "risque_effondrement": 0.08, "description": "Galerie maîtresse des forges profondes, reliant Gransouterre à Karâg-Tor."},
+        {"id": "AX-LAMENTES", "type": "cotiere", "noeuds": ["ISLAK", "LAGOV"], "longueur_km": 780, "saisonnalite": ["M3-M12"], "capacite_base_t_an": 32000, "peage_DA_t": 4.1, "risque_piraterie": 0.28, "description": "Route maritime de cabotage entre Islakarion et Lago’Vernis, soumise aux marées magiques."},
+        {"id": "AX-THUL-KARF", "type": "mixte_route+fleuve", "noeuds": ["THULC", "KARFE"], "longueur_km": 220, "saisonnalite": ["M3-M11"], "capacite_base_t_an": 31000, "peage_DA_t": 3.8, "risque_raid": 0.22, "description": "Couloir commercial combiné entre Thulcar et Kar-Ferrum. Segment clef du transit pyrique."},
+        {"id": "AX-VARKH-CHAMP", "type": "caravane", "noeuds": ["VARKH", "CHAMP"], "longueur_km": 410, "saisonnalite": ["M4-M10"], "capacite_base_t_an": 9000, "peage_DA_t": 5.2, "risque_raid": 0.41, "description": "Liaison caravanière gobeline et humaine, spécialisée dans le troc d’acides, de suies et de minerais bruts."}
+      ],
+      "facteurs_magiques": "Amplification tellurique et hydrique des flux commerciaux via balises runiques Arda–Ferrum (+25% de rendement moyen sur les corridors actifs)."
+    },
+
+    "03_ressources": {
+      "primaires": [
+        {"code": "GRA", "nom": "grains", "producteurs": ["CHAMP"], "saisons": ["M7-M10"], "unite": "t", "rendement_t_an": 18000},
+        {"code": "BOI", "nom": "bois_dur", "producteurs": ["THULC", "MORTH"], "unite": "t", "rendement_t_an": 24000},
+        {"code": "TOU", "nom": "tourbe_carbone", "producteurs": ["MORTH", "FESCA"], "unite": "t", "rendement_t_an": 32000},
+        {"code": "MIN", "nom": "minerai_fer", "producteurs": ["HELGA", "KARAG"], "unite": "t", "rendement_t_an": 38000},
+        {"code": "SEL", "nom": "sels_et_nitrats", "producteurs": ["VARKH"], "unite": "t", "rendement_t_an": 12000},
+        {"code": "FLX", "nom": "pierres_de_flux_brutes", "producteurs": ["GRANS", "KARAG"], "unite": "kg", "rendement_t_an": 1800},
+        {"code": "POI", "nom": "poisson_maritime", "producteurs": ["ISLAK", "LAGOV"], "unite": "t", "rendement_t_an": 15000}
+      ],
+      "intermediaires": [
+        {"code": "FON", "nom": "fonte_basse", "entrees": {"MIN": 1.5, "BOI": 0.6, "TOU": 0.4}, "sorties": {"FON": 1}, "sites": ["KARFE", "HELGA"], "energie": {"energie_bois": 0.3, "energie_carbone": 0.7}},
+        {"code": "ACR", "nom": "acier_vivant", "entrees": {"FON": 1.2, "SEL": 0.05, "FLX": 0.002}, "sorties": {"ACR": 1}, "sites": ["KARFE", "GRANS"], "energie": {"energie_carbone": 0.8}},
+        {"code": "RSM", "nom": "resines_medicinales", "entrees": {"BOI": 0.4}, "sorties": {"RSM": 0.1}, "sites": ["MORTH", "THULC"]},
+        {"code": "ACD", "nom": "acides_industriels", "entrees": {"SEL": 1, "POI": 0.02}, "sorties": {"ACD": 0.4}, "sites": ["VARKH"]}
+      ],
+      "finis": [
+        {"code": "OUT", "nom": "outils_runiques", "entrees": {"ACR": 0.8, "FLX": 0.001}, "sites": ["GRANS", "KELWY", "KARFE"], "valeur_unitaire_DA": 24},
+        {"code": "ARM", "nom": "armes_runiques", "entrees": {"ACR": 1.0, "FLX": 0.003}, "sites": ["KARFE"], "valeur_unitaire_DA": 110},
+        {"code": "NAV", "nom": "coques_navales", "entrees": {"BOI": 3.2, "ACR": 0.6, "ACD": 0.1}, "sites": ["ISLAK", "LAGOV"], "valeur_unitaire_DA": 380},
+        {"code": "MED", "nom": "onguents_et_pansements", "entrees": {"RSM": 0.05, "SEL": 0.02}, "sites": ["MORTH", "FESCA"], "valeur_unitaire_DA": 6}
+      ]
+    },
+
+    "04_monnaies_et_conversions": {
+      "physiques": [
+        {"code": "DA", "nom": "Drachme d’Acier", "poids_g": 31, "garant": "Guilde du Marteau", "ancrage": "poids_metal_pur", "valeurs_ref": {"ration_ouvrier_jour": 0.8, "bois_sec_kg": 6}},
+        {"code": "SS", "nom": "Sou de Sel", "poids_g": 60, "garant": "Temples du Flux", "ancrage": "sel_grave", "usage": ["peages_ecluses", "marche_local"]},
+        {"code": "JS", "nom": "Jeton de Suie", "variabilite": "haute", "garant": "Soudeurs-Rouges (réputation)", "usage": ["marche_gris", "alchimie"]},
+        {"code": "PF", "nom": "Pierre_de_Flux", "classes": ["F", "M", "H"], "masse_typique_g": [12, 35, 90], "usage": ["reserve_valeur", "catalyseur_rituel", "stabilisation_runique"]}
+      ],
+      "taux_change_base": {"DA_SS": 5, "DA_PF_F": 520, "DA_JS": "0.05-0.40"},
+      "rituelles": [
+        {"code": "SF", "nom": "Serment de Fer", "support": "plaque_gravee", "convertible": true, "penalite_defaut": "ternissement+ban_professionnel"},
+        {"code": "MH", "nom": "Marée d’Honneur", "support": "vase_scelle", "convertible": true, "penalite_defaut": "perte_droit_parole"},
+        {"code": "MP", "nom": "Marque de Pierre", "support": "monolithe", "convertible": false, "penalite_defaut": "infamie_durable"}
+      ]
+    },
+
+    "05_parametres_transport": {
+      "couts_rel_ton_km": {"mer": 1, "fleuve": 4, "route": 8, "galerie": 3},
+      "couts_abs_DA_ton_km": {"mer": 0.02, "fleuve": 0.08, "route": 0.16, "galerie": 0.06},
+      "pertes_percent_par_100_km": {"mer": 0.6, "fleuve": 1.2, "route": 2.4, "galerie": 0.9},
+      "risques": {
+        "mer": ["tempetes_de_flux", "contrebandes"],
+        "fleuve": ["crues", "droits_de_passage"],
+        "route": ["banditisme", "cols_fermes"],
+        "galerie": ["effondrements", "seismes_telluriques"]
+      },
+      "plafonds_saisonniers": [
+        {"corridor": "AX-HEL-KARF", "mois_ferm": ["M12", "M1", "M2"], "note": "neige et vents inverses"},
+        {"corridor": "AX-LAMENTES", "mois_ferm": ["M1", "M2"], "note": "houles d’hiver"}
+      ]
+    },
+
+    "06_normes_et_douanes": {
+      "peages": [
+        {"id": "P-ARDA-ECL", "corridor": "AX-ARDA", "base_DA_par_ton": 0.9, "gestion": "Juges_de_Maree"},
+        {"id": "P-HEL-COL", "corridor": "AX-HEL-KARF", "base_DA_par_ton": 1.6, "gestion": "Guildes de route"},
+        {"id": "P-GAL-RUN", "corridor": "AX-GRAN-KARAG", "base_DA_par_ton": 0.7, "gestion": "Jurats nains"},
+        {"id": "P-LAMENTES-PHARE", "corridor": "AX-LAMENTES", "base_DA_par_ton": 1.4, "gestion": "Capitaineries jurées"}
+      ],
+      "tarifs": [
+        {"code": "T-ARM", "produit": "ARM", "taux_percent": 6},
+        {"code": "T-NAV", "produit": "NAV", "taux_percent": 8},
+        {"code": "T-ACD", "produit": "ACD", "taux_percent": 4},
+        {"code": "T-OUT", "produit": "OUT", "taux_percent": 3}
+      ],
+      "licences_magiques": [
+        {"type": "atelier_runique", "octroi": ["Chambre des Guildes", "Culte des Trois Fers"], "retraits": ["Tribunal de la Balance"]},
+        {"type": "flux_hydrique", "octroi": ["Juges de Flux"], "retraits": ["Assemblée de Marée"]},
+        {"type": "pyrique_industriel", "octroi": ["Synode des Forges", "Rouille_Mère"], "retraits": ["Vigiles de Pierre"]},
+        {"type": "rites_forestiers", "octroi": ["Mères-de-Sève"], "retraits": ["Veilleurs de Clairière"]}
+      ]
+    },
+
+    "07_main_oeuvre_et_salaires": {
+      "categories": [
+        {"code": "APP", "nom": "apprentis", "salaire_DA_j": 0.6},
+        {"code": "ART", "nom": "artisans qualifies", "salaire_DA_j": 1.2},
+        {"code": "MIN", "nom": "mineurs", "salaire_DA_j": 1.4, "prime_risque_DA_j": 0.3},
+        {"code": "BAT", "nom": "bateliers", "salaire_DA_j": 1.0},
+        {"code": "SOU", "nom": "soudeurs_gobelins", "salaire_DA_j": 1.1, "prime_corrosion_DA_j": 0.4}
+      ],
+      "cout_vivant_ouvrier_DA_j": 0.8,
+      "assurances_et_caisses": [
+        {"nom": "Caisse de Secours des Forges", "cotisation_percent_salaire": 6},
+        {"nom": "Bourse des Marées", "cotisation_percent_salaire": 4}
+      ]
+    },
+
+    "08_offre_demande_prix": {
+      "elast_prix": {"GRA": -0.3, "BOI": -0.2, "TOU": -0.25, "MIN": -0.15, "FLX": -0.05, "SEL": -0.18},
+      "prix_init_DA_par_unite": {"GRA": 0.9, "BOI": 0.6, "TOU": 0.4, "MIN": 0.7, "FLX": 14, "SEL": 0.5, "FON": 1.3, "ACR": 3.8, "RSM": 5.0, "ACD": 2.4, "OUT": 26, "ARM": 120, "NAV": 400, "MED": 7.5},
+      "stocks_securite_jours": {"GRA": 40, "BOI": 60, "TOU": 90, "MIN": 50, "FLX": 120}
+    },
+
+    "09_energie_et_flux": {
+      "mix_energetique_percent": {"bois": 42, "tourbe": 38, "hydrique": 12, "pyrique_rituel": 8},
+      "rendements_thermiques": {"bois": 0.22, "tourbe": 0.28},
+      "usage_pierre_de_flux": {
+        "description": "La Pierre_de_Flux est un catalyseur tellurique concentré. Elle stabilise les matrices runiques et réduit les pertes sur convoyage.",
+        "effets": {"perte_transport_reduction_percent": 12, "bonus_sortie_runique_percent": 8}
+      }
+    },
+
+    "10_evenements_et_chocs": {
+      "evenements": [
+        {
+          "id": "E-CRUE-ARDA",
+          "nom": "Crue de l’Arda",
+          "frequence_moy_cycles": 6,
+          "effets": {"AX-ARDA": {"capacite_base_t_an_delta_percent": -30}, "prix": {"GRA": 0.12, "BOI": 0.04}},
+          "contre_mesures": ["ouverture_bassins_FESCA", "priorite vivres"]
+        },
+        {
+          "id": "E-SEISME-OURR",
+          "nom": "Séisme des Ourann",
+          "frequence_moy_cycles": 9,
+          "effets": {"AX-HEL-KARF": {"capacite_base_t_an_delta_percent": -40}, "couts_route": 0.08},
+          "contre_mesures": ["detours_VARGR", "renforts_runiques"]
+        },
+        {
+          "id": "E-BRUME-MORTH",
+          "nom": "Brumes saturées de Morthyll",
+          "frequence_moy_cycles": 5,
+          "effets": {"RSM": {"rendement_delta_percent": 15}, "route": {"pertes_percent_par_100_km_delta": 0.6}},
+          "contre_mesures": ["guides_trolls", "horaires_nocturnes"]
+        },
+        {
+          "id": "E-RUST-VARKH",
+          "nom": "Rouille Sacrée",
+          "frequence_moy_cycles": 7,
+          "effets": {"ACD": {"rendement_delta_percent": 12}, "ACR": {"defaut_taux_percent": 2}},
+          "contre_mesures": ["purges_d_ateliers", "inspections_Rouille-Mere"]
+        }
+      ]
+    },
+
+    "11_marches_et_contrats": {
+      "bourses": [
+        {"id": "B-CHAMP", "lieu": "Champsorne", "produits": ["GRA", "MIN", "FON", "ACR"], "clearing": "DA"},
+        {"id": "B-FESCA", "lieu": "Fescar", "produits": ["BOI", "TOU", "RSM", "MED"], "clearing": "SS"},
+        {"id": "B-ISLAK", "lieu": "Islakarion", "produits": ["NAV", "POI"], "clearing": "DA"}
+      ],
+      "contrats_types": [
+        {"code": "C-SF", "nom": "Serment de Fer", "devise": "DA", "garantie": "plaque_runique", "penalite": "ternissement+ban"},
+        {"code": "C-MH", "nom": "Marée d’Honneur", "devise": "SS", "garantie": "jarre_scellee", "penalite": "perte_parole"},
+        {"code": "C-MP", "nom": "Marque de Pierre", "devise": "PF", "garantie": "monolithe", "penalite": "infamie"}
+      ]
+    },
+
+    "12_militaire_et_logistique": {
+      "besoins_standard_armee": {
+        "fantassin_jour": {"GRA": 1.6, "BOI": 0.5},
+        "sapeur_jour": {"GRA": 1.8, "BOI": 0.5, "TOU": 0.1},
+        "pierrier_tir": {"ACR": 0.02, "FLX": 0.00004}
+      },
+      "convoyage": {
+        "mule": {"charge_t": 0.12, "vitesse_km_j": 24},
+        "chariot": {"charge_t": 1.2, "vitesse_km_j": 18},
+        "barge_fleuve": {"charge_t": 42, "vitesse_km_j": 30},
+        "cabinier_cotier": {"charge_t": 18, "vitesse_km_j": 45}
+      }
+    },
+
+    "13_equilibres_geo": {
+      "dependances_critiques": [
+        {"from": "KARFE", "to": "THULC", "ressource": "BOI", "ratio": 0.35},
+        {"from": "KARFE", "to": "MORTH", "ressource": "TOU", "ratio": 0.22},
+        {"from": "ISLAK", "to": "FESCA", "ressource": "SS", "ratio": 0.40},
+        {"from": "CHAMP", "to": "VARKH", "ressource": "ACD", "ratio": 0.18}
+      ],
+      "tampons_strategiques": [
+        {"noeud": "GRANS", "stock_FLX_kg": 22000},
+        {"noeud": "CHAMP", "stock_GRA_t": 9000},
+        {"noeud": "ISLAK", "stock_NAV_u": 36}
+      ]
+    },
+
+    "14_validation_coherence": {
+      "population_support": "Capacités mises à l’échelle pour population v2.2-sim. Les volumes annuels couvrent >60% de la demande urbaine déclarée des noeuds principaux.",
+      "religion_magie_alignement": "PF explicitée comme catalyseur (Voûte/Trois Fers) ; Flux hydrique ancré sur Fescar ; Rouille-Mère reliée à ACD.",
+      "geopolitique_conformite": "Corridors et peages identiques aux cartes stratégiques (AX-ARDA, AX-LAMENTES, etc.) ; marges militaires simulables.",
+      "technique": {
+        "clefs_uniques": ["id", "code"],
+        "naming": "Pierre_de_Flux en snake_case constant",
+        "encodage": "UTF-8",
+        "decimal_point": "."
+      }
+    },
+
+    "15_schema_simulation": {
+      "tick": "mois",
+      "ordre_calcul": [
+        "maj_evenements",
+        "capacites_corridors",
+        "production_primaires",
+        "raffinage_intermediaires",
+        "assemblage_finis",
+        "mise_a_jour_stocks",
+        "demande_et_prix",
+        "soldes_commerciaux",
+        "entretien_infrastructures",
+        "journal_rituels_et_serments"
+      ],
+      "equations_simplifiees": {
+        "prix_t+1": "prix_t * (1 + alpha*(demande - offre)/offre)",
+        "stocks_t+1": "stocks_t + production - consommation - pertes",
+        "pertes": "distance/100 * pertes_percent_par_100_km (par mode)",
+        "bonus_flux": "sortie_runique * (1 + bonus_sortie_runique_percent)"
+      }
+    }
+  }
+}
