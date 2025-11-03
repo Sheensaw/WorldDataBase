@@ -54,6 +54,11 @@ Hydraulique (fleuves du Draen, Elyon, Surn)	Eldaron, Iskarion	moulins, forges, c
 Géothermie / sources chaudes	Shaar, Vulkar, Velkar	bains, énergie stable
 Marées / courants océaniques (Fer-Bleu, Surn)	côtes mondiales	énergie mécanique, navigation
 Électricité naturelle (poisson-tempête, ver de nerith)	faune	premières observations bioélectriques naturelles utilisées en alchimie
+
+Notes :
+
+Iskarion (Elyon) constitue la contre-partie d’Eldaron (Draen) dans la part mondiale hydraulique (55/45).
+
 🧪 V. Ressources fictives – catalyseurs magiques réalistes
 
 (Issues de la géologie et de la biologie, sans magie intrinsèque mais exploitées comme matières premières de l’“art magique”)

@@ -63,7 +63,7 @@ Nom	Répartition mondiale	Contextes d’exploitation
 Grisfer	90 % Helrün / Eldaron	Conducteurs de flux, circuits métalliques.
 Nerith	60 % Iskarion, 30 % Thaurgrim, 10 % Eldaron	Source fluide énergétique.
 Selrune	35 % Varnäl, 30 % Thaurgrim, 25 % Eldaron, 10 % Iskarion	Sels luminescents stabilisateurs.
-Aetherite	45 % Helrün, 40 % Eldaron, 15 % Thaurgrim	Concentration vibratoire des flux mécaniques.
+Aetherite  45 % Helrün (Skarnheim), 40 % Eldaron (Lunes Blanches / Fer-d’Acier), 15 % Thaurgrim.	Concentration vibratoire des flux mécaniques.
 Sangrel	65 % Eldaron (Darn), 35 % Thaurgrim	Support organique pour alchimie vitale.
 Ambre noble	50 % Eldaron, 35 % Helrün, 15 % Iskarion	Stockage du “souffle” énergétique.
 Soufre pur	75 % Thaurgrim, 25 % Iskarion	Propulsion chimique, transmutation.

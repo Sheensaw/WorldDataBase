@@ -53,7 +53,8 @@ Son trajet transporte chaleur, humidité et sédiments ferriques, assurant la fe
 
 Le Courant des Brumes, descendant froid issu des gyres antarctiques, remonte vers le nord en longeant Helrün, puis effleure les côtes d’Iskarion et de Thaurgrim, modérant leurs climats volcaniques et maintenant la stabilité thermique globale.
 
-Le Fer-Bleu, à l’ouest, équilibre ces flux : il ramène vers le nord l’énergie solaire captée par Varnäl et Eldaron, participant à la régulation atmosphérique du monde.
+Le Courant du Fer-Bleu, à l’ouest, équilibre ces flux : il ramène vers le nord l’énergie solaire captée par Varnäl et Eldaron, participant à la régulation atmosphérique du monde.
+
 Le Courant de Cendre, quant à lui, ferme la boucle septentrionale en refroidissant les zones boréales et en stabilisant l’albédo planétaire.
 
 La Dérive de Miren, ajoutée au modèle global, relie verticalement les hémisphères, permettant l’échange énergétique continu entre les mers australes et les continents équatoriaux.
