@@ -1,0 +1,111 @@
+🐾 FAUNE NATURELLE DU MONDE DE VELKARUM
+
+(Base biologique commune, intégrée aux cycles planétaires, aux ressources brutes et à la synthèse géo-écologique. Toutes les espèces sont naturelles, non magiques et biologiquement viables.)
+
+🦌 I. Mammifères terrestres
+Famille	Description	Habitat	Particularités et rôle écologique
+Bœuf des glaces	Grand bovidé à pelage très dense	Toundras, plaines froides (Helrün, nord Eldaron)	Graisse isolante, cuir épais ; broute les lichens et maintient la neige tassée.
+Cerf brun / Cerf du Cœur	Grand herbivore forestier	Forêts tempérées d’Eldaron	Espèce clé de la régénération forestière, proie féodale emblématique.
+Loup cendré	Prédateur social moyen au pelage gris	Forêts, steppes d’Eldaron et Thaurgrim nord	Prédateur régulateur ; ancêtre du Chien du fer.
+Ours gris	Carnivore massif omnivore	Nord Eldaron, Helrün	Se nourrit de poissons, baies, charognes ; indicateur de santé des écosystèmes boréaux.
+Lynx boréal	Félin solitaire	Forêts froides	Chasseur sélectif ; contrôle la population de rongeurs.
+Renard des brumes	Canidé argenté semi-amphibie	Côtes et marais tempérés	Opportuniste, charognard utile aux humains.
+Cheval rude / destrier	Équidé robuste	Partout sauf tropiques	Pilier du transport et de la cavalerie ; consomme herbes des plaines ferriques.
+Chèvre de Lorn	Caprin montagnard	Plateaux volcaniques	Produit lait riche en minéraux ; colonise les terrains pauvres du Lorn.
+Sanglier noir	Suidé agressif	Forêts tempérées	Omnivore, laboure naturellement le sol ; viande commune.
+Bovin des marais	Bovidé amphibie	Marais du Darn (Eldaron sud)	Domestiqué par les Batraciens ; filtre les eaux stagnantes.
+Chien du fer	Race créée par sélection	Zones humaines (Eldaron, Helrün)	Compagnon militaire et utilitaire, résistant au froid et au métal chaud.
+🐉 II. Grands prédateurs et mégafaune naturelle
+Espèce	Description	Habitat	Particularités et fonctions
+Loup géant du nord	Variante colossale du loup cendré	Helrün, Fer-d’Acier	Meutes puissantes ; prédateur apex des steppes glacées.
+Ours des neiges	Ours polaire massif	Côtes d’Ygral (Helrün)	Piscivore, isolé ; source majeure de graisse et cuir.
+Élan de Skarn	Cervidé géant	Plaines subpolaires d’Helrün	Herbivore migrateur ; maintient le pergélisol en mouvement.
+Lézard rocheux	Reptile robuste à sang froid	Lorn, Sud-Rune (Thaurgrim)	Prédateur des zones chaudes ; cuir résistant utilisé localement.
+Bœuf des cendres	Bovidé volcanique	Champs basaltiques (Thaurgrim)	Vie sur cendres chaudes, recycle minéraux et chaleur du sol.
+Lion des dunes	Grand félin nocturne	Thaurgrim, Sud-Rune	Chasseur des savanes arides ; régule les herbivores des déserts.
+Griffon terrestre	Grand rapace terrestre (non volant)	Falaises côtières d’Eldaron & Iskarion	Charognard géant, nettoyeur des plages et champs de bataille.
+Auroch gris	Bovidé ancien	Plaines centrales d’Eldaron	Ancêtre des bœufs domestiques ; force de trait et source de cuir.
+🐍 III. Reptiles et amphibiens
+Type	Description	Habitat	Usage / impact
+Crocodile de Darn	Grand amphibien carnivore	Marais d’Eldaron sud	Prédateur dominant ; cuir utilisé pour armures.
+Lézard des cendres	Petit reptile basalteux	Lorn, Sud-Rune	Sert d’indicateur thermique pour forges et mines.
+Serpent d’ambre	Reptile doré	Forêts chaudes d’Iskarion & Varnäl	Venin médicinal ; chasse les rongeurs.
+Tortue de sel	Reptile lent	Plaines salines (Varnäl, Sud-Rune)	Carapace utilisée pour stockage de selrune.
+Cracheur d’eau	Amphibien prédateur	Rivières du Darn, deltas de Thaurgrim	Consommé localement ; régule les moustiques aquatiques.
+Grenouilles-lueurs	Amphibien bioluminescent	Marais de Darn	Source naturelle de lumière biochimique ; sert d’indicateur sanitaire.
+Iguane du vent	Reptile planeur herbivore	Canyons de Thaurgrim	Plane avec les courants chauds ; consomme mousses sulfurées.
+🦅 IV. Oiseaux
+Espèce	Description	Habitat	Particularités écologiques
+Corbeau noir	Oiseau charognard omniprésent	Tous biomes sauf glaciaires	Nettoyeur écologique, hautement intelligent.
+Aigle de Fer	Rapace massif	Montagnes du Hraal, Fer-d’Acier	Prédateur aérien ; utilisé pour la chasse féodale.
+Goéland des brumes	Oiseau marin	Côtes d’Helrün, Eldaron, Iskarion	Indicateur des courants du Fer-Bleu.
+Hibou cendré	Rapace nocturne	Forêts tempérées	Régule les rongeurs ; symbolique de vigilance.
+Faucon de guerre	Domestiqué par l’homme	Forteresses d’Eldaron	Messager rapide, dressé par les ordres militaires.
+Albatros du Cendre	Grand oiseau marin migrateur	Courants du nord	Suit les gyres océaniques, garant de l’équilibre des mers.
+Moineau gris	Petit insectivore	Villes, bourgs	Indicateur de pollution ; symbole de résilience.
+Canard de Darn	Palmipède	Marais tempérés	Base d’élevage local ; graisse utilisée en lampes.
+Pingouin de d'Ygral	Oiseau marin non volant	Banquises d’Helrün	Colonies structurées ; ressource alimentaire boréale.
+🐟 V. Faune aquatique
+Espèce	Description	Zone	Usage / rôle
+Morue glacée	Poisson gras	Mers froides (Helrün)	Alimentation des peuples nordiques.
+Saumon du Draen	Migrateur fluvial	Fleuves d’Eldaron	Ressource majeure des guildes et des temples.
+Anguille des brumes	Poisson électrique	Mer des Brumes	Source naturelle de nerith brut pour alchimie.
+Requin des cendres	Prédateur marin	Courants du Cendre (Iskarion)	Chasseur apex, cuir utilisé en armures.
+Poisson de vase	Poisson plat	Marais du Darn	Nourriture commune.
+Crabe rouge	Crustacé géant	Côtes rocheuses (Eldaron, Varnäl)	Export gastronomique.
+Méduse noire	Invertébré toxique	Mer d’Elyr	Brûlures chimiques ; récoltée pour son acide.
+Baleine à dos de cendre	Cétacé géant	Océan de Cendre	Source d’huile, rôle écologique de brassage thermique.
+Pieuvre des brumes	Céphalopode intelligent	Mer des Brumes	Espèce sociale, comestible, étudiée pour ses pigments.
+🐜 VI. Insectes, invertébrés et microfaune
+Type	Habitat	Particularités
+Scarabée de fer	Mines riches en grisfer	Exosquelette métallique ; recycle les déchets ferriques.
+Abeilles noires	Forêts du Cœur d’Eldaron	Miel sombre à haute valeur énergétique.
+Fourmi des sables	Déserts de Sud-Rune	Colonies profondes ; aère les sols arides.
+Araignée du sel	Marais salins (Varnäl, Eldaron sud)	Fils résistants utilisés pour textiles alchimiques.
+Ver des neiges	Sous-glace d’Helrün	Carnivore discret ; entretient la chaîne alimentaire nordique.
+Papillon d’ambre	Forêts chaudes d’Iskarion et Varnäl	Ailes translucides ; pollinisation des arbres d’ambre.
+Moucheron du Darn	Marais	Vecteur de maladies ; régulé par cracheurs d’eau.
+Sangsue d’ombre	Eaux douces	Utilisée pour saignées médicinales.
+Luciole de nuit	Prairies et bords de forêts	Émet un éclat chimique non magique ; sert d’éclairage naturel.
+🐎 VII. Animaux domestiques et de travail
+Animal	Usage	Origine	Particularités
+Chien du fer	Garde, chasse	Eldaron, Helrün	Résistant, loyal, sélectionné depuis le Loup cendré.
+Cheval rude	Transport, guerre	Eldaron	Endurant, s’adapte au froid et aux sols ferriques.
+Bœuf du Cœur	Labour	Eldaron central	Force tranquille, essentiel à l’agriculture.
+Chèvre de Lorn	Lait, cuir	Eldaron / Thaurgrim	Adaptée aux reliefs volcaniques.
+Mouton des collines	Laine	Eldaron	Source textile majeure.
+Âne gris	Transport	Sud Eldaron / Thaurgrim	Très endurant, essentiel au commerce.
+Porc rustique	Viande	Global	Omnivore et adaptable.
+Canard du Darn	Élevage	Eldaron sud	Graisse pour lampes, viande abondante.
+Chat des greniers	Chasse-nuisibles	Global	Domestique universel.
+🦴 VIII. Principes écologiques et biogéographiques généraux
+
+Helrün → Faune adaptée au froid : graisse, fourrure, hibernation.
+
+Eldaron → Zone tempérée : diversité maximale, cohabitation homme/faune.
+
+Thaurgrim → Faune volcanique et tropicale : reptiles, insectes, amphibiens géants.
+
+Iskarion → Faune côtière et insulaire : poissons électriques, oiseaux marins, reptiles marins.
+
+Varnäl → Faune équatoriale : forêts humides, amphibiens géants, pollinisateurs bioluminescents.
+
+Chaînes écologiques
+
+Producteurs primaires → algues, mousses, lichens, herbes.
+
+Herbivores → cervidés, bovidés, reptiles végétariens.
+
+Omnivores → suidés, canidés, oiseaux.
+
+Carnivores → loups, ours, félins, reptiles.
+
+Décomposeurs → insectes ferriques, vers, champignons.
+
+Intégration planétaire
+
+Les courants du Surn et du Fer-Bleu transportent spores, poissons migrateurs et crustacés.
+
+Les migrations animales participent au cycle biologique global défini dans la Synthèse planétaire.
+
+Les espèces ferriques (Scarabée de fer, Lézard des cendres, Bœuf des cendres) exploitent naturellement les ressources minérales de Thaurgrim et Iskarion, assurant le lien biologique avec la métallurgie naturelle du monde.

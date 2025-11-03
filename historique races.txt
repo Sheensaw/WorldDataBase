@@ -1,0 +1,377 @@
+📜 ORIGINES DES RACES DE VELKARUM
+
+(Phase pré-migratoire — biomes stables, populations enracinées dans leurs berceaux initiaux)
+
+1️⃣ — LES HOMMES
+
+Berceau : Bassin du Cœur, centre d’Eldaron (VM-03/04)
+Latitude : 45°–52° N | Altitude : 100–600 m
+Environnement dominant : plaines alluviales du Draen et du Marn, forêts tempérées, collines fertiles.
+
+🌿 Contexte géologique et climatique
+
+Sols limono-argileux riches en fer et silice, irrigués par les crues régulières du Draen.
+
+Climat océanique tempéré, hivers frais (~−3 à +5 °C), étés modérés (~20 °C).
+
+Précipitations stables (700–1000 mm/an), influencées par les courants du Fer-Bleu et du Surn.
+
+Ressources locales : fer d’alluvion, argile fine, ambre fossile, bois dur d’Elyon, tourbe et gibier abondants.
+
+🧬 Pressions sélectives et évolution
+
+Environnement varié → plasticité physiologique exceptionnelle.
+
+Sélection sur endurance, coordination sociale et habileté manuelle.
+
+Omnivorie et adaptabilité comportementale : fondement de leur futur expansionnisme.
+
+💀 Traits biologiques initiaux
+Domaine	Description
+Morphologie	stature moyenne (1 m 70–1 m 80), ossature modérée, pigmentation variable selon latitude.
+Physiologie	tolérance thermique large (−15 à +35 °C), résistance à la fatigue, sommeil court.
+Cognition	forte mémoire procédurale, curiosité, mimétisme culturel rapide.
+Socialité	clans de 20–60 individus, coopération multi-familiale ; début de chefferies lignagères.
+⚒️ Niveau techno-culturel
+
+Néolithique avancé local : pierre polie, céramique, tissage végétal, proto-écriture pictographique.
+
+Découverte du fer natif alluvial → métallurgie élémentaire (outils rouges).
+
+Maîtrise du feu au charbon, agriculture semi-permanente (céréales sauvages, pois ferriques, élevage du bœuf du Cœur).
+
+🌾 Faune et ressources associées
+
+Cerf du Cœur, sanglier noir, bœuf du Cœur, cheval rude, loup cendré, abeilles noires : faune tempérée d’Eldaron.
+
+Ressources : fer, argile, bois rouge et ambre.
+
+Ces apports soutiennent le développement des premiers villages fortifiés.
+
+👥 Démographie pré-migratoire
+
+~0,8 million d’individus répartis en vallées fertiles, densité moyenne de 5–10 hab/km².
+Équilibre stable entre agriculture, chasse et proto-artisanat.
+
+2️⃣ — LES NAINS
+
+Berceau : Fer-d’Acier (nord d’Eldaron) et piémonts méridionaux d’Helrün
+Latitude : 55°–58° N | Altitude : 1 200–3 000 m
+Environnement : massif volcanique ancien, grottes ferriques, climat montagnard froid.
+
+🪨 Cadre géologique et climatique
+
+Sous-sols saturés de fer rouge, grisfer et skarnel, formant un des foyers métallurgiques planétaires.
+
+Température moyenne annuelle : −5 à +8 °C.
+
+Atmosphère sèche et pauvre en oxygène, vents constants du nord.
+
+Ressources : minerai pur, tourbe, champignons de Skarn, quartz noir, soufre natif profond.
+
+🧬 Pressions sélectives
+
+Vie souterraine prolongée → stature compacte, poitrine élargie, vision crépusculaire.
+
+Froid et altitude → métabolisme lent, résistance cardiorespiratoire élevée.
+
+Travail du minerai → sélection d’une motricité fine extrême et d’une perception tactile précise.
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille moyenne 1 m 35–1 m 45, ossature dense, muscles courts.
+Physiologie	Résistance à l’hypoxie, thermorégulation stable, longévité moyenne de 140 ans.
+Sensoriel	Vue diurne faible, excellente perception des contrastes et vibrations.
+Psychologie	Patience, persévérance, goût de la structure et de la hiérarchie.
+⚒️ Niveau techno-culturel
+
+Proto-fonderies de fer et de skarn : foyers à tirage naturel, charbon végétal, alliages primitifs.
+
+Architecture troglodytique : voûtes, puits d’aération, citernes.
+
+Première métallurgie fonctionnelle du monde.
+
+Organisation clanique et embryons de guildes du feu et de la pierre.
+
+🌾 Ressources et faune associées
+
+Faune : bœuf des glaces, ver des neiges, ours gris, caprins de Lorn.
+
+Ressources : fer, grisfer, charbon rouge, champignons de Skarn, ambre fossile.
+
+👥 Démographie
+
+Population totale ~0,25 million, concentrée en bastions-grottes interconnectés.
+Structure fortement communautaire, croissance lente mais stable.
+
+3️⃣ — LES ORCS
+
+Berceau : Lisière nord de Thaurgrim et frange sud d’Eldaron (Sud-Rune)
+Latitude : 10–20° S (Thaurgrim N) et 36–38° N (Sud-Rune, Eldaron) | Altitude : 200–800 m
+Biomes : savanes sèches, plateaux basaltiques, marais intermittents.
+
+🌋 Contexte géologique et climatique
+
+Zone de contact entre les plaines ferriques de Thaurgrim et les bassinements salins d’Eldaron Sud.
+
+Sols riches en soufre, sels et cuivre natif, mais pauvre en eau douce.
+
+Climat : aride chaud (30–40 °C) avec orages violents saisonniers.
+
+Vent du Surn apportant poussières ferriques → sols rouges.
+
+🧬 Pressions sélectives
+
+Sécheresse, chaleur et faune agressive → sélection pour résistance thermique, force brute, agressivité défensive.
+
+Alimentation carencée → sélection pour digestion robuste, tolérance aux toxines.
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille moyenne 1 m 90, masse musculaire dense, peau grise-verte épaisse.
+Physiologie	Résistance exceptionnelle à la déshydratation et aux coups de chaleur.
+Sensoriel	Vue nocturne partielle, odorat développé, réflexes rapides.
+Cognitif	Pragmatisme, hiérarchie instinctive, mémoire de combat.
+⚒️ Niveau techno-culturel
+
+Métallurgie primitive du cuivre et du bronze (utilisation de schistes cuprifères de Drav).
+
+Outils lourds : massues, lances, pointes épaisses.
+
+Société tribale hiérarchisée par la force ; économie de chasse et de pillage localisé.
+
+Début d’utilisation du selrune brut pour conserver la viande et purifier l’eau.
+
+🌾 Faune et ressources associées
+
+Faune : bœufs des cendres, lions des dunes, lézards des cendres, serpents d’ambre.
+
+Ressources : soufre natif, cuivre, selrune, charbon rouge.
+
+Équilibre écologique fragile : dépendance forte aux pluies du Thun’ar et aux migrations animales.
+
+👥 Démographie
+
+~0,6 million, dispersés par clans de 200–500 individus.
+Nomadisme saisonnier, centres stables autour des rares oasis salines.
+4️⃣ — LES GOBELINS
+
+Berceau : Archipels volcaniques d’Iskarion
+Latitude : 5°–20° S | Altitude : variable (0–800 m)
+Biomes : côtiers, humides, volcaniques actifs.
+
+🌋 Contexte géologique et climatique
+
+Archipels issus de la dorsale iskarionnaise : basalte, obsidienne, silice noire.
+
+Sols fertiles mais instables ; alternance de périodes humides (pluies équatoriales) et d’éruptions légères.
+
+Climat chaud (25–33 °C), hygrométrie moyenne 80 %, vents d’alizé constants.
+
+Ressources naturelles : soufre, obsidienne, sables ferriques, nerith brut (sécrété par faune marine).
+
+🧬 Pressions sélectives
+
+Insularité → sélection pour faible taille, mobilité et intelligence opportuniste.
+
+Volcanisme actif → adaptation aux gaz, à la chaleur et aux espaces confinés.
+
+Vie côtière → dépendance forte à la pêche et aux micro-écosystèmes intertidaux.
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille moyenne 1 m 10–1 m 30, ossature légère, peau olive à gris foncé.
+Physiologie	Haute tolérance aux gaz soufrés et à la chaleur, rythme cardiaque rapide.
+Sensoriel	Vision périphérique excellente, ouïe aiguë, sensibilité aux vibrations.
+Cognitif	Curiosité extrême, mémoire technique, coordination en groupe.
+⚒️ Niveau techno-culturel
+
+Culture insulaire pré-métallique : outils d’obsidienne, charpente de bambou, navigation côtière.
+
+Premières nacelles à balancier et radeaux à coquilles, capables de cabotage inter-îles.
+
+Domestication de petits lézards et raies marines pour la pêche.
+
+Usage précoce de résines de soufre et bitumes pour l’étanchéité des récipients.
+
+Organisation tribale en « nids » de 30 à 100 individus, hiérarchie artisanale plutôt que guerrière.
+
+🌾 Faune et ressources associées
+
+Anguilles des brumes, pieuvres des brumes, lézards des cendres, crabes rouges.
+
+Nerith marin (source bio-électrique naturelle), obsidienne, soufre.
+
+Faune semi-domestiquée : poissons-lueurs et oiseaux planeurs utilisés comme repères nocturnes.
+
+👥 Démographie pré-migratoire
+
+~0,3 million, densité côtière élevée (jusqu’à 60 hab/km²).
+Colonisation lente des îles proches d’Iskarion par extension culturelle, non par conquête.
+
+5️⃣ — LES TROLLS
+
+Berceau : Cœur glaciaire d’Helrün
+Latitude : 65°–80° N | Altitude : 400–1500 m
+Biomes : toundras, glaciers, falaises givrées.
+
+❄️ Contexte géologique et climatique
+
+Bouclier ancien de Skarnheim : granite, fer, nickel, skarnel.
+
+Climat polaire : −35 °C hiver / +5 °C été ; vents catabatiques, faible ensoleillement.
+
+Ressources : gibier de toundra, bœufs des glaces, morue glacée, tourbe gelée, ambre fossile.
+
+🧬 Pressions sélectives
+
+Froid extrême → sélection pour masse corporelle importante, peau épaisse, métabolisme lent.
+
+Manque de lumière → développement de vision nocturne sensible aux infrarouges.
+
+Rareté de nourriture → omnivorie opportuniste et régénération lente des tissus.
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille 2 m 20–2 m 60, poids > 200 kg, membres puissants.
+Physiologie	Couches graisseuses multiples, température interne basse, longévité ~180 ans.
+Sensoriel	Vision réduite en lumière vive, odorat et ouïe exceptionnels.
+Cognitif	Lenteur réflexive, mémoire spatiale forte, instincts sociaux faibles (meutes).
+⚒️ Niveau techno-culturel
+
+Outillage en os, pierre noire et basalte ; peu d’usage du métal (rareté du combustible).
+
+Feux rares, abris de glace et de pierre ; vie semi-nomade entre cavernes et grottes côtières.
+
+Transmission orale minimale ; chants graves servant à la communication longue distance.
+
+Sociétés en « clans de chasse » : 15–40 individus, mobilité saisonnière.
+
+🌾 Faune et ressources associées
+
+Ours des neiges, tyrn-og, élans de Skarn, ver des neiges.
+
+Chasse maritime partielle : otarques et narvals à bec de fer.
+
+Utilisation du gras animal et de la tourbe gelée pour combustible.
+
+👥 Démographie
+
+~0,08 million, dispersion très forte (< 1 hab/km²).
+Population stable, croissance quasi nulle ; mortalité compensée par longévité.
+
+6️⃣ — LES GÉANTS
+
+Berceau : Lisière Helrün–Eldaron (hauteurs subpolaires)
+Latitude : 58°–63° N | Altitude : 1500–2800 m
+Biomes : crêtes froides, vallées glaciaires, plateaux battus par le vent.
+
+🏔️ Contexte géologique et climatique
+
+Frontière entre les boucliers granitiques du nord et les chaînes ferriques d’Eldaron.
+
+Sols durs : skarnel, fer, quartz noir.
+
+Climat subpolaire : vents violents, neige sèche, faibles précipitations (< 300 mm/an).
+
+Ressources : fer d’altitude, pierre noire, ambre fossile, tourbe minérale.
+
+🧬 Pressions sélectives
+
+Froid et oxygène rare → capacité pulmonaire géante, ossature renforcée, croissance lente.
+
+Gravité ressentie accrue (vent constant) → musculature d’équilibre et stabilité posturale.
+
+Isolement → faible diversité génétique, longévité extrême, fécondité réduite.
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille 3 m 50–4 m, 500 kg, proportion équilibrée.
+Physiologie	Métabolisme lent, longévité > 250 ans, cœur hypertrophié.
+Sensoriel	Vue lointaine excellente, ouïe moyenne.
+Cognitif	Lents mais rationnels, mémoire héréditaire transmise oralement.
+⚒️ Niveau techno-culturel
+
+Culture pastorale : élevage de caprins géants et chasse saisonnière.
+
+Architecture cyclopéenne : murs secs, abris semi-enterrés.
+
+Outillage lithique, peu de métal (extraction trop difficile).
+
+Organisation patriarcale, clans isolés (5–10 familles).
+
+🌾 Faune et ressources associées
+
+Élan de Skarn, bœuf des glaces, loup géant du nord, aigle de Hraal.
+
+Ressources : fer, skarnel, ambre, pierre noire.
+
+Échanges sporadiques avec les nains du Fer-d’Acier (trocs de peaux et fer brut).
+
+👥 Démographie
+
+Population estimée ~0,04 million.
+Dispersion extrême ; habitats distincts sur 600 km de montagnes.
+
+7️⃣ — LES BATRACIENS
+
+Berceau : Mangroves et deltas du nord de Thaurgrim (VM-10/11)
+Latitude : 10°–20° S | Altitude : 0–200 m
+Biomes : marais équatoriaux, forêts inondées, deltas du Thun’ar.
+
+🌊 Contexte géologique et climatique
+
+Zone la plus humide du monde : eaux chaudes, stagnantes, riches en matière organique.
+
+Sols argileux et soufrés, riches en sangrel (boue bio-minérale) et sels luminescents.
+
+Climat équatorial constant : 27–32 °C, précipitations > 2000 mm/an.
+
+Ressources : boues médicinales, algues, selrune, poissons et amphibiens géants.
+
+🧬 Pressions sélectives
+
+Hypoxie intermittente → respiration double (peau + poumons).
+
+Forte humidité → peau poreuse et glandes de sécrétion protectrices.
+
+Coexistence avec faune géante → camouflage, symbiose végétale (algues cutanées).
+
+💀 Traits biologiques
+Domaine	Description
+Morphologie	Taille 1 m 60–1 m 80, peau verte à brun-mousse, membres palmés.
+Physiologie	Respiration mixte, capacité d’amphibie, régénération partielle des tissus.
+Sensoriel	Vue aquatique, ouïe vibratoire, odorat faible.
+Cognitif	Organisation collective, communication par infrasons et couleurs cutanées.
+⚒️ Niveau techno-culturel
+
+Architecture sur pilotis et canaux, matériaux : bambou ferrique, roseaux soufrés.
+
+Pirogues creusées, tressages d’algues.
+
+Maîtrise empirique du sangrel : antiseptiques, colles, conserves.
+
+Société lagunaire tribale, hiérarchie fluide selon ancienneté.
+
+🌾 Faune et ressources associées
+
+Cracheurs d’eau, grenouilles-lueurs, crocodiles de Darn géants, tortues du sel.
+
+Ressources : sangrel, selrune, soufre, bois noir.
+
+Écosystème symbiotique : les villages utilisent les migrations de poissons et d’amphibiens comme horloge naturelle.
+
+👥 Démographie
+
+Population ~0,5 million, densité élevée (30–50 hab/km² sur les deltas).
+Expansion lente mais constante le long des chenaux et lagunes.
+
+🧭 SYNTHÈSE GÉNÉRALE DES BERCEAUX PRÉ-MIGRATOIRES
+Race	Continent	Biome	Ressources clés	Facteurs sélectifs dominants
+Hommes	Eldaron	plaines fluviales tempérées	fer alluvial, bois, argile	adaptabilité, endurance
+Nains	Eldaron N / Helrün S	montagnes ferriques	fer, grisfer, skarnel	froid, hypoxie, travail minéral
+Orcs	Thaurgrim N / Sud-Rune	savanes sèches	soufre, cuivre, selrune	chaleur, pénurie, conflit biologique
+Gobelins	Iskarion	archipels volcaniques	nerith, soufre, obsidienne	insularité, chaleur, toxicité
+Trolls	Helrün	toundras et glaciers	graisse animale, tourbe, fer	froid extrême, isolement
+Géants	Helrün–Eldaron	hauteurs subpolaires	skarnel, fer, pierre noire	froid, gravité, vent
+Batraciens	Thaurgrim E	mangroves tropicales	sangrel, selrune, algues	humidité, hypoxie, symbiose

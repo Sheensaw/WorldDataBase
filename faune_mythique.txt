@@ -1,0 +1,94 @@
+🐉 FAUNE MYTHIQUE DE VELKARUM
+
+(Créatures naturelles extrêmes — issues de l’évolution et des pressions géologiques, sans magie surnaturelle)
+
+🦌 I. MAMMIFÈRES ET CRÉATURES TERRESTRES GÉANTES
+Nom	Type	Taille	Habitat	Description biologique	Rôle écologique
+Tyrn-Og	Bovidé géant	4 m / 8 t	Toundras d’Helrün	Cousin du bœuf des glaces, cornes résonnantes, poil polaire dense	Stabilise le pergélisol, fertilise les plaines gelées.
+Vornskul	Carnivore massif	3 m / 1 t	Monts du Hraal	Ours ferrique préhistorique, griffes incurvées	Apex des montagnes nordiques, régule la mégafaune.
+Skorv-Noir	Cervidé chitineux	2,5 m / 800 kg	Forêts denses d’Eldaron	Bois noirs recouverts de chitine, yeux luminescents	Espèce relicte, disperse les spores de la canopée.
+Grimmar	Prédateur arboricole	3 m / 700 kg	Forêts montagneuses	Corps d’ours grimpeur, odorat extrême	Chasseur silencieux, limite la prolifération de primates.
+Auroch de fer	Bovidé cuirassé	3,5 m / 1,2 t	Plaines d’Eldaron	Plaques osseuses minéralisées, force exceptionnelle	Semi-domestiqué ; premier animal de guerre lourd.
+Louve de cendre	Canidé géant	1,6 m / 150 kg	Champs volcaniques de Thaurgrim	Pelage métallique, odorat sensible au soufre	Prédateur des zones chaudes, vital pour réguler les rongeurs ferriques.
+Grak’horn	Herbivore siliceux	3 m / 1,5 t	Steppes volcaniques du Sud-Rune	Peau incrustée de silice	Filtre les cendres, participe au refroidissement du sol.
+Dracornis	Herbivore cuirassé	5 m / 3 t	Savanes de Thaurgrim	Dorsale osseuse, peau écailleuse	Monture des chefs du sud, stabilise les savanes ferriques.
+Troll-Mastok	Primate géant	2,5 m / 300 kg	Vallées d’Helrün	Poils argentés, bipédie partielle	Charognard des glaces, recycle la biomasse nordique.
+🐍 II. REPTILES ET AMPHIBIENS TITANIQUES
+Nom	Type	Taille	Habitat	Description	Fonction
+Cendrewyr	Reptile géant	10–12 m	Thaurgrim (Vulkar, Lorn)	Peau vitrifiée, régule sa chaleur interne	Prédateur isolé, évacue le soufre des sols.
+Drakk-Fyrn	Reptile semi-aquatique	7 m	Banquises d’Helrün	Peau fibreuse, nage silencieuse	Chasse sous glace, contrôle la faune polaire.
+Serpent-vigne	Constricteur	6 m	Forêts tropicales	Camouflage végétal, digestion lente	Maintient l’équilibre des forêts humides.
+Cendreléon	Amphibien minéral	2,5 m	Cavernes volcaniques	Peau pierreuse, hibernation lithique	Régule l’humidité des grottes ferriques.
+Tortue du sel géante	Reptile marin	6 m	Côtes de Sud-Rune	Carapace en selrune cristallisée	Filtreur marin, transporte les sels nutritifs.
+🦅 III. OISEAUX ET VOLATILES GÉANTS
+Nom	Type	Envergure	Habitat	Description	Écologie
+Aigle de Hraal	Rapace géant	7 m	Monts du Hraal	Serres de 40 cm, vol silencieux	Prédateur aérien suprême, compagnon de chasse nordique.
+Griffon terrestre	Planeur préhistorique	5 m	Falaises côtières	Plumes rigides, vol plané	Charognard côtier, nettoie les rivages.
+Corbeau de fer	Corvidé géant	1,5 m	Eldaron, Thaurgrim	Griffes riches en fer	Nécrophage intelligent, symbole martial.
+Rochestre	Ratite géant	3 m	Déserts volcaniques	Non volant, pattes puissantes	Herbivore nettoyeur des cendres, domestiqué partiellement.
+Aigle-serpent	Rapace tropical	3 m	Forêts de Thaurgrim	Cou flexible serpentiforme	Chasseur d’amphibiens, indicateur climatique.
+🐟 IV. FAUNE MARINE ET AQUATIQUE GÉANTE
+Nom	Type	Taille	Habitat	Description	Rôle
+Serpent de mer d’Iskarion	Reptile marin	40–50 m	Océan de Cendre	Corps segmenté, respiration dorsale	Maintient l’équilibre des gyres océaniques.
+Narval à bec de fer	Cétacé carnivore	7 m	Mers d’Helrün	Défense métallique	Régule les bancs de poissons froids.
+Requin-grisfer	Poisson blindé	10 m	Eaux profondes	Dents ferriques	Prédateur régulateur des abysses.
+Pieuvre des abîmes	Céphalopode	12 m	Mer des Brumes	Peau phosphorescente	Nettoie les fonds, influence les cycles lumineux.
+Poisson-tempête	Poisson électrique	5 m	Courants du Fer-Bleu	Décharges bioélectriques puissantes	Phénomène lié à la proto-alchimie.
+🐜 V. INSECTES ET INVERTÉBRÉS COLOSSAUX
+Nom	Type	Taille	Habitat	Description	Fonction
+Scarnyx	Insecte souterrain	4 m	Cavernes volcaniques	Carapace sombre, venin nécrotique	Recycle la matière organique.
+Racnorn	Arachnide géant	3 m	Mines ferriques	Toiles de poussière de fer	Régulateur naturel des souterrains.
+Scarabée de fer géant	Insecte cuirassé	2 m	Mines métalliques	Exosquelette irisé	Nettoyeur et symbole de prospérité.
+Fourmi de cendre	Insecte social	1,5 m	Champs volcaniques	Galeries de basalte fondu	Ventile les gaz souterrains.
+Papillon d’ambre géant	Insecte diurne	1 m	Forêts tropicales	Ailes translucides	Pollinise les arbres d’ambre, indicateur d’écosystèmes sains.
+🦴 VI. PRINCIPES ÉCOLOGIQUES ET BIOTIQUES
+
+Distribution :
+
+Helrün → créatures massives adaptées au froid et à la pression.
+
+Eldaron → équilibre et diversité : herbivores cuirassés et prédateurs planaires.
+
+Thaurgrim → gigantisme volcanique, faune minéralisée.
+
+Iskarion → formes marines et semi-aquatiques géantes.
+
+Varnäl → espèces bioluminescentes et symbiotiques tropicales.
+
+Origine évolutive :
+
+Issus de lignées de la faune basique (ours, bovidés, reptiles).
+
+Mutations dues à la chaleur, au soufre, ou à la minéralisation ferrique.
+
+Aucune magie, seulement adaptation extrême à la pression géologique.
+
+Rôle écologique :
+
+Apex isolés → limitent les herbivores.
+
+Charognards → stabilisent les sols riches en fer.
+
+Géants herbivores → recyclent la biomasse.
+
+Relations avec les civilisations :
+
+Certaines espèces semi-domestiquées : Auroch de fer, Dracornis, Rochestre, Otarque.
+
+Exploitées pour cuir, os, graisse, énergie biologique.
+
+Symboles féodaux : l’Aigle de Hraal (noblesse), le Corbeau de fer (guerre), le Dracornis (autorité du Sud).
+
+Reproduction et densité :
+
+Lente (maturité 8–12 ans).
+
+Populations faibles : équilibre biologique respecté.
+
+⚖️ VII. SYNTHÈSE GLOBALE
+Domaine	État	Justification
+Climat ↔ Morphologie	✅	Adaptation thermique, cutanée et minérale cohérente.
+Géologie ↔ Espèces	✅	Répartition des géants conforme aux plaques et biomes.
+Ressources ↔ Biologie	✅	Peaux, os et tissus liés à la richesse minérale locale.
+Cohérence faune basique	✅	Évolution logique à partir des espèces communes.
+Réalisme planétaire	✅	Aucun être surnaturel : tout obéit à la biologie et la physique.

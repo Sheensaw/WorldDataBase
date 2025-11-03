@@ -1,0 +1,95 @@
+🌍 RÉPARTITION MONDIALE DES RESSOURCES BRUTES DE VELKARUM
+
+(valeurs relatives exprimées en % du volume extractible mondial connu)
+
+🪨 I. MÉTAUX ET MINÉRAUX COMMUNS
+Ressource	Répartition (% mondiale)	Continents dominants	Justification géologique
+Fer rouge	28 % Thaurgrim, 26 % Iskarion, 22 % Varnäl, 15 % Eldaron, 9 % Helrün	Concentration maximale dans les chaînes volcaniques (Vulkar, Derna) et zones sédimentaires ferriques.	Diffusé par les éruptions de Thaurgrim et redéposé par le Surn.
+Grisfer	52 % Helrün, 38 % Eldaron, 10 % reste du monde	Alliage ferrique natif issu du Bouclier de Skarnheim et du Fer-d’Acier.	Polarisation magnétique nordique unique, liée au noyau planétaire.
+Cuivre brut	35 % Thaurgrim, 27 % Iskarion, 20 % Eldaron, 18 % Varnäl	Filons sulfureux et schistes cuprifères dans Drav, Derna et archipels iskarionnais.	Issu de l’orogenèse méridionale.
+Argent	30 % Helrün (Nerr), 27 % Eldaron, 24 % Iskarion, 19 % Thaurgrim	Filons argentifères des boucliers anciens et veines volcaniques.	Concentré dans zones de contact quartzifère.
+Or	41 % Iskarion, 28 % Eldaron, 18 % Varnäl, 13 % Thaurgrim	Dérive volcanique et sédimentation alluviale côtière.	Iskarion = principal bassin aurifère.
+Étain / Zinc	38 % Varnäl, 35 % Thaurgrim, 27 % Eldaron	Sous-produits de schistes et sables ferriques.	Exploités dans zones tropicales humides.
+Nickel	47 % Helrün, 33 % Eldaron nord, 20 % Varnäl	Poches de pergélisol métallifères.	Associé au grisfer dans les boucliers anciens.
+Charbon (noir/rouge)	34 % Thaurgrim, 30 % Eldaron, 26 % Iskarion, 10 % Helrün	Lignite ferrique et tourbes fossiles.	Réparti selon zones anciennes de forêts fossiles.
+Pierre noire	50 % Iskarion, 40 % Thaurgrim, 10 % Eldaron	Roche magmatique à forte densité.	Formation basaltique récente.
+Basalte / Obsidienne	45 % Thaurgrim, 32 % Varnäl, 23 % Iskarion	Zones volcaniques actives ou fossiles.	Utilisée pour l’outillage et la magie matérielle.
+Quartz clair/noir	30 % Varnäl, 28 % Thaurgrim, 22 % Eldaron, 20 % Iskarion	Présent dans les falaises d’Obsidienne et les montagnes volcaniques.	Base de l’optique et des flux énergétiques.
+Ambre fossile	48 % Eldaron, 38 % Helrün, 14 % Varnäl	Dépôts glaciaires fossilisés et forêts anciennes.	Base de catalyse organique.
+Sel fossile / Selrune	33 % Varnäl, 29 % Iskarion, 26 % Thaurgrim, 12 % Eldaron	Marais salins équatoriaux et zones d’évaporation.	Composé énergétique naturel.
+Soufre natif	39 % Thaurgrim (Thun’ar, Vulkar), 31 % Iskarion, 18 % Eldaron, 12 % Varnäl	Dégazage volcanique et bassins sédimentaires.	Source chimique majeure.
+Gaz naturel / soufré	36 % Thaurgrim, 29 % Eldaron, 23 % Iskarion, 12 % Helrün	Champs volcaniques et marais anciens.	Base énergétique et alchimique.
+Skarnel	54 % Helrün, 34 % Eldaron, 12 % Varnäl	Roche métamorphique des boucliers nordiques.	Isolant naturel exceptionnel.
+Cendragh (basalte ferrique)	40 % Eldaron, 35 % Thaurgrim, 25 % Helrün	Formé par fusion volcanique lente.	Matériau des grandes forges.
+Lignite ferrique / Charbon rouge	57 % Thaurgrim (Ashraal, Kaar), 43 % Eldaron	Combustible ferrique dense.	Fait pont entre énergie et métallurgie.
+Sable ferrique	41 % Varnäl, 37 % Iskarion, 22 % Thaurgrim	Résidu d’érosion volcanique et ferrique.	Utilisé en filtration et verrerie.
+Pierre de cendre / Cendre noire — 60 % Helrün (Orr), 40 % Thaurgrim (Vulkar)
+Roche poreuse volcanique servant d’isolant thermique et de filtre alchimique.
+⚗️ II. SUBSTANCES CHIMIQUES ET ALCHEMIQUES
+Ressource	Répartition	Justification
+Nerith	40 % Iskarion (marais ferriques), 30 % Thaurgrim, 20 % Eldaron, 10 % Varnäl	Fluide bio-métallique dérivé de faune abyssale et sol ferrique.
+Sangrel	68 % Eldaron Sud (Darn), 32 % Thaurgrim (Thun’ar)	Boue vitale catalytique liée à la faune amphibie.
+Aetherite 45 % Helrün (Skarnheim), 40 % Eldaron (Lunes Blanches / Fer-d’Acier), 15 % Thaurgrim.	Cristal argent-quartz formé sous haute pression.
+Selrune	30 % Varnäl, 27 % Thaurgrim, 26 % Eldaron, 17 % Iskarion	Sel luminescent des bassins salins.
+Sang d’ambre	50 % Eldaron, 35 % Helrün, 15 % Iskarion	Résine organique des forêts boréales et tempérées.
+Tourbe noire	40 % Eldaron (Darn), 35 % Helrün (Ygral), 25 % Iskarion	Stockage énergétique fossile.
+Soufre blanc	70 % Thaurgrim, 30 % Iskarion	Purification chimique de soufre volcanique.
+Gaz d’Aru	55 % Thaurgrim, 45 % Eldaron	Gaz ferrique lourd des zones géothermiques.
+Argiles ferriques / gypse rouge	38 % Eldaron, 32 % Thaurgrim, 30 % Varnäl	Substrats minéraux utilisés pour symboles techniques.
+Sels luminescents	44 % Varnäl (Falaises d’Obsidienne), 32 % Iskarion, 24 % Eldaron	Produits phosphorescents naturels.
+🌿 III. RESSOURCES VÉGÉTALES ET ORGANIQUES
+Ressource	Principales zones	Proportion et cohérence
+Bois rouge (Elyon/Rhaal)	Varnäl, Eldaron sud	60 % Varnäl (forêt de Rhaal), 40 % Eldaron (Elyon).
+Bois noir (Drav/Lorn)	Thaurgrim, Eldaron volcanique	65 % Thaurgrim, 35 % Lorn.
+Latex ferrique	Varnäl sud (forêts sèches)	100 % exclusif à Varnäl.
+Herbes médicinales	Eldaron, Thaurgrim, Varnäl	Répartition équilibrée : 40 % Eldaron, 35 % Thaurgrim, 25 % Varnäl.
+Champignons de Skarn/Vulkar	Helrün, Thaurgrim	50 % chacun, liés à milieux souterrains froids/chauds.
+Lianes ferriques	Rhaal (Varnäl), Drav (Thaurgrim)	55 % Rhaal, 45 % Drav.
+Plantes salines	Sud-Rune, Marael	70 % Varnäl (Marael), 30 % Eldaron (Sud-Rune).
+Fougère sulfurée	Shaar, Thun’ar	100 % Thaurgrim.
+Arbres d’ambre	Eldaron, Iskarion	70 % Eldaron, 30 % Iskarion.
+Canne à sève	Elyon (Eldaron)	Répartition limitée (100 % localisée).
+💧 IV. RESSOURCES HYDRIQUES ET ÉNERGÉTIQUES
+Type	Principaux foyers	Part mondiale estimée	Remarques
+Charbon / tourbe / lignite	Eldaron, Thaurgrim, Iskarion	33 / 37 / 30 %	Aligné avec zones de forêts fossiles.
+Soufre / gaz / vapeur	Thaurgrim, Shaar, Vulkar	60 % concentré sud	Activité géothermique intense.
+Vent polaire / ferrique	Helrün, Kaar	100 % nordiques	Régulateurs atmosphériques.
+Hydraulique (fleuves)	Eldaron, Iskarion	55 % Eldaron, 45 % Iskarion	Alimenté par le Draen et l’Elyon.
+Géothermie / sources chaudes	Shaar, Vulkar, Velkar	70 % sud, 30 % centre	Sources thermales et volcans fossiles.
+Marées / courants océaniques	Tous les continents côtiers	répartition homogène	Utilisées pour navigation et énergie.
+Électricité naturelle (bio)	Faune marine et ver de Nerith	dispersée	Base de la proto-alchimie énergétique.
+🧪 V. CATALYSEURS MAGIQUES RÉALISTES
+Nom	Répartition mondiale	Contextes d’exploitation
+Grisfer	90 % Helrün / Eldaron	Conducteurs de flux, circuits métalliques.
+Nerith	60 % Iskarion, 30 % Thaurgrim, 10 % Eldaron	Source fluide énergétique.
+Selrune	35 % Varnäl, 30 % Thaurgrim, 25 % Eldaron, 10 % Iskarion	Sels luminescents stabilisateurs.
+Aetherite	45 % Helrün, 40 % Eldaron, 15 % Thaurgrim	Concentration vibratoire des flux mécaniques.
+Sangrel	65 % Eldaron (Darn), 35 % Thaurgrim	Support organique pour alchimie vitale.
+Ambre noble	50 % Eldaron, 35 % Helrün, 15 % Iskarion	Stockage du “souffle” énergétique.
+Soufre pur	75 % Thaurgrim, 25 % Iskarion	Propulsion chimique, transmutation.
+Quartz noir / obsidienne	40 % Thaurgrim, 35 % Varnäl, 25 % Iskarion	Confinement des flux.
+Tourbe énergétique	45 % Eldaron, 35 % Helrün, 20 % Iskarion	Amortisseur alchimique.
+Gaz ferrique	70 % Thaurgrim, 30 % Eldaron	Propulsion, forges spéciales.
+🌐 SYNTHÈSE PAR CONTINENT
+Continent	Ressources dominantes	Spécificité énergétique / alchimique	Part globale
+Helrün	Grisfer, nickel, skarnel, ambre, vent, tourbe	Métaux magnétiques et isolants	~14 % du total planétaire
+Eldaron	fer, argent, aetherite, ambre, sangrel, charbon	Cœur métallurgique et scientifique	~22 %
+Iskarion	fer, cuivre, or, nerith, soufre, quartz	Générateur énergétique et chimique	~20 %
+Thaurgrim	fer rouge, cuivre, soufre, gaz, obsidienne, lignite	Diffuseur minéral et catalytique	~25 %
+Varnäl	fer, selrune, sables ferriques, latex, quartz, calcaire	Équilibreur biologique et chimique	~19 %
+
+✅ Totaux cohérents avec la Synthèse planétaire X (fonctions planétaires) :
+Helrün refroidit ; Eldaron régule ; Iskarion alimente ; Thaurgrim diffuse ; Varnäl équilibre.
+
+⚖️ CONCLUSION GÉO-ÉNERGÉTIQUE
+
+La distribution des ressources respecte les cycles planétaires :
+
+Minéraux → diffusés par Thaurgrim et Iskarion.
+
+Matières organiques → recyclées par Varnäl et Eldaron.
+
+Énergies → stabilisées par Helrün et redistribuées via les gyres.
+
+Les catalyseurs magiques réalistes (Grisfer, Nerith, Selrune, Aetherite, Sangrel) forment une ceinture technico-alchimique reliant les continents selon les courants océaniques :
+Helrün → Eldaron → Thaurgrim → Iskarion → Varnäl → retour Fer-Bleu.

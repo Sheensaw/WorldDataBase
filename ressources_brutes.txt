@@ -1,0 +1,80 @@
+🪨 I. Métaux et minerais communs
+Ressource	Type	Continents principaux	Usage / propriété
+Fer rouge	métal pur	Iskarion, Thaurgrim, Varnäl	armement, outillage
+Grisfer	alliage ferrique magnétique	Helrün, Eldaron	catalyse énergétique, conductivité magique
+Cuivre brut	métal ductile	Eldaron, Thaurgrim, Iskarion	alliages, conduits
+Argent	métal noble	Eldaron, Helrün, Iskarion	monnaies, instruments de précision
+Or	métal précieux	Iskarion, Eldaron, Mornéa	ornement, alchimie, stockage d’énergie
+Étain / Zinc	métaux secondaires	Varnäl, Thaurgrim	alliages, catalyse légère
+Nickel	métal dur	Helrün, Eldaron nord	alliages froids, résistance aux flux
+Charbon noir / rouge	fossile	Iskarion, Eldaron, Thaurgrim	énergie thermique, forges
+Pierre noire	roche dure	Iskarion, Ghaarn	armes lourdes, bâtiments fortifiés
+Basalte / Obsidienne	vitreux volcanique	Thaurgrim, Mornéa, Varnäl	lames, miroirs, catalyseurs
+Quartz clair / noir	silice cristalline	Iskarion, Varnäl, Thaurgrim	optique, stockage de flux
+Ambre fossile	résine minéralisée	Eldaron, Helrün	conducteur organique (liant magique)
+Sel fossile / selrune	minéral	Eldaron Sud, Iskarion, Varnäl	purification, stockage énergétique
+Soufre natif	chimique	Shaar, Thun’ar, Orr	catalyse, explosifs, flux alchimiques
+Gaz naturel / soufré	gazeux	Iskarion, Thaurgrim, Eldaron	combustion, distillation
+Skarnel	roche cristalline dense	Eldaron, Helrün	isolant thermique / blindage
+Cendragh	basalte ferrique	Eldaron, Thaurgrim	résistif, forge haute température
+Lignite ferrique / Charbon rouge	fossile minéralisé	Thaurgrim, Kaar	combustible durable
+Selrune purifié	sel énergétique	Sud-Rune, Thaurgrim	base des catalyseurs magiques
+Sable ferrique	minerai pulvérisé	Varnäl, Iskarion	filtration, verrerie technique
+Pierre de cendre / Cendre noire	roche poreuse	Helrün, Thaurgrim	isolation, filtre thermique
+⚗️ II. Substances chimiques et rares (alchimiques)
+Ressource	Nature	Propriété scientifique / magique
+Nerith	composé liquide instable (mélange ferreux et organique)	conducteur énergétique à froid, réagit à la pression magnétique
+Sangrel	boue organo-minérale des marais du Darn	catalyse biologique, sert d’agent de liaison dans les flux vitaux
+Aetherite	cristal semi-translucide (argent + quartz)	concentre les champs vibratoires, fondement des flux magiques maîtrisés
+Selrune	sel luminescent rare	stabilise les réactions chimiques, dissipe la chaleur magique
+Sang d’ambre	résine liquide issue des arbres d’ambre	liant organique isolant pour outils magiques
+Tourbe noire	matière fossile dense	conserve la chaleur et sert d’amortisseur énergétique
+Soufre blanc	dérivé purifié du soufre natif	catalyse de combustion à basse température
+Gaz d’Aru / gaz ferrique	gaz naturel lourd	stockage d’énergie compressée pour fourneaux et catalyseurs
+Argiles ferriques / gypse rouge	substrats minéraux	supports pour sigilles, symboles techniques gravés
+Sels luminescents	sous-produit de Marael / Falaises d’Obsidienne	émettent une phosphorescence stable — éclairage non magique
+🌿 III. Ressources végétales et organiques
+Ressource	Zone	Usage
+Bois rouge d’Elyon / Rhaal	zones tropicales	charpente, catalyse de chaleur
+Bois noir de Drav / Lorn	volcaniques	combustible durable, armes
+Latex ferrique	Varnäl sud	isolant, scellant des circuits alchimiques
+Herbes médicinales	Tahl, Drav, Cenra	antidotes, réactifs
+Champignons de Skarn / Vulkar	souterrains	absorbe les vapeurs, base d’élixirs
+Lianes ferriques	Rhaal, Thaurgrim	cordage conducteur
+Plantes salines / halophytes	Sud-Rune, Marael	extraction de sels purifiés
+Fougère sulfurée	Shaar, Thun’ar	filtre les gaz toxiques, purificateur biologique
+Arbres d’ambre / résine noble	Eldaron, Iskarion	source de liant énergétique organique
+Canne à sève / sucre minéral	Elyon	carburant naturel pour procédés chimiques doux
+💧 IV. Ressources hydriques et énergétiques
+Ressource	Localisation	Type / usage
+Charbon fossile / tourbe / lignite	Eldaron, Iskarion, Thaurgrim	énergie de forge, chauffage
+Soufre / gaz / vapeur	Shaar, Thun’ar, Vulkar	énergie thermique et catalyse alchimique
+Vent polaire / vents ferriques	Helrün, Surn, Kaar	énergie mécanique, moulins, forge du vent
+Hydraulique (fleuves du Draen, Elyon, Surn)	Eldaron, Iskarion	moulins, forges, circuits
+Géothermie / sources chaudes	Shaar, Vulkar, Velkar	bains, énergie stable
+Marées / courants océaniques (Fer-Bleu, Surn)	côtes mondiales	énergie mécanique, navigation
+Électricité naturelle (poisson-tempête, ver de nerith)	faune	premières observations bioélectriques naturelles utilisées en alchimie
+🧪 V. Ressources fictives – catalyseurs magiques réalistes
+
+(Issues de la géologie et de la biologie, sans magie intrinsèque mais exploitées comme matières premières de l’“art magique”)
+
+Nom	Type	Description scientifique plausible	Usage énergétique / magique
+Grisfer	métal ferromagnétique	magnétisme naturel exceptionnel, conducteur d’ondes vibratoires	base des armes et circuits magiques
+Nerith	fluide organo-métallique	émet champ réactif à la pression ou chaleur	source de flux énergétique contrôlé
+Selrune	sel luminescent	stabilise les flux électriques, dissipe chaleur magique	rune et sceaux
+Aetherite	cristal semi-translucide	concentre vibrations mécano-sonores	catalyseur de sorts techniques
+Sangrel	boue vitale organique	conductrice biologique, stockage de chaleur	médium pour enchantements de vie
+Ambre noble	résine fossile	polarise l’électricité statique	stockage de “souffle vital” artificiel
+Soufre pur	minéral	combustible chimique	propulsion, transmutation
+Quartz noir / obsidienne	silice dense	filtre énergétique, “miroir” de flux	confinement et amplification
+Tourbe énergétique	organique	retient les vibrations thermiques	amortisseur pour rituels ou machines
+Gaz ferrique	gazeux réactif	expansion thermique contrôlable	propulsion alchimique, métallurgie subtile
+⚙️ Synthèse générale
+
+Ressources métalliques majeures : fer, grisfer, cuivre, or, argent, étain, nickel, skarnel.
+
+Ressources alchimiques : nerith, sangrel, aetherite, selrune, ambre.
+
+Énergies primaires : charbon, vent, géothermie, marées, gaz, vapeur.
+
+Ressources biologiques : latex, bois, tourbe, champignons, plantes médicinales.
